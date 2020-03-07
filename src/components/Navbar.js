@@ -6,11 +6,11 @@ export default function Navbar() {
     <nav>
         <ul>
             <li><Link to='/'>Home</Link></li>
-            <li>Fair</li>
-            <li>PreLARV</li>
-            <li>Contact</li>
-            <li>Students</li>
-            <li>Companies</li>
+            <li><Link to='/fair'>Fair</Link></li>
+            <li><Link to='/prelarv'>Prelarv</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
+            <li><Link to='/student'>Students</Link></li>
+            <li><Link to='/company'>Conpanies</Link></li>
         </ul>
     </nav>
   );
