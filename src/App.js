@@ -9,7 +9,7 @@ import Student from './pages/Student'
 import Company from './pages/Company'
 import NotFound from './pages/404'
 
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
