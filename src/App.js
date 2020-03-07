@@ -7,6 +7,7 @@ import Prelarv from './pages/Prelarv'
 import Contact from './pages/Contact'
 import Student from './pages/Student'
 import Company from './pages/Company'
+import NotFound from './pages/404'
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
       <Route exact path='/contact' component={Contact} />
       <Route exact path='/student' component={Student} />
       <Route exact path='/company' component={Company} />
+      <Route path='/' component={NotFound} />
     </BrowserRouter>
   );
 }
