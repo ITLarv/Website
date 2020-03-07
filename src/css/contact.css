@@ -1,0 +1,23 @@
+img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+}
+
+.Person {
+    margin: 10px;
+}
+
+.Person * {
+    text-align: center;
+    margin: auto;
+}
