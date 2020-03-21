@@ -14,7 +14,7 @@ export default function Navbar() {
   const isWide = useMediaQuery({ query: '(min-device-width: 600px)' });
 
   const [showMenu, setShowMenu] = useState(false);
-  const [active, setActive] = useState('/')
+  const [active, setActive] = useState('/');
 
   const setShowMenuFunction = () => {
     setShowMenu(!showMenu);
