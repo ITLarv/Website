@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router-dom';
 import '../css/navbar.css';
 
+//TODO: preserve active tab during refresh
+//TODO: active drop down links
 
 export default function Navbar() {
 
@@ -12,18 +14,20 @@ export default function Navbar() {
   const isWide = useMediaQuery({ query: '(min-device-width: 600px)' });
 
   const [showMenu, setShowMenu] = useState(false);
+  const [active, setActive] = useState('/')
 
-  const myFunction = () => {
+  const setShowMenuFunction = () => {
     setShowMenu(!showMenu);
   }
 
   const btnClick = (e, l) => {
+    setActive(l);
     history.push(l);
   }
 
   return (
     <div className={!isWide && showMenu ? 'topnav responsive' : 'topnav'}>
-      <div className="dropdown">
+      <div className={active === "/" ? "active dropdown" : "dropdown"}>
         <button className="dropbtn" onClick={e => btnClick(e, '/')}>Home</button>
         <div className="dropdown-content">
           <Link to="/news">News</Link>
@@ -31,16 +35,20 @@ export default function Navbar() {
           <Link to="/calendar">Calendar</Link>
         </div>
       </div>
-      <div className="dropdown">
+      <div className={active === "/fair" ? "active dropdown" : "dropdown"}>
         <button className="dropbtn" onClick={e => btnClick(e, '/fair')}>Fair</button>
         <div className="dropdown-content">
           <Link to="/catalog">Catalog</Link>
           <Link to="/map">Map</Link>
         </div>
       </div>
-      <Link to='/prelarv' className='active'>Prelarv</Link>
-      <Link to='/contact'>Contact</Link>
-      <div className="dropdown">
+      <div className={active === "/prelarv" ? "active dropdown" : "dropdown"}>
+        <button className="dropbtn" onClick={e => btnClick(e, '/prelarv')}>PreLARV</button>
+      </div>
+      <div className={active === "/contact" ? "active dropdown" : "dropdown"}>
+        <button className="dropbtn" onClick={e => btnClick(e, '/contact')}>Contact</button>
+      </div>
+      <div className={active === "/student" ? "active dropdown" : "dropdown"}>
         <button className="dropbtn" onClick={e => btnClick(e, '/student')}>Students</button>
         <div className="dropdown-content">
           <Link to="/students/faq">FAQ</Link>
@@ -49,7 +57,7 @@ export default function Navbar() {
           <Link to="/students/calendar">Calendar</Link>
         </div>
       </div>
-      <div className="dropdown">
+      <div className={active === "/company" ? "active dropdown" : "dropdown"}>
         <button className="dropbtn" onClick={e => btnClick(e, '/company')}>Companies</button>
         <div className="dropdown-content">
           <Link to="/companies/faq">FAQ</Link>
@@ -57,7 +65,7 @@ export default function Navbar() {
           <Link to="/companies/calendar">Calendar</Link>
         </div>
       </div>
-      <a className="icon" onClick={myFunction}>&#9776;</a>
+      <a className="icon" onClick={setShowMenuFunction}>&#9776;</a>
     </div>
   );
 };
