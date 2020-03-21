@@ -1,5 +1,6 @@
-import React from 'react';
-import {Link} from 'react-router-dom'
+import React, { useState } from 'react';
+import { useMediaQuery } from 'react-responsive';
+import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router-dom';
 import '../css/navbar.css';
 
@@ -7,13 +8,21 @@ import '../css/navbar.css';
 export default function Navbar() {
 
   const history = useHistory();
+  
+  const isWide = useMediaQuery({ query: '(min-device-width: 600px)' });
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const myFunction = () => {
+    setShowMenu(!showMenu);
+  }
 
   const btnClick = (e, l) => {
     history.push(l);
   }
 
   return (
-    <div className='topnav'>
+    <div className={!isWide && showMenu ? 'topnav responsive' : 'topnav'}>
       <div className="dropdown">
         <button className="dropbtn" onClick={e => btnClick(e, '/')}>Home</button>
         <div className="dropdown-content">
@@ -29,7 +38,7 @@ export default function Navbar() {
           <Link to="/map">Map</Link>
         </div>
       </div>
-      <Link to='/prelarv'>Prelarv</Link>
+      <Link to='/prelarv' className='active'>Prelarv</Link>
       <Link to='/contact'>Contact</Link>
       <div className="dropdown">
         <button className="dropbtn" onClick={e => btnClick(e, '/student')}>Students</button>
@@ -48,6 +57,7 @@ export default function Navbar() {
           <Link to="/companies/calendar">Calendar</Link>
         </div>
       </div>
+      <a className="icon" onClick={myFunction}>&#9776;</a>
     </div>
   );
 };
