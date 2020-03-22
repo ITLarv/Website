@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { useHistory } from 'react-router-dom';
 import '../css/navbar.css';
-
-//TODO: preserve active tab during refresh
 
 export default function Navbar() {
 
@@ -13,6 +11,17 @@ export default function Navbar() {
 
   const [showMenu, setShowMenu] = useState(false);
   const [active, setActive] = useState('/');
+
+  const mount = () => {
+    load();
+    const unmount = () => {}
+    return unmount
+  }
+  useEffect(mount, [])
+
+  const load = () => {
+    setActive(window.location.pathname);
+  }
 
   const setShowMenuFunction = () => {
     setShowMenu(!showMenu);
