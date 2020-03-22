@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Company() {
+export default function Companies() {
   return (
-    <div className="Company">
+    <div className="Companies">
       <p>Company time!</p>
     </div>
   );

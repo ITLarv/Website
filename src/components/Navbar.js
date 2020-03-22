@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router-dom';
 import '../css/navbar.css';
 
 //TODO: preserve active tab during refresh
-//TODO: active drop down links
 
 export default function Navbar() {
 
@@ -27,19 +25,29 @@ export default function Navbar() {
 
   return (
     <div className={!isWide && showMenu ? 'topnav responsive' : 'topnav'}>
-      <div className={active === "/" ? "active dropdown" : "dropdown"}>
+      <div className={active === "/" || active === "/news" || active === "/about" || active === "/calendar" ? "active dropdown" : "dropdown"}>
         <button className="dropbtn" onClick={e => btnClick(e, '/')}>Home</button>
         <div className="dropdown-content">
-          <Link to="/news">News</Link>
-          <Link to="/about">About</Link>
-          <Link to="/calendar">Calendar</Link>
+          <div className={active === "/news" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/news')}>News</button>
+          </div>
+          <div className={active === "/about" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/about')}>About</button>
+          </div>
+          <div className={active === "/calendar" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/calendar')}>Calendar</button>
+          </div>
         </div>
       </div>
-      <div className={active === "/fair" ? "active dropdown" : "dropdown"}>
+      <div className={active === "/fair" || active === "/catalog" || active === "/map" ? "active dropdown" : "dropdown"}>
         <button className="dropbtn" onClick={e => btnClick(e, '/fair')}>Fair</button>
         <div className="dropdown-content">
-          <Link to="/catalog">Catalog</Link>
-          <Link to="/map">Map</Link>
+          <div className={active === "/catalog" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/catalog')}>Catalog</button>
+          </div>
+          <div className={active === "/map" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/map')}>Map</button>
+          </div>
         </div>
       </div>
       <div className={active === "/prelarv" ? "active dropdown" : "dropdown"}>
@@ -48,21 +56,35 @@ export default function Navbar() {
       <div className={active === "/contact" ? "active dropdown" : "dropdown"}>
         <button className="dropbtn" onClick={e => btnClick(e, '/contact')}>Contact</button>
       </div>
-      <div className={active === "/student" ? "active dropdown" : "dropdown"}>
-        <button className="dropbtn" onClick={e => btnClick(e, '/student')}>Students</button>
+      <div className={active === "/students" || active === "/students/faq" || active === "/students/hosts" || active === "/students/individual-meetings" || active === "/students/calendar" ? "active dropdown" : "dropdown"}>
+        <button className="dropbtn" onClick={e => btnClick(e, '/students')}>Students</button>
         <div className="dropdown-content">
-          <Link to="/students/faq">FAQ</Link>
-          <Link to="/hosts">Hosts</Link>
-          <Link to="/students/im">Individual meetings</Link>
-          <Link to="/students/calendar">Calendar</Link>
+          <div className={active === "/students/faq" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/students/faq')}>FAQ</button>
+          </div>
+          <div className={active === "/students/hosts" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/students/hosts')}>Hosts</button>
+          </div>
+          <div className={active === "/students/individual-meetings" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/students/individual-meetings')}>Individual Meetings</button>
+          </div>
+          <div className={active === "/students/calendar" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/students/calendar')}>Calendar</button>
+          </div>
         </div>
       </div>
-      <div className={active === "/company" ? "active dropdown" : "dropdown"}>
-        <button className="dropbtn" onClick={e => btnClick(e, '/company')}>Companies</button>
+      <div className={active === "/companies" || active === "/companies/faq" || active === "/companies/individual-meetings" || active === "/companies/calendar" ? "active dropdown" : "dropdown"}>
+        <button className="dropbtn" onClick={e => btnClick(e, '/companies')}>Companies</button>
         <div className="dropdown-content">
-          <Link to="/companies/faq">FAQ</Link>
-          <Link to="/companies/im">Individual meetings</Link>
-          <Link to="/companies/calendar">Calendar</Link>
+          <div className={active === "/companies/faq" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/companies/faq')}>FAQ</button>
+          </div>
+          <div className={active === "/companies/individual-meetings" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/companies/individual-meetings')}>Individual Meetings</button>
+          </div>
+          <div className={active === "/companies/calendar" ? "active dropdown-button" : "dropdown-button"}>
+            <button onClick={e => btnClick(e, '/companies/calendar')}>Calendar</button>
+          </div>
         </div>
       </div>
       <a className="icon" onClick={setShowMenuFunction}>&#9776;</a>

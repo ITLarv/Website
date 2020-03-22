@@ -5,8 +5,8 @@ import Home from './pages/Home'
 import Fair from './pages/Fair'
 import Prelarv from './pages/Prelarv'
 import Contact from './pages/Contact'
-import Student from './pages/Student'
-import Company from './pages/Company'
+import Students from './pages/Students'
+import Companies from './pages/Companies'
 import NotFound from './pages/404'
 
 import './css/App.css';
@@ -21,8 +21,8 @@ function App() {
           <Route exact path='/fair' component={Fair} />
           <Route exact path='/prelarv' component={Prelarv} />
           <Route exact path='/contact' component={Contact} />
-          <Route exact path='/student' component={Student} />
-          <Route exact path='/company' component={Company} />
+          <Route exact path='/students' component={Students} />
+          <Route exact path='/companies' component={Companies} />
           <Route component={NotFound} />
         </Switch>
       </div>
