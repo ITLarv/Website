@@ -96,7 +96,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <a className="icon" onClick={setShowMenuFunction}>&#9776;</a>
+      <button className="icon" onClick={setShowMenuFunction}>&#9776;</button>
     </div>
   );
 };
