@@ -6,8 +6,8 @@ export default function Navbar() {
 
   return (
     <div className='navbar'>
-      <img src={logo} className='logo' />
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <img src={logo} className='logo' alt='logotype'/>
+      <input type="checkbox" id="nav-toggle" className="nav-toggle" />
       <nav>
         <ul>
           <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
@@ -18,7 +18,7 @@ export default function Navbar() {
           <li><NavLink exact activeClassName="active" to="/companies">Companies</NavLink></li>
         </ul>
       </nav>
-      <label for="nav-toggle" class="nav-toggle-label">
+      <label htmlFor="nav-toggle" className="nav-toggle-label">
         <span></span>
       </label>
     </div>
