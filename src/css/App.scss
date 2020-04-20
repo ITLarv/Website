@@ -13,6 +13,7 @@
   background-size: cover;
   display: grid;
   place-items: center;
+  padding-top: 80px;
 }
 
 *, *::before, *::after {
@@ -20,7 +21,6 @@
 }
 
 body {
-	margin: 0;
 	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;

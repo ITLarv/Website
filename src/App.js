@@ -13,7 +13,7 @@ import './css/App.css';
 function App() {
   return (
     <BrowserRouter>
-      <Navbar className='Navbar' />
+      <Navbar />
       <div className='Content'>
         <Switch>
           <Route exact path='/' component={Home} />
