@@ -8,13 +8,12 @@ import Contact from './pages/Contact'
 import Students from './pages/Students'
 import Companies from './pages/Companies'
 import NotFound from './pages/404'
-
 import './css/App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar className='Navbar' />
       <div className='Content'>
         <Switch>
           <Route exact path='/' component={Home} />
