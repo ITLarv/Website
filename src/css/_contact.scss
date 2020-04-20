@@ -8,13 +8,17 @@ img {
 
 .Contact {
     display: flex;
+    flex-direction: column;
+}
+
+.pg {
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 1200px;
 }
 
 .Person {
-    margin: 10px;
+    margin: 60px;
 }
 
 .Person * {
