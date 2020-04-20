@@ -12,7 +12,7 @@ export default function Navbar() {
         <ul>
           <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
           <li><NavLink exact activeClassName="active" to="/fair">Fair</NavLink></li>
-          <li><NavLink exact activeClassName="active" to="/prelarv">Prep week</NavLink></li>
+          <li><NavLink exact activeClassName="active" to="/prelarv">Prep&nbsp;week</NavLink></li>
           <li><NavLink exact activeClassName="active" to="/contact">Contact</NavLink></li>
           <li><NavLink exact activeClassName="active" to="/students">Students</NavLink></li>
           <li><NavLink exact activeClassName="active" to="/companies">Companies</NavLink></li>
