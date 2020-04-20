@@ -6,12 +6,18 @@
   width: 100%;
 }
 
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
 }
 
+/* TODO: Fix */
 .nav-toggle:focus ~ .nav-toggle-label {
   outline: none;
 }
@@ -111,6 +117,20 @@ nav a:hover {
 }
 
 @media screen and (min-width: 880px) {
+  .active {
+    text-decoration: none;
+    font-weight: normal;
+  }
+  .active::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: white;
+    position: absolute;
+    bottom: -0.75em;
+    left: 0;
+    right: 0;
+  }
   .nav-toggle-label {
     display: none;
   }
@@ -173,12 +193,9 @@ nav a:hover {
     transition: transform ease-in-out 250ms;
     transition: transform ease-in-out 250ms, -webkit-transform ease-in-out 250ms;
   }
-  nav a:hover::before, nav a:focus::before {
+  nav a:hover::before {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1);
-  }
-  nav a:focus {
-    outline: none;
   }
 }
 
@@ -223,7 +240,6 @@ img {
 }
 
 .Content {
-  background-color: #333;
   background-blend-mode: multiply;
   background-size: cover;
   display: -ms-grid;
@@ -238,7 +254,6 @@ img {
 }
 
 body {
-  background: #222;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
 }

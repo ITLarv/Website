@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../img/logo-white-transparent.png';
 
 export default function Navbar() {
@@ -10,12 +10,12 @@ export default function Navbar() {
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/fair">Fair</Link></li>
-          <li><Link to="/prelarv">Prep week</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/students">Students</Link></li>
-          <li><Link to="/companies">Companies</Link></li>
+          <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
+          <li><NavLink exact activeClassName="active" to="/fair">Fair</NavLink></li>
+          <li><NavLink exact activeClassName="active" to="/prelarv">Prep week</NavLink></li>
+          <li><NavLink exact activeClassName="active" to="/contact">Contact</NavLink></li>
+          <li><NavLink exact activeClassName="active" to="/students">Students</NavLink></li>
+          <li><NavLink exact activeClassName="active" to="/companies">Companies</NavLink></li>
         </ul>
       </nav>
       <label for="nav-toggle" class="nav-toggle-label">

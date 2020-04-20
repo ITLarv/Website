@@ -6,12 +6,18 @@
   width: 100%;
 }
 
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
 }
 
+/* TODO: Fix */
 .nav-toggle:focus ~ .nav-toggle-label {
   outline: none;
 }
@@ -100,6 +106,22 @@ nav {
 }
 
 @media screen and (min-width: 880px) {
+  .active {
+    text-decoration: none;
+    font-weight: normal;
+
+    &::after {
+      content: '';
+      display: block;
+      height: 3px;
+      background: white;
+      position: absolute;
+      bottom: -0.75em;
+      left: 0;
+      right: 0;
+    }
+  }
+
   .nav-toggle-label {
     display: none;
   }
@@ -151,12 +173,8 @@ nav {
         transition: transform ease-in-out 250ms;
       }
 
-      &:hover::before, &:focus::before {
+      &:hover::before {
         transform: scale(1,1);
-      }
-
-      &:focus {
-        outline: none;
       }
     }
   }
