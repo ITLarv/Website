@@ -95,7 +95,8 @@ nav a:hover {
 }
 
 .logo {
-  color: white;
+  height: 40px;
+  margin: 20px 5px;
 }
 
 .nav-toggle:checked ~ nav {
@@ -109,15 +110,15 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 880px) {
   .nav-toggle-label {
     display: none;
   }
   .navbar {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr auto minmax(600px, 5fr) 1fr;
-        grid-template-columns: 1fr auto minmax(600px, 5fr) 1fr;
+    -ms-grid-columns: 0.5fr auto minmax(600px, 5fr) 1fr;
+        grid-template-columns: 0.5fr auto minmax(600px, 5fr) 1fr;
   }
   .logo {
     -ms-grid-column: 2;
@@ -178,7 +179,7 @@ nav a:hover {
   }
 }
 
-@media screen and (min-width: 800px) and (min-width: 1200px) {
+@media screen and (min-width: 880px) and (min-width: 1220px) {
   nav a {
     font-size: 1.1rem;
   }

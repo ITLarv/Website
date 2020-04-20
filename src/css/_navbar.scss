@@ -86,7 +86,8 @@ nav {
 }
 
 .logo {
-  color: white;
+  height: 40px;
+  margin: 20px 5px;
 }
 
 .nav-toggle:checked ~ nav {
@@ -98,14 +99,14 @@ nav {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 880px) {
   .nav-toggle-label {
     display: none;
   }
 
   .navbar {
     display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 5fr) 1fr;
+    grid-template-columns: 0.5fr auto minmax(600px, 5fr) 1fr;
   }
   
   .logo {
@@ -156,7 +157,7 @@ nav {
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1220px) {
     nav a {
       font-size: 1.1rem;
     }

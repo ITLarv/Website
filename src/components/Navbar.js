@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../img/logo-white-transparent.png';
 
 export default function Navbar() {
 
   return (
     <div className='navbar'>
-      <h1 class="logo">LARV</h1>
+      <img src={logo} className='logo' />
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <nav>
         <ul>
