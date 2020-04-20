@@ -141,7 +141,7 @@ nav {
       &::before {
         content: '';
         display: block;
-        height: 5px;
+        height: 3px;
         background: white;
         position: absolute;
         top: -.75em;
@@ -151,8 +151,12 @@ nav {
         transition: transform ease-in-out 250ms;
       }
 
-      &:hover::before {
+      &:hover::before, &:focus::before {
         transform: scale(1,1);
+      }
+
+      &:focus {
+        outline: none;
       }
     }
   }

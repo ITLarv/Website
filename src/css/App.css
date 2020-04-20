@@ -160,7 +160,7 @@ nav a:hover {
   nav a::before {
     content: '';
     display: block;
-    height: 5px;
+    height: 3px;
     background: white;
     position: absolute;
     top: -.75em;
@@ -173,9 +173,12 @@ nav a:hover {
     transition: transform ease-in-out 250ms;
     transition: transform ease-in-out 250ms, -webkit-transform ease-in-out 250ms;
   }
-  nav a:hover::before {
+  nav a:hover::before, nav a:focus::before {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1);
+  }
+  nav a:focus {
+    outline: none;
   }
 }
 
