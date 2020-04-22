@@ -1,26 +1,28 @@
-
-@import './variables';
-@import './navbar';
-@import './contact';
-@import './footer';
+@import "./variables";
+@import "./navbar";
+@import "./contact";
+@import "./footer";
 
 .App {
-  text-align: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .Content {
-  background-blend-mode: multiply;
-  background-size: cover;
-  padding-top: 80px;
-  max-width: 1200px;
-  margin: auto;
+	background-blend-mode: multiply;
+	background-size: cover;
+	padding-top: 80px;
+	max-width: 1200px;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Work Sans', sans-serif;
+	font-family: "Work Sans", sans-serif;
 	font-weight: 400;
 }
