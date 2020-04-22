@@ -1,188 +1,190 @@
 .navbar {
-  background: $main-color-alpha;
-  text-align: center;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
+	background: $main-color-alpha;
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: $navbar-height;
 }
 
 .active {
-  text-decoration: underline;
-  font-weight: bold;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 .nav-toggle {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
 }
 
 /* TODO: Fix */
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: none;
+	outline: none;
 }
 
 .nav-toggle-label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 1em;
-  height: 100%;
-  display: flex;
-  align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
 
-  span {
-    display: block;
-    background: white;
-    height: 2px;
-    width: 2em;
-    border-radius: 2px;
-    position: relative;
+	span {
+		display: block;
+		background: white;
+		height: 2px;
+		width: 2em;
+		border-radius: 2px;
+		position: relative;
 
-    &::before, &::after {
-      @extend span;
-      content: '';
-      position: absolute;
-    }
+		&::before,
+		&::after {
+			@extend span;
+			content: "";
+			position: absolute;
+		}
 
-    &::before {
-      bottom: 7px;
-    }
+		&::before {
+			bottom: 7px;
+		}
 
-    &::after {
-      top: 7px;
-    }
-  }
+		&::after {
+			top: 7px;
+		}
+	}
 }
 
 nav {
-  position: absolute;
-  text-align: left;
-  top: 100%;
-  left: 0;
-  background: $main-color-alpha;
-  width: 100%;
-  transform: scale(1, 0);
-  transform-origin: top;
-  transition: transform 400ms ease-in-out;
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+	background: $main-color-alpha;
+	width: 100%;
+	transform: scale(1, 0);
+	transform-origin: top;
+	transition: transform 400ms ease-in-out;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
 
-  li {
-    margin-bottom: 1em;
-    margin-left: 1em;
-  }
+	li {
+		margin-bottom: 1em;
+		margin-left: 1em;
+	}
 
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    opacity: 0;
-    transition: opacity 150ms ease-in-out;
+	a {
+		color: white;
+		text-decoration: none;
+		font-size: 1.2rem;
+		text-transform: uppercase;
+		opacity: 0;
+		transition: opacity 150ms ease-in-out;
 
-    &:hover {
-      color: rgb(168, 168, 168);
-    }
-  }
+		&:hover {
+			color: rgb(168, 168, 168);
+		}
+	}
 }
 
 .logo {
-  height: 40px;
-  width: auto;
-  margin: 20px 5px;
+	height: 40px;
+	width: auto;
+	margin: 20px 5px;
 }
 
 .nav-toggle:checked ~ nav {
-  transform: scale(1,1);
+	transform: scale(1, 1);
 }
 
 .nav-toggle:checked ~ nav a {
-  opacity: 1;
-  transition: opacity 250ms ease-in-out 250ms;
+	opacity: 1;
+	transition: opacity 250ms ease-in-out 250ms;
 }
 
 @media screen and (min-width: 880px) {
-  .active {
-    text-decoration: none;
-    font-weight: normal;
+	.active {
+		text-decoration: none;
+		font-weight: normal;
 
-    &::after {
-      content: '';
-      display: block;
-      height: 3px;
-      background: white;
-      position: absolute;
-      bottom: -0.75em;
-      left: 0;
-      right: 0;
-    }
-  }
+		&::after {
+			content: "";
+			display: block;
+			height: 3px;
+			background: white;
+			position: absolute;
+			bottom: -0.75em;
+			left: 0;
+			right: 0;
+		}
+	}
 
-  .nav-toggle-label {
-    display: none;
-  }
+	.nav-toggle-label {
+		display: none;
+	}
 
-  .navbar {
-    display: grid;
-    grid-template-columns: 0.5fr auto minmax(600px, 5fr) 1fr;
-  }
-  
-  .logo {
-    grid-column: 2 / 3;
-  }
-  
-  nav {
-    all: unset;
-    grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+	.navbar {
+		display: grid;
+		grid-template-columns: 0.5fr auto minmax(600px, 5fr) 1fr;
+	}
 
-    ul {
-      display: flex;
-    }
+	.logo {
+		grid-column: 2 / 3;
+	}
 
-    li {
-      margin-left: 3em;
-      margin-bottom: 0;
-    }
-    
-    a {
-      opacity: 1;
-      position: relative;
-      font-size: 0.8rem;
+	nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
 
-      &:hover {
-        color: white;
-      } 
+		ul {
+			display: flex;
+		}
 
-      &::before {
-        content: '';
-        display: block;
-        height: 3px;
-        background: white;
-        position: absolute;
-        top: -.75em;
-        left: 0;
-        right: 0;
-        transform: scale(0, 1);
-        transition: transform ease-in-out 250ms;
-      }
+		li {
+			margin-left: 3em;
+			margin-bottom: 0;
+		}
 
-      &:hover::before {
-        transform: scale(1,1);
-      }
-    }
-  }
+		a {
+			opacity: 1;
+			position: relative;
+			font-size: 0.8rem;
 
-  @media screen and (min-width: 1220px) {
-    nav a {
-      font-size: 1.1rem;
-    }
-  }
+			&:hover {
+				color: white;
+			}
+
+			&::before {
+				content: "";
+				display: block;
+				height: 3px;
+				background: white;
+				position: absolute;
+				top: -0.75em;
+				left: 0;
+				right: 0;
+				transform: scale(0, 1);
+				transition: transform ease-in-out 250ms;
+			}
+
+			&:hover::before {
+				transform: scale(1, 1);
+			}
+		}
+	}
+
+	@media screen and (min-width: 1220px) {
+		nav a {
+			font-size: 1.1rem;
+		}
+	}
 }

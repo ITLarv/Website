@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
+	// prettier-ignore
+	const pl = {id:"1", name:"Simon Johnsson", role:"Projektledare", email:"pl@larv.org", phone:"070-686 25 84", imgSrc:"http://larv.org/img/PG_2020/simon.jpg"};
 
-  const pl = {id:"1", name:"Simon Johnsson", role:"Projektledare", email:"pl@larv.org", phone:"070-686 25 84", imgSrc:"http://larv.org/img/PG_2020/simon.jpg"};
-  
-  const [pgList] = useState([
+	// prettier-ignore
+	const [pgList] = useState([
     {id:"2", name:"Sabina Björk", role:"Vice Projektledare", email:"viceprojektledare@larv.org", imgSrc:"http://larv.org/img/PG_2020/simon.jpg"},
     {id:"3", name:"Viktir Centing", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:"http://larv.org/img/PG_2020/simon.jpg"},
     {id:"4", name:"Isabell Gustafsson", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:"http://larv.org/img/PG_2020/simon.jpg"},
@@ -19,28 +22,34 @@ export default function Contact() {
     {id:"13", name:"Jonathan", role:"Serviceansvarig", email:"service@larv.org", imgSrc:"http://larv.org/img/PG_2020/simon.jpg"}
   ]);
 
-  return (
-    <div className="Contact">
-      <div className="pg">
-        <div className="Person">
-          <img src={pl.imgSrc} alt=""/>
-          <p>{pl.name}</p>
-          <p>{pl.role}</p>
-          <p><a href={"mailto:" + pl.email}>{pl.email}</a></p>
-          <p>{pl.phone}</p>
-        </div>
-      </div>
-      <div className="pg">
-        {pgList.map(person => (
-          <div className="Person" key={person.id}>
-            <img src={person.imgSrc} alt=""/>
-            <p>{person.name}</p>
-            <p>{person.role}</p>
-            <p><a href={"mailto:" + person.email}>{person.email}</a></p>
-            <p>{person.phone}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+	return (
+		<div className="Contact">
+			<div className="pg">
+				<div className="Person">
+					<img src={pl.imgSrc} alt="" />
+					<h4>{pl.name}</h4>
+					<p className="role">{pl.role}</p>
+					<a href={"mailto:" + pl.email} className="serif">
+						{pl.email}
+					</a>
+					<div className="phone">
+						<FontAwesomeIcon icon={faPhoneAlt} className="icon" />
+						<p className="serif">{pl.phone}</p>
+					</div>
+				</div>
+			</div>
+			<div className="pg">
+				{pgList.map((person) => (
+					<div className="Person" key={person.id}>
+						<img src={person.imgSrc} alt="" />
+						<h4>{person.name}</h4>
+						<p className="role">{person.role}</p>
+						<a href={"mailto:" + person.email} className="serif">
+							{person.email}
+						</a>
+					</div>
+				))}
+			</div>
+		</div>
+	);
+}

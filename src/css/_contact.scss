@@ -1,26 +1,59 @@
-img {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
 .Contact {
-    display: flex;
-    flex-direction: column;
-}
+	display: flex;
+	flex-direction: column;
+	margin: 30px 0;
 
-.pg {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+	h4 {
+		color: black;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 1.1;
+	}
 
-.Person {
-    margin: 60px;
-}
+	a {
+		text-decoration: none;
+		color: $main-color;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 
-.Person * {
-    text-align: center;
-    margin: auto;
+	img {
+		width: 200px;
+		height: 250px;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+
+	p {
+		color: $text-muted;
+	}
+
+	.pg {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.Person {
+		margin: 30px 60px;
+	}
+
+	.Person * {
+		text-align: center;
+		margin: 5px auto;
+	}
+
+	.icon {
+		color: $text-muted;
+		margin-right: 5px;
+	}
+
+	.phone {
+		display: flex;
+
+		p {
+			margin-left: 0;
+		}
+	}
 }
