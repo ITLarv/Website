@@ -1,0 +1,18 @@
+.footer {
+    background: $secondary-color;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+
+    h3, h4, p {
+        color: white;
+    }
+
+    img {
+        height: 120px;
+        width: auto;
+        margin: 16px;
+    }
+}

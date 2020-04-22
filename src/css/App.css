@@ -102,6 +102,7 @@ nav a:hover {
 
 .logo {
   height: 40px;
+  width: auto;
   margin: 20px 5px;
 }
 
@@ -210,8 +211,7 @@ img {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
 }
 
 .Contact {
@@ -242,6 +242,32 @@ img {
 .Person * {
   text-align: center;
   margin: auto;
+}
+
+.footer {
+  background: #222;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+}
+
+.footer h3, .footer h4, .footer p {
+  color: white;
+}
+
+.footer img {
+  height: 120px;
+  width: auto;
+  margin: 16px;
 }
 
 .App {

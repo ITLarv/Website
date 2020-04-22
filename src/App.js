@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import Fair from './pages/Fair'
 import Prelarv from './pages/Prelarv'
@@ -25,6 +26,7 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
