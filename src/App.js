@@ -14,19 +14,21 @@ import "./css/App.min.css";
 function App() {
 	return (
 		<BrowserRouter>
-			<Navbar />
-			<div className="Content">
-				<Switch>
-					<Route exact path="/" component={Home} />
-					<Route exact path="/fair" component={Fair} />
-					<Route exact path="/prelarv" component={Prelarv} />
-					<Route exact path="/contact" component={Contact} />
-					<Route exact path="/students" component={Students} />
-					<Route exact path="/companies" component={Companies} />
-					<Route component={NotFound} />
-				</Switch>
+			<div className="App">
+				<Navbar />
+				<div className="Content">
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route exact path="/fair" component={Fair} />
+						<Route exact path="/prelarv" component={Prelarv} />
+						<Route exact path="/contact" component={Contact} />
+						<Route exact path="/students" component={Students} />
+						<Route exact path="/companies" component={Companies} />
+						<Route component={NotFound} />
+					</Switch>
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</BrowserRouter>
 	);
 }

@@ -7,6 +7,7 @@
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	min-height: 100vh;
 }
 
 .Content {
@@ -14,15 +15,22 @@
 	background-size: cover;
 	padding-top: 80px;
 	max-width: 1200px;
+	flex-grow: 1;
+}
+
+.navbar,
+.footer,
+.Content {
+	flex-shrink: 0;
+}
+
+.navbar,
+.footer {
+	flex-grow: 0;
 }
 
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
-}
-
-body {
-	font-family: "Work Sans", sans-serif;
-	font-weight: 400;
 }
