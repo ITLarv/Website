@@ -4,7 +4,7 @@ import JexpoCatalog from "../components/Jexpo/JexpoCatalog.js";
 export default function Catalog() {
 	return (
 		<div className="Catalog">
-			<iframe srcDoc={JexpoCatalog}></iframe>
+			<iframe srcDoc={JexpoCatalog} title="Jexpo catalog" />
 		</div>
 	);
 }
