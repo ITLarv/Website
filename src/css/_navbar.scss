@@ -108,7 +108,7 @@ nav {
 	transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: $shrink-width) {
 	.active {
 		text-decoration: none;
 		font-weight: normal;
@@ -182,7 +182,7 @@ nav {
 		}
 	}
 
-	@media screen and (min-width: 1220px) {
+	@media screen and (min-width: 1140px) {
 		nav a {
 			font-size: 1.1rem;
 		}
