@@ -1,5 +1,5 @@
 import React from "react";
-import TKLlogo from "../img/tkl_logo_red.png";
+import TKLlogo from "../img/tkl-small-white.png";
 
 export default function Footer() {
 	return (
