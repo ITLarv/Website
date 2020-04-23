@@ -5,7 +5,9 @@ import logo from "../img/logo-white-transparent.png";
 export default function Navbar() {
 	return (
 		<div className="navbar">
-			<img src={logo} className="logo" alt="logotype" />
+			<NavLink to="/">
+				<img src={logo} className="logo" alt="logotype" />
+			</NavLink>
 			<input type="checkbox" id="nav-toggle" className="nav-toggle" />
 			<nav>
 				<ul>
