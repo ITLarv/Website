@@ -60,18 +60,21 @@
 nav {
 	position: absolute;
 	text-align: left;
+	overflow-y: auto;
 	top: 100%;
 	left: 0;
+	height: 100vh;
 	background: $main-color-alpha;
-	width: 100%;
-	transform: scale(1, 0);
-	transform-origin: top;
+	width: auto;
+	transform: scale(0, 1);
+	transform-origin: left;
 	transition: transform 400ms ease-in-out;
 
 	ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
+		margin-right: 3em;
 	}
 
 	li {
@@ -83,12 +86,15 @@ nav {
 		color: white;
 		text-decoration: none;
 		font-size: 1.2rem;
-		text-transform: uppercase;
 		opacity: 0;
 		transition: opacity 150ms ease-in-out;
+	}
 
-		&:hover {
-			color: rgb(168, 168, 168);
+	.dropdown-content {
+		margin: 1em 1em;
+
+		a {
+			font-size: 1rem;
 		}
 	}
 }
@@ -148,17 +154,21 @@ nav {
 
 		ul {
 			display: flex;
+			height: 100%;
+			align-items: center;
 		}
 
 		li {
-			margin-left: 3em;
-			margin-bottom: 0;
+			margin: 0 1em;
+			height: 100%;
+			display: flex;
+			align-items: center;
 		}
 
 		a {
 			opacity: 1;
 			position: relative;
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 
 			&:hover {
 				color: white;
@@ -179,6 +189,54 @@ nav {
 
 			&:hover::before {
 				transform: scale(1, 1);
+			}
+		}
+
+		.dropdown {
+			height: 100%;
+			display: flex;
+			align-items: center;
+			&:hover .dropdown-content {
+				display: block;
+				transform: scale(1, 1);
+			}
+		}
+
+		.dropdown-content {
+			margin: 0;
+			display: none;
+			position: absolute;
+			background-color: $main-color-alpha;
+			z-index: 1;
+			top: $navbar-height;
+			transform: scale(1, 0);
+			transition: transform 250ms ease-in-out;
+
+			a {
+				text-align: left;
+				margin: 0.5rem 1rem;
+
+				&::before {
+					top: -0.25em;
+				}
+			}
+
+			ul,
+			li {
+				margin: 0;
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+			}
+
+			.active {
+				font-weight: bold;
+
+				&::after {
+					content: "";
+					all: unset;
+				}
 			}
 		}
 	}

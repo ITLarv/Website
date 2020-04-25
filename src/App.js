@@ -20,12 +20,13 @@ function App() {
 				<div className="Content">
 					<Switch>
 						<Route exact path="/" component={Home} />
+						<Route exact path="/home" component={Home} />
 						<Route exact path="/fair" component={Fair} />
+						<Route exact path="/fair/catalog" component={Catalog} />
 						<Route exact path="/prelarv" component={Prelarv} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/companies" component={Companies} />
-						<Route exact path="/catalog" component={Catalog} />
 						<Route component={NotFound} />
 					</Switch>
 				</div>
