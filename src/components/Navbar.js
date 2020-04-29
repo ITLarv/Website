@@ -102,7 +102,7 @@ export default function Navbar() {
 											activeClassName="active"
 											to="/students/hosts"
 										>
-											Hosts
+											Get involved
 										</NavLink>
 									</li>
 									<li>

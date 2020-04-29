@@ -9,8 +9,11 @@ import Contact from "./pages/Contact";
 import Students from "./pages/Students";
 import Companies from "./pages/Companies";
 import Catalog from "./pages/Catalog";
+import Faq from "./pages/FAQ";
 import NotFound from "./pages/404";
 import "./css/App.min.css";
+import StudentsFAQ from "./content/studentsfaq.json";
+import CompaniesFAQ from "./content/companiesfaq.json";
 
 function App() {
 	return (
@@ -26,7 +29,13 @@ function App() {
 						<Route exact path="/prelarv" component={Prelarv} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
+						<Route exact path="/students/faq">
+							<Faq questions={StudentsFAQ} />
+						</Route>
 						<Route exact path="/companies" component={Companies} />
+						<Route exact path="/companies/faq">
+							<Faq questions={CompaniesFAQ} />
+						</Route>
 						<Route component={NotFound} />
 					</Switch>
 				</div>
