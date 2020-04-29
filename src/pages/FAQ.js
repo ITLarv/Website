@@ -16,7 +16,10 @@ export default function FAQ(props) {
 		}
 
 		const filtered = props.questions.filter((q) => {
-			return q.question.toLowerCase().includes(searchString.toLowerCase());
+			return (
+				q.question.toLowerCase().includes(searchString.toLowerCase()) ||
+				q.answer.toLowerCase().includes(searchString.toLowerCase())
+			);
 		});
 
 		setFilteredQuestions(filtered);
