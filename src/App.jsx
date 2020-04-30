@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Fair from "./pages/Fair";
+import LARVMap from "./pages/Map";
 import Prelarv from "./pages/Prelarv";
 import Contact from "./pages/Contact";
 import Students from "./pages/Students";
@@ -26,6 +27,7 @@ function App() {
 						<Route exact path="/home" component={Home} />
 						<Route exact path="/fair" component={Fair} />
 						<Route exact path="/fair/catalog" component={Catalog} />
+						<Route exact path="/fair/map" component={LARVMap} />
 						<Route exact path="/prelarv" component={Prelarv} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
