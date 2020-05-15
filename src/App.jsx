@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home.jsx";
+import Event from "./pages/Event.jsx";
 import Fair from "./pages/Fair";
 import LARVMap from "./pages/Map";
 import Prelarv from "./pages/Prelarv";
@@ -25,6 +26,7 @@ function App() {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/home" component={Home} />
+						<Route exact path="/event" component={Event} />
 						<Route exact path="/fair" component={Fair} />
 						<Route exact path="/fair/catalog" component={Catalog} />
 						<Route exact path="/fair/map" component={LARVMap} />
