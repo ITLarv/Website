@@ -3,7 +3,6 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import googleCalendarPlugin from "@fullcalendar/google-calendar";
-
 import "@fullcalendar/core/main.css";
 import "@fullcalendar/daygrid/main.css";
 import "@fullcalendar/timegrid/main.css";
@@ -13,10 +12,6 @@ import "@fullcalendar/timegrid/main.css";
 // Companies Calendar ID:	teknologkaren.se_5obm6hbbk6pbu48lochpbr9370@group.calendar.google.com
 
 export default function Home() {
-	const onClick = (e) => {
-		console.log({ e });
-	};
-
 	return (
 		<>
 			<h1>Hometime</h1>
@@ -41,7 +36,17 @@ export default function Home() {
 						className: "Companies",
 					},
 				]}
-				eventClick={onClick}
+				firstDay={1} // Start monday
+				eventClick={function (calEvent, jsEvent, view, resourceObj) {
+					calEvent.jsEvent.preventDefault();
+					console.log({ calEvent });
+					const title = calEvent?.event?._def?.title;
+					const description = calEvent?.event?._def?.extendedProps?.description;
+					const location = calEvent?.event?._def?.extendedProps?.location;
+					const begin = calEvent?.event?._instance?.range?.start;
+					const end = calEvent?.event?._instance?.range?.end;
+					console.log({ title, description, location, begin, end });
+				}}
 			/>
 		</>
 	);
