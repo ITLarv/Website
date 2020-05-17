@@ -6,7 +6,7 @@ export default function FAQ(props) {
 	// UseEffect to prevent React from caching questions between students and companies
 	useEffect(() => {
 		setFilteredQuestions(props.questions);
-	}, [window.location.href]);
+	}, [props]);
 
 	const textFieldChanged = (e) => {
 		const searchString = e.target.value;
