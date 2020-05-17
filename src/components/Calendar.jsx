@@ -3,10 +3,12 @@ import { useHistory } from "react-router-dom";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
+import listPlugin from "@fullcalendar/list";
 import googleCalendarPlugin from "@fullcalendar/google-calendar";
 import "@fullcalendar/core/main.css";
 import "@fullcalendar/daygrid/main.css";
 import "@fullcalendar/timegrid/main.css";
+import "@fullcalendar/list/main.css";
 
 // Students Calendar ID:	teknologkaren.se_cv8lkaj3fkr8f1mbjo6f6c45n4@group.calendar.google.com
 // Companies Calendar ID:	teknologkaren.se_5obm6hbbk6pbu48lochpbr9370@group.calendar.google.com
@@ -17,7 +19,12 @@ export default function Calendar() {
 	return (
 		<FullCalendar
 			defaultView="dayGridMonth"
-			plugins={[dayGridPlugin, timeGridPlugin, googleCalendarPlugin]}
+			plugins={[
+				dayGridPlugin,
+				timeGridPlugin,
+				listPlugin,
+				googleCalendarPlugin,
+			]}
 			header={{
 				left: "prev,next today",
 				center: "title",
@@ -44,10 +51,11 @@ export default function Calendar() {
 				const location = calEvent?.event?._def?.extendedProps?.location;
 				const begin = calEvent?.event?._instance?.range?.start;
 				const end = calEvent?.event?._instance?.range?.end;
-
+				const url = calEvent?.event?._def?.url;
+				const id = calEvent?.event?._def?.publicId;
 				history.push({
 					pathname: "/event",
-					state: { title, description, location, begin, end },
+					state: { title, description, location, begin, end, url, id },
 				});
 			}}
 		/>
