@@ -28,7 +28,22 @@ export default function Calendar() {
 			header={{
 				left: "prev,next today",
 				center: "title",
-				right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek",
+				right: "dayGridMonth,timeGridWeek,timeGridDay,listYear",
+			}}
+			views={{
+				listDay: {
+					buttonText: "list day",
+				},
+				listWeek: {
+					buttonText: "list week",
+				},
+				listMonth: {
+					buttonText: "list month",
+				},
+				listYear: {
+					buttonText: "list",
+					duration: { years: 2 },
+				},
 			}}
 			googleCalendarApiKey={process.env.REACT_APP_GOOGLE_CALENDAR_API}
 			eventSources={[
