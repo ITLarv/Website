@@ -4,6 +4,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import shadowIcon from "../img/leaflet-shadow.png";
 import icon from "../img/leaflet-icon.png";
+import transparent from "../img/transparent.png";
 import fairArea from "../img/map/fair-area-bkg.png";
 import coordinates from "../content/showcase-coordinates.json";
 
@@ -19,7 +20,7 @@ const customIcon = new L.Icon({
 });
 
 const customIcon2 = new L.icon({
-	iconUrl: icon,
+	iconUrl: transparent,
 	iconSize: [50, 50],
 });
 
