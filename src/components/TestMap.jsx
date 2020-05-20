@@ -25,7 +25,7 @@ const customIcon2 = new L.icon({
 
 export default function TestMap() {
 	const click = (e) => {
-		console.log({ e });
+		console.log(e.latlng);
 	};
 
 	const [allExhibitors, setAllExhibitors] = useState([]);
