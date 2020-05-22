@@ -19,7 +19,7 @@ const customIcon = new L.Icon({
 	shadowAnchor: [20, 92],
 });
 
-const customIcon2 = new L.icon({
+const transparentIcon = new L.icon({
 	iconUrl: transparent,
 	iconSize: [50, 50],
 });
@@ -83,7 +83,7 @@ export default function TestMap() {
 				<Marker
 					key={exhibitor.id}
 					position={getCoordinates(exhibitor.profile.booth)}
-					icon={customIcon2}
+					icon={transparentIcon}
 				>
 					<Popup>{exhibitor.name}</Popup>
 				</Marker>
