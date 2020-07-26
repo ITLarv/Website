@@ -28,6 +28,11 @@ export default function Navbar() {
 											About
 										</NavLink>
 									</li>
+									<li>
+										<NavLink exact activeClassName="active" to="/home/calendar">
+											Calendar
+										</NavLink>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -100,7 +105,7 @@ export default function Navbar() {
 										<NavLink
 											exact
 											activeClassName="active"
-											to="/students/hosts"
+											to="/students/involved"
 										>
 											Get involved
 										</NavLink>
