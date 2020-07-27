@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TestMap from "../components/TestMap.jsx";
+import MapComponent from "../components/MapComponent.jsx";
 
 export default function LARVMap() {
 	const [searchText, setSearchText] = useState("");
@@ -11,7 +11,7 @@ export default function LARVMap() {
 
 	return (
 		<div className="Map">
-			<TestMap className="leaflet" />
+			<MapComponent className="leaflet" />
 			<input type="text" className="textSearch" onChange={searchTextChanged} />
 		</div>
 	);
