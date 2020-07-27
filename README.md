@@ -59,6 +59,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 # CUSTOM THINGS
 
+## Project Structure
+
+The "public" folder contains the most low-level stuff of the project. Like index.html, favicon, homescreen icons, etc. These will rarely need to be edited.
+
+Both the config and scripts folders were automatically created when the React project were "ejected". This enables some custom configuration of the npm-scripts and webpack loaders, etc. But unless you really know what you are doing you shouldn't touch these. They work, keep them that way. Don't fix what ain't broken.
+
+Most of the code you will be changing can be found in the src folder.
+
+The core of the website is the file App.js(x). This contains the CSS, Routing and all pages.
+
+The "pages" folders contains all the pages loaded by the App.js. All routes corresponds to one page file. But one page file can be used by several routes. Example the FAQ pages that look identical except the content of the questions.
+
+The "components" contains all lower-level parts that the pages makes use of. Even if pages sometimes are reused, these ones should be coded for reuseability by themselves or other components. More props and dependencies. For instance the calendar should look identical but with different content depending on which page shows it.
+
+Inside components you also find a Jexpo folder. This is a bit special since Jexpo code needs to be placed inside <iframe>, until proper React components are created by someone smart. The files inside this folder is basically just raw html strings. The catalog.js page shows an example of how it can be used for simplicity.
+
 ## CSS/SASS/SCSS
 
 This project is using SASS/SCSS for css handling.
@@ -68,3 +84,7 @@ The result CSS file will be a minified version inside the css-folder. This shoul
 App.css is also automatically created, but is mostly for readability if someting behaves unexpectedly.
 
 NOTE: ONLY the .scss files should be edited together with a sass compiler. Any other code will be overridden.
+
+## Tests
+
+Yes, this project really _should_ contain tests. Any day now. It's the next thing on my TODO ™
