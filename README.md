@@ -56,3 +56,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# CUSTOM THINGS
+
+## CSS/SASS/SCSS
+
+This project is using SASS/SCSS for css handling.
+Best tip is to use Visual Studio Code when changing CSS and installing the Extension ´Live Sass Compiler´.
+Then make sure to activate "Watch Sass" in the bottom window toolbar before start editing any CSS.
+The result CSS file will be a minified version inside the css-folder. This should be imported in the App.js(x) file.
+App.css is also automatically created, but is mostly for readability if someting behaves unexpectedly.
+
+NOTE: ONLY the .scss files should be edited together with a sass compiler. Any other code will be overridden.
