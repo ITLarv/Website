@@ -54,6 +54,11 @@ export default function Navbar() {
 											Catalog
 										</NavLink>
 									</li>
+									<li>
+										<NavLink exact activeClassName="active" to="/fair/gallery">
+											Gallery
+										</NavLink>
+									</li>
 								</ul>
 							</div>
 						</div>
