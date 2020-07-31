@@ -1,0 +1,16 @@
+1. Open the map
+2. Open dev console
+    2.1 Right click and select "Inspect element" or someting
+    2.2 Navigate to the console
+3. Click on all booths in map in order
+    3.1 First porsöhallen
+    3.2 Secondly C-huset
+4. Copy the entire list when done
+    4.1 See file "test.txt" for example
+5. Open terminal
+6. Navigate to this folder
+7. Run command "chmod +x generate-coordinates-file.sh"
+8. Run command "./generate-coordinates-file.sh -f <INPUT_FILENAME> -o <OUTPUT_FILEAME.json> -p <NUM_OF_P_SHOWCASES> -c <NUM_OF_C_SHOWCASES>"
+    8.1 Example "./generate-coordinates-file.sh -f test.txt -o test.json -p 5 -c 5"
+    8.2 If file contains 5 booths in porsöhallen and 5 in c-huset.
+9. Save output to folder /src/content as showcase-coordinates.json
