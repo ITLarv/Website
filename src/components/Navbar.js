@@ -60,22 +60,26 @@ export default function Navbar() {
 					</li>
 					<li>
 						<div className="dropdown">
-							<NavLink activeClassName="active" to="/prelarv">
+							<NavLink activeClassName="active" to="/prep-week">
 								{/* Prep&nbsp;week */}
-								PreLARV
+								Prep-Week
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
 									<li>
-										<NavLink exact activeClassName="active" to="/prelarv/about">
-											What is PreLARV?
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/prep-week/about"
+										>
+											What is prep-week?
 										</NavLink>
 									</li>
 									<li>
 										<NavLink
 											exact
 											activeClassName="active"
-											to="/prelarv/activities"
+											to="/prep-week/activities"
 										>
 											Activities
 										</NavLink>

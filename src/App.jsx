@@ -44,22 +44,30 @@ function App() {
 						<Route exact path="/fair" component={Fair} />
 						<Route exact path="/fair/catalog" component={Catalog} />
 						<Route exact path="/fair/map" component={LARVMap} />
-						<Route exact path="/prelarv" component={Prelarv} />
-						<Route exact path="/prelarv/about" component={AboutPrelarv} />
-						<Route exact path="/prelarv/activities" component={Activities} />
+						<Route exact path="/prep-week" component={Prelarv} />
+						<Route exact path="/prep-week/about" component={AboutPrelarv} />
+						<Route exact path="/prep-week/activities" component={Activities} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
 						<Route exact path="/students/involved" component={Involved} />
-						<Route exact path="/students/individual-meetings" component={IndMeetStudents} />
+						<Route
+							exact
+							path="/students/individual-meetings"
+							component={IndMeetStudents}
+						/>
 						<Route exact path="/students/dates" component={DatesStudents} />
 						<Route exact path="/companies" component={Companies} />
 						<Route exact path="/companies/faq">
 							<Faq questions={CompaniesFAQ} />
 						</Route>
-						<Route exact path="/companies/individual-meetings" component={IndMeetCompanies} />
+						<Route
+							exact
+							path="/companies/individual-meetings"
+							component={IndMeetCompanies}
+						/>
 						<Route exact path="/companies/dates" component={DatesCompanies} />
 						<Route component={NotFound} />
 					</Switch>

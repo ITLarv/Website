@@ -455,6 +455,10 @@ nav .dropdown-content a {
   }
 }
 
+.firstView {
+  background: 0;
+}
+
 .App {
   text-align: center;
   display: -webkit-box;
