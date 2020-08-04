@@ -7,10 +7,18 @@ export default function Catalog() {
 			<div className="Catalog">
 				<h1>Catalog</h1>
 				<p>
-					Here are all the companies to work with LARV 2021. Please use the
-					seach function to search for your favorite companie or filter the
-					companies by what they offer, what programs they are looking for and
-					their branch.
+					In this catalog you can find information about organizations which has
+					previously attended LARV. Each organization is represented by a
+					square. By clicking on this square specific information can be found
+					regarding the organization, which industry they are active in, which
+					types of students they are looking for and what kind of opportunities
+					they are offering.
+				</p>
+				<p>
+					The search function at the top of the catalog is also available. You
+					can utilize this to find exhibitors which offer a specific type of
+					job, are looking for specific types of students or are active within a
+					certain industry.
 				</p>
 				<iframe srcDoc={JexpoCatalog} title="Jexpo catalog" />
 			</div>
