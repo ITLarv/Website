@@ -38,7 +38,6 @@ export default function About() {
 				wants to ba a part of LARV? Read more about what LARV can do for you as
 				a student or your organization here…
 			</p>
-			-- berb
 		</>
 	);
 }

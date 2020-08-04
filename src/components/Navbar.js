@@ -67,7 +67,7 @@ export default function Navbar() {
 						<div className="dropdown">
 							<NavLink activeClassName="active" to="/prep-week">
 								{/* Prep&nbsp;week */}
-								Prep-Week
+								PREP-WEEK
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
