@@ -19,11 +19,6 @@ export default function Navbar() {
 							<div className="dropdown-content">
 								<ul>
 									<li>
-										<NavLink exact activeClassName="active" to="/home/news">
-											News
-										</NavLink>
-									</li>
-									<li>
 										<NavLink exact activeClassName="active" to="/home/about">
 											About
 										</NavLink>

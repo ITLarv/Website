@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home.jsx";
-import News from "./pages/News.jsx";
 import About from "./pages/AboutLarv.jsx";
 import Calendar from "./pages/CalendarPage.jsx";
 import Event from "./pages/Event.jsx";
@@ -35,7 +34,6 @@ function App() {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/home" component={Home} />
-						<Route exact path="/home/news" component={News} />
 						<Route exact path="/home/about" component={About} />
 						<Route exact path="/home/calendar" component={Calendar} />
 						<Route exact path="/event" component={Event} />

@@ -15,6 +15,7 @@ export default function Home() {
 					week filled with career related events, inspiring seminars and most
 					importantly a fair involving over 110 organisations and 2000 students.
 				</p>
+				<h1>News</h1>
 			</div>
 		</>
 	);
