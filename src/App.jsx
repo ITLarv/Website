@@ -10,9 +10,7 @@ import Event from "./pages/Event.jsx";
 import Fair from "./pages/Fair";
 import GAllery from "./pages/Gallery";
 import LARVMap from "./pages/Map";
-import Prelarv from "./pages/Prelarv";
-import AboutPrelarv from "./pages/AboutPrelarv";
-import Activities from "./pages/Activities";
+import PrepWeek from "./pages/PrepWeek";
 import Contact from "./pages/Contact";
 import Students from "./pages/Students";
 import Involved from "./pages/Involved";
@@ -24,7 +22,7 @@ import Faq from "./pages/FAQ";
 import NotFound from "./pages/404";
 import "./css/App.min.css";
 import StudentsFAQ from "./content/studentsfaq.json";
-import OrganizationsFAQ from "./content/Organizationsfaq.json";
+import OrganizationsFAQ from "./content/organizationsfaq.json";
 import Gallery from "./pages/Gallery";
 // c
 
@@ -45,9 +43,7 @@ function App() {
 						<Route exact path="/fair/catalog" component={Catalog} />
 						<Route exact path="/fair/map" component={LARVMap} />
 						<Route exact path="/fair/gallery" component={Gallery} />
-						<Route exact path="/prep-week" component={Prelarv} />
-						<Route exact path="/prep-week/about" component={AboutPrelarv} />
-						<Route exact path="/prep-week/activities" component={Activities} />
+						<Route exact path="/prep-week" component={PrepWeek} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/students/faq">
