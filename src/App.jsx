@@ -17,16 +17,14 @@ import Contact from "./pages/Contact";
 import Students from "./pages/Students";
 import Involved from "./pages/Involved";
 import IndMeetStudents from "./pages/IndMeetStudents";
-import DatesStudents from "./pages/DatesStudents";
-import Companies from "./pages/Companies";
-import IndMeetCompanies from "./pages/IndMeetCompanies";
-import DatesCompanies from "./pages/DatesCompanies";
+import Organizations from "./pages/Organizations";
+import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import Catalog from "./pages/Catalog";
 import Faq from "./pages/FAQ";
 import NotFound from "./pages/404";
 import "./css/App.min.css";
 import StudentsFAQ from "./content/studentsfaq.json";
-import CompaniesFAQ from "./content/companiesfaq.json";
+import OrganizationsFAQ from "./content/Organizationsfaq.json";
 import Gallery from "./pages/Gallery";
 // c
 
@@ -61,17 +59,15 @@ function App() {
 							path="/students/individual-meetings"
 							component={IndMeetStudents}
 						/>
-						<Route exact path="/students/dates" component={DatesStudents} />
-						<Route exact path="/companies" component={Companies} />
-						<Route exact path="/companies/faq">
-							<Faq questions={CompaniesFAQ} />
+						<Route exact path="/organizations" component={Organizations} />
+						<Route exact path="/organizations/faq">
+							<Faq questions={OrganizationsFAQ} />
 						</Route>
 						<Route
 							exact
-							path="/companies/individual-meetings"
-							component={IndMeetCompanies}
+							path="/organizations/individual-meetings"
+							component={IndMeetOrganizations}
 						/>
-						<Route exact path="/companies/dates" component={DatesCompanies} />
 						<Route component={NotFound} />
 					</Switch>
 				</div>

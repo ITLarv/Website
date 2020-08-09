@@ -69,28 +69,6 @@ export default function Navbar() {
 								{/* Prep&nbsp;week */}
 								PREP-WEEK
 							</NavLink>
-							<div className="dropdown-content">
-								<ul>
-									<li>
-										<NavLink
-											exact
-											activeClassName="active"
-											to="/prep-week/about"
-										>
-											What is prep-week?
-										</NavLink>
-									</li>
-									<li>
-										<NavLink
-											exact
-											activeClassName="active"
-											to="/prep-week/activities"
-										>
-											Activities
-										</NavLink>
-									</li>
-								</ul>
-							</div>
 						</div>
 					</li>
 					<li>
@@ -128,28 +106,23 @@ export default function Navbar() {
 											Individual Meetings
 										</NavLink>
 									</li>
-									<li>
-										<NavLink
-											exact
-											activeClassName="active"
-											to="/students/dates"
-										>
-											Dates
-										</NavLink>
-									</li>
 								</ul>
 							</div>
 						</div>
 					</li>
 					<li>
 						<div className="dropdown">
-							<NavLink activeClassName="active" to="/companies">
-								COMPANIES
+							<NavLink activeClassName="active" to="/organizations">
+								ORGANIZATONS
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
 									<li>
-										<NavLink exact activeClassName="active" to="/companies/faq">
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/organizations/faq"
+										>
 											FAQ
 										</NavLink>
 									</li>
@@ -157,18 +130,9 @@ export default function Navbar() {
 										<NavLink
 											exact
 											activeClassName="active"
-											to="/companies/individual-meetings"
+											to="/organizations/individual-meetings"
 										>
 											Individual Meetings
-										</NavLink>
-									</li>
-									<li>
-										<NavLink
-											exact
-											activeClassName="active"
-											to="/companies/dates"
-										>
-											Dates
 										</NavLink>
 									</li>
 								</ul>
