@@ -23,7 +23,7 @@ export default function Contact() {
 	// prettier-ignore
 	const [pgList] = useState([
     {id:"2", name:"Peter Panduro", role:"Vice Projektledare", email:"viceprojektledare@larv.org", imgSrc:vakant},
-    {id:"3", name:"Agnes Elliot", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:vakant},
+    {id:"3", name:"Agnes Elliott", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:vakant},
     {id:"4", name:"Matilda Segerlind", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:vakant},
     {id:"5", name:"Vakant", role:"Eventansvarig", email:"event@larv.org", imgSrc:vakant},
     {id:"6", name:"Vakant", role:"Samarbetsansvarig", email:"samarbete@larv.org", imgSrc:vakant},
