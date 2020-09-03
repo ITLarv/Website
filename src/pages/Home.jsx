@@ -1,14 +1,36 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-red-transparent.png";
+import Countdown from "react-countdown";
+
+// Random component
+const Completionist = () => <span>You are good to go!</span>;
+const date = () => "2021-02-01T01:02:03";
+
+// Renderer callback with condition
+const renderer = ({ days, hours, minutes, seconds, completed }) => {
+	if (completed) {
+		// Render a complete state
+		return <Completionist />;
+	} else {
+		// Render a countdown
+		return (
+			<span>
+				{days}:{hours}:{minutes}:{seconds}
+			</span>
+		);
+	}
+};
 
 export default function Home() {
 	return (
 		<>
-			var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 			<div className="firstView">
 				<img src={logo} className="logo" alt="logotype" />
-				<h1>Hometime</h1>
+				<h1>Home</h1>
+
+				<Countdown date={date} renderer={renderer}></Countdown>
+
 				<p>
 					LARV, short for Luleå arbetsmarknadsvecka, is the largest event held
 					annually at Luleå university of technology. LARV is a project
@@ -25,7 +47,6 @@ export default function Home() {
 						Oranizations
 					</NavLink>
 				</div>
-
 				<h1>News</h1>
 			</div>
 		</>
