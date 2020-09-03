@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Fair() {
 	return (
@@ -23,6 +24,10 @@ export default function Fair() {
 				information regarding organization attendance at our organizations
 				page...
 			</p>
+
+			<NavLink className="button" to="/organizations">
+				Oranizations
+			</NavLink>
 		</div>
 	);
 }
