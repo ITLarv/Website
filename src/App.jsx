@@ -16,6 +16,7 @@ import Involved from "./pages/Involved";
 import IndMeetStudents from "./pages/IndMeetStudents";
 import Organizations from "./pages/Organizations";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
+import InitialApplication from "./pages/InitialApplication";
 import Catalog from "./pages/Catalog";
 import Faq from "./pages/FAQ";
 import NotFound from "./pages/404";
@@ -61,6 +62,11 @@ function App() {
 							exact
 							path="/organizations/individual-meetings"
 							component={IndMeetOrganizations}
+						/>
+						<Route
+							exact
+							path="/organizations/initial-application"
+							component={InitialApplication}
 						/>
 						<Route component={NotFound} />
 					</Switch>
