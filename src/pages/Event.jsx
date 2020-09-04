@@ -19,19 +19,34 @@ export default function Event(props) {
 			history.push("/");
 			return;
 		}
+		const strippedContent = e?.description?.replace(/<\/?[^>]+>/gi, "");
+		let jsonContent;
+		try {
+			jsonContent = JSON.parse(strippedContent);
+		} catch (e) {
+			console.log(e);
+		}
 		setEvent({
 			title: e.title,
-			description: e.description,
+			description: jsonContent?.text,
+			image: jsonContent?.image,
 			location: e.location,
 			begin: e.begin,
 			end: e.end,
 		});
 	};
 
+	const image = (event) => {
+		if (event.image) {
+			return <img src={event.image} alt="" width="100%" height="auto" />;
+		}
+	};
+
 	return (
 		<>
 			<h1>{event.title}</h1>
 			<h2>{event.location}</h2>
+			{image(event)}
 			<p>{event.description}</p>
 		</>
 	);
