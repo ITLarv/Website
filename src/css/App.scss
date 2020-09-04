@@ -41,3 +41,8 @@
 *::after {
 	box-sizing: border-box;
 }
+
+.button {
+	background-color: blue($color: #0000ff);
+	color: blue($color: #0000ff);
+}

@@ -1,3 +1,21 @@
 .firstView {
-	background: blue($color: #000000);
+	background-color: $secondary-color;
+	width: 100%;
+
+	h1 {
+		color: white;
+	}
+
+	.countdown {
+		color: white;
+		font-size: 2em;
+	}
+
+	.logoLarge {
+		align-items: center;
+		height: 200px;
+		width: auto;
+		margin-left: -100px;
+		margin-right: auto;
+	}
 }

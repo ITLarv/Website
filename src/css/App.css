@@ -457,7 +457,7 @@ nav .dropdown-content a {
 }
 
 .firstView {
-  background: 0;
+  background-color: #222;
 }
 
 .App {
@@ -510,5 +510,10 @@ nav .dropdown-content a {
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.button {
+  background-color: 255;
+  color: 255;
 }
 /*# sourceMappingURL=App.css.map */
