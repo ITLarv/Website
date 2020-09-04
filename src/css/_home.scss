@@ -1,8 +1,14 @@
 .firstView {
 	background-color: $secondary-color;
 	width: 100%;
+	right: 0;
+	left: 0;
+	position: relative;
+	padding-bottom: 50px;
+	padding-left: -100px;
+	padding-right: -100px;
 
-	h1 {
+	h3 {
 		color: white;
 	}
 
@@ -13,9 +19,9 @@
 
 	.logoLarge {
 		align-items: center;
-		height: 200px;
-		width: auto;
-		margin-left: -100px;
+		height: auto;
+		width: 60%;
+		margin-left: auto;
 		margin-right: auto;
 	}
 }

@@ -11,6 +11,7 @@
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	width: 100%;
 }
 
 .Content {
@@ -18,7 +19,7 @@
 	background-size: cover;
 	padding-top: $navbar-height;
 	width: 100%;
-	max-width: 500px;
+	max-width: 700px;
 	margin: auto;
 	flex-grow: 1;
 	display: flex;
@@ -40,6 +41,14 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+}
+
+.titleLine {
+	color: $main-color;
+	margin-top: 0;
+	top: -40px;
+	position: relative;
+	font-weight: bold;
 }
 
 .button {
