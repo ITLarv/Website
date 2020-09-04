@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Prelarv() {
 	return (
@@ -28,10 +29,25 @@ export default function Prelarv() {
 				<li>Case solving</li>
 				<li>Breakfast talks with organizations</li>
 			</ul>
+
+			<p>
+				For more information about the different activities check out the
+				calendar.
+			</p>
+
+			<NavLink className="button" to="/home/calendar">
+				Calendar
+			</NavLink>
+
 			<p>
 				Does your organization wish to be a part of Prep-week? Read more about
-				information regarding organization attendance at our organizations page…
+				in formation regarding organization attendance at our organizations
+				page…
 			</p>
+
+			<NavLink className="button" to="/organizations">
+				Oranizations
+			</NavLink>
 		</div>
 	);
 }

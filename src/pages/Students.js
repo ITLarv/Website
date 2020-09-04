@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Students() {
 	return (
@@ -37,6 +38,10 @@ export default function Students() {
 				how to sign up here….
 			</p>
 
+			<NavLink className="button" to="/students/individual-meetings">
+				Individual Meetings
+			</NavLink>
+
 			<h1>Get involved!</h1>
 			<p>
 				Want to get all the benefits mentioned above as well as develop skills
@@ -50,6 +55,10 @@ export default function Students() {
 				personal experience. Does this sounds interesting to you? Read more
 				about the different types of involvement LARV offers here...
 			</p>
+
+			<NavLink className="button" to="/students/involved">
+				Get Involved
+			</NavLink>
 		</div>
 	);
 }

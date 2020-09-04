@@ -3,7 +3,7 @@ import React from "react";
 export default function Companies() {
 	return (
 		<div className="Companies">
-			<hi>Let LARV help you find the competence of tomorrow! (banner)</hi>
+			<h1>Let LARV help you find the competence of tomorrow!</h1>
 			<p>
 				LARV is a platform where you as an organization is able to meet the
 				students of Luleå university of technology. We offer a great many
