@@ -1,9 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Involved() {
 	return (
 		<>
 			<h1>Get involved in LARV</h1>
+
 			<p>
 				Personal development, valuable experience, stimulating tasks and loads
 				of fun. This is what an involvement in LARV offers you as a student, no
@@ -43,6 +45,36 @@ export default function Involved() {
 				into LARV as a project.
 			</p>
 
+			<div className="dropdown">
+				<div className="dropdown-content">
+					<ul>
+						<li>Event volunteer</li>
+						<li>Reception volunteer</li>
+						<li>Banquett volunteer</li>
+						<li>Lounge volunteer</li>
+						<li>Exhibition building volunteer</li>
+						<li>Logistics volunteer</li>
+						<li>Organizations volunteer</li>
+						<li>Night guard volunteer</li>
+						<li>The Incredibles</li>
+					</ul>
+				</div>
+			</div>
+
+			<h2>Apply for volunteer here</h2>
+
+			<iframe
+				className="form"
+				src="https://docs.google.com/forms/d/e/1FAIpQLScSqN4U9W4HmGEitNmS06w-3ePJfmM3VdRVWTz8q76LPtQxhA/viewform?embedded=true"
+				width="800"
+				height="300"
+				frameborder="0"
+				marginheight="0"
+				marginwidth="0"
+			>
+				Läser in …
+			</iframe>
+
 			<h2>Coordinator</h2>
 			<p>
 				As a coordinator, you become your supervisor's helping hand. You are
@@ -73,6 +105,37 @@ export default function Involved() {
 				deeper insight into exactly how LARV is planned.{" "}
 			</p>
 
+			<div className="dropdown">
+				<div className="dropdown-content">
+					<ul>
+						<li>Oranizations coordinator</li>
+						<li>Banquet coordinator</li>
+						<li>Event coordinator</li>
+						<li>Logistics coordinator</li>
+						<li>Exhibition constructions coordinator</li>
+						<li>Collaborations and lounge coordinator</li>
+						<li>Service coordinator</li>
+						<li>Recruitment coordinator</li>
+						<li>Graphics coordinator</li>
+						<li>Marketing coordinator</li>
+					</ul>
+				</div>
+			</div>
+
+			<h2>Apply for coordinator here</h2>
+
+			<iframe
+				className="form"
+				src="https://docs.google.com/forms/d/e/1FAIpQLScSqN4U9W4HmGEitNmS06w-3ePJfmM3VdRVWTz8q76LPtQxhA/viewform?embedded=true"
+				width="800"
+				height="300"
+				frameborder="0"
+				marginheight="0"
+				marginwidth="0"
+			>
+				Läser in …
+			</iframe>
+
 			<h2>Project group (PG)</h2>
 			<p>
 				As part of the project group you are given full responsibility for one
@@ -102,6 +165,26 @@ export default function Involved() {
 				rekrytering@larv.org or projektledare@larv.org regarding any questions
 				you might have.
 			</p>
+
+			<div className="dropdown">
+				<div className="dropdown-content">
+					<ul>
+						<li>Project manager</li>
+						<li>Deputy project manager</li>
+						<li>Head of banquet</li>
+						<li>Head of collaborations</li>
+						<li>Head of events</li>
+						<li>Head of exhibiton construction</li>
+						<li>Head of IT</li>
+						<li>Head of logistics</li>
+						<li>Head of lounge</li>
+						<li>Head of marketing</li>
+						<li>Head of organizations</li>
+						<li>Head of recruitment</li>
+						<li>Head of services</li>
+					</ul>
+				</div>
+			</div>
 		</>
 	);
 }

@@ -7,7 +7,7 @@ import About from "./pages/AboutLarv.jsx";
 import Calendar from "./pages/CalendarPage.jsx";
 import Event from "./pages/Event.jsx";
 import Fair from "./pages/Fair";
-import GAllery from "./pages/Gallery";
+import Gallery from "./pages/Gallery";
 import LARVMap from "./pages/Map";
 import PrepWeek from "./pages/PrepWeek";
 import Contact from "./pages/Contact";
@@ -22,7 +22,6 @@ import NotFound from "./pages/404";
 import "./css/App.min.css";
 import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
-import Gallery from "./pages/Gallery";
 // c
 
 function App() {
