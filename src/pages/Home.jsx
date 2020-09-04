@@ -5,7 +5,8 @@ import Countdown from "react-countdown";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
-const date = () => "2021-02-01T01:02:03";
+const larvDate = Date.parse("20 Jan 2021 09:00:00");
+//const larvDate = Date.parse("4 Sep 2020 12:00:00");
 
 // Renderer callback with condition
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
@@ -29,7 +30,11 @@ export default function Home() {
 				<img src={logo} className="logo" alt="logotype" />
 				<h1>Home</h1>
 
-				<Countdown date={date} renderer={renderer}></Countdown>
+				<Countdown
+					className="countdown"
+					date={larvDate}
+					renderer={renderer}
+				></Countdown>
 
 				<p>
 					LARV, short for Luleå arbetsmarknadsvecka, is the largest event held
@@ -48,6 +53,10 @@ export default function Home() {
 					</NavLink>
 				</div>
 				<h1>News</h1>
+				<p>
+					When there are updates to LARV or to the LARV website they will be
+					posted here.
+				</p>
 			</div>
 		</>
 	);
