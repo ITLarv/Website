@@ -130,6 +130,15 @@ export default function Navbar() {
 											Individual Meetings
 										</NavLink>
 									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/organizations/initial-application"
+										>
+											Initial Application
+										</NavLink>
+									</li>
 								</ul>
 							</div>
 						</div>
