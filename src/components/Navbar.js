@@ -8,7 +8,7 @@ export default function Navbar() {
 
 	return (
 		<div className="navbar">
-			<NavLink to="/home">
+			<NavLink to="/home" activeClassName="">
 				<img src={logo} className="logo" alt="logotype" />
 			</NavLink>
 			<input type="checkbox" id="nav-toggle" className="nav-toggle" />
