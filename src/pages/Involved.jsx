@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 export default function Involved() {
 	return (
@@ -64,6 +63,7 @@ export default function Involved() {
 			<h2>Apply for volunteer here</h2>
 
 			<iframe
+				title="Apply for volunteer"
 				className="form"
 				src="https://docs.google.com/forms/d/e/1FAIpQLScSqN4U9W4HmGEitNmS06w-3ePJfmM3VdRVWTz8q76LPtQxhA/viewform?embedded=true"
 				width="800"
@@ -125,6 +125,7 @@ export default function Involved() {
 			<h2>Apply for coordinator here</h2>
 
 			<iframe
+				title="Apply for coordinator"
 				className="form"
 				src="https://docs.google.com/forms/d/e/1FAIpQLScSqN4U9W4HmGEitNmS06w-3ePJfmM3VdRVWTz8q76LPtQxhA/viewform?embedded=true"
 				width="800"

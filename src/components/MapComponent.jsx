@@ -2,22 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Map, TileLayer, Marker, Popup, ImageOverlay } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import shadowIcon from "../img/leaflet-shadow.png";
-import icon from "../img/leaflet-icon.png";
 import transparent from "../img/transparent.png";
 import fairArea from "../img/map/fair-area-bkg.png";
 import coordinates from "../content/showcase-coordinates.json";
-
-const customIcon = new L.Icon({
-	iconUrl: icon,
-	// iconRetinaUrl: "../",
-	iconAnchor: [25, 50],
-	popupAnchor: [0, -50],
-	iconSize: [50, 50],
-	shadowUrl: shadowIcon,
-	shadowSize: [68, 95],
-	shadowAnchor: [20, 92],
-});
 
 const transparentIcon = new L.icon({
 	iconUrl: transparent,
@@ -33,31 +20,30 @@ export default function TestMap() {
 	const [searchedExhibitors, setSearchedExhibitors] = useState([]);
 
 	useEffect(() => {
+		const loadExhibitors = async () => {
+			if (allExhibitors.length > 0) return;
+			const response = await fetch(
+				"https://p18.jexpo.se/larv/exhibitors?getAttributes=true&filter=[%22workspace:2020%22,%22published:true%22]"
+			);
+			if (response.ok) {
+				const json = await response.json();
+				const sorted = json.results.sort((a, b) => {
+					return a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1;
+				});
+				setAllExhibitors(sorted);
+
+				//TEMP
+				const placedExhibitors = sorted.filter((e) => {
+					return e?.profile?.booth;
+				});
+				console.log({ placedExhibitors });
+				setSearchedExhibitors(placedExhibitors);
+			} else {
+				alert("Fetching exhibitors error");
+			}
+		};
 		loadExhibitors();
-	}, []);
-
-	const loadExhibitors = async () => {
-		if (allExhibitors.length > 0) return;
-		const response = await fetch(
-			"https://p18.jexpo.se/larv/exhibitors?getAttributes=true&filter=[%22workspace:2020%22,%22published:true%22]"
-		);
-		if (response.ok) {
-			const json = await response.json();
-			const sorted = json.results.sort((a, b) => {
-				return a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1;
-			});
-			setAllExhibitors(sorted);
-
-			//TEMP
-			const placedExhibitors = sorted.filter((e) => {
-				return e?.profile?.booth;
-			});
-			console.log({ placedExhibitors });
-			setSearchedExhibitors(placedExhibitors);
-		} else {
-			alert("Fetching exhibitors error");
-		}
-	};
+	}, [allExhibitors.length]);
 
 	const getCoordinates = (booth) => {
 		const c = coordinates[booth];
