@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { devBranch } from "./config";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home.jsx";
@@ -26,9 +27,21 @@ import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
 import ScrollToTop from "./components/ScrollToTop";
 
+function DevBranchBanner() {
+	if (devBranch().enabled) {
+		return (
+			<div className="devBranchBanner">
+				<p>{devBranch().name}</p>
+			</div>
+		);
+	}
+	return null;
+}
+
 function App() {
 	return (
 		<BrowserRouter>
+			<DevBranchBanner />
 			<ScrollToTop />
 			<div className="App">
 				<Navbar />

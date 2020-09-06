@@ -1,3 +1,10 @@
+const devBranch = () => {
+	return {
+		enabled: true,
+		name: "alpha",
+	};
+};
+
 const initialApplication = () => {
 	return {
 		navLink: true,
@@ -11,4 +18,4 @@ const finalApplication = () => {
 	};
 };
 
-export { initialApplication, finalApplication };
+export { devBranch, initialApplication, finalApplication };
