@@ -24,11 +24,12 @@ import NotFound from "./pages/404";
 import "./css/App.min.css";
 import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
-// c
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 	return (
 		<BrowserRouter>
+			<ScrollToTop />
 			<div className="App">
 				<Navbar />
 				<div className="Content">
