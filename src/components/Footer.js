@@ -1,5 +1,6 @@
 import React from "react";
 import TKLlogo from "../img/tkl-small-white.png";
+import vercel from "../img/vercel.svg";
 
 export default function Footer() {
 	return (
@@ -14,6 +15,12 @@ export default function Footer() {
 			>
 				<img src={TKLlogo} alt="Teknologkaren logotype" />
 			</a>
+			<div className="sponsor">
+				<p>Powered by</p>
+				<a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
+					<img src={vercel} alt="Vercel" />
+				</a>
+			</div>
 		</div>
 	);
 }
