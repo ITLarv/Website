@@ -1,8 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-white-transparent.png";
+import { initialApplication } from "../config";
 
 export default function Navbar() {
+	const showIA = initialApplication().navLink;
+
 	return (
 		<div className="navbar">
 			<NavLink to="/home">
@@ -130,15 +133,17 @@ export default function Navbar() {
 											Individual Meetings
 										</NavLink>
 									</li>
-									<li>
-										<NavLink
-											exact
-											activeClassName="active"
-											to="/organizations/initial-application"
-										>
-											Initial Application
-										</NavLink>
-									</li>
+									{showIA && (
+										<li>
+											<NavLink
+												exact
+												activeClassName="active"
+												to="/organizations/initial-application"
+											>
+												Initial Application
+											</NavLink>
+										</li>
+									)}
 								</ul>
 							</div>
 						</div>
