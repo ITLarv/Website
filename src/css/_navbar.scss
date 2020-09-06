@@ -70,6 +70,7 @@ nav {
 	transform-origin: left;
 	transition: transform 400ms ease-in-out;
 	overflow: scroll;
+	padding-bottom: $navbar-height;
 
 	ul {
 		margin: 0;
