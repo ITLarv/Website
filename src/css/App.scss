@@ -87,3 +87,18 @@ ul {
 		margin-left: 15px;
 	}
 }
+
+.devBranchBanner {
+	z-index: 1000;
+	position: fixed;
+	transform: rotate(45deg);
+	right: -32px;
+	p {
+		color: $main-color;
+		background-color: white;
+		text-align: center;
+		padding-right: 40px;
+		padding-left: 40px;
+		overflow: visible;
+	}
+}
