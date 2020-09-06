@@ -45,10 +45,10 @@ export default function Home() {
 				</p>
 				<div className="twoButtons">
 					<NavLink className="button" to="/students">
-						Students
+						STUDENTS
 					</NavLink>
 					<NavLink className="button" to="/organizations">
-						Oranizations
+						ORGANIZATIONS
 					</NavLink>
 				</div>
 
