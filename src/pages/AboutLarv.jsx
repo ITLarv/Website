@@ -45,7 +45,7 @@ export default function About() {
 					STUDENTS
 				</NavLink>
 				<NavLink className="button" to="/organizations">
-					OR
+					ORGANIZATIONS
 				</NavLink>
 			</div>
 		</>
