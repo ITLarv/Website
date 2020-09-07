@@ -1,7 +1,7 @@
 const devBranch = () => {
 	return {
 		enabled: true,
-		name: "alpha",
+		name: "beta",
 	};
 };
 
