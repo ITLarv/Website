@@ -23,6 +23,27 @@
 		width: auto;
 		margin: 16px;
 	}
+
+	.sponsor {
+		display: flex;
+		align-items: center;
+		margin: 10px 0;
+		height: 100%;
+		a {
+			height: 16px;
+		}
+		p {
+			margin: 0;
+			margin-right: 3px;
+			line-height: 16px;
+			font-size: 0.9em;
+		}
+		img {
+			margin: 0;
+			height: 16px;
+			margin-left: 3px;
+		}
+	}
 }
 
 @media screen and (max-width: $shrink-width) {

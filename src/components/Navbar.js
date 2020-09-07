@@ -1,11 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-white-transparent.png";
+import { initialApplication, map } from "../config";
 
 export default function Navbar() {
+	const showIA = initialApplication().navLink;
+	const showMap = map().showMap;
+
 	return (
 		<div className="navbar">
-			<NavLink to="/home">
+			<NavLink to="/home" activeClassName="">
 				<img src={logo} className="logo" alt="logotype" />
 			</NavLink>
 			<input type="checkbox" id="nav-toggle" className="nav-toggle" />
@@ -39,11 +43,13 @@ export default function Navbar() {
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
-									<li>
-										<NavLink exact activeClassName="active" to="/fair/map">
-											Map
-										</NavLink>
-									</li>
+									{showMap && (
+										<li>
+											<NavLink exact activeClassName="active" to="/fair/map">
+												Map
+											</NavLink>
+										</li>
+									)}
 									<li>
 										<NavLink exact activeClassName="active" to="/fair/catalog">
 											Catalog
@@ -130,6 +136,17 @@ export default function Navbar() {
 											Individual Meetings
 										</NavLink>
 									</li>
+									{showIA && (
+										<li>
+											<NavLink
+												exact
+												activeClassName="active"
+												to="/organizations/initial-application"
+											>
+												Initial Application
+											</NavLink>
+										</li>
+									)}
 								</ul>
 							</div>
 						</div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { devBranch } from "./config";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home.jsx";
@@ -7,7 +8,7 @@ import About from "./pages/AboutLarv.jsx";
 import Calendar from "./pages/CalendarPage.jsx";
 import Event from "./pages/Event.jsx";
 import Fair from "./pages/Fair";
-import GAllery from "./pages/Gallery";
+import Gallery from "./pages/Gallery";
 import LARVMap from "./pages/Map";
 import PrepWeek from "./pages/PrepWeek";
 import Contact from "./pages/Contact";
@@ -16,18 +17,32 @@ import Involved from "./pages/Involved";
 import IndMeetStudents from "./pages/IndMeetStudents";
 import Organizations from "./pages/Organizations";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
+import InitialApplication from "./pages/InitialApplication";
+import FinalApplication from "./pages/FinalApplication";
 import Catalog from "./pages/Catalog";
 import Faq from "./pages/FAQ";
 import NotFound from "./pages/404";
 import "./css/App.min.css";
 import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
-import Gallery from "./pages/Gallery";
-// c
+import ScrollToTop from "./components/ScrollToTop";
+
+function DevBranchBanner() {
+	if (devBranch().enabled) {
+		return (
+			<div className="devBranchBanner">
+				<p>{devBranch().name}</p>
+			</div>
+		);
+	}
+	return null;
+}
 
 function App() {
 	return (
 		<BrowserRouter>
+			<DevBranchBanner />
+			<ScrollToTop />
 			<div className="App">
 				<Navbar />
 				<div className="Content">
@@ -61,6 +76,16 @@ function App() {
 							exact
 							path="/organizations/individual-meetings"
 							component={IndMeetOrganizations}
+						/>
+						<Route
+							exact
+							path="/organizations/initial-application"
+							component={InitialApplication}
+						/>
+						<Route
+							exact
+							path="/organizations/final-application"
+							component={FinalApplication}
 						/>
 						<Route component={NotFound} />
 					</Switch>

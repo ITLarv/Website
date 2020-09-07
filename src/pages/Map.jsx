@@ -12,7 +12,12 @@ export default function LARVMap() {
 	return (
 		<div className="Map">
 			<MapComponent className="leaflet" />
-			<input type="text" className="textSearch" onChange={searchTextChanged} />
+			<input
+				type="text"
+				className="textSearch"
+				value={searchText}
+				onChange={searchTextChanged}
+			/>
 		</div>
 	);
 }

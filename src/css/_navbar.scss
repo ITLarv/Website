@@ -2,7 +2,7 @@
 	background: $main-color-alpha;
 	text-align: center;
 	position: fixed;
-	z-index: 12000000000;
+	z-index: 999;
 	width: 100%;
 	height: $navbar-height;
 }
@@ -62,7 +62,6 @@ nav {
 	text-align: left;
 	overflow-y: auto;
 	top: 100%;
-	bottom: $navbar-height;
 	left: 0;
 	height: 100vh;
 	background: $main-color-alpha;
@@ -71,6 +70,7 @@ nav {
 	transform-origin: left;
 	transition: transform 400ms ease-in-out;
 	overflow: scroll;
+	padding-bottom: $navbar-height;
 
 	ul {
 		margin: 0;
@@ -210,6 +210,7 @@ nav {
 			position: absolute;
 			background-color: $main-color-alpha;
 			z-index: 1;
+			top: 80px;
 			transform: scale(1, 0);
 			transition: transform 250ms ease-in-out;
 

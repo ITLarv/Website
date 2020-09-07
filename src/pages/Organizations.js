@@ -1,9 +1,10 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Companies() {
 	return (
 		<div className="Companies">
-			<hi>Let LARV help you find the competence of tomorrow! (banner)</hi>
+			<h1>Let LARV help you find the competence of tomorrow!</h1>
 			<p>
 				LARV is a platform where you as an organization is able to meet the
 				students of Luleå university of technology. We offer a great many
@@ -14,6 +15,15 @@ export default function Companies() {
 				price. If you as an organization has certain requirements regarding
 				marketing we will take that into consideration.
 			</p>
+
+			<p>
+				Are you an organization interested in LARV? Sign up for the initial
+				application here.
+			</p>
+
+			<NavLink className="button" to="/organizations/initial-application">
+				Initial Application
+			</NavLink>
 
 			<h1>The fair</h1>
 			<p>
@@ -62,7 +72,7 @@ export default function Companies() {
 				<li>Free parking in close proximity to the fair area</li>
 			</ul>
 			<p>
-				There are a handful of additional extras available to those to want to
+				There are a handful of additional extras available to those who want to
 				stand out among the crowd as the fair. See the full product catalog for
 				more information.{" "}
 			</p>

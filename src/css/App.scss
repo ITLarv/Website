@@ -11,6 +11,7 @@
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	width: 100%;
 }
 
 .Content {
@@ -18,11 +19,11 @@
 	background-size: cover;
 	padding-top: $navbar-height;
 	width: 100%;
-	max-width: 500px;
 	margin: auto;
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 20px;
 }
 
 .navbar,
@@ -40,4 +41,75 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+}
+
+.titleLine {
+	color: $main-color;
+	margin-top: 0;
+	top: -40px;
+	position: relative;
+	font-weight: bold;
+}
+
+.button {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	background-color: $main-color;
+	padding: 5px;
+	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: outset;
+	border-color: $main-color;
+	border-width: 0.3rem;
+	border-radius: 5px;
+}
+
+.twoButtons {
+	display: flex;
+	padding: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-grow: 2;
+
+	.button {
+		font-size: 2rem;
+		margin: 30px;
+		padding: 15px;
+		min-width: 300px;
+	}
+}
+
+ul {
+	display: inline-block;
+	padding-left: 0;
+	text-align: left;
+
+	.indentList {
+		list-style-type: circle;
+		margin-left: 15px;
+	}
+}
+
+.devBranchBanner {
+	z-index: 1000;
+	position: fixed;
+	transform: rotate(45deg);
+	right: -32px;
+	p {
+		color: $main-color;
+		background-color: white;
+		text-align: center;
+		padding-right: 40px;
+		padding-left: 40px;
+		overflow: visible;
+	}
+}
+
+p {
+	max-width: 700px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
 }

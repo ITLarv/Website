@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Prelarv() {
 	return (
@@ -19,19 +20,36 @@ export default function Prelarv() {
 			<ul>
 				<li>Informative seminars about LARV</li>
 				<li>Guest seminars from organizations</li>
-				<li>
-					Seminars from Career center: How to write a cover letter, an
-					attractive CV and mastering the elevator pitch
-				</li>
+				<li>Seminars from Career center:</li>
+
+				<li className="indentList">How to write a cover letter</li>
+				<li className="indentList">How to write an attractive CV</li>
+				<li className="indentList">Mastering the elevator pitch</li>
+
 				<li>Workshops</li>
 				<li>LARV-pub at STUK for students</li>
 				<li>Case solving</li>
 				<li>Breakfast talks with organizations</li>
 			</ul>
+
+			<p>
+				For more information about the different activities check out the
+				calendar.
+			</p>
+
+			<NavLink className="button" to="/home/calendar">
+				CALENDAR
+			</NavLink>
+
 			<p>
 				Does your organization wish to be a part of Prep-week? Read more about
-				information regarding organization attendance at our organizations page…
+				in formation regarding organization attendance at our organizations
+				page…
 			</p>
+
+			<NavLink className="button" to="/organizations">
+				ORGANIZATIONS
+			</NavLink>
 		</div>
 	);
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function About() {
 	return (
@@ -9,9 +10,9 @@ export default function About() {
 				annually at Luleå university of technology. LARV has since 1983 been
 				hosted by the student union of engineering and is a project with the
 				purpose to help students advance their professional careers and to
-				prepare them for the life after graduation. For many years the project
-				has kept growing and does today involve over 110 organisations, 2000+
-				students and grosses close to 3 Mkr in revenue. This makes is the most
+				prepare them for life after graduation. For many years the project has
+				kept growing and does today involve over 110 organisations, 2000+
+				students and grosses close to 3 Mkr in revenue. This makes it the most
 				comprehensive event at LTU.
 			</p>
 			<p>
@@ -34,10 +35,19 @@ export default function About() {
 				category.
 			</p>
 			<p>
-				Are you a student that wants to get involved or a organization that
-				wants to ba a part of LARV? Read more about what LARV can do for you as
+				Are you a student that wants to get involved or an organization that
+				wants to be a part of LARV? Read more about what LARV can do for you as
 				a student or your organization here…
 			</p>
+
+			<div className="twoButtons">
+				<NavLink className="button" to="/students">
+					STUDENTS
+				</NavLink>
+				<NavLink className="button" to="/organizations">
+					ORGANIZATIONS
+				</NavLink>
+			</div>
 		</>
 	);
 }
