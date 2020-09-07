@@ -18,4 +18,10 @@ const finalApplication = () => {
 	};
 };
 
-export { devBranch, initialApplication, finalApplication };
+const map = () => {
+	return {
+		showMap: false,
+	};
+};
+
+export { devBranch, initialApplication, finalApplication, map };

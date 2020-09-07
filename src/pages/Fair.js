@@ -26,7 +26,7 @@ export default function Fair() {
 			</p>
 
 			<NavLink className="button" to="/organizations">
-				Oranizations
+				ORGANIZATIONS
 			</NavLink>
 		</div>
 	);

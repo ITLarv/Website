@@ -1,10 +1,9 @@
-import React from 'react';
-
+import React from "react";
 
 export default function NotFound() {
-  return (
-    <div className="NotFound">
-      <p>Page not found time!</p>
-    </div>
-  );
-};
+	return (
+		<div className="NotFound">
+			<p>Page not found!</p>
+		</div>
+	);
+}

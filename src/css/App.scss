@@ -19,11 +19,11 @@
 	background-size: cover;
 	padding-top: $navbar-height;
 	width: 100%;
-	max-width: 700px;
 	margin: auto;
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 20px;
 }
 
 .navbar,
@@ -52,8 +52,44 @@
 }
 
 .button {
-	background-color: blue($color: #0000ff);
-	color: blue($color: #0000ff);
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	background-color: $main-color;
+	padding: 5px;
+	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: outset;
+	border-color: $main-color;
+	border-width: 0.3rem;
+	border-radius: 5px;
+}
+
+.twoButtons {
+	display: flex;
+	padding: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-grow: 2;
+
+	.button {
+		font-size: 2rem;
+		margin: 30px;
+		padding: 15px;
+		min-width: 300px;
+	}
+}
+
+ul {
+	display: inline-block;
+	padding-left: 0;
+	text-align: left;
+
+	.indentList {
+		list-style-type: circle;
+		margin-left: 15px;
+	}
 }
 
 .devBranchBanner {
@@ -69,4 +105,11 @@
 		padding-left: 40px;
 		overflow: visible;
 	}
+}
+
+p {
+	max-width: 700px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
 }

@@ -20,10 +20,12 @@ export default function Prelarv() {
 			<ul>
 				<li>Informative seminars about LARV</li>
 				<li>Guest seminars from organizations</li>
-				<li>
-					Seminars from Career center: How to write a cover letter, an
-					attractive CV and mastering the elevator pitch
-				</li>
+				<li>Seminars from Career center:</li>
+
+				<li className="indentList">How to write a cover letter</li>
+				<li className="indentList">How to write an attractive CV</li>
+				<li className="indentList">Mastering the elevator pitch</li>
+
 				<li>Workshops</li>
 				<li>LARV-pub at STUK for students</li>
 				<li>Case solving</li>
@@ -36,7 +38,7 @@ export default function Prelarv() {
 			</p>
 
 			<NavLink className="button" to="/home/calendar">
-				Calendar
+				CALENDAR
 			</NavLink>
 
 			<p>
@@ -46,7 +48,7 @@ export default function Prelarv() {
 			</p>
 
 			<NavLink className="button" to="/organizations">
-				Oranizations
+				ORGANIZATIONS
 			</NavLink>
 		</div>
 	);
