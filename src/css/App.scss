@@ -19,7 +19,6 @@
 	background-size: cover;
 	padding-top: $navbar-height;
 	width: 100%;
-	max-width: 700px;
 	margin: auto;
 	flex-grow: 1;
 	display: flex;
@@ -68,12 +67,17 @@
 }
 
 .twoButtons {
+	display: flex;
 	padding: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-grow: 2;
 
 	.button {
 		font-size: 2rem;
 		margin: 20px;
 		padding: 15px;
+		width: 300px;
 	}
 }
 
@@ -101,4 +105,11 @@ ul {
 		padding-left: 40px;
 		overflow: visible;
 	}
+}
+
+p {
+	max-width: 700px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
 }
