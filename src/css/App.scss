@@ -5,6 +5,7 @@
 @import "./map";
 @import "./footer";
 @import "./home";
+@import "./lists";
 
 .App {
 	text-align: center;
@@ -78,17 +79,6 @@
 		margin: 30px;
 		padding: 15px;
 		min-width: 300px;
-	}
-}
-
-ul {
-	display: inline-block;
-	padding-left: 0;
-	text-align: left;
-
-	.indentList {
-		list-style-type: circle;
-		margin-left: 15px;
 	}
 }
 

@@ -1,0 +1,28 @@
+ul {
+	display: inline-block;
+	padding-left: 0;
+	text-align: left;
+
+	.indentList {
+		list-style-type: circle;
+		margin-left: 15px;
+	}
+}
+
+.dropdown {
+	ul {
+		list-style-type: none;
+
+		li {
+			font-size: 1.2rem;
+		}
+	}
+
+	.dopdown-content {
+		ul {
+			li {
+				font-size: 0.5rem;
+			}
+		}
+	}
+}
