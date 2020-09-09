@@ -1,61 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# General
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It was since ejected.
 
-In the project directory, you can run:
+## Start development server
 
-### `npm start`
+Make sure you got npm and Node installed. Install the dependencies and start.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```console
+$ npm install
+$ npm start
+```
 
 # CUSTOM THINGS
 
@@ -73,7 +27,7 @@ The "pages" folders contains all the pages loaded by the App.js. All routes corr
 
 The "components" contains all lower-level parts that the pages makes use of. Even if pages sometimes are reused, these ones should be coded for reuseability by themselves or other components. More props and dependencies. For instance the calendar should look identical but with different content depending on which page shows it.
 
-Inside components you also find a Jexpo folder. This is a bit special since Jexpo code needs to be placed inside <iframe>, until proper React components are created by someone smart. The files inside this folder is basically just raw html strings. The catalog.js page shows an example of how it can be used for simplicity.
+Inside components you also find a Jexpo folder. This is a bit special since Jexpo code needs to be placed inside \<iframe\>, until proper React components are created by someone smart. The files inside this folder is basically just raw html strings. The catalog.js page shows an example of how it can be used for simplicity.
 
 ## CSS/SASS/SCSS
 
@@ -88,3 +42,11 @@ NOTE: ONLY the .scss files should be edited together with a sass compiler. Any o
 ## Tests
 
 Yes, this project really _should_ contain tests. Any day now. It's the next thing on my TODO ™
+
+# Hosting (Sponsored by Vercel)
+
+The website is hosted using [Vercel](https://vercel.com). The master (alpha) branch can be found on [website.larv.vercel.app](https://website.larv.vercel.app). Staging (beta) on [larv.vercel.app](https://larv.vercel.app). The production is (soon) [larv.org](https://larv.org).
+
+Everything is deployed automatically using Webhooks.
+
+[![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com)
