@@ -33,7 +33,8 @@ export default function Contact() {
     {id:"10", name:"Vakant", role:"Logistikansvarig", email:"logistik@larv.org", imgSrc:vakant},
     {id:"11", name:"Vakant", role:"Bankettansvarig", email:"bankett@larv.org", imgSrc:vakant},
     {id:"12", name:"Emma Nilsson", role:"Rekryteringsansvarig", email:"rekrytering@larv.org", imgSrc:vakant},
-    {id:"13", name:"Martin Östman", role:"Serviceansvarig", email:"service@larv.org", imgSrc:vakant}
+	{id:"13", name:"Martin Östman", role:"Serviceansvarig", email:"service@larv.org", imgSrc:vakant},
+	{id:"14", name:"Victoria Nordmark", role:"Marknadsföringsansvarig", email:"pr@larv.org", imgSrc:vakant}
   ]);
 
 	return (
