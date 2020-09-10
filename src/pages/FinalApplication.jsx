@@ -1,5 +1,4 @@
 import React from "react";
-import JexpoFinalApplication from "../components/Jexpo/JexpoFinalApplication.js";
 
 export default function FinalApplication() {
 	return (

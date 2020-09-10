@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-red-transparent.png";
 import Countdown from "react-countdown";
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
@@ -30,6 +32,12 @@ export default function Home() {
 				<div className="firstView">
 					<img src={logo} className="logoLarge" alt="logotype" />
 					<h1 className="titleLine">__________</h1>
+
+					<div className="twoIcons">
+						<FontAwesomeIcon icon={faPhoneAlt} className="icon" />
+						<FontAwesomeIcon icon={faPhoneAlt} className="icon" />
+					</div>
+
 					<h3>LARV at Luleå University of Technology</h3>
 
 					<Countdown date={larvDate} renderer={renderer}></Countdown>
