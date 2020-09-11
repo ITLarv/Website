@@ -93,18 +93,43 @@ export default function Navbar() {
 										<NavLink
 											exact
 											activeClassName="active"
-											to="/students/involved"
+											to="/students/individual-meetings"
 										>
-											Get involved
+											Individual Meetings
+										</NavLink>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div className="dropdown">
+							<NavLink activeClassName="active" to="/involved">
+								GET INVOLVED
+							</NavLink>
+							<div className="dropdown-content">
+								<ul>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/involved/volunteer"
+										>
+											Volunteer
 										</NavLink>
 									</li>
 									<li>
 										<NavLink
 											exact
 											activeClassName="active"
-											to="/students/individual-meetings"
+											to="/involved/coordinator"
 										>
-											Individual Meetings
+											Coordinator
+										</NavLink>
+									</li>
+									<li>
+										<NavLink exact activeClassName="active" to="/involved/pg">
+											PG
 										</NavLink>
 									</li>
 								</ul>

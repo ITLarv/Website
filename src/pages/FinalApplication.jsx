@@ -5,7 +5,7 @@ export default function FinalApplication() {
 		<>
 			<div className="iframe-container">
 				<iframe
-					title="Apply for volunteer"
+					title="Final Application"
 					className="form"
 					src="https://docs.google.com/forms/d/e/1FAIpQLScSqN4U9W4HmGEitNmS06w-3ePJfmM3VdRVWTz8q76LPtQxhA/viewform?embedded=true"
 				>

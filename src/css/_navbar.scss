@@ -76,7 +76,7 @@ nav {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		margin-right: 3em;
+		//margin-right: 3em;
 	}
 
 	li {
@@ -117,6 +117,7 @@ nav {
 }
 
 @media screen and (min-width: $shrink-width) {
+	// shrinks when screen is 80% of $shrink-width, for some reason
 	.active {
 		text-decoration: none;
 		font-weight: normal;
@@ -139,7 +140,7 @@ nav {
 
 	.navbar {
 		display: grid;
-		grid-template-columns: 0.5fr auto minmax(600px, 5fr) 1fr;
+		grid-template-columns: 1fr auto minmax(100px, 5fr) 0.5fr;
 	}
 
 	.logo {
@@ -243,7 +244,7 @@ nav {
 		}
 	}
 
-	@media screen and (min-width: 1140px) {
+	@media screen and (min-width: 1200px) {
 		nav a {
 			font-size: 1.1rem;
 		}
