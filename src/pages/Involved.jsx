@@ -25,11 +25,11 @@ export default function Involved() {
 						<ul>
 							<li>Event volunteer</li>
 							<li>Reception volunteer</li>
-							<li>Banquett volunteer</li>
+							<li>Banquet volunteer</li>
 							<li>Lounge volunteer</li>
 							<li>Exhibition building volunteer</li>
 							<li>Logistics volunteer</li>
-							<li>Organizations volunteer</li>
+							<li>Employer Relations volunteer</li>
 							<li>Night guard volunteer</li>
 							<li>The Incredibles</li>
 						</ul>
@@ -42,12 +42,12 @@ export default function Involved() {
 							<li>Banquet coordinator</li>
 							<li>Event coordinator</li>
 							<li>Logistics coordinator</li>
-							<li>Exhibition constructions coordinator</li>
-							<li>Collaborations and lounge coordinator</li>
+							<li>Career Fair coordinator</li>
+							<li>Sponsorship and Lounge coordinator</li>
 							<li>Service coordinator</li>
-							<li>Recruitment coordinator</li>
+							<li>HR coordinator</li>
 							<li>Graphics coordinator</li>
-							<li>Marketing coordinator</li>
+							<li>PR coordinator</li>
 						</ul>
 					</div>
 
@@ -56,17 +56,17 @@ export default function Involved() {
 						<ul>
 							<li>Project manager</li>
 							<li>Deputy project manager</li>
-							<li>Head of banquet</li>
-							<li>Head of collaborations</li>
-							<li>Head of events</li>
-							<li>Head of exhibiton construction</li>
+							<li>Head of Banquet</li>
+							<li>Head of Sponsorship</li>
+							<li>Head of Events</li>
+							<li>Head of Career fair</li>
 							<li>Head of IT</li>
-							<li>Head of logistics</li>
-							<li>Head of lounge</li>
-							<li>Head of marketing</li>
-							<li>Head of organizations</li>
-							<li>Head of recruitment</li>
-							<li>Head of services</li>
+							<li>Head of Logistics</li>
+							<li>Head of Lounge</li>
+							<li>Head of PR</li>
+							<li>Head of Employer Relations</li>
+							<li>Head of HR</li>
+							<li>Head of Services</li>
 						</ul>
 					</div>
 				</div>
@@ -122,7 +122,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Banquett volunteer</h3>
+				<h3>Banquet volunteer</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -170,7 +170,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Organizations volunteer</h3>
+				<h3>Employer Relations volunteer</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -300,7 +300,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Exhibition constructions coordinator</h3>
+				<h3>Career Fair coordinator</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -312,7 +312,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Collaborations and lounge coordinator</h3>
+				<h3>Sponsorship and lounge coordinator</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -336,7 +336,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Recruitment coordinator</h3>
+				<h3>HR coordinator</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -360,7 +360,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Marketing coordinator</h3>
+				<h3>PR coordinator</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -395,9 +395,9 @@ export default function Involved() {
 					become part of a tightly intertwined group whom you must be able to
 					work and communicate with for the project to move forward. There are
 					13 different positions available. One of them is head of external
-					communications, which is tasked with the recruitment of organizations
-					to LARV and their communication. Another example is the position as
-					head of the career fair. This person is responsible for planning and
+					communications, which is tasked with the HR of Employer Relations to
+					LARV and their communication. Another example is the position as head
+					of the career fair. This person is responsible for planning and
 					creating the fair. More information regarding specific positions and
 					their tasks can be found below.
 				</p>
@@ -442,7 +442,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of banquet</h3>
+				<h3>Head of Banquet</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -454,7 +454,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of collaborations</h3>
+				<h3>Head of Sponsorship</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -466,7 +466,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of events</h3>
+				<h3>Head of Events</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -478,7 +478,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of exhibiton construction</h3>
+				<h3>Head of Career Fair</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -502,7 +502,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of logistics</h3>
+				<h3>Head of Logistics</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -514,7 +514,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of lounge</h3>
+				<h3>Head of Lounge</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -526,7 +526,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of marketing</h3>
+				<h3>Head of PR</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -538,7 +538,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of organizations</h3>
+				<h3>Head of Employer Relations</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -550,7 +550,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of recruitment</h3>
+				<h3>Head of HR</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -562,7 +562,7 @@ export default function Involved() {
 					adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo,
 					id euismod tortor tincidunt finibus.
 				</p>
-				<h3>Head of services</h3>
+				<h3>Head of Services</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 					non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.

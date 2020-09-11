@@ -27,7 +27,7 @@ export default function Contact() {
     {id:"4", name:"Matilda Segerlund", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:vakant},
     {id:"5", name:"Vakant", role:"Eventansvarig", email:"event@larv.org", imgSrc:vakant},
     {id:"6", name:"Vakant", role:"Samarbetsansvarig", email:"samarbete@larv.org", imgSrc:vakant},
-    {id:"7", name:"Elliot Huber", role:"Grafikansvarig", email:"grafiker@larv.org", imgSrc:vakant},
+    {id:"7", name:"Elliot Huber", role:"Grafisktansvarig", email:"grafiker@larv.org", imgSrc:vakant},
     {id:"8", name:"Tovah Parnes", role:"IT-ansvarig", email:"it@larv.org", imgSrc:vakant},
     {id:"9", name:"Magnus Stenfelt", role:"Mässbyggnadsansvarig", email:"massbyggnad@larv.org", imgSrc:vakant},
     {id:"10", name:"Vakant", role:"Logistikansvarig", email:"logistik@larv.org", imgSrc:vakant},
