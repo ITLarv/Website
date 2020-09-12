@@ -4,6 +4,7 @@ import logo from "../img/logo-red-transparent.png";
 import Countdown from "react-countdown";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useTranslation } from "react-i18next";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
@@ -26,8 +27,14 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 };
 
 export default function Home() {
+	const { t, i18n } = useTranslation();
+	const changeLanguage = (lng) => {
+		i18n.changeLanguage(lng);
+	};
 	return (
 		<>
+			<button onClick={() => changeLanguage("en")}>en</button>
+			<button onClick={() => changeLanguage("sv")}>sv</button>
 			<div className="home">
 				<div className="firstView">
 					<img src={logo} className="logoLarge" alt="logotype" />
@@ -55,10 +62,10 @@ export default function Home() {
 					</p>
 					<div className="twoButtons">
 						<NavLink className="button" to="/students">
-							STUDENTS
+							{t("GENERAL.STUDENTS")}
 						</NavLink>
 						<NavLink className="button" to="/organizations">
-							ORGANIZATIONS
+							{t("HOME.TEST")}
 						</NavLink>
 					</div>
 
