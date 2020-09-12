@@ -17,7 +17,11 @@ export default function Footer() {
 			</a>
 			<div className="sponsor">
 				<p>Powered by</p>
-				<a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://vercel.com?utm_source=website&utm_campaign=oss"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={vercel} alt="Vercel" />
 				</a>
 			</div>
