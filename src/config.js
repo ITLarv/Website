@@ -24,4 +24,11 @@ const map = () => {
 	};
 };
 
-export { devBranch, initialApplication, finalApplication, map };
+const catalog = () => {
+	return {
+		show: false,
+		currentYear: false,
+	};
+};
+
+export { devBranch, initialApplication, finalApplication, map, catalog };
