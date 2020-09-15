@@ -45,8 +45,8 @@ Yes, this project really _should_ contain tests. Any day now. It's the next thin
 
 # Hosting (Sponsored by Vercel)
 
-The website is hosted using [Vercel](https://vercel.com). The master (alpha) branch can be found on [website.larv.vercel.app](https://website.larv.vercel.app). Staging (beta) on [larv.vercel.app](https://larv.vercel.app). The production is (soon) [larv.org](https://larv.org).
+The website is hosted using [Vercel](https://vercel.com?utm_source=website&utm_campaign=oss). The master (alpha) branch can be found on [website.larv.vercel.app](https://website.larv.vercel.app). Staging (beta) on [larv.vercel.app](https://larv.vercel.app). The production is (soon) [larv.org](https://larv.org).
 
 Everything is deployed automatically using Webhooks.
 
-[![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com)
+[![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com?utm_source=website&utm_campaign=oss)
