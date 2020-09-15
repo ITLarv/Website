@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Coordinator() {
 	return (
@@ -32,6 +33,10 @@ export default function Coordinator() {
 				take on more responsibility, work on larger projects or want to gain a
 				deeper insight into exactly how LARV is planned.{" "}
 			</p>
+
+			<NavLink className="button" to="/involved/coordinator/application">
+				Coordinator
+			</NavLink>
 
 			<h3>Coordinator</h3>
 			<div className="dropdown-content">
@@ -170,7 +175,9 @@ export default function Coordinator() {
 				euismod tortor tincidunt finibus.
 			</p>
 
-			<h2>Apply for coordinator here</h2>
+			<NavLink className="button" to="/involved/coordinator/application">
+				Apply for Coordinator here
+			</NavLink>
 		</>
 	);
 }

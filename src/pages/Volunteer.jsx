@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Volunteer() {
 	return (
@@ -28,6 +29,10 @@ export default function Volunteer() {
 				simpler, less time-consuming commitment or gain a superficial insight
 				into LARV as a project.
 			</p>
+
+			<NavLink className="button" to="/involved/volunteer/application">
+				Apply for volunteer here
+			</NavLink>
 
 			<h3>Volunteer</h3>
 			<div className="dropdown-content">
@@ -153,7 +158,9 @@ export default function Volunteer() {
 				euismod tortor tincidunt finibus.
 			</p>
 
-			<h2>Apply for volunteer here</h2>
+			<NavLink className="button" to="/involved/volunteer/application">
+				Apply for volunteer here
+			</NavLink>
 		</>
 	);
 }
