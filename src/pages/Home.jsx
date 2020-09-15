@@ -2,8 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-red-transparent.png";
 import Countdown from "react-countdown";
-import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
@@ -34,11 +35,15 @@ export default function Home() {
 					<h1 className="titleLine">__________</h1>
 
 					<div className="twoIcons">
-						<FontAwesomeIcon icon={faPhoneAlt} className="icon" />
-						<FontAwesomeIcon icon={faPhoneAlt} className="icon" />
+						<a href="https://www.instagram.com/larv_teknologkaren/">
+							<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
+						</a>
+						<a href="https://www.facebook.com/LARVLTU/">
+							<FontAwesomeIcon icon={faFacebookSquare} className="icon" />
+						</a>
 					</div>
 
-					<h3>LARV at Luleå University of Technology</h3>
+					<h1>LARV at Luleå University of Technology</h1>
 
 					<Countdown date={larvDate} renderer={renderer}></Countdown>
 				</div>

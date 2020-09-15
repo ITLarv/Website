@@ -9,8 +9,12 @@
 		padding-left: -100px;
 		padding-right: -100px;
 
-		h3 {
+		h1 {
 			color: white;
+		}
+
+		.titleLine {
+			color: $main-color;
 		}
 
 		.countdown {
@@ -29,7 +33,9 @@
 		.twoIcons {
 			.icon {
 				color: white;
-				margin-right: 5px;
+				height: 50px;
+				width: 50px;
+				margin: 5px;
 			}
 		}
 	}
