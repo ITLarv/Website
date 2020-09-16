@@ -26,7 +26,7 @@ const map = () => {
 
 const catalog = () => {
 	return {
-		show: false,
+		show: true,
 		currentYear: false,
 	};
 };

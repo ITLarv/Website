@@ -30,22 +30,26 @@ export default function Catalog() {
 						job, are looking for specific types of students or are active within
 						a certain industry.
 					</p>
-					<iframe srcDoc={JexpoCatalog} title="Jexpo catalog" />;
+					<div className="jexpoCatalog">
+						<iframe srcDoc={JexpoCatalog} title="Jexpo catalog" />
+					</div>
 				</>
 			);
 		}
-		return (
+		/*return (
 			<p>
 				Soon you will find this years attending companies here. We'll make sure
 				to add a timer for that
 			</p>
-		);
+		);*/
 	};
 
 	return (
-		<div className="Catalog">
-			<h1>Catalog</h1>
-			{renderCatalog()}
-		</div>
+		<>
+			<div className="Catalog">
+				<h1>Catalog</h1>
+				{renderCatalog()}
+			</div>
+		</>
 	);
 }
