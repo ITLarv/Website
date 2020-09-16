@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { devBranch } from "./config";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -105,6 +105,8 @@ function App() {
 							path="/organizations/final-application"
 							component={FinalApplication}
 						/>
+						<Redirect from="/postbeskrivningar/pg" to="/involved" />
+						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
 						<Route component={NotFound} />
 					</Switch>
 				</div>
