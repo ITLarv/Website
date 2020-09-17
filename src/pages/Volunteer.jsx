@@ -31,7 +31,7 @@ export default function Volunteer() {
 			</p>
 
 			<NavLink className="button" to="/involved/volunteer/application">
-				Apply for volunteer here
+				Apply for volunteer here!
 			</NavLink>
 
 			<h3>Volunteer</h3>
@@ -159,7 +159,7 @@ export default function Volunteer() {
 			</p>
 
 			<NavLink className="button" to="/involved/volunteer/application">
-				Apply for volunteer here
+				Apply for volunteer here!
 			</NavLink>
 		</>
 	);

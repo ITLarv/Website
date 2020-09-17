@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function FinalApplication() {
 	return (
@@ -32,6 +33,10 @@ export default function FinalApplication() {
 				rekrytering@larv.org or projektledare@larv.org regarding any questions
 				you might have.
 			</p>
+
+			<NavLink className="button" to="/involved/pg/application">
+				Apply for PG here!
+			</NavLink>
 
 			<h3>PG</h3>
 			<div className="dropdown-content">
@@ -208,6 +213,10 @@ export default function FinalApplication() {
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
 			</p>
+
+			<NavLink className="button" to="/involved/pg/application">
+				Apply for PG here!
+			</NavLink>
 		</>
 	);
 }

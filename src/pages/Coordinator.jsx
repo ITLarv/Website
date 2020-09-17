@@ -35,7 +35,7 @@ export default function Coordinator() {
 			</p>
 
 			<NavLink className="button" to="/involved/coordinator/application">
-				Coordinator
+				Apply for Coordinator here!
 			</NavLink>
 
 			<h3>Coordinator</h3>
@@ -176,7 +176,7 @@ export default function Coordinator() {
 			</p>
 
 			<NavLink className="button" to="/involved/coordinator/application">
-				Apply for Coordinator here
+				Apply for Coordinator here!
 			</NavLink>
 		</>
 	);

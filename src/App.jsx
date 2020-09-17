@@ -20,6 +20,7 @@ import VolunteerApplication from "./pages/VolunteerApplication";
 import Coordinator from "./pages/Coordinator";
 import CoordinatorApplication from "./pages/CoordinatorApplication";
 import PG from "./pages/PG";
+import PGApplication from "./pages/PGAplication";
 import Organizations from "./pages/Organizations";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import InitialApplication from "./pages/InitialApplication";
@@ -86,6 +87,11 @@ function App() {
 							component={CoordinatorApplication}
 						/>
 						<Route exact path="/involved/pg" component={PG} />
+						<Route
+							exact
+							path="/involved/pg/application"
+							component={PGApplication}
+						/>
 						<Route exact path="/organizations" component={Organizations} />
 						<Route exact path="/organizations/faq">
 							<Faq questions={OrganizationsFAQ} />
