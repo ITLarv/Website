@@ -24,7 +24,7 @@ export default function Contact() {
 	const [pgList] = useState([
     {id:"2", name:"Peter Panduro", role:"Vice Projektledare", email:"viceprojektledare@larv.org", imgSrc:vakant},
     {id:"3", name:"Agnes Elliott", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:vakant},
-    {id:"4", name:"Matilda Segerlind", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:vakant},
+    {id:"4", name:"Matilda Segerlund", role:"Företagsansvarig", email:"anmalan@larv.org", imgSrc:vakant},
     {id:"5", name:"Vakant", role:"Eventansvarig", email:"event@larv.org", imgSrc:vakant},
     {id:"6", name:"Vakant", role:"Samarbetsansvarig", email:"samarbete@larv.org", imgSrc:vakant},
     {id:"7", name:"Elliot Huber", role:"Grafisktansvarig", email:"grafiker@larv.org", imgSrc:vakant},

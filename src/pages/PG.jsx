@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function FinalApplication() {
 	return (
 		<>
-			<h1>Project Groud (PG)</h1>
+			<h1>Project Group (PG)</h1>
 			<p>
 				As part of the project group you are given full responsibility for one
 				area of the project and is tasked with its planning and execution. You
