@@ -1,0 +1,45 @@
+.button {
+	color: white;
+	text-decoration: none;
+	font-size: 1.6rem;
+	background-color: $main-color;
+	padding: 5px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: outset;
+	border-color: $main-color;
+	border-width: 0.3rem;
+	border-radius: 5px;
+	width: max-content;
+}
+
+.twoButtons {
+	display: flex;
+	padding: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-grow: 2;
+
+	.button {
+		font-size: 2rem;
+		margin: 30px;
+		padding: 15px;
+		min-width: 300px;
+	}
+}
+
+.threeButtons {
+	display: flex;
+	padding: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-grow: 2;
+
+	.button {
+		font-size: 2rem;
+		margin: 30px;
+		padding: 15px;
+		min-width: 220px;
+	}
+}

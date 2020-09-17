@@ -1,27 +1,42 @@
-.firstView {
-	background-color: $secondary-color;
-	width: 100%;
-	right: 0;
-	left: 0;
-	position: relative;
-	padding-bottom: 50px;
-	padding-left: -100px;
-	padding-right: -100px;
+.home {
+	.firstView {
+		background-color: $secondary-color;
+		width: 100%;
+		right: 0;
+		left: 0;
+		position: relative;
+		padding-bottom: 50px;
+		padding-left: -100px;
+		padding-right: -100px;
 
-	h3 {
-		color: white;
-	}
+		h1 {
+			color: white;
+		}
 
-	.countdown {
-		color: white;
-		font-size: 2em;
-	}
+		.titleLine {
+			color: $main-color;
+		}
 
-	.logoLarge {
-		align-items: center;
-		height: auto;
-		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
+		.countdown {
+			color: white;
+			font-size: 2em;
+		}
+
+		.logoLarge {
+			align-items: center;
+			height: auto;
+			width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.twoIcons {
+			.icon {
+				color: white;
+				height: 50px;
+				width: 50px;
+				margin: 5px;
+			}
+		}
 	}
 }

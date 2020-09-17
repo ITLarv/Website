@@ -1,18 +1,22 @@
 import React from "react";
 import JexpoInitialApplication from "../components/Jexpo/JexpoInitialApplication.js";
 
-export default function InledandeAnmalan() {
+export default function InitialApplication() {
 	return (
-		<div>
+		<div className="jexpo-container">
 			<h1>Initial Application</h1>
-			<p>
-				The initial application is the first step for your organization to be a
-				part of LARV!
-			</p>
 			<iframe
+				title="jexpo-initial-application"
+				className="iframe-jexpo"
 				srcDoc={JexpoInitialApplication}
-				title="Jexpo Initial Application"
-			/>
+				width="500"
+				height="300"
+				frameborder="0"
+				marginheight="0"
+				marginwidth="0"
+			>
+				Läser in …
+			</iframe>
 		</div>
 	);
 }
