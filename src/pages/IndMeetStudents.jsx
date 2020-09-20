@@ -6,7 +6,7 @@ export default function InvidualMeetings() {
 			<h1>Individual meetings</h1>
 			<p>
 				Individual meetings is your chance to have in depth conversations with
-				representatives from certain organisations and get a foot through the
+				representatives from certain organisations and get your foot through the
 				door at your future employer. This service is for students who are
 				interested in knowing more about specific employers and what
 				opportunities they can offer them. The meetings are structured much like

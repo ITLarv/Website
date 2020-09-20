@@ -81,7 +81,7 @@ export default function FinalApplication() {
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
 			</p>
-			<h3>Head of Banquet</h3>
+			<h3>Head of Banquet - vacant</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -93,7 +93,7 @@ export default function FinalApplication() {
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
 			</p>
-			<h3>Head of Sponsorship</h3>
+			{/* <h3>Head of Sponsorship</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -104,7 +104,7 @@ export default function FinalApplication() {
 				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
-			</p>
+			</p> */}
 			<h3>Head of Events</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
@@ -141,7 +141,7 @@ export default function FinalApplication() {
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
 			</p>
-			<h3>Head of Logistics</h3>
+			<h3>Head of Logistics - vacant</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
