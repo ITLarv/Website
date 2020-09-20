@@ -3,7 +3,6 @@ import { CoordinatorApplication } from "../config";
 
 export default function CoordinatorAplication() {
 	const ApplicationOpen = CoordinatorApplication().open;
-	console.log({ ApplicationOpen });
 	return (
 		<>
 			{ApplicationOpen && (

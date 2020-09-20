@@ -33,7 +33,7 @@ const catalog = () => {
 
 const CoordinatorApplication = () => {
 	return {
-		open: false,
+		open: true,
 	};
 };
 
