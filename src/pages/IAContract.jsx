@@ -18,7 +18,7 @@ export default function MyApp() {
 	}, []);
 
 	return (
-		<div>
+		<div className="pdf">
 			<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
 				<Page pageNumber={pageNumber} />
 			</Document>
