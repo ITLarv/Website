@@ -9,8 +9,12 @@
 		padding-left: -100px;
 		padding-right: -100px;
 
-		h3 {
+		h1 {
 			color: white;
+		}
+
+		.titleLine {
+			color: $main-color;
 		}
 
 		.countdown {
@@ -21,15 +25,16 @@
 		.logoLarge {
 			align-items: center;
 			height: auto;
-			width: 60%;
-			margin-left: auto;
-			margin-right: auto;
+			width: 50%;
+			margin: 25px auto;
 		}
 
 		.twoIcons {
 			.icon {
 				color: white;
-				margin-right: 5px;
+				height: 50px;
+				width: 50px;
+				margin: 5px;
 			}
 		}
 	}

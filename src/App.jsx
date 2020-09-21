@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { devBranch } from "./config";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -13,11 +13,14 @@ import LARVMap from "./pages/Map";
 import PrepWeek from "./pages/PrepWeek";
 import Contact from "./pages/Contact";
 import Students from "./pages/Students";
-import Involved from "./pages/Involved";
 import IndMeetStudents from "./pages/IndMeetStudents";
+import Involved from "./pages/Involved";
 import Volunteer from "./pages/Volunteer";
+import VolunteerApplication from "./pages/VolunteerApplication";
 import Coordinator from "./pages/Coordinator";
+import CoordinatorApplication from "./pages/CoordinatorApplication";
 import PG from "./pages/PG";
+import PGApplication from "./pages/PGAplication";
 import Organizations from "./pages/Organizations";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import InitialApplication from "./pages/InitialApplication";
@@ -29,6 +32,7 @@ import "./css/App.min.css";
 import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
 import ScrollToTop from "./components/ScrollToTop";
+import IAContract from "./pages/IAContract";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -72,8 +76,23 @@ function Page() {
 						/>
 						<Route exact path="/involved" component={Involved} />
 						<Route exact path="/involved/volunteer" component={Volunteer} />
+						<Route
+							exact
+							path="/involved/volunteer/application"
+							component={VolunteerApplication}
+						/>
 						<Route exact path="/involved/coordinator" component={Coordinator} />
+						<Route
+							exact
+							path="/involved/coordinator/application"
+							component={CoordinatorApplication}
+						/>
 						<Route exact path="/involved/pg" component={PG} />
+						<Route
+							exact
+							path="/involved/pg/application"
+							component={PGApplication}
+						/>
 						<Route exact path="/organizations" component={Organizations} />
 						<Route exact path="/organizations/faq">
 							<Faq questions={OrganizationsFAQ} />
@@ -93,6 +112,14 @@ function Page() {
 							path="/organizations/final-application"
 							component={FinalApplication}
 						/>
+						<Route
+							exact
+							path="/organizations/LARV_IA_avtal_2021.pdf"
+							component={IAContract}
+						/>
+
+						<Redirect from="/postbeskrivningar/pg" to="/involved" />
+						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
 						<Route component={NotFound} />
 					</Switch>
 				</div>

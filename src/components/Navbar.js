@@ -139,7 +139,7 @@ export default function Navbar() {
 					<li>
 						<div className="dropdown">
 							<NavLink activeClassName="active" to="/organizations">
-								ORGANIZATONS
+								ORGANIZATIONS
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>

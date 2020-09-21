@@ -1,16 +1,17 @@
 .button {
 	color: white;
 	text-decoration: none;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	background-color: $main-color;
 	padding: 5px;
-	margin: 10px;
+	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border: outset;
 	border-color: $main-color;
 	border-width: 0.3rem;
 	border-radius: 5px;
+	width: max-content;
 }
 
 .twoButtons {

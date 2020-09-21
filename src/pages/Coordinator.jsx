@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Coordinator() {
 	return (
@@ -33,10 +34,14 @@ export default function Coordinator() {
 				deeper insight into exactly how LARV is planned.{" "}
 			</p>
 
-			<h3>Coordinator</h3>
+			<NavLink className="button" to="/involved/coordinator/application">
+				Apply for Coordinator here!
+			</NavLink>
+
+			<h3>Koordinatorer</h3>
 			<div className="dropdown-content">
 				<ul>
-					<li>Oranizations coordinator</li>
+					{/* <li>Oranizations coordinator</li>
 					<li>Banquet coordinator</li>
 					<li>Event coordinator</li>
 					<li>Logistics coordinator</li>
@@ -45,132 +50,86 @@ export default function Coordinator() {
 					<li>Service coordinator</li>
 					<li>HR coordinator</li>
 					<li>Graphics coordinator</li>
-					<li>PR coordinator</li>
+					<li>PR coordinator</li> */}
+					<li>Rekryteringskoordinator</li>
+					<li>Mässbyggnadskoordinator</li>
+					<li>Grafiskkoordinator</li>
+					<li>Marknadsföringskoordinator</li>
+					<li>IT-koordinator</li>
+					<li>Företagskoordinator</li>
+					<li>Servicekoordinator</li>
+					<li>Eventkoordinator</li>
 				</ul>
 			</div>
 
-			<h3>Oranizations coordinator</h3>
+			<h3>Rekryteringskoordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som rekryteringskoordinator hjälper du rekryteringsansvarig att
+				rekrytera LARV Crew (koordinatorer och värdar). Vill du lära dig mer om
+				hur du rekryterar rätt person till rätt ställe, är detta en post för
+				dig! Har du några frågor om att vara rekryteringskoordinator, kontakta
+				rekrytering@larv.org.
 			</p>
-			<h3>Banquet coordinator</h3>
+			<h3>Mässbyggnadskoordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som mässbyggnadskoordinator kommer du att hjälpa mässbyggnadsansvarig
+				med planering och utförande av launcher samt logistik. Har du några
+				frågor kring att vara mässbyggnadskoordinator, kontakta
+				massbyggnad@larv.org.
 			</p>
-			<h3>Event coordinator</h3>
+			<h3>Grafiskkoordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som grafisk koordinator har du ett nära samarbete med vår grafiskt
+				ansvariga. Du kommer att hjälpa till med olika grafiska arbeten som
+				ansvarig gör för marknadsföring och de andra i projektgruppen. Har du
+				några frågor kring att vara grafisk koordinator, kontakta
+				grafiker@larv.org.
 			</p>
-			<h3>Logistics coordinator</h3>
+			<h3>Marknadsföringskoordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som marknadsföringskoordinator kommer du att hjälpa
+				marknadsföringsansvarig med att marknadsföra de olika aktiviteterna som
+				har med LARV att göra. Detta sker på olika plattformar och du kommer att
+				jobba nära ansvarig med att få LARV att synas på LTU. Har du frågor om
+				att vara marknadsföringskoordinator, kontakta pr@larv.org.
 			</p>
-			<h3>Career Fair coordinator</h3>
+			<h3>IT-koordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som IT-koordinator hjälper du IT-ansvarig med att utveckla hemsidan, du
+				har kontakt med teknikvärdarna, hjälper resten av projektgruppen med
+				webservice samt ser till att tekniken fungerar under LARV. Har du frågor
+				om att vara IT-koordinator, kontakta it@larv.org.
 			</p>
-			<h3>Sponsorship and lounge coordinator</h3>
+			<h3>Företagskoordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som företagskoordinator kommer du att tillsammans med de
+				företagsansvariga med uppgifterna att kontakta företag till LARV, hjälpa
+				till med innovationsrummet samt arbeta med att söka sponsring.
+				Grundstenen i jobbet är att ha den initiala kontakten och pitcha till
+				företag varför just de ska komma till LARV. Har du några frågor om att
+				vara företagskoordinator, kontakta rekrytering@larv.org.
 			</p>
-			<h3>Service coordinator</h3>
+			<h3>Servicekoordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				En servicekoordinator hjälper serviceansvarig med att lotsa rätt
+				personer till rätt plats, vid rätt tidpunkt. Som servicekoordinator
+				hjälper du även till att anordna personliga samtal mellan studenter och
+				företag. Har du några frågor om att vara servicekoordinator, kontakta
+				service@larv.org.
 			</p>
-			<h3>HR coordinator</h3>
+			<h3>Eventkoordinator</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
-			</p>
-			<h3>Graphics coordinator</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
-			</p>
-			<h3>PR coordinator</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Vill du lära dig hur du anordnar event för andra? Som eventkoordinator
+				planerar du tillsammans med eventansvarig event kring LARV, detta gäller
+				både innan och under själva LARV-veckan. Det kan vara allt från en
+				awesome LARV-pub till att fixa de bästa lunchföreläsningarna! Tveka inte
+				att söka idag! Har du frågor kring att vara eventkoordinator, kontakta
+				revent@larv.org.
 			</p>
 
-			<h2>Apply for coordinator here</h2>
+			<NavLink className="button" to="/involved/coordinator/application">
+				Apply for Coordinator here!
+			</NavLink>
 		</>
 	);
 }

@@ -26,9 +26,36 @@ const map = () => {
 
 const catalog = () => {
 	return {
-		show: false,
+		show: true,
 		currentYear: false,
 	};
 };
 
-export { devBranch, initialApplication, finalApplication, map, catalog };
+const CoordinatorApplication = () => {
+	return {
+		open: true,
+	};
+};
+
+const VolunteerApplication = () => {
+	return {
+		open: true,
+	};
+};
+
+const PGApplication = () => {
+	return {
+		open: false,
+	};
+};
+
+export {
+	devBranch,
+	initialApplication,
+	finalApplication,
+	map,
+	catalog,
+	CoordinatorApplication,
+	VolunteerApplication,
+	PGApplication,
+};

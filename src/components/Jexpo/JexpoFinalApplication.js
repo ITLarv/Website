@@ -14,7 +14,7 @@ const JexpoFinalApplication = `
 			, endpoint:'p18.jexpo.se/larv'
 		}, function(){
 		Jexpo.dialog('app-dialog');
-		Jexpo.ExhibitorsFinalRegistration('app', {workspace:'2020'});
+		Jexpo.ExhibitorsFinalRegistration('app', {workspace:'2021'});
 		});
 	</script>
 `;

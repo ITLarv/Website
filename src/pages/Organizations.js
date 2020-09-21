@@ -18,7 +18,7 @@ export default function Companies() {
 
 			<p>
 				Are you an organization interested in LARV? Sign up for the initial
-				application here.
+				application here. Available untill october 23rd.
 			</p>
 
 			<NavLink className="button" to="/organizations/initial-application">
