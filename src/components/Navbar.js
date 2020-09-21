@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-white-transparent.png";
-import { initialApplication, map } from "../config";
+import { initialApplication, map, gallery } from "../config";
 
 export default function Navbar() {
 	const showIA = initialApplication().navLink;
 	const showMap = map().showMap;
+	const showGallery = gallery().show;
 
 	return (
 		<div className="navbar">
@@ -55,11 +56,17 @@ export default function Navbar() {
 											Catalog
 										</NavLink>
 									</li>
-									<li>
-										<NavLink exact activeClassName="active" to="/fair/gallery">
-											Gallery
-										</NavLink>
-									</li>
+									{showGallery && (
+										<li>
+											<NavLink
+												exact
+												activeClassName="active"
+												to="/fair/gallery"
+											>
+												Gallery
+											</NavLink>
+										</li>
+									)}
 								</ul>
 							</div>
 						</div>
