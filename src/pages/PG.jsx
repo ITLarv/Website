@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { PGApplication } from "../config";
 
 export default function FinalApplication() {
+	const ApplicationOpen = PGApplication().open;
 	return (
 		<>
 			<h1>Project Group (PG)</h1>
@@ -33,10 +35,11 @@ export default function FinalApplication() {
 				rekrytering@larv.org or projektledare@larv.org regarding any questions
 				you might have.
 			</p>
-
-			<NavLink className="button" to="/involved/pg/application">
-				Apply for PG here!
-			</NavLink>
+			{ApplicationOpen && (
+				<NavLink className="button" to="/involved/pg/application">
+					Apply for PG here!
+				</NavLink>
+			)}
 
 			<h3>PG</h3>
 			<div className="dropdown-content">
@@ -54,6 +57,7 @@ export default function FinalApplication() {
 					<li>Head of Employer Relations</li>
 					<li>Head of HR</li>
 					<li>Head of Services</li>
+					<li>Head of Graphics</li>
 				</ul>
 			</div>
 
@@ -93,7 +97,7 @@ export default function FinalApplication() {
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
 			</p>
-			{/* <h3>Head of Sponsorship</h3>
+			<h3>Head of Sponsorship</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
 				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
@@ -104,7 +108,7 @@ export default function FinalApplication() {
 				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
-			</p> */}
+			</p>
 			<h3>Head of Events</h3>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
@@ -213,10 +217,24 @@ export default function FinalApplication() {
 				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
 				euismod tortor tincidunt finibus.
 			</p>
+			<h3>Head of Graphics</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
+				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
+				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
+				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
+				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
+				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
+				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
+				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
+				euismod tortor tincidunt finibus.
+			</p>
 
-			<NavLink className="button" to="/involved/pg/application">
-				Apply for PG here!
-			</NavLink>
+			{ApplicationOpen && (
+				<NavLink className="button" to="/involved/pg/application">
+					Apply for PG here!
+				</NavLink>
+			)}
 		</>
 	);
 }
