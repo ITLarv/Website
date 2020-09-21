@@ -117,6 +117,10 @@ export default function Companies() {
 			</p>
 
 			<h2>Event portfolio</h2>
+			<p>
+				An event portfolio will be published here soon. Thank you for your
+				patience.
+			</p>
 		</div>
 	);
 }
