@@ -30,8 +30,8 @@ export default function Contact() {
     {id:"7", name:"Elliot Huber", role:"Grafisktansvarig", email:"grafiker@larv.org", imgSrc:vakant},
     {id:"8", name:"Tovah Parnes", role:"IT-ansvarig", email:"it@larv.org", imgSrc:vakant},
     {id:"9", name:"Magnus Stenfelt", role:"Mässbyggnadsansvarig", email:"massbyggnad@larv.org", imgSrc:vakant},
-    {id:"10", name:"Vakant", role:"Logistikansvarig", email:"logistik@larv.org", imgSrc:vakant},
-    {id:"11", name:"Vakant", role:"Bankettansvarig", email:"bankett@larv.org", imgSrc:vakant},
+    //{id:"10", name:"Vakant", role:"Logistikansvarig", email:"logistik@larv.org", imgSrc:vakant},
+    //{id:"11", name:"Vakant", role:"Bankettansvarig", email:"bankett@larv.org", imgSrc:vakant},
     {id:"12", name:"Emma Nilsson", role:"Rekryteringsansvarig", email:"rekrytering@larv.org", imgSrc:vakant},
 	{id:"13", name:"Martin Östman", role:"Serviceansvarig", email:"service@larv.org", imgSrc:vakant},
 	{id:"14", name:"Victoria Nordmark", role:"Marknadsföringsansvarig", email:"pr@larv.org", imgSrc:vakant}
