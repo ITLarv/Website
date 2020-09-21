@@ -2,10 +2,16 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-white-transparent.png";
 import { initialApplication, map } from "../config";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
 	const showIA = initialApplication().navLink;
 	const showMap = map().showMap;
+
+	const { t, i18n } = useTranslation();
+	const changeLanguage = (lng) => {
+		i18n.changeLanguage(lng);
+	};
 
 	return (
 		<div className="navbar">
@@ -14,22 +20,22 @@ export default function Navbar() {
 			</NavLink>
 			<input type="checkbox" id="nav-toggle" className="nav-toggle" />
 			<nav>
-				<ul>
+				<ul className="nav-ul">
 					<li>
 						<div className="dropdown">
 							<NavLink activeClassName="active" to="/home">
-								HOME
+								{t("NAVBAR.HOME")}
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
 									<li>
 										<NavLink exact activeClassName="active" to="/home/about">
-											About
+											{t("NAVBAR.ABOUT")}
 										</NavLink>
 									</li>
 									<li>
 										<NavLink exact activeClassName="active" to="/home/calendar">
-											Calendar
+											{t("NAVBAR.CALENDAR")}
 										</NavLink>
 									</li>
 								</ul>
@@ -39,25 +45,25 @@ export default function Navbar() {
 					<li>
 						<div className="dropdown">
 							<NavLink activeClassName="active" to="/fair">
-								FAIR
+								{t("NAVBAR.FAIR")}
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
 									{showMap && (
 										<li>
 											<NavLink exact activeClassName="active" to="/fair/map">
-												Map
+												{t("NAVBAR.MAP")}
 											</NavLink>
 										</li>
 									)}
 									<li>
 										<NavLink exact activeClassName="active" to="/fair/catalog">
-											Catalog
+											{t("NAVBAR.CATALOG")}
 										</NavLink>
 									</li>
 									<li>
 										<NavLink exact activeClassName="active" to="/fair/gallery">
-											Gallery
+											{t("NAVBAR.GALLERY")}
 										</NavLink>
 									</li>
 								</ul>
@@ -74,13 +80,13 @@ export default function Navbar() {
 					</li>
 					<li>
 						<NavLink exact activeClassName="active" to="/contact">
-							CONTACT
+							{t("NAVBAR.CONTACT")}
 						</NavLink>
 					</li>
 					<li>
 						<div className="dropdown">
 							<NavLink activeClassName="active" to="/students">
-								STUDENTS
+								{t("NAVBAR.STUDENTS")}
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
@@ -95,7 +101,7 @@ export default function Navbar() {
 											activeClassName="active"
 											to="/students/individual-meetings"
 										>
-											Individual Meetings
+											{t("NAVBAR.IM")}
 										</NavLink>
 									</li>
 								</ul>
@@ -105,7 +111,7 @@ export default function Navbar() {
 					<li>
 						<div className="dropdown">
 							<NavLink activeClassName="active" to="/involved">
-								GET INVOLVED
+								{t("NAVBAR.GET_INVOLVED")}
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
@@ -115,7 +121,7 @@ export default function Navbar() {
 											activeClassName="active"
 											to="/involved/volunteer"
 										>
-											Volunteer
+											{t("NAVBAR.VOLUNTEER")}
 										</NavLink>
 									</li>
 									<li>
@@ -124,12 +130,12 @@ export default function Navbar() {
 											activeClassName="active"
 											to="/involved/coordinator"
 										>
-											Coordinator
+											{t("NAVBAR.COORDINATOR")}
 										</NavLink>
 									</li>
 									<li>
 										<NavLink exact activeClassName="active" to="/involved/pg">
-											PG
+											{t("NAVBAR.PG")}
 										</NavLink>
 									</li>
 								</ul>
@@ -139,7 +145,7 @@ export default function Navbar() {
 					<li>
 						<div className="dropdown">
 							<NavLink activeClassName="active" to="/organizations">
-								ORGANIZATIONS
+								{t("NAVBAR.ORGANIZATIONS")}
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
@@ -158,7 +164,7 @@ export default function Navbar() {
 											activeClassName="active"
 											to="/organizations/individual-meetings"
 										>
-											Individual Meetings
+											{t("NAVBAR.IM")}
 										</NavLink>
 									</li>
 									{showIA && (
@@ -168,12 +174,18 @@ export default function Navbar() {
 												activeClassName="active"
 												to="/organizations/initial-application"
 											>
-												Initial Application
+												{t("NAVBAR.IA")}
 											</NavLink>
 										</li>
 									)}
 								</ul>
 							</div>
+						</div>
+					</li>
+					<li>
+						<div className="languages">
+							<button onClick={() => changeLanguage("en")}>en</button>
+							<button onClick={() => changeLanguage("sv")}>sv</button>
 						</div>
 					</li>
 				</ul>

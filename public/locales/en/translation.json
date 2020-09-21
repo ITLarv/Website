@@ -3,6 +3,24 @@
 		"STUDENTS": "Students",
 		"ORGANISATIONS": "Organisations"
 	},
+	"NAVBAR": {
+		"HOME": "HOME",
+		"ABOUT": "About",
+		"CALENDAR": "Calendar",
+		"FAIR": "FAIR",
+		"CATALOG": "Catalog",
+		"GALLERY": "Gallery",
+		"MAP": "MAP",
+		"CONTACT": "CONTACT",
+		"STUDENTS": "STUDENTS",
+		"IM": "Individual Meetings",
+		"GET_INVOLVED": "GET INVOLVED",
+		"VOLUNTEER": "Volunteer",
+		"COORDINATOR": "Coordinator",
+		"PG": "Project Group",
+		"ORGANIZATIONS": "ORGANIZATIONS",
+		"IA": "Initial Application"
+	},
 	"HOME": {
 		"TEST": "Testing"
 	}

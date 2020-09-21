@@ -3,12 +3,9 @@ import { NavLink } from "react-router-dom";
 import logo from "../img/logo-red-transparent.png";
 import Countdown from "react-countdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-<<<<<<< HEAD
 import { useTranslation } from "react-i18next";
-=======
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
->>>>>>> master
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
@@ -31,59 +28,51 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 };
 
 export default function Home() {
-	const { t, i18n } = useTranslation();
-	const changeLanguage = (lng) => {
-		i18n.changeLanguage(lng);
-	};
+	const { t } = useTranslation();
 	return (
-		<>
-			<button onClick={() => changeLanguage("en")}>en</button>
-			<button onClick={() => changeLanguage("sv")}>sv</button>
-			<div className="home">
-				<div className="firstView">
-					<img src={logo} className="logoLarge" alt="logotype" />
-					<h1 className="titleLine">__________</h1>
+		<div className="home">
+			<div className="firstView">
+				<img src={logo} className="logoLarge" alt="logotype" />
+				<h1 className="titleLine">__________</h1>
 
-					<div className="twoIcons">
-						<a href="https://www.instagram.com/larv_teknologkaren/">
-							<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
-						</a>
-						<a href="https://www.facebook.com/LARVLTU/">
-							<FontAwesomeIcon icon={faFacebookSquare} className="icon" />
-						</a>
-					</div>
-
-					<h1>LARV at Luleå University of Technology</h1>
-
-					<Countdown date={larvDate} renderer={renderer}></Countdown>
+				<div className="twoIcons">
+					<a href="https://www.instagram.com/larv_teknologkaren/">
+						<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
+					</a>
+					<a href="https://www.facebook.com/LARVLTU/">
+						<FontAwesomeIcon icon={faFacebookSquare} className="icon" />
+					</a>
 				</div>
 
-				<div className="content">
-					<p>
-						LARV, short for Luleå arbetsmarknadsvecka, is the largest event held
-						annually at Luleå university of technology. LARV is a project
-						dedicated to help students advance their professional careers and to
-						help employers find the competence of tomorrow. This is done through
-						a week filled with career related events, inspiring seminars and
-						most importantly a fair involving over 110 organisations and 2000
-						students.
-					</p>
-					<div className="twoButtons">
-						<NavLink className="button" to="/students">
-							{t("GENERAL.STUDENTS")}
-						</NavLink>
-						<NavLink className="button" to="/organizations">
-							{t("HOME.TEST")}
-						</NavLink>
-					</div>
+				<h1>LARV at Luleå University of Technology</h1>
 
-					<h1>News</h1>
-					<p>
-						When there are updates to LARV or to the LARV website they will be
-						posted here.
-					</p>
-				</div>
+				<Countdown date={larvDate} renderer={renderer}></Countdown>
 			</div>
-		</>
+
+			<div className="content">
+				<p>
+					LARV, short for Luleå arbetsmarknadsvecka, is the largest event held
+					annually at Luleå university of technology. LARV is a project
+					dedicated to help students advance their professional careers and to
+					help employers find the competence of tomorrow. This is done through a
+					week filled with career related events, inspiring seminars and most
+					importantly a fair involving over 110 organisations and 2000 students.
+				</p>
+				<div className="twoButtons">
+					<NavLink className="button" to="/students">
+						{t("GENERAL.STUDENTS")}
+					</NavLink>
+					<NavLink className="button" to="/organizations">
+						{t("HOME.TEST")}
+					</NavLink>
+				</div>
+
+				<h1>News</h1>
+				<p>
+					When there are updates to LARV or to the LARV website they will be
+					posted here.
+				</p>
+			</div>
+		</div>
 	);
 }

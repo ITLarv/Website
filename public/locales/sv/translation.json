@@ -3,6 +3,24 @@
 		"STUDENTS": "Studenter",
 		"ORGANISATIONS": "Företag"
 	},
+	"NAVBAR": {
+		"HOME": "HEM",
+		"ABOUT": "Om",
+		"CALENDAR": "Kalender",
+		"FAIR": "MÄSSAN",
+		"CATALOG": "Katalog",
+		"GALLERY": "Galleri",
+		"MAP": "KARTA",
+		"CONTACT": "KONTAKT",
+		"STUDENTS": "STUDENTER",
+		"IM": "Individuella samtal",
+		"GET_INVOLVED": "ENGAGERA DIG",
+		"VOLUNTEER": "Värd",
+		"COORDINATOR": "Koordinator",
+		"PG": "Projektgruppen",
+		"ORGANIZATIONS": "FÖRETAG",
+		"IA": "Inledande anmälan"
+	},
 	"HOME": {
 		"TEST": "Testar"
 	}
