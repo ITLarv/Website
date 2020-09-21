@@ -32,6 +32,7 @@ import "./css/App.min.css";
 import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
 import ScrollToTop from "./components/ScrollToTop";
+import IAContract from "./pages/IAContract";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -111,6 +112,12 @@ function App() {
 							path="/organizations/final-application"
 							component={FinalApplication}
 						/>
+						<Route
+							exact
+							path="/organizations/LARV_IA_avtal_2021.pdf"
+							component={IAContract}
+						/>
+
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
 						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
 						<Route component={NotFound} />
