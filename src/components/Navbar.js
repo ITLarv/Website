@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import logo from "../img/logo-white-transparent.png";
 import { initialApplication, map } from "../config";
 import { useTranslation } from "react-i18next";
+import sv from "../img/flags/se.png";
+import gb from "../img/flags/gb.png";
 
 export default function Navbar() {
 	const showIA = initialApplication().navLink;
@@ -184,8 +186,22 @@ export default function Navbar() {
 					</li>
 					<li>
 						<div className="languages">
-							<button onClick={() => changeLanguage("en")}>en</button>
-							<button onClick={() => changeLanguage("sv")}>sv</button>
+							<input
+								type="image"
+								alt="english language"
+								src={gb}
+								width="32px"
+								height="auto"
+								onClick={() => changeLanguage("en")}
+							/>
+							<input
+								type="image"
+								alt="svenskt språk"
+								src={sv}
+								width="32px"
+								height="auto"
+								onClick={() => changeLanguage("sv")}
+							/>
 						</div>
 					</li>
 				</ul>
