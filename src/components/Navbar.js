@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-white-transparent.png";
-import { initialApplication, map } from "../config";
+import { initialApplication, map, gallery } from "../config";
 import { useTranslation } from "react-i18next";
 import sv from "../img/flags/se.png";
 import gb from "../img/flags/gb.png";
@@ -9,6 +9,7 @@ import gb from "../img/flags/gb.png";
 export default function Navbar() {
 	const showIA = initialApplication().navLink;
 	const showMap = map().showMap;
+	const showGallery = gallery().show;
 
 	const { t, i18n } = useTranslation();
 	const changeLanguage = (lng) => {
@@ -63,11 +64,17 @@ export default function Navbar() {
 											{t("NAVBAR.CATALOG")}
 										</NavLink>
 									</li>
-									<li>
-										<NavLink exact activeClassName="active" to="/fair/gallery">
-											{t("NAVBAR.GALLERY")}
-										</NavLink>
-									</li>
+									{showGallery && (
+										<li>
+											<NavLink
+												exact
+												activeClassName="active"
+												to="/fair/gallery"
+											>
+												{t("NAVBAR.GALLERY")}
+											</NavLink>
+										</li>
+									)}
 								</ul>
 							</div>
 						</div>
