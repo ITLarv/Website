@@ -27,10 +27,6 @@ export default function Companies() {
 				<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_4")}</li>
 				<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_5")}</li>
 				<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_6")}</li>
-				<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_7")}</li>
-				<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_8")}</li>
-				<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_9")}</li>
-				<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_10")}</li>
 			</ul>
 			<p>{t("ORGANIZATIONS.THE_FAIR.PRICING.EXTRAS")}</p>
 
