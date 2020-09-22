@@ -44,34 +44,24 @@ export default function Home() {
 					</a>
 				</div>
 
-				<h1>LARV at Luleå University of Technology</h1>
+				<h1>{t("HOME.HEADER")}</h1>
 
 				<Countdown date={larvDate} renderer={renderer}></Countdown>
 			</div>
 
 			<div className="content">
-				<p>
-					LARV, short for Luleå arbetsmarknadsvecka, is the largest event held
-					annually at Luleå university of technology. LARV is a project
-					dedicated to help students advance their professional careers and to
-					help employers find the competence of tomorrow. This is done through a
-					week filled with career related events, inspiring seminars and most
-					importantly a fair involving over 110 organisations and 2000 students.
-				</p>
+				<p>{t("HOME.INFO")}</p>
 				<div className="twoButtons">
 					<NavLink className="button" to="/students">
 						{t("GENERAL.STUDENTS")}
 					</NavLink>
 					<NavLink className="button" to="/organizations">
-						{t("HOME.TEST")}
+						{t("GENERAL.ORGANIZATIONS")}
 					</NavLink>
 				</div>
 
-				<h1>News</h1>
-				<p>
-					When there are updates to LARV or to the LARV website they will be
-					posted here.
-				</p>
+				<h1>{t("HOME.NEWS")}</h1>
+				<p>{t("HOME.NEWS_CONTENT")}</p>
 			</div>
 		</div>
 	);
