@@ -50,70 +50,30 @@ export default function Companies() {
 
 			<h2>Base package and price</h2>
 			<p>
-				The fair base package costs 24 000 kr. This package includes the
-				following…
+				Bellow is a list of everything included in the base package offered to
+				the participating organizations. When designing events, a dialog with
+				the project group will be established for further details.
 			</p>
+			<h3>Price for the base package: 24.000 sek</h3>
 			<ul>
-				<li>Booth area: 3x2 m, height: 2,2 m </li>
-				<li>
-					A personal host which will be your contact person before, during and
-					after the fair
-				</li>
-				<li>2 lunch tickets</li>
-				<li>2 banquet tickets</li>
-				<li>A place in our digital catalogue</li>
+				<li>Access to and help with setting up a digital fair stand</li>
+				<li>A spread in our digital fair catalog</li>
 				<li>Marketing leading up to the fair</li>
-				<li>Access to WIFI and electric outlets</li>
-				<li>Access to the pre-LARV mingle</li>
+				<li>Access to the individual meetings service</li>
 				<li>
-					Access to services such as reception desks, lounges and wardrobe
-					attendants
+					The oppuprtunity to send keychains, water bottles, cloth bags, and
+					other merchandice that can be distributed on site during the fair
 				</li>
-				<li>Free parking in close proximity to the fair area</li>
+
+				<li>
+					Access to a contact person before, during and after the far who can
+					anwer any questions you may have
+				</li>
 			</ul>
 			<p>
 				There are a handful of additional extras available to those who want to
-				stand out among the crowd as the fair. See the full product catalog for
-				more information.{" "}
-			</p>
-
-			<h2>The way to the fair</h2>
-			<p>
-				Before: If you were quick enough your organization will get an invite to
-				attend the fair at the end of october. This invite is a form which you
-				will have a certain amount of time to fill in all the details of. At the
-				end of december you will be assigned a host. A host is a student which
-				is part of the LARV-crew and whose job is to act as your contact person
-				before, during and after the fair. They will contact you and answer any
-				questions you might have regarding LARV and the form. In january the
-				same host will contact you again to make sure that everything is in
-				order regarding your attendance at the fair. Your organization will
-				before the new year be sent an invoice for the fair base package.
-			</p>
-			<p>
-				Travel: Larv offers shuttle services which you can book if your
-				organization is not situated in Luleå. We will then pick your
-				organization’s representatives at the airport, train or bus station and
-				shuttle them to their hotel, alternatively directly to the fair. More
-				information regarding this service can be found in the form.
-			</p>
-			<p>
-				During: The day before the fair you will have to check in your
-				organization at our reception desk. Whatever goods you might have sent
-				to us will then be delivered to your organization's place on the fair so
-				you can set it up. You will have to have done this before 9 AM on the
-				day of the fair. During the day of the fair your assigned host will
-				assist you with any questions you may have. There will be a number of
-				lounges available to your representatives where they can get coffee, a
-				snack and relax whenever they feel like it. At 15 PM the fair will close
-				and you will have to pack all your things which then will be handled by
-				the LARV-crew according to your predetermined demands.
-			</p>
-			<p>
-				After: Your organization will be sent an invoice for all the additional
-				extras you added to your fair experience as well as other events your
-				organization has participated in. Your host will also be in touch with
-				you and thank you for your attendance.
+				stand out during the fair. See the full product catalog for more
+				information.{" "}
 			</p>
 
 			<h2>Event portfolio</h2>
