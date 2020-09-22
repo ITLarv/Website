@@ -61,22 +61,24 @@ nav {
 	position: absolute;
 	text-align: left;
 	overflow-y: auto;
-	top: 100%;
+	top: $navbar-height;
+	bottom: 0;
 	left: 0;
 	height: 100vh;
 	background: $main-color-alpha;
-	width: auto;
 	transform: scale(0, 1);
 	transform-origin: left;
 	transition: transform 400ms ease-in-out;
 	overflow: scroll;
-	padding-bottom: $navbar-height;
 
 	ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		//margin-right: 3em;
+	}
+
+	.nav-ul {
+		padding-bottom: 80px;
 	}
 
 	li {
@@ -114,6 +116,11 @@ nav {
 .nav-toggle:checked ~ nav a {
 	opacity: 1;
 	transition: opacity 250ms ease-in-out 250ms;
+}
+
+.languages {
+	display: flex;
+	justify-content: space-evenly;
 }
 
 @media screen and (min-width: $shrink-width) {
@@ -242,6 +249,11 @@ nav {
 				}
 			}
 		}
+	}
+
+	.languages {
+		flex-direction: column;
+		height: 80px;
 	}
 
 	@media screen and (min-width: 1200px) {

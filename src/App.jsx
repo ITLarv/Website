@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { devBranch } from "./config";
 import Navbar from "./components/Navbar";
@@ -45,7 +45,7 @@ function DevBranchBanner() {
 	return null;
 }
 
-function App() {
+function Page() {
 	return (
 		<BrowserRouter>
 			<DevBranchBanner />
@@ -129,4 +129,17 @@ function App() {
 	);
 }
 
-export default App;
+const Loader = () => (
+	<div className="App">
+		{/* <img src={logo} className="App-logo" alt="logo" /> */}
+		<div>loading...</div>
+	</div>
+);
+
+export default function App() {
+	return (
+		<Suspense fallback={<Loader />}>
+			<Page />
+		</Suspense>
+	);
+}

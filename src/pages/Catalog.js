@@ -1,8 +1,10 @@
 import React from "react";
 import JexpoCatalog from "../components/Jexpo/JexpoCatalog.js";
 import { catalog } from "../config";
+import { useTranslation } from "react-i18next";
 
 export default function Catalog() {
+	const { t } = useTranslation();
 	const showCatalog = catalog().show;
 	const currentYear = catalog().currentYear;
 
@@ -10,26 +12,9 @@ export default function Catalog() {
 		if (showCatalog) {
 			return (
 				<>
-					<p>
-						In this catalog you can find information about organizations which
-						has previously attended LARV. Each organization is represented by a
-						square. By clicking on this square specific information can be found
-						regarding the organization, which industry they are active in, which
-						types of students they are looking for and what kind of
-						opportunities they are offering.
-					</p>
-					{!currentYear && (
-						<p>
-							The catalog for LARV2021 is not yet published, but please have a
-							look at last years attending companies.
-						</p>
-					)}
-					<p>
-						The search function at the top of the catalog is also available. You
-						can utilize this to find exhibitors which offer a specific type of
-						job, are looking for specific types of students or are active within
-						a certain industry.
-					</p>
+					<p>{t("CATALOG.INFO")}</p>
+					{!currentYear && <p>{t("CATALOG.NOT_CURRENT_YEAR")}</p>}
+					<p>{t("CATALOG.SEARCH")}</p>
 					<div className="jexpoCatalog">
 						<iframe srcDoc={JexpoCatalog} title="Jexpo catalog" />
 					</div>
@@ -47,7 +32,7 @@ export default function Catalog() {
 	return (
 		<>
 			<div className="Catalog">
-				<h1>Catalog</h1>
+				<h1>{t("GENERAL.CATALOG")}</h1>
 				{renderCatalog()}
 			</div>
 		</>
