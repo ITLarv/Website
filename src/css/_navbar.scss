@@ -61,15 +61,16 @@ nav {
 	position: absolute;
 	text-align: left;
 	overflow-y: auto;
-	top: $navbar-height;
-	bottom: 0;
+	top: 100%;
 	left: 0;
 	height: 100vh;
 	background: $main-color-alpha;
+	width: auto;
 	transform: scale(0, 1);
 	transform-origin: left;
 	transition: transform 400ms ease-in-out;
 	overflow: scroll;
+	padding-bottom: $navbar-height;
 
 	ul {
 		margin: 0;
@@ -77,8 +78,10 @@ nav {
 		list-style: none;
 	}
 
-	.nav-ul {
-		padding-bottom: 80px;
+	@-moz-document url-prefix() {
+		.nav-ul {
+			padding-bottom: 80px;
+		}
 	}
 
 	li {
@@ -87,7 +90,7 @@ nav {
 	}
 
 	a {
-		color: white;
+		// color: white;
 		text-decoration: none;
 		font-size: 1.2rem;
 		opacity: 0;
@@ -101,6 +104,11 @@ nav {
 			font-size: 1rem;
 		}
 	}
+}
+
+a:any-link {
+	color: white;
+	-webkit-text-fill-color: white;
 }
 
 .logo {
@@ -179,10 +187,6 @@ nav {
 			opacity: 1;
 			position: relative;
 			font-size: 0.9rem;
-
-			&:hover {
-				color: white;
-			}
 
 			&::before {
 				content: "";
