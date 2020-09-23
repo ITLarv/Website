@@ -30,13 +30,9 @@ export default function Companies() {
 			</ul>
 			<p>{t("ORGANIZATIONS.THE_FAIR.PRICING.EXTRAS")}</p>
 
-			<h2>{t("ORGANIZATIONS.THE_FAIR.DIRECTIONS.HEADER")}</h2>
-			<p>{t("ORGANIZATIONS.THE_FAIR.DIRECTIONS.INFO_1")}.</p>
-			<p>{t("ORGANIZATIONS.THE_FAIR.DIRECTIONS.INFO_2")}</p>
-			<p>{t("ORGANIZATIONS.THE_FAIR.DIRECTIONS.INFO_3")}.</p>
-			<p>{t("ORGANIZATIONS.THE_FAIR.DIRECTIONS.INFO_4")}.</p>
-
-			<h2>{t("ORGANIZATIONS.THE_FAIR.PORTFOLIO.HEADER")}</h2>
+			<NavLink className="button" to="/organizations/prislista_digital.pdf">
+				{t("ORGANIZATIONS.THE_FAIR.PORTFOLIO.HEADER")}
+			</NavLink>
 		</div>
 	);
 }

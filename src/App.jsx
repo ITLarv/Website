@@ -122,7 +122,7 @@ function Page() {
 						/>
 						<Route
 							exact
-							path="/organizations/Prislista_digital.pdf"
+							path="/organizations/prislista_digital.pdf"
 							component={Pricelist}
 						/>
 						<Route
