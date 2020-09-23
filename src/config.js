@@ -24,6 +24,12 @@ const map = () => {
 	};
 };
 
+const gallery = () => {
+	return {
+		show: false,
+	};
+};
+
 const catalog = () => {
 	return {
 		show: true,
@@ -58,4 +64,5 @@ export {
 	CoordinatorApplication,
 	VolunteerApplication,
 	PGApplication,
+	gallery,
 };

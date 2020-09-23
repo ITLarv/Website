@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { devBranch } from "./config";
 import Navbar from "./components/Navbar";
@@ -33,6 +33,9 @@ import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
 import ScrollToTop from "./components/ScrollToTop";
 import IAContract from "./pages/IAContract";
+import Pricelist from "./pages/Pricelist";
+import InvitationDigital from "./pages/InvitationDigital";
+import InvitationInnovation from "./pages/InvitationInnovation";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -45,7 +48,7 @@ function DevBranchBanner() {
 	return null;
 }
 
-function App() {
+function Page() {
 	return (
 		<BrowserRouter>
 			<DevBranchBanner />
@@ -117,6 +120,21 @@ function App() {
 							path="/organizations/LARV_IA_avtal_2021.pdf"
 							component={IAContract}
 						/>
+						<Route
+							exact
+							path="/organizations/prislista_digital.pdf"
+							component={Pricelist}
+						/>
+						<Route
+							exact
+							path="/organizations/inbjudan_digital.pdf"
+							component={InvitationDigital}
+						/>
+						<Route
+							exact
+							path="/organizations/inbjudan_innovationsrum.pdf"
+							component={InvitationInnovation}
+						/>
 
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
 						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
@@ -129,4 +147,17 @@ function App() {
 	);
 }
 
-export default App;
+const Loader = () => (
+	<div className="App">
+		{/* <img src={logo} className="App-logo" alt="logo" /> */}
+		<div>loading...</div>
+	</div>
+);
+
+export default function App() {
+	return (
+		<Suspense fallback={<Loader />}>
+			<Page />
+		</Suspense>
+	);
+}

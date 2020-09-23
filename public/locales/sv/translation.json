@@ -1,0 +1,167 @@
+{
+	"GENERAL": {
+		"STUDENTS": "Studenter",
+		"ORGANIZATIONS": "Företag",
+		"CALENDAR": "Kalender",
+		"CATALOG": "Katalog",
+		"VOLUNTEER": "Värdar",
+		"COORDINATOR": "Koordinatorer",
+		"PG": "Projektgruppen (PG)"
+	},
+	"ROLES": {
+		"PG": {
+			"PL": "Projektledare",
+			"VPL": "Vice projektledare",
+			"FTG": "Företagsansvarig",
+			"SAMARBETE": "Samarbetsansvarig",
+			"EVENT": "Eventansvarig",
+			"GRAFIK": "Grafiskt ansvarig",
+			"IT": "IT-ansvarig",
+			"MÄSSA": "Mässbyggnadsansvarig",
+			"LOGISTIK": "Logistikansvarig",
+			"BANKETT": "Bankettansvarig",
+			"REKRYTERING": "Rekryteringsansvarig",
+			"SERVICE": "Serviceansvarig",
+			"PR": "Marknadsföringsansvarig"
+		},
+		"COORDINATORS": {
+			"FTG": "Företagskoordinator",
+			"SAMARBETE": "Samarbete- och sponskoordinator",
+			"EVENT": "Eventkoordinator",
+			"GRAFIK": "Grafikkoordinator",
+			"IT": "IT-koordinator",
+			"MÄSSA": "Mässbyggnadskoordinator",
+			"LOGISTIK": "Logistikkoordinator",
+			"BANKETT": "Bankettkoordinator",
+			"REKRYTERING": "Rekryteringskoordinator",
+			"SERVICE": "Servicekoordinator",
+			"PR": "Marknadsföringskoordinator"
+		},
+		"VOLUNTEERS": {
+			"FTG": "Företagsvärd",
+			"EVENT": "Eventvärd",
+			"IT": "IT- och teknikvärd",
+			"LOUNGE": "Loungevärd",
+			"SERVICE": "Servicevärd",
+			"CHAUFFÖR": "Chaufför",
+			"NATT": "Nattvakt",
+			"TI": "The Incredibles"
+		}
+	},
+	"NAVBAR": {
+		"HOME": "HEM",
+		"ABOUT": "Om",
+		"CALENDAR": "Kalender",
+		"FAIR": "MÄSSAN",
+		"CATALOG": "Katalog",
+		"GALLERY": "Galleri",
+		"MAP": "KARTA",
+		"CONTACT": "KONTAKT",
+		"STUDENTS": "STUDENTER",
+		"IM": "Individuella samtal",
+		"GET_INVOLVED": "ENGAGERA DIG",
+		"VOLUNTEER": "Värd",
+		"COORDINATOR": "Koordinator",
+		"PG": "Projektgruppen",
+		"ORGANIZATIONS": "FÖRETAG",
+		"IA": "Inledande anmälan"
+	},
+	"HOME": {
+		"HEADER": "LARV vid Luleå tekniska universitet",
+		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa företag att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade events, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 företag and 2000 studenter.",
+		"NEWS": "Nyheter",
+		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org."
+	},
+	"ABOUT": {
+		"HEADER": "Om LARV",
+		"INFO_1": "LARV, short for Luleå arbetsmarknadsvecka, is a series of events held annually at Luleå university of technology. LARV has since 1983 been hosted by the student union of engineering and is a project with the purpose to help students advance their professional careers and to prepare them for life after graduation. For many years the project has kept growing and does today involve over 110 organisations, 2000+ students and grosses close to 3 Mkr in revenue. This makes it the most comprehensive event at LTU.",
+		"INFO_2": "The acronym LARV roughly translates to Luleå career week. As the name suggests, the project is mostly about planning a week dedicated to student career development. Usually occurring during the 3rd week of january, LARV provides events such as inspiring seminars, workshops, career coaching, individual meetings between students and organisations. The largest event held during LARV is the LARV-fair. This fair acts as a platform for students and companies to truly get to know each other. The fair is a one day event and ends with a grand banquet which every company and involved student is invited to attend.",
+		"INFO_3": "Prep-week is another major part of the project. This is a week held a couple of months before main week with the intent to prepare students for LARV. This is done through informative seminars regarding LARV, how to present yourself to companies, how to get started with and use LinkedIn, how to write a cover letter and other events in the same category.",
+		"INFO_4": "Are you a student that wants to get involved or an organization that wants to be a part of LARV? Read more about what LARV can do for you as a student or your organization here…"
+	},
+	"CATALOG": {
+		"NOT_CURRENT_YEAR": "The catalog for LARV2021 is not yet published, but please have a look at last years attending companies",
+		"INFO": "In this catalog you can find information about organizations which has previously attended LARV. Each organization is represented by a square. By clicking on this square specific information can be found regarding the organization, which industry they are active in, which types of students they are looking for and what kind of opportunities they are offering.",
+		"SEARCH": "The search function at the top of the catalog is also available. You can utilize this to find exhibitors which offer a specific type of job, are looking for specific types of students or are active within a certain industry"
+	},
+	"GALLERY": {
+		"HEADER": "Galleri"
+	},
+	"PREP_WEEK": {
+		"HEADER": "Prep-Week",
+		"INFO": "Prep-week is another major part of the LARV project. This is a week held a couple of months before main week with the intent to prepare students for LARV. This is done through informative seminars regarding LARV, how to present yourself to companies, how to get started with and use LinkedIn, how to write a cover letter etc.. By hosting Prep-week awareness of LARV is increased and the students are made sure to be prepared to meet the attending organizations during LARV.",
+		"ACTIVITIES": {
+			"HEADER": "Activities during prep-week",
+			"INFO": "Some of the activities that can be held during Prep-week are…",
+			"LIST_1": "Informative seminars about LARV",
+			"LIST_2": "Guest seminars from organizations",
+			"LIST_3": "Seminars from Career center:",
+			"LIST_3_1": "How to write a cover letter",
+			"LIST_3_2": "How to write an attractive CV",
+			"LIST_3_3": "Mastering the elevator pitch",
+			"LIST_4": "Workshops",
+			"LIST_5": "LARV-pub at STUK for students",
+			"LIST_6": "Case solving",
+			"LIST_7": "Breakfast talks with organizations",
+			"STUDENTS_MORE": "For more information about the different activities check out the calendar.",
+			"ORGANIZATIONS_MORE": "Does your organization wish to be a part of Prep-week? Read more about in formation regarding organization attendance at our organizations page…"
+		}
+	},
+	"IM": {
+		"HEADER": "Individuella samtal",
+		"STUDENTS": {
+			"INFO_1": "Individual meetings is your chance to have in depth conversations with representatives from certain organisations and get your foot through the door at your future employer. This service is for students who are interested in knowing more about specific employers and what opportunities they can offer them. The meetings are structured much like a casual job interview. You and the representative are free to talk about anything you feel is relevant.",
+			"INFO_2": "When you sign up for a meeting you will have the option to choose which organizations you would like to have meetings with. You will have to provide us with a CV so we can make sure that you and the organization's interests are inline with each other. The meetings are about 30 minutes long and you can book as many meetings as you can manage. However, you can only book one meeting per organization",
+			"INFO_3": "Interested in booking a meeting? Tell us you are interested by filling out the form below. We will get back to you as soon as the participating organizations has been determined."
+		},
+		"ORGANIZATIONS": {
+			"INFO_1": "Individual meetings is a service which is highly appreciated by both students and organizations. Individual meetings allows representatives from your organization to sit down and have personal talks with students in a private, relaxed environment. This is a great way to find possible future colleagues and get to know what students prioritize when looking at employers. The meetings are 30 minutes long and you will be given a room for the whole day of the fair where you can conduct as many meetings as you can manage.",
+			"INFO_2": "If your organization want to participate in the meetings you will send us specifics regarding what types of student you preferably would like to talk to. When the students sign up for the meetings they will provide us with a CV. We will then select the appropriate students for your meetings. The price for this service is 4000kr for the whole day.",
+			"INFO_3": "Applications are yet to open but you can report your interest by signing the form below. We will then contact you once the application form is open"
+		}
+	},
+	"GET_INVOLVED": {
+		"HEADER": "Engagera dig i LARV",
+		"INFO_1": "Personal development, valuable experience, stimulating tasks and loads of fun. This is what an involvement in LARV offers you as a student, no matter if you are looking for something small to do on the side of the studies or something to completely throw yourself into. It's the 140 involved students that makes LARV possible every year so take the chance to make your mark on the project!",
+		"INFO_2": "LARV offers different levels of involvement when it comes to the time required or the tasks which you will perform."
+	},
+	"ORGANIZATIONS": {
+		"HEADER": "Låt LARV hjälpa dig att hitta morgondagens kompetens",
+		"IM": "Individuella samtal",
+		"INFO": "LARV is a platform where you as an organization is able to meet the students of Luleå university of technology. We offer a great many different ways for your organization to interact with students and excel in providing services within the areas of recruitment and employer branding. The services we offer are listed below. When signing up for an event in relation to LARV marketing of the event is included in the price. If you as an organization has certain requirements regarding marketing we will take that into consideration.",
+		"INFO_2": "Are you an organization interested in LARV? Sign up for the initial application here. Available untill october 23rd.",
+		"THE_FAIR": {
+			"HEADER": "Mässan",
+			"INFO": "The LARV-fair is perhaps the event which provides the most value during LARV and is a must for organizations that are serious about recruiting and introducing themselves to students. Many students which attend LARV are not informed about all the different opportunities which exists post graduation. By meeting them early in their career you can make a lasting impression and provide your organization with new thinking and ambition.",
+			"INFO_2": "The fair often attracts over 2000 students and is usually held on the wednesday of the career week between 9 AM - 15 PM. Exhibitor representatives are expected to be available in their stall ready to interact with students during a majority of this time. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated. Make sure that your organization notifies us as soon as possible to increase the chances of securing a spot for this years fair!",
+			"PRICING": {
+				"HEADER": "Base package and price",
+				"BASE": "The fair base package costs 24 000 kr. This package includes the following",
+				"LIST_1": "Booth area: 3x2 m, height: 2,2 m",
+				"LIST_2": "A personal host which will be your contact person before, during and after the fair",
+				"LIST_3": "2 lunch tickets",
+				"LIST_4": "2 banquet tickets",
+				"LIST_5": "A place in our digital catalogue",
+				"LIST_6": "Marketing leading up to the fair",
+				"LIST_7": "Access to WIFI and electric outlets",
+				"LIST_8": "Access to the pre-LARV mingle",
+				"LIST_9": "Access to services such as reception desks, lounges and wardrobe attendants",
+				"LIST_10": "Free parking in close proximity to the fair area",
+				"EXTRAS": "There are a handful of additional extras available to those who want to stand out among the crowd as the fair. See the full product catalog for more information."
+			},
+			"DIRECTIONS": {
+				"HEADER": "The way to the fair",
+				"INFO_1": "Before: If you were quick enough your organization will get an invite to attend the fair at the end of october. This invite is a form which you will have a certain amount of time to fill in all the details of. At the end of december you will be assigned a host. A host is a student which is part of the LARV-crew and whose job is to act as your contact person before, during and after the fair. They will contact you and answer any questions you might have regarding LARV and the form. In january the same host will contact you again to make sure that everything is in order regarding your attendance at the fair. Your organization will before the new year be sent an invoice for the fair base package.",
+				"INFO_2": "Travel: Larv offers shuttle services which you can book if your organization is not situated in Luleå. We will then pick your organization’s representatives at the airport, train or bus station and shuttle them to their hotel, alternatively directly to the fair. More information regarding this service can be found in the form.",
+				"INFO_3": "During: The day before the fair you will have to check in your organization at our reception desk. Whatever goods you might have sent to us will then be delivered to your organization's place on the fair so you can set it up. You will have to have done this before 9 AM on the day of the fair. During the day of the fair your assigned host will assist you with any questions you may have. There will be a number of lounges available to your representatives where they can get coffee, a snack and relax whenever they feel like it. At 15 PM the fair will close and you will have to pack all your things which then will be handled by the LARV-crew according to your predetermined demands",
+				"INFO_4": "After: Your organization will be sent an invoice for all the additional extras you added to your fair experience as well as other events your organization has participated in. Your host will also be in touch with you and thank you for your attendance."
+			},
+			"PORTFOLIO": {
+				"HEADER": "Event Portfolio"
+			}
+		}
+	},
+	"IA": {
+		"HEADER": "Inledande anmälan"
+	}
+}
