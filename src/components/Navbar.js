@@ -198,7 +198,7 @@ export default function Navbar() {
 								alt="english language"
 								src={gb}
 								width="32px"
-								height="auto"
+								height="21px"
 								onClick={() => changeLanguage("en")}
 							/>
 							<input
@@ -206,7 +206,7 @@ export default function Navbar() {
 								alt="svenskt språk"
 								src={sv}
 								width="32px"
-								height="auto"
+								height="21px"
 								onClick={() => changeLanguage("sv")}
 							/>
 						</div>
