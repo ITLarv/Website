@@ -108,7 +108,7 @@
 		}
 	},
 	"IM": {
-		"HEADER": "Individuella samtal",
+		"HEADER": "Individual meetings",
 		"STUDENTS": {
 			"INFO_1": "Individual meetings is your chance to have in depth conversations with representatives from certain organisations and get your foot through the door at your future employer. This service is for students who are interested in knowing more about specific employers and what opportunities they can offer them. The meetings are structured much like a casual job interview. You and the representative are free to talk about anything you feel is relevant.",
 			"INFO_2": "When you sign up for a meeting you will have the option to choose which organizations you would like to have meetings with. You will have to provide us with a CV so we can make sure that you and the organization's interests are inline with each other. The meetings are about 30 minutes long and you can book as many meetings as you can manage. However, you can only book one meeting per organization",
@@ -131,22 +131,18 @@
 		"INFO": "LARV is a platform where you as an organization is able to meet the students of Luleå university of technology. We offer a great many different ways for your organization to interact with students and excel in providing services within the areas of recruitment and employer branding. The services we offer are listed below. When signing up for an event in relation to LARV marketing of the event is included in the price. If you as an organization has certain requirements regarding marketing we will take that into consideration.",
 		"INFO_2": "Are you an organization interested in LARV? Sign up for the initial application here. Available untill october 23rd.",
 		"THE_FAIR": {
-			"HEADER": "Mässan",
+			"HEADER": "The Fair",
 			"INFO": "The LARV-fair is perhaps the event which provides the most value during LARV and is a must for organizations that are serious about recruiting and introducing themselves to students. Many students which attend LARV are not informed about all the different opportunities which exists post graduation. By meeting them early in their career you can make a lasting impression and provide your organization with new thinking and ambition.",
 			"INFO_2": "The fair often attracts over 2000 students and is usually held on the wednesday of the career week between 9 AM - 15 PM. Exhibitor representatives are expected to be available in their stall ready to interact with students during a majority of this time. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated. Make sure that your organization notifies us as soon as possible to increase the chances of securing a spot for this years fair!",
 			"PRICING": {
 				"HEADER": "Base package and price",
-				"BASE": "The fair base package costs 24 000 kr. This package includes the following",
-				"LIST_1": "Booth area: 3x2 m, height: 2,2 m",
-				"LIST_2": "A personal host which will be your contact person before, during and after the fair",
-				"LIST_3": "2 lunch tickets",
-				"LIST_4": "2 banquet tickets",
-				"LIST_5": "A place in our digital catalogue",
-				"LIST_6": "Marketing leading up to the fair",
-				"LIST_7": "Access to WIFI and electric outlets",
-				"LIST_8": "Access to the pre-LARV mingle",
-				"LIST_9": "Access to services such as reception desks, lounges and wardrobe attendants",
-				"LIST_10": "Free parking in close proximity to the fair area",
+				"BASE": "Bellow is a list of everything included in the base package offered to the participating organizations. When designing events, a dialog with the project group will be established for further details.",
+				"LIST_1": "Access to and help with setting up a digital fair stand",
+				"LIST_2": "A spread in our digital fair catalog",
+				"LIST_3": "Marketing leading up to the fair",
+				"LIST_4": "Access to the individual meetings service",
+				"LIST_5": "The oppuprtunity to send keychains, water bottles, cloth bags, and other merchandice that can be distributed on site during the fair",
+				"LIST_6": "Access to a contact person before, during and after the far who can anwer any questions you may have",
 				"EXTRAS": "There are a handful of additional extras available to those who want to stand out among the crowd as the fair. See the full product catalog for more information."
 			},
 			"DIRECTIONS": {
