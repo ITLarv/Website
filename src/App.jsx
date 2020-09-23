@@ -33,6 +33,9 @@ import StudentsFAQ from "./content/studentsfaq.json";
 import OrganizationsFAQ from "./content/organizationsfaq.json";
 import ScrollToTop from "./components/ScrollToTop";
 import IAContract from "./pages/IAContract";
+import Pricelist from "./pages/Pricelist";
+import InvitationDigital from "./pages/InvitationDigital";
+import InvitationInnovation from "./pages/InvitationInnovation";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -116,6 +119,21 @@ function Page() {
 							exact
 							path="/organizations/LARV_IA_avtal_2021.pdf"
 							component={IAContract}
+						/>
+						<Route
+							exact
+							path="/organizations/Prislista_digital.pdf"
+							component={Pricelist}
+						/>
+						<Route
+							exact
+							path="/organizations/inbjudan_digital.pdf"
+							component={InvitationDigital}
+						/>
+						<Route
+							exact
+							path="/organizations/inbjudan_innovationsrum.pdf"
+							component={InvitationInnovation}
 						/>
 
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
