@@ -7,6 +7,7 @@ export default function CoordinatorAplication() {
 		<>
 			{ApplicationOpen && (
 				<iframe
+					title="coordinator-application"
 					src="https://docs.google.com/forms/d/e/1FAIpQLSfuRoLOfZuLdtqAhg7Q9mhOqZaHePj4X9vVcGcSjTBUJgn2pQ/viewform?embedded=true"
 					width="640"
 					height="1920"

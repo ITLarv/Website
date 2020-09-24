@@ -8,6 +8,7 @@ export default function VolunteerAplication() {
 			{ApplicationOpen && (
 				<div className="iframe-container">
 					<iframe
+						title="volunteer-application"
 						src="https://docs.google.com/forms/d/e/1FAIpQLSdeifunBO-RrU3EyjJ-PzxL6lKVlCcDs6uUZyJSnN5SoBOGMQ/viewform?embedded=true"
 						width="640"
 						height="2200"

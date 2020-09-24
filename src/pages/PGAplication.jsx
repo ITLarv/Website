@@ -7,6 +7,7 @@ export default function PGAplication() {
 		<>
 			{ApplicationOpen && (
 				<iframe
+					title="pg-application"
 					src="https://docs.google.com/forms/d/e/1FAIpQLSeUO_fwAw9OkecPPfB10VL9hBkiu9WSZw-PorIN2sT2E54Nbw/viewform?embedded=true"
 					width="640"
 					height="1433"
