@@ -18,7 +18,7 @@ export default function Footer() {
 			<div className="sponsor">
 				<p>Powered by</p>
 				<a
-					href="https://vercel.com?utm_source=website&utm_campaign=oss"
+					href="https://vercel.com?utm_source=larv-website&utm_campaign=oss"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

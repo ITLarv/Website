@@ -1,85 +1,77 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Involved() {
+	const { t } = useTranslation();
 	return (
 		<>
 			<div className="involved">
-				<h1>Get involved in LARV</h1>
+				<h1>{t("GET_INVOLVED.HEADER")}</h1>
 
-				<p>
-					Personal development, valuable experience, stimulating tasks and loads
-					of fun. This is what an involvement in LARV offers you as a student,
-					no matter if you are looking for something small to do on the side of
-					the studies or something to completely throw yourself into. It's the
-					140 involved students that makes LARV possible every year so take the
-					chance to make your mark on the project!
-				</p>
-				<p>
-					LARV offers different levels of involvement when it comes to the time
-					required or the tasks which you will perform.{" "}
-				</p>
+				<p>{t("GET_INVOLVED.INFO_1")}</p>
+				<p>{t("GET_INVOLVED.INFO_2")}</p>
 
 				<div className="threeButtons">
 					<NavLink className="button" to="/involved/volunteer">
-						Volunteer
+						{t("GENERAL.VOLUNTEER")}
 					</NavLink>
 					<NavLink className="button" to="/involved/coordinator">
-						Coordinator
+						{t("GENERAL.COORDINATOR")}
 					</NavLink>
 					<NavLink className="button" to="/involved/pg">
-						PG
+						{t("GENERAL.PG")}
 					</NavLink>
 				</div>
 
 				<div className="dropdown">
-					<h3>Volunteer</h3>
+					<h3>{t("GENERAL.VOLUNTEER")}</h3>
 					<div className="dropdown-content">
 						<ul>
-							<li>Event volunteer</li>
-							<li>Reception volunteer</li>
-							<li>Banquet volunteer</li>
-							<li>Lounge volunteer</li>
-							<li>Exhibition building volunteer</li>
-							<li>Logistics volunteer</li>
-							<li>Employer Relations volunteer</li>
-							<li>Night guard volunteer</li>
-							<li>The Incredibles</li>
+							<li>{t("ROLES.VOLUNTEERS.FTG")}</li>
+							<li>{t("ROLES.VOLUNTEERS.EVENT")}</li>
+							<li>{t("ROLES.VOLUNTEERS.IT")}</li>
+							<li>{t("ROLES.VOLUNTEERS.LOUNGE")}</li>
+							<li>{t("ROLES.VOLUNTEERS.SERVICE")}</li>
+							<li>{t("ROLES.VOLUNTEERS.CHAUFFÖR")}</li>
+							<li>{t("ROLES.VOLUNTEERS.NATT")}</li>
+							<li>{t("ROLES.VOLUNTEERS.TI")}</li>
 						</ul>
 					</div>
 
-					<h3>Coordinator</h3>
+					<h3>{t("GENERAL.COORDINATOR")}</h3>
 					<div className="dropdown-content">
 						<ul>
-							<li>Oranizations coordinator</li>
-							<li>Banquet coordinator</li>
-							<li>Event coordinator</li>
-							<li>Logistics coordinator</li>
-							<li>Career Fair coordinator</li>
-							<li>Sponsorship and Lounge coordinator</li>
-							<li>Service coordinator</li>
-							<li>HR coordinator</li>
-							<li>Graphics coordinator</li>
-							<li>PR coordinator</li>
+							<li>{t("ROLES.COORDINATORS.FTG")}</li>
+							<li>{t("ROLES.COORDINATORS.SAMARBETE")}</li>
+							<li>{t("ROLES.COORDINATORS.EVENT")}</li>
+							<li>{t("ROLES.COORDINATORS.GRAFIK")}</li>
+							<li>{t("ROLES.COORDINATORS.IT")}</li>
+							<li>{t("ROLES.COORDINATORS.MÄSSA")}</li>
+							<li>{t("ROLES.COORDINATORS.LOGISTIK")}</li>
+							<li>{t("ROLES.COORDINATORS.BANKETT")}</li>
+							<li>{t("ROLES.COORDINATORS.REKRYTERING")}</li>
+							<li>{t("ROLES.COORDINATORS.SERVICE")}</li>
+							<li>{t("ROLES.COORDINATORS.PR")}</li>
 						</ul>
 					</div>
 
-					<h3>PG</h3>
+					<h3>{t("GENERAL.PG")}</h3>
 					<div className="dropdown-content">
 						<ul>
-							<li>Project manager</li>
-							<li>Deputy project manager</li>
-							<li>Head of Banquet</li>
-							<li>Head of Sponsorship</li>
-							<li>Head of Events</li>
-							<li>Head of Career fair</li>
-							<li>Head of IT</li>
-							<li>Head of Logistics</li>
-							<li>Head of Lounge</li>
-							<li>Head of PR</li>
-							<li>Head of Employer Relations</li>
-							<li>Head of HR</li>
-							<li>Head of Services</li>
+							<li>{t("ROLES.PG.PL")}</li>
+							<li>{t("ROLES.PG.VPL")}</li>
+							<li>{t("ROLES.PG.FTG")}</li>
+							<li>{t("ROLES.PG.SAMARBETE")}</li>
+							<li>{t("ROLES.PG.EVENT")}</li>
+							<li>{t("ROLES.PG.GRAFIK")}</li>
+							<li>{t("ROLES.PG.IT")}</li>
+							<li>{t("ROLES.PG.MÄSSA")}</li>
+							<li>{t("ROLES.PG.LOGISTIK")}</li>
+							<li>{t("ROLES.PG.BANKETT")}</li>
+							<li>{t("ROLES.PG.REKRYTERING")}</li>
+							<li>{t("ROLES.PG.SERVICE")}</li>
+							<li>{t("ROLES.PG.PR")}</li>
 						</ul>
 					</div>
 				</div>
