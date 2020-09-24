@@ -73,7 +73,7 @@
 p {
 	max-width: $max-width-text;
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 	padding: 10px;
 }
 
@@ -82,5 +82,9 @@ iframe {
 }
 
 .jexpo-container {
+	margin: auto;
+}
+
+.pdf {
 	margin: auto;
 }

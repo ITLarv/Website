@@ -1,54 +1,41 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Prelarv() {
+	const { t } = useTranslation();
 	return (
 		<div className="Prelarv">
-			<h1>Prep-week</h1>
-			<p>
-				Prep-week is another major part of the LARV project. This is a week held
-				a couple of months before main week with the intent to prepare students
-				for LARV. This is done through informative seminars regarding LARV, how
-				to present yourself to companies, how to get started with and use
-				LinkedIn, how to write a cover letter etc.. By hosting Prep-week
-				awareness of LARV is increased and the students are made sure to be
-				prepared to meet the attending organizations during LARV.{" "}
-			</p>
+			<h1>{t("PREP_WEEK.HEADER")}</h1>
+			<p>{t("PREP_WEEK.INFO")}</p>
 
-			<h1>Activities during prep-week</h1>
-			<p>Some of the activities that can be held during Prep-week are…</p>
+			<h1>{t("PREP_WEEK.ACTIVITIES.HEADER")}</h1>
+			<p>{t("PREP_WEEK.ACTIVITIES.INFO")}</p>
 			<ul>
-				<li>Informative seminars about LARV</li>
-				<li>Guest seminars from organizations</li>
-				<li>Seminars from Career center:</li>
+				<li>{t("PREP_WEEK.ACTIVITIES.LIST_1")}</li>
+				<li>{t("PREP_WEEK.ACTIVITIES.LIST_2")}</li>
+				<li>{t("PREP_WEEK.ACTIVITIES.LIST_3")}</li>
 
-				<li className="indentList">How to write a cover letter</li>
-				<li className="indentList">How to write an attractive CV</li>
-				<li className="indentList">Mastering the elevator pitch</li>
+				<li className="indentList">{t("PREP_WEEK.ACTIVITIES.LIST_3_1")}</li>
+				<li className="indentList">{t("PREP_WEEK.ACTIVITIES.LIST_3_2")}</li>
+				<li className="indentList">{t("PREP_WEEK.ACTIVITIES.LIST_3_3")}</li>
 
-				<li>Workshops</li>
-				<li>LARV-pub at STUK for students</li>
-				<li>Case solving</li>
-				<li>Breakfast talks with organizations</li>
+				<li>{t("PREP_WEEK.ACTIVITIES.LIST_4")}</li>
+				<li>{t("PREP_WEEK.ACTIVITIES.LIST_5")}</li>
+				<li>{t("PREP_WEEK.ACTIVITIES.LIST_6")}</li>
+				<li>{t("PREP_WEEK.ACTIVITIES.LIST_7")}</li>
 			</ul>
 
-			<p>
-				For more information about the different activities check out the
-				calendar.
-			</p>
+			<p>{t("PREP_WEEK.ACTIVITIES.STUDENTS_MORE")}</p>
 
 			<NavLink className="button" to="/home/calendar">
-				CALENDAR
+				{t("GENERAL.CALENDAR")}
 			</NavLink>
 
-			<p>
-				Does your organization wish to be a part of Prep-week? Read more about
-				in formation regarding organization attendance at our organizations
-				page…
-			</p>
+			<p>{t("PREP_WEEK.ACTIVITIES.ORGANIZATIONS_MORE")}</p>
 
 			<NavLink className="button" to="/organizations">
-				ORGANIZATIONS
+				{t("GENERAL.ORGANIZATIONS")}
 			</NavLink>
 		</div>
 	);

@@ -34,10 +34,10 @@ export default function Volunteer() {
 				Apply for volunteer here!
 			</NavLink>
 
-			<h3>Volunteer</h3>
+			<h3>Värdar</h3>
 			<div className="dropdown-content">
 				<ul>
-					<li>Event volunteer</li>
+					{/* <li>Event volunteer</li>
 					<li>Reception volunteer</li>
 					<li>Banquet volunteer</li>
 					<li>Lounge volunteer</li>
@@ -45,117 +45,72 @@ export default function Volunteer() {
 					<li>Logistics volunteer</li>
 					<li>Employer Relations volunteer</li>
 					<li>Night guard volunteer</li>
-					<li>The Incredibles</li>
+					<li>The Incredibles</li> */}
+					<li>Företagsvärd</li>
+					<li>Teknikvärd</li>
+					<li>Mässbyggnadsvärd</li>
+					<li>Servicevärd</li>
+					<li>Nattvakt</li>
+					<li>Chafför</li>
+					<li>Incredibles</li>
 				</ul>
 			</div>
 
-			<h3>Event volunteer</h3>
+			<h3>Företagsvärd</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som företagsvärd tilldelas du några specifika företag att vara
+				kontaktperson för. Du kommer se till att deras anmälan är fullständig
+				och hjälpa dem med eventuella frågor inför LARV. Är du social, öppen och
+				vill utveckla din serviceförmåga? Då kommer du trivas och lyckas som
+				företagsvärd. Har du frågor kring att vara företagsvärd, kontakta
+				rekrytering@larv.org.
 			</p>
-			<h3>Reception volunteer</h3>
+			<h3>Teknikvärd</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som teknikvärd kommer du hjälpa de andra studenterna med det system som
+				kommer att användas på årets LARV. Du kommer också arbeta med att se
+				till att tekniken fungerar i launcerna samt klassrumen under LARV. Har
+				du frågor kring att vara företagsvärd, kontakta it@larv.org.
 			</p>
-			<h3>Banquet volunteer</h3>
+			<h3>Mässbyggnadsvärd</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som mässbyggare kommer man bära möbler, transportera gods, montera
+				launcherna, och förbereda för de aktiviteter som kräver montering på
+				campus under LARV. Även strömdragning ingår, där två personer kommer dra
+				och tejpa fast förlängningskablar utifrån elschema. Har du några frågor
+				kring att vara mässbyggnadsvärd, kontakta massbyggnad@larv.org
 			</p>
-			<h3>Lounge volunteer</h3>
+			<h3>Servicevärd</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som servicevärd kommer du att stå i receptionen eller hälsa gäster
+				välkomna till loungen. Du kommer även att hjälpa gästerna med allmänna
+				frågor och se till att launchen ser presentabel ut under dagen. Har du
+				god serviceförmåga och ett glatt humör? Då är denna post perfekt för
+				dig! Har du frågor kring att vara loungevärd, kontakta service@larv.org
 			</p>
-			<h3>Exhibition building volunteer</h3>
+			<h3>Nattvakt</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som nattvakt vaktar launcher och området under natten innan de skall
+				användas. Har du några frågor kring att vara nattvakt, kontakta
+				massbyggnad@larv.org
 			</p>
-			<h3>Logistics volunteer</h3>
+			<h3>Chafför</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Som chaufför kommer du att ansvara för att skjutsa
+				företagsrepresentanter till och från aktiviteter som rör LARV under
+				LARV-veckan både före och efter. God serviceförmåga, bra lokalkännedom,
+				trygg bakom ratten samt positiv attityd är bra egenskaper för denna
+				post. För att bli antagen är B-körkort ett krav! Har du några frågor
+				kring att vara chaufför, kontakta service@larv.org
 			</p>
-			<h3>Employer Relations volunteer</h3>
+			<h3>Incredibles</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
-			</p>
-			<h3>Night guard volunteer</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
-			</p>
-			<h3>The Incredibles</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend
-				non purus eu rutrum. Sed suscipit sapien vel elit malesuada ultricies.
-				Aliquam ultricies eget tortor in pretium. Quisque id libero rutrum,
-				tristique leo vitae, finibus massa. Cras dignissim ligula a sem
-				ultrices, vitae laoreet lorem dignissim. Vestibulum convallis odio in
-				odio pretium, at porta leo placerat. Duis vulputate sem nibh, eu
-				ultrices enim volutpat eu. Lorem ipsum dolor sit amet, consectetur
-				adipiscing elit. Sed vel enim augue. Nulla pharetra imperdiet justo, id
-				euismod tortor tincidunt finibus.
+				Att arbeta med gruppen ”The Incredibles” innebär att man inte kommer bli
+				tilldelad en fast position, ens arbete kommer att vara tillgänglig och
+				hjälpa till under LARV där det behövs då det behövs. Det finns inga
+				grundläggande krav som behöver uppfyllas för att söka, B-körkort är
+				meriterande. Har du några frågor kring att vara en del av The
+				incredibles, kontakta rekrytering@larv.org
 			</p>
 
 			<NavLink className="button" to="/involved/volunteer/application">
