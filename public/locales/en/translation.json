@@ -1,12 +1,13 @@
 {
 	"GENERAL": {
 		"STUDENTS": "Students",
-		"ORGANIZATIONS": "Organisations",
+		"ORGANIZATIONS": "Organizations",
 		"CALENDAR": "Calendar",
 		"CATALOG": "Catalog",
 		"VOLUNTEER": "Volunteer",
 		"COORDINATOR": "Coordinator",
-		"PG": "Project Group (PG)"
+		"PG": "Project Group (PG)",
+		"GET_INVOLVED": "Get Involved"
 	},
 	"ROLES": {
 		"PG": {
@@ -107,6 +108,12 @@
 			"ORGANIZATIONS_MORE": "Does your organization wish to be a part of Prep-week? Read more about in formation regarding organization attendance at our organizations page…"
 		}
 	},
+	"STUDENTS": {
+		"HEADER": "Students",
+		"INFO_1": "Are you a student at LTU that want to take their career to the next level? Then LARV is for you! LARV is the annual career week hosted by the student union of engineering with the purpose of making sure you get all the tools you need to start your career and connect with your dream employer. Through inspiring, informative seminars and workshops, tips and tricks from experienced professionals and opportunities to meet your favourite employers LARV will help you acquire career defining experience and connections. Read more about what LARV is on the “about LARV” page. The most important event during LARV is the LARV-fair. This is a one day event where over 110 organizations attend LTU to form connections with students. Visit our “FAIR” page to learn more about the fair and which companies which previously attended LARV.",
+		"INFO_2": "Interested in booking a meeting? Read more about individual meetings and how to sign up here…",
+		"INVOLVED": "Want to get all the benefits mentioned above as well as develop skills such as leadership, teamwork, responsibility, planning and much more? Then an involvement in the LARV project is right for you! LARV is made possible by the 140 students which are involved in the project. LARV offers different levels of involvement when it comes to the time required or the tasks which you will perform. There is something for everyone and no matter which type of involvement you choose you will have an noticeable impact on the project as well as gain valuable personal experience. Does this sounds interesting to you? Read more about the different types of involvement LARV offers here..."
+	},
 	"IM": {
 		"HEADER": "Individual meetings",
 		"STUDENTS": {
@@ -136,7 +143,7 @@
 			"INFO_2": "The fair often attracts over 2000 students and is usually held on the wednesday of the career week between 9 AM - 15 PM. Exhibitor representatives are expected to be available in their stall ready to interact with students during a majority of this time. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated. Make sure that your organization notifies us as soon as possible to increase the chances of securing a spot for this years fair!",
 			"PRICING": {
 				"HEADER": "Base package and price",
-				"BASE": "Bellow is a list of everything included in the base package offered to the participating organizations. When designing events, a dialog with the project group will be established for further details.",
+				"BASE": "Below is a list of everything included in the base package offered to the participating organizations. When designing events, a dialog with the project group will be established for further details.",
 				"LIST_1": "Access to and help with setting up a digital fair stand",
 				"LIST_2": "A spread in our digital fair catalog",
 				"LIST_3": "Marketing leading up to the fair",

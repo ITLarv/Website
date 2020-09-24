@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
@@ -24,21 +24,21 @@ export default function Contact() {
 	const pl = {id:"1", name:"Viktor Centing", role:t("ROLES.PG.PL"), email:"pl@larv.org", phone:"070-686 25 84", imgSrc:pli};
 
 	// prettier-ignore
-	const [pgList] = useState([
-    {id:"2", name:"Peter Panduro", role:t("ROLES.PG.VPL"), email:"viceprojektledare@larv.org", imgSrc:vakant},
-    {id:"3", name:"Agnes Elliott", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:vakant},
-    {id:"4", name:"Matilda Segerlund", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:vakant},
-    {id:"5", name:"Hanna Westerberg", role:t("ROLES.PG.EVENT"), email:"event@larv.org", imgSrc:vakant},
-    //{id:"6", name:"Vakant", role:"t("ROLES.PG.SAMARBETE"), email:"samarbete@larv.org", imgSrc:vakant},
-    {id:"7", name:"Elliot Huber", role:t("ROLES.PG.GRAFIK"), email:"grafiker@larv.org", imgSrc:vakant},
-    {id:"8", name:"Tovah Parnes", role:t("ROLES.PG.IT"), email:"it@larv.org", imgSrc:vakant},
-    {id:"9", name:"Magnus Stenfelt", role:t("ROLES.PG.MÄSSA"), email:"massbyggnad@larv.org", imgSrc:vakant},
-    //{id:"10", name:"Vakant", role:t("ROLES.PG.LOGISTIK"), email:"logistik@larv.org", imgSrc:vakant},
-    //{id:"11", name:"Vakant", role:t("ROLES.PG.BANKETT"), email:"bankett@larv.org", imgSrc:vakant},
-    {id:"12", name:"Emma Nilsson", role:t("ROLES.PG.REKRYTERING"), email:"rekrytering@larv.org", imgSrc:vakant},
-	{id:"13", name:"Martin Östman", role:t("ROLES.PG.SERVICE"), email:"service@larv.org", imgSrc:vakant},
-	{id:"14", name:"Victoria Nordmark", role:t("ROLES.PG.PR"), email:"pr@larv.org", imgSrc:vakant}
-  ]);
+	const pgList = [
+		{id:"2", name:"Peter Panduro", role:t("ROLES.PG.VPL"), email:"viceprojektledare@larv.org", imgSrc:vakant},
+		{id:"3", name:"Agnes Elliott", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:vakant},
+		{id:"4", name:"Matilda Segerlund", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:vakant},
+		{id:"5", name:"Hanna Westerberg", role:t("ROLES.PG.EVENT"), email:"event@larv.org", imgSrc:vakant},
+		//{id:"6", name:"Vakant", role:"t("ROLES.PG.SAMARBETE"), email:"samarbete@larv.org", imgSrc:vakant},
+		{id:"7", name:"Elliot Huber", role:t("ROLES.PG.GRAFIK"), email:"grafiker@larv.org", imgSrc:vakant},
+		{id:"8", name:"Tovah Parnes", role:t("ROLES.PG.IT"), email:"it@larv.org", imgSrc:vakant},
+		{id:"9", name:"Magnus Stenfelt", role:t("ROLES.PG.MÄSSA"), email:"massbyggnad@larv.org", imgSrc:vakant},
+		//{id:"10", name:"Vakant", role:t("ROLES.PG.LOGISTIK"), email:"logistik@larv.org", imgSrc:vakant},
+		//{id:"11", name:"Vakant", role:t("ROLES.PG.BANKETT"), email:"bankett@larv.org", imgSrc:vakant},
+		{id:"12", name:"Emma Nilsson", role:t("ROLES.PG.REKRYTERING"), email:"rekrytering@larv.org", imgSrc:vakant},
+		{id:"13", name:"Martin Östman", role:t("ROLES.PG.SERVICE"), email:"service@larv.org", imgSrc:vakant},
+		{id:"14", name:"Victoria Nordmark", role:t("ROLES.PG.PR"), email:"pr@larv.org", imgSrc:vakant}
+	];
 
 	return (
 		<div className="Contact">
