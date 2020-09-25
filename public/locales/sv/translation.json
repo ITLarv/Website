@@ -6,7 +6,8 @@
 		"CATALOG": "Katalog",
 		"VOLUNTEER": "Värdar",
 		"COORDINATOR": "Koordinatorer",
-		"PG": "Projektgruppen (PG)"
+		"PG": "Projektgruppen (PG)",
+		"GET_INVOLVED": "Engagera dig"
 	},
 	"ROLES": {
 		"PG": {
@@ -22,7 +23,8 @@
 			"BANKETT": "Bankettansvarig",
 			"REKRYTERING": "Rekryteringsansvarig",
 			"SERVICE": "Serviceansvarig",
-			"PR": "Marknadsföringsansvarig"
+			"PR": "Marknadsföringsansvarig",
+			"LOUNGE": "Loungeansvarig"
 		},
 		"COORDINATORS": {
 			"FTG": "Företagskoordinator",
@@ -74,80 +76,132 @@
 	},
 	"ABOUT": {
 		"HEADER": "Om LARV",
-		"INFO_1": "LARV, short for Luleå arbetsmarknadsvecka, is a series of events held annually at Luleå university of technology. LARV has since 1983 been hosted by the student union of engineering and is a project with the purpose to help students advance their professional careers and to prepare them for life after graduation. For many years the project has kept growing and does today involve over 110 organisations, 2000+ students and grosses close to 3 Mkr in revenue. This makes it the most comprehensive event at LTU.",
-		"INFO_2": "The acronym LARV roughly translates to Luleå career week. As the name suggests, the project is mostly about planning a week dedicated to student career development. Usually occurring during the 3rd week of january, LARV provides events such as inspiring seminars, workshops, career coaching, individual meetings between students and organisations. The largest event held during LARV is the LARV-fair. This fair acts as a platform for students and companies to truly get to know each other. The fair is a one day event and ends with a grand banquet which every company and involved student is invited to attend.",
-		"INFO_3": "Prep-week is another major part of the project. This is a week held a couple of months before main week with the intent to prepare students for LARV. This is done through informative seminars regarding LARV, how to present yourself to companies, how to get started with and use LinkedIn, how to write a cover letter and other events in the same category.",
-		"INFO_4": "Are you a student that wants to get involved or an organization that wants to be a part of LARV? Read more about what LARV can do for you as a student or your organization here…"
+		"INFO_1": "Luleå arbetsmarknadsvecka, LARV, är en vecka fylld av näringslivskopplade evenemang som hålls årligen vid Luleå tekniska universitet,LTU. LARV har sedan 1983 arrangerats av Teknologkåren vid LTU och är ett projekt med syftet att hjälpa studenter att utveckla sin kontakt med näringslivet och förbereda dem för livet efter examen. Projektet har sedan dess start växt till att idag involvera 110 organisationer, locka 2000+ studenter och ha en omsättning på ca 3 Mkr. Detta göra LARV till det med omfattande projektet på LTU.",
+		"INFO_2": "Som namnet LARV antyder så handlar projektet mest om att planera en vecka tillägnad åt studenters karriärutveckling. LARV inträffar vanligtvis under 3: e veckan i januari och erbjuder evenemang och aktiviteter som inspirerande seminarier, workshops, karriärcoaching samt individuella möten mellan studenter och organisationer. Det största evenemanget som hölls under LARV är LARV-mässan. Denna mässa fungerar som en plattform för studenter och företag att komma i kontakt och verkligen lära känna varandra. Mässan är ett dagsevenemang och avslutas med en stor bankett som varje deltagare och involverad student inbjuds att delta på.",
+		"INFO_3": "Prep-week är en annan viktig del av projektet. Detta är en vecka som hålls ett par månader före mässveckan med avsikt att förbereda studenterna för LARV. Detta görs genom informativa seminarier om LARV, hur man presenterar sig för företag, hur man kommer igång med och använder LinkedIn, hur man skriver ett personligt brev och andra evenemang av liknande natur.",
+		"INFO_4": "Är du en student som vill engagera dig eller en organisation som vill delta under LARV? Läs mer om vad LARV kan göra för dig som student eller din organisation här."
 	},
 	"CATALOG": {
-		"NOT_CURRENT_YEAR": "The catalog for LARV2021 is not yet published, but please have a look at last years attending companies",
-		"INFO": "In this catalog you can find information about organizations which has previously attended LARV. Each organization is represented by a square. By clicking on this square specific information can be found regarding the organization, which industry they are active in, which types of students they are looking for and what kind of opportunities they are offering.",
-		"SEARCH": "The search function at the top of the catalog is also available. You can utilize this to find exhibitors which offer a specific type of job, are looking for specific types of students or are active within a certain industry"
+		"NOT_CURRENT_YEAR": "Katalogen för LARV 2021 har ännu inte publicerats. Nedan kan du ta en titt på de senaste årets deltagande företag.",
+		"INFO": "I den här katalogen hittar du information om organisationer som tidigare har deltagit i LARV. Varje organisation representeras av en kvadrat. Genom att klicka på denna kvadrat kan man hitta specifik information om organisationen, vilken bransch de är verksamma inom, vilka typer av studenter de letar efter och vilken typ av anställningsformer de erbjuder.",
+		"SEARCH": "En sökfunktion ovanför katalogen är också tillgänglig. Du kan använda denna för att hitta utställare som erbjuder en viss typ av jobb, letar efter specifika typer av studenter eller är aktiva inom en viss bransch."
 	},
 	"GALLERY": {
 		"HEADER": "Galleri"
 	},
 	"PREP_WEEK": {
 		"HEADER": "Prep-Week",
-		"INFO": "Prep-week is another major part of the LARV project. This is a week held a couple of months before main week with the intent to prepare students for LARV. This is done through informative seminars regarding LARV, how to present yourself to companies, how to get started with and use LinkedIn, how to write a cover letter etc.. By hosting Prep-week awareness of LARV is increased and the students are made sure to be prepared to meet the attending organizations during LARV.",
+		"INFO": "Prep-week är en annan viktig del av projektet. Detta är en vecka som hålls ett par månader före mässveckan med avsikt att förbereda studenterna för LARV. Detta görs genom informativa seminarier om LARV, hur man presenterar sig för företag, hur man kommer igång med och använder LinkedIn, hur man skriver ett personligt brev osv. Genom att anordna Prep-week ser vi till att studenterna är beredda att möta de deltagande organisationerna under LARV.",
 		"ACTIVITIES": {
-			"HEADER": "Activities during prep-week",
-			"INFO": "Some of the activities that can be held during Prep-week are…",
-			"LIST_1": "Informative seminars about LARV",
-			"LIST_2": "Guest seminars from organizations",
-			"LIST_3": "Seminars from Career center:",
-			"LIST_3_1": "How to write a cover letter",
-			"LIST_3_2": "How to write an attractive CV",
-			"LIST_3_3": "Mastering the elevator pitch",
+			"HEADER": "Akriviteter under Prep-week",
+			"INFO": "Några av aktiviteterna som sker under prep-week är:",
+			"LIST_1": "Informationsföreläsningar om vad LARV är",
+			"LIST_2": "Gärtföreläsningar från näringslivet",
+			"LIST_3": "Föreläsningar från Carrer Center på LTU:",
+			"LIST_3_1": "Hur man skriver ett personligt brev",
+			"LIST_3_2": "Hur man skriver ett attraktivt CV",
+			"LIST_3_3": "Bemästra din hisspitch",
 			"LIST_4": "Workshops",
-			"LIST_5": "LARV-pub at STUK for students",
-			"LIST_6": "Case solving",
-			"LIST_7": "Breakfast talks with organizations",
-			"STUDENTS_MORE": "For more information about the different activities check out the calendar.",
-			"ORGANIZATIONS_MORE": "Does your organization wish to be a part of Prep-week? Read more about in formation regarding organization attendance at our organizations page…"
+			"LIST_5": "LARV-pub på STUK för studenter",
+			"LIST_6": "Case-lösningar",
+			"LIST_7": "Frukostföreläsningar",
+			"STUDENTS_MORE": "För mer information om de olika eventen, kolla in kalendern.",
+			"ORGANIZATIONS_MORE": "Vill ditt företag vara en del av Prep-week? Läs mer om vad vi kan erbjuda på företagssidan"
 		}
+	},
+	"STUDENTS": {
+		"HEADER": "Studenter",
+		"INFO_1": "Är du en student vid LTU som vill ta sin karriär till nästa nivå? Då är LARV något för dig! LARV är den årliga karriärveckan under Teknologkåren med syfte att se till att du får alla verktyg du behöver för att starta din karriär och få kontakt med din drömarbetsgivare. Genom inspirerande och informativa seminarier och workshops, tips och tricks från erfarna yrkesverksamma och möjligheter att träffa dina favoritarbetsgivare hjälper LARV dig att få karriärdefinierande erfarenheter och kontakter. Läs mer om vad LARV är på sidan \"om LARV\". Den viktigaste händelsen under LARV är LARV-mässan. Detta är ett heldagsevenemang där över 110 organisationer deltar i universitetets lokaler för att skapa kontakter med studenter. Besök vår mässida här på hemsidan för att lära dig mer om mässan och vilka företag som tidigare deltagit i LARV.",
+		"INFO_2": "Är du intresserad av ett personligt samtal med relevanta företag? Läs mer om individuella samtal.",
+		"INVOLVED": "Vill du få alla fördelarna som nämns ovan samt utveckla färdigheter som ledarskap, lagarbete, ansvar, planering och mycket mer? Då är ett engagemang i LARV-projektet rätt för dig! LARV möjliggörs av de 140 studenter som är involverade i projektet. LARV erbjuder olika nivåer av engagemang när det gäller den tid som krävs eller de uppgifter du kommer att utföra. Det finns något för alla och oavsett vilken typ av engagemang du väljer kommer du att ha en märkbar inverkan på projektet och få värdefull personlig erfarenhet. Låter det här intressant för dig? Läs mer om de olika typerna av engagemang som LARV erbjuder."
 	},
 	"IM": {
 		"HEADER": "Individuella samtal",
 		"STUDENTS": {
-			"INFO_1": "Individual meetings is your chance to have in depth conversations with representatives from certain organisations and get your foot through the door at your future employer. This service is for students who are interested in knowing more about specific employers and what opportunities they can offer them. The meetings are structured much like a casual job interview. You and the representative are free to talk about anything you feel is relevant.",
-			"INFO_2": "When you sign up for a meeting you will have the option to choose which organizations you would like to have meetings with. You will have to provide us with a CV so we can make sure that you and the organization's interests are inline with each other. The meetings are about 30 minutes long and you can book as many meetings as you can manage. However, you can only book one meeting per organization",
-			"INFO_3": "Interested in booking a meeting? Tell us you are interested by filling out the form below. We will get back to you as soon as the participating organizations has been determined."
+			"INFO_1": "Individuella samtal är din chans att ha mer djupgående samtal med representanter från utvalda organisationer och få din fot genom dörren hos din framtida arbetsgivare. Denna tjänst är för studenter som är intresserade av att veta mer om specifika arbetsgivare och vilka möjligheter de kan erbjuda dem. Mötena är strukturerade ungefär som en avslappnad anställningsintervju. Du och representanten är fria att prata om allt ni tycker är relevant.",
+			"INFO_2": "När du anmäler dig till ett möte har du möjlighet att välja vilka organisationer du vill ha möten med. Du måste förse oss med ett CV så att vi kan se till att du och organisationens intressen är i linje med varandra. Mötena är cirka 30 minuter långa och du kan boka så många möten som du hinner med. Du kan dock bara boka ett möte per organisation.",
+			"INFO_3": "Intresserad av att boka ett möte? Gör en intresseanmälan genom att fylla i formuläret nedan. Vi kontaktar dig med mer information så snart de deltagande organisationerna har fastställts."
 		},
 		"ORGANIZATIONS": {
-			"INFO_1": "Individual meetings is a service which is highly appreciated by both students and organizations. Individual meetings allows representatives from your organization to sit down and have personal talks with students in a private, relaxed environment. This is a great way to find possible future colleagues and get to know what students prioritize when looking at employers. The meetings are 30 minutes long and you will be given a room for the whole day of the fair where you can conduct as many meetings as you can manage.",
-			"INFO_2": "If your organization want to participate in the meetings you will send us specifics regarding what types of student you preferably would like to talk to. When the students sign up for the meetings they will provide us with a CV. We will then select the appropriate students for your meetings. The price for this service is 4000kr for the whole day.",
-			"INFO_3": "Applications are yet to open but you can report your interest by signing the form below. We will then contact you once the application form is open"
+			"INFO_1": "Individuella samtal är en tjänst som uppskattas av både studenter och organisationer. Enskilda möten tillåter representanter från din organisation att sitta ner och ha personliga samtal med studenter i en privat, avslappnad miljö. Detta är ett utmärkt sätt att hitta möjliga framtida kollegor och få höra hur studenter ser på er som arbetsgivare. Mötena är 30 minuter långa och du får ett rum för hela mässans dag där ni kan hålla så många möten som ni hinner med.",
+			"INFO_2": "Om din organisation vill delta i mötena kommer du att skicka oss information om vilka typer av studenter du helst vill prata med. När studenterna anmäler sig till mötena förser de oss med ett CV. Vi väljer sedan de mest lämpliga studenterna för dina möten. Priset för denna tjänst är 6000 kr för hela dagen.",
+			"INFO_3": "Ansökningar har ännu inte öppnats men du kan rapportera ditt intresse genom att fylla i formuläret nedan. Vi kommer sedan att kontakta dig när ansökningsblanketten är öppen."
 		}
 	},
 	"GET_INVOLVED": {
 		"HEADER": "Engagera dig i LARV",
-		"INFO_1": "Personal development, valuable experience, stimulating tasks and loads of fun. This is what an involvement in LARV offers you as a student, no matter if you are looking for something small to do on the side of the studies or something to completely throw yourself into. It's the 140 involved students that makes LARV possible every year so take the chance to make your mark on the project!",
-		"INFO_2": "LARV offers different levels of involvement when it comes to the time required or the tasks which you will perform."
+		"INFO_1": "Personlig utveckling, värdefull erfarenhet, stimulerande uppgifter och härliga människor. Detta är vad ett engagemang i LARV erbjuder dig som student, oavsett om du letar efter något litet att göra på sidan av studierna eller något att helt kasta dig in i. Det är de 140 engagerade studenterna som gör LARV möjligt varje år så ta chansen att sätta din prägel på projektet!",
+		"INFO_2": "LARV erbjuder olika nivåer av engagemang när det kommer till den tid som krävs eller de uppgifter du kommer att utföra."
+	},
+	"VOLUNTEERS": {
+		"HEADER": "Värdar",
+		"INFO_1": "Som värd är du främst involverad under LARV och Prep-week för att hjälpa till med de praktiska aspekterna av projektet. Värdar är de som gör det möjligt att genomföra LARV enligt den plan som projektgruppen och koordinatorerna fastställt. På samma sätt som koordinatorposterna varierar uppgifterna mycket mellan olika typer av värdar. En servicevärd kan till exempel vara receptionist eller chaufför medan en företagsvärd har till uppgift att kontakta, träffa och ta hand om två utställande företag före och under mässan. Se listan nedan för en fullständig beskrivning av olika typer av värdar och deras uppgifter.",
+		"INFO_2": "Eftersom de flesta värdar utses några månader före LARV deltar de inte i första hand i planeringen av projektet. Istället har du som värd en inverkan på projektet genom utvärderingar, workshops och direktkontakt med den person som ansvarar för ditt område. Perioden för engagemang och arbetsbelastning är för en värd i allmänhet den kortaste och mildaste av de åtaganden som LARV erbjuder. Återigen beror detta mycket på vilken typ av värd du vill bli. Förväntad arbetstid uppgår till 5 timmar i veckan men vanligtvis mindre. Tjänsten som värd är därför lämplig för dig som till exempel vill testa ett enklare, mindre tidskrävande engagemang eller få en ytlig inblick i LARV som ett projekt.",
+		"APPLY": "Sök till värd här",
+		"POSITIONS": "Värdpositioner",
+		"FTG": "Som företagsvärd tilldelas du några specifika företag att vara kontaktperson för. Du kommer se till att deras anmälan är fullständig och hjälpa dem med eventuella frågor inför LARV. Är du social, öppen och vill utveckla din serviceförmåga? Då kommer du trivas och lyckas som företagsvärd. Har du frågor kring att vara företagsvärd, kontakta rekrytering@larv.org.",
+		"IT": "Som teknikvärd kommer du hjälpa de andra studenterna med det system som kommer att användas på årets LARV. Du kommer också arbeta med att se till att tekniken fungerar i loungerna samt klassrumen under LARV. Har du frågor kring att vara företagsvärd, kontakta it@larv.org.",
+		"LOUNGE": "Som mässbyggare kommer man bära möbler, transportera gods, montera loungerna, och förbereda för de aktiviteter som kräver montering på campus under LARV. Även strömdragning ingår, där två personer kommer dra och tejpa fast förlängningskablar utifrån elschema. Har du några frågor kring att vara mässbyggnadsvärd, kontakta massbyggnad@larv.org",
+		"SERVICE": "Som servicevärd kommer du att stå i receptionen eller hälsa gäster välkomna till loungen. Du kommer även att hjälpa gästerna med allmänna frågor och se till att loungen ser presentabel ut under dagen. Har du god serviceförmåga och ett glatt humör? Då är denna post perfekt för dig! Har du frågor kring att vara loungevärd, kontakta service@larv.org",
+		"NATT": "Som nattvakt vaktar loungerna och området runt omkring under natten innan de skall användas. Har du några frågor kring att vara nattvakt, kontakta massbyggnad@larv.org",
+		"CHAUFFÖR": "Som chaufför kommer du att ansvara för att skjutsa företagsrepresentanter till och från aktiviteter som rör LARV under LARV-veckan både före och efter. God serviceförmåga, bra lokalkännedom, trygg bakom ratten samt positiv attityd är bra egenskaper för denna post. För att bli antagen är B-körkort ett krav! Har du några frågor kring att vara chaufför, kontakta service@larv.org",
+		"TI": "Att arbeta med gruppen ”The Incredibles” innebär att man inte kommer bli tilldelad en fast position, ens arbete kommer innebära att vara tillgänglig och hjälpa till under LARV där det behövs då det behövs. Det finns inga grundläggande krav som behöver uppfyllas för att söka, B-körkort är meriterande. Har du några frågor kring att vara en del av The incredibles, kontakta rekrytering@larv.org"
+	},
+	"COORDINATORS": {
+		"HEADER": "Koordinator",
+		"INFO_1": "Som koordinator blir du din områdesansvariges hjälpande hand. Du har till uppgift att hjälpa honom/henne med saker där de behöver stöd. Det kan vara allt från små uppgifter som att svara på e-post eller boka salar till att vara ansvariga för postspecifika projekt eller fungera som rådgivare för nya idéer. En koordinators uppgifter är därför mycket beroende av vilken post de ska bistå och vad som planeras för den posten det specifika året. En företagskoordinator kan till exempel vara ansvarig för att kontakta ett visst antal företag före mässan medan bankettkoordinatorer kan vara ansvariga för att boka mat och dryck. Fler exempel på specifika uppgifter kan hittas nedan. Koordinatorer arbetar också nära med projektgruppen och kommer därför också att vara involverade i planering och genomförande av projektet på en högre nivå. Detta innebär till exempel att kunna delta i workshops, föreläsningar, teambuildingövningar och andra tillfällen som kan planeras för projektgruppen och dess koordinatorer.",
+		"INFO_2": "En position som koordinator innebär att du måste ta mer ansvar för ditt arbete och lägga mer tid på projektet än om du var värd. Som med värdar skiljer sig arbetsbelastningen mycket mellan olika typer av koordinatorer. Du kan förväntas spendera mellan 3-10 timmar per vecka på ditt engagemang som koordinator. En koordinatorposition är därför lämplig för dig som till exempel vill utveckla din förmåga att samarbeta med andra och ta ett större ansvar, arbeta med större projekt eller vill få en djupare inblick i exakt hur LARV planeras.",
+		"APPLY": "Sök till koordinator här",
+		"POSITIONS": "Koordinatorpositioner",
+		"FTG": "Som företagskoordinator kommer du att tillsammans med de företagsansvariga med uppgifterna att kontakta företag till LARV, hjälpa till med innovationsrummet samt arbeta med att söka sponsring. Grundstenen i jobbet är att ha den initiala kontakten och pitcha till företag varför just de ska komma till LARV. Har du några frågor om att vara företagskoordinator, kontakta rekrytering@larv.org.",
+		"EVENT": "Vill du lära dig hur du anordnar event för andra? Som eventkoordinator planerar du tillsammans med eventansvarig event kring LARV, detta gäller både innan och under själva LARV-veckan. Det kan vara allt från en awesome LARV-pub till att fixa de bästa lunchföreläsningarna! Tveka inte att söka idag! Har du frågor kring att vara eventkoordinator, kontakta revent@larv.org.",
+		"GRAFIK": "Som grafisk koordinator har du ett nära samarbete med vår grafiskt ansvariga. Du kommer att hjälpa till med olika grafiska arbeten som ansvarig gör för marknadsföring och de andra i projektgruppen. Har du några frågor kring att vara grafisk koordinator, kontakta grafiker@larv.org.",
+		"IT": "Som IT-koordinator hjälper du IT-ansvarig med att utveckla hemsidan, du har kontakt med teknikvärdarna, hjälper resten av projektgruppen med webservice samt ser till att tekniken fungerar under LARV. Har du frågor om att vara IT-koordinator, kontakta it@larv.org.",
+		"MÄSSA": "Som mässbyggnadskoordinator kommer du att hjälpa mässbyggnadsansvarig med planering och utförande av lounger samt logistik. Har du några frågor kring att vara mässbyggnadskoordinator, kontakta massbyggnad@larv.org.",
+		"REKRYTERING": "Som rekryteringskoordinator hjälper du rekryteringsansvarig att rekrytera LARV Crew (koordinatorer och värdar). Vill du lära dig mer om hur du rekryterar rätt person till rätt ställe, är detta en post för dig! Har du några frågor om att vara rekryteringskoordinator, kontakta rekrytering@larv.org.",
+		"SERVICE": "En servicekoordinator hjälper serviceansvarig med att lotsa rätt personer till rätt plats, vid rätt tidpunkt. Som servicekoordinator hjälper du även till att anordna personliga samtal mellan studenter och företag. Har du några frågor om att vara servicekoordinator, kontakta service@larv.org.",
+		"PR": "Som marknadsföringskoordinator kommer du att hjälpa marknadsföringsansvarig med att marknadsföra de olika aktiviteterna som har med LARV att göra. Detta sker på olika plattformar och du kommer att jobba nära ansvarig med att få LARV att synas på LTU. Har du frågor om att vara marknadsföringskoordinator, kontakta pr@larv.org."
+	},
+	"PG": {
+		"HEADER": "Projektgrupp (PG)",
+		"INFO_1": "Som en del av projektgruppen får du fullt ansvar för ett område av projektet och har till uppgift att planera och genomföra det området. Du blir en del av en tätt sammanflätad grupp som du måste kunna arbeta och kommunicera med för att projektet ska gå framåt. Det finns 13 olika befattningar tillgängliga. En av dem är chef för extern kommunikation, som har till uppgift att HR för arbetsgivarrelationer till LARV och deras kommunikation. Ett annat exempel är positionen som chef för mässan. Denna person är ansvarig för att planera och skapa mässan. Mer information om specifika poster och deras uppgifter finns nedan.",
+		"INFO_2": "Du får också i uppdrag att leda ett antal koordinatorer och i de flesta fall värdar. Detta är ett utmärkt tillfälle att testa och utveckla dina ledarskapsförmågor. Som en del av PG får du den mest personliga utvecklingen som LARV har att erbjuda och verkligen kan växa som person. Medlemmarna i PG ges också möjlighet att resa utanför Luleå för att träffas och utbyta erfarenheter med representanter från andra mässor.",
+		"INFO_3": "Arbetsbelastningen och tidsinvesteringarna varierar mycket mellan de olika positionerna i PG och är svåra att uppskatta. Det förväntas generellt att du lägger in minst lika mycket tid som en samordnare. Du kan skicka ett e-postmeddelande till rekrytering@larv.org eller projektledare@larv.org om eventuella frågor du har.",
+		"APPLY": "Sök till PG här",
+		"POSITIONS": "Projekgruppspositioner",
+		"VPL": "Vice projektledare arbetar nära projektledaren med att leda och koordinera det löpande arbetet i projektet. Vice projektledare förväntas ha lika bra insyn i projektets helhet som projektledaren och får därmed ett stort ansvar. Arbetsuppgifter är väldigt flexibla och situationsanpassade vilket kräver initiativförmåga och lyhördhet. Arbetsuppgifter är allt från att planera större workshops till att följa upp det dagliga arbetet med insyn i allas processer.",
+		"FTG": "Företagsansvariga har huvudansvaret för att rekrytera företag till LARV 2020 och kontinuerligt övervaka deras anmälan. Man jobbar också med att förvalta tidigare relationer och stärka LARV som varumärke utåt sett. Arbetet innefattar att kontakta företag, bjuda in dem till mässan samt hjälpa företagen vid anmälningsproblem i systemet Jexpo. Man ansvarar också för att leda sina koordinatorer och samordna den största gruppen värdar inom LARV i deras arbete.",
+		"SAMARBETE": "Samarbetsansvarig innebär ansvaret att identifiera behov och utforska alla möjligheter till sponsring under LARV, i allt från företagsloungen till de kringliggande eventen eller varför inte till rekryteringskampanjerna. Målet är att hitta lösningar som skapa mervärde för alla inblandade parter. I arbetsuppgifterna ingår det även att kontrollera att slutna avtal efterföljs och att sponsorer synliggörs enligt avtal. Denna post kräver att du är bekväm med att kommunicera både skriftligt och muntligt. Ta chansen att skapa ett mervärde till mässan, utveckla LARV och göra detta arrangemang till något utöver det vanliga.",
+		"EVENT": "Eventansvarig har huvudansvaret för alla event under Prep-week och LARV bortsett från Banketten, mingelkvällen och mässan. Du har möjligheten att göra något extra i form av CV-granskningar, företagspresentationer, gästföreläsare, paneldebatter, fotograferingar samt andra PR- och mingelevent. Allt planeras i studenternas intresse att skapa mervärde kopplat till näringslivet under deras studietid. Arbetsuppgifterna innebär till stor del planerandet av dessa event, komma på exakt vad man vill åstadkomma samt ledning av eventgruppen.Det är endast din fantasi som sätter gränserna så använd din kreativitet och ta chansen att göra årets LARV mer givande än någonsin.",
+		"GRAFIK": "I rollen som grafiskt ansvarig kommer du utifrån den grafiska profilen arbeta för att skapa alla trycksaker som behöver en grafisk design. Allt du skapar kommer bli LARVs bild utåt mot både företag och studenter och således kommer du tillsammans med marknadsföringsansvarig ansvara för LARVs varumärke. Arbetsuppgifter innebär att ta till vara på projektets behov genom det visuella, att utforma tryck- och digitalt material. Grafiskt ansvarig i LARV ansvarar även för fotografering, hur det organiseras men också inköp av profilkläder och profilprodukter.",
+		"IT": "IT- ansvarig ansvarar för allt IT-mässigt inom LARV. Detta innefattar att förvalta och utveckla vår hemsida och vara med och påverka utvecklingen av våra externa system. IT-ansvarig ansvarar även för hur utställande företag presenteras genom en webbkatalog med söksystem inför mässan på ett användarvänligt och professionellt sätt, då detta är en viktig del i marknadsföringen. Som ansvarig för helheten får IT-ansvarig agera stöd och support till många funktioner och problemställningar. Denna post kräver viss förkunskap inom XHTML, objektorienterad PHP och MySQL.",
+		"MÄSSA": "Mässbyggnadsansvarig har huvudansvaret för mässområdet, vilket innebär allt från monterplacering till mattläggning. Du ansvarar även för säkerheten, byggandet och rivningen av mässan. Det är till stor del mässbyggnadsansvariges arbete som studenterna ser när de besöker mässområdet under mässdagen och det är viktigt att mässområdet är attraktivt för både besökare och utställare. Till din hjälp har du ett antal koordinatorer som du leder och samordnar under dagarna kring mässan.",
+		"LOGISTIK": "Logistikansvarig har huvudansvaret för alla godssändningar i samband med mässan. Arbetet innebär att hitta en speditör att samarbeta med, beställa eventinventarier, planera en organisering kring lagerhållning och godshantering under mässveckan samt leda och samordna koordinatorer i deras arbete. Du kommer att få användning av din fyndighet och bör ha ett sinne för att snabbt komma fram till smarta innovativa lösningar samt ha en god organisationsförmåga.",
+		"BANKETT": "Bankettansvarig anordnar LARV-banketten, en av årets finaste sittningar på Luleå tekniska universitet samt Teknologkårens största årliga sittning. Banketten är en fin middag för mässans utställare och funktionärer. Dessutom ansvarar bankettansvarig över mingelkvällen dagen före själva mässdagen och för lunchen under mässdagen. I arbetet ingår det bland annat att planera underhållning, dekor, mat och dryck samt att leda koordinatorer och värdar i deras arbete under två intensiva dagar då du samordnar ovannämnda evenemang.",
+		"REKRYTERING": "Rekryteringsansvarig har huvudansvaret för alla företagsvärdar och samordningen inför rekryteringen av alla koordinatorer och funktionärer som arbetar under LARV. Arbetet innebär planering av marknadsföringen inför rekryteringen av funktionärer och koordinatorer tillsammans med marknadsföringsansvarig och grafiker samt matchning av företagsvärdar och företag. Följt av detta ansvarar man även för stormöten med över 180 engagerade studenter och att hålla arbetsintervjuer. Är du en person som har en förmåga att engagera folk och är bra med människor är denna post för dig.",
+		"SERVICE": "Posten som serviceansvarig innebär att du fungerar som spindeln i nätet. Ansvarsområdena är receptionerna under mässdagen, personliga samtalen och transportverksamheten. Du ser till att företagen får ett gott bemötande när de anländer till LARV och du bör känna dig bekväm med att ha kontakt med företag både via mejl och telefon. Till din hjälp så har du värdar och koordinatorer vilka du ska leda och samordna i deras arbete.",
+		"PR": "Som marknadsföringsansvarig så ansvarar du för att marknadsföra LARV och kommunicera med studenterna på LTU. I arbetsuppgifterna ingår det att kontinuerligt uppdatera de sociala medierna och marknadsföra det arbete som projektgruppen gör samt de evenemang som planeras. Din kreativitet och vilja att göra LARV känt på campus kommer att vara avgörande. Det är endast din fantasi som sätter gränserna. Du bör som person vara utåtriktad och tycka om att kommunicera på olika sätt.",
+		"LOUNGE": "Loungeansvarig har huvudansvar för loungerna och lunchen under mässdagen. Du kommer att fixa lounger till både utställande företag och till besökare så det är bara din fantasi som sitter till stopp för vad alla kommer komma ihåg från loungen. Sedan är det också loungeansvariges ansvar att se till att alla företag och funktionärer får lunch under mässdagen."
 	},
 	"ORGANIZATIONS": {
 		"HEADER": "Låt LARV hjälpa dig att hitta morgondagens kompetens",
 		"IM": "Individuella samtal",
-		"INFO": "LARV is a platform where you as an organization is able to meet the students of Luleå university of technology. We offer a great many different ways for your organization to interact with students and excel in providing services within the areas of recruitment and employer branding. The services we offer are listed below. When signing up for an event in relation to LARV marketing of the event is included in the price. If you as an organization has certain requirements regarding marketing we will take that into consideration.",
-		"INFO_2": "Are you an organization interested in LARV? Sign up for the initial application here. Available untill october 23rd.",
+		"INFO": "LARV är en plattform där du som organisation kan träffa studenterna vid Luleå tekniska universitet. Vi erbjuder många olika sätt för din organisation att interagera med studenter och vi utmärker oss i att tillhandahålla tjänster inom områdena rekrytering och employer branding. De tjänster vi erbjuder listas nedan. När du anmäler dig till ett evenemang i samband med LARV ingår marknadsföring av evenemanget i priset. Om du som organisation har vissa krav på marknadsföring kommer vi att ta hänsyn till detta.",
+		"INFO_2": "Är du en organisation intresserad av LARV? Registrera dig via vår inledande anmälan här. Tillgänglig till 23 oktober.",
 		"THE_FAIR": {
 			"HEADER": "Mässan",
-			"INFO": "The LARV-fair is perhaps the event which provides the most value during LARV and is a must for organizations that are serious about recruiting and introducing themselves to students. Many students which attend LARV are not informed about all the different opportunities which exists post graduation. By meeting them early in their career you can make a lasting impression and provide your organization with new thinking and ambition.",
-			"INFO_2": "The fair often attracts over 2000 students and is usually held on the wednesday of the career week between 9 AM - 15 PM. Exhibitor representatives are expected to be available in their stall ready to interact with students during a majority of this time. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated. Make sure that your organization notifies us as soon as possible to increase the chances of securing a spot for this years fair!",
+			"INFO": "LARV-mässan är nog det mest värdefulla evenemanget under LARV och är ett måste för organisationer som är seriösa med att rekrytera och presentera sig för studenter. Många studenter som går på LARV informeras inte om alla olika möjligheter som finns efter examen. Genom att träffa dem tidigt i deras karriär kan du göra ett bestående intryck och förse din organisation nytänkande och ambitiösa medarbetare.",
+			"INFO_2": "Mässan lockar ofta över 2000 studenter och hålls vanligtvis på onsdagen i karriärveckan mellan 09.00 och 15.00. Representanter förväntas vara tillgängliga i sina montrar under majoriteten av dagen redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar program av teknisk fakultet inga schemalagda lektioner under mässdagen. Mässan hålls på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta ryms. Se till att din organisation meddelar oss så snart som möjligt för att öka chanserna att ni säkrar en plats under årets mässa!",
 			"PRICING": {
-				"HEADER": "Base package and price",
-				"BASE": "The fair base package costs 24 000 kr. This package includes the following",
-				"LIST_1": "Booth area: 3x2 m, height: 2,2 m",
-				"LIST_2": "A personal host which will be your contact person before, during and after the fair",
-				"LIST_3": "2 lunch tickets",
-				"LIST_4": "2 banquet tickets",
-				"LIST_5": "A place in our digital catalogue",
-				"LIST_6": "Marketing leading up to the fair",
-				"LIST_7": "Access to WIFI and electric outlets",
-				"LIST_8": "Access to the pre-LARV mingle",
-				"LIST_9": "Access to services such as reception desks, lounges and wardrobe attendants",
-				"LIST_10": "Free parking in close proximity to the fair area",
-				"EXTRAS": "There are a handful of additional extras available to those who want to stand out among the crowd as the fair. See the full product catalog for more information."
+				"HEADER": "Baspaket och prislista",
+				"BASE": "Nedan följer en lista på allting som är inkluderat i baspaketet. Vid framtagning av events förs en dialog med projektgruppen för att tillsammans komma fram till vad som fungerar bäst för just era behov.",
+				"LIST_1": "Tillgång till en digital mässmonter och hjälp med inställningar",
+				"LIST_2": "Ett uppslag i våran digitala mässkatalog",
+				"LIST_3": "Marknadsföring inför mässan",
+				"LIST_4": "Tillgång till vår tjänst Individuella samtal under mässan",
+				"LIST_5": "Möjlighet att skicka nyckelband, vattenflaskor, tygpåsar och annan merch som kan delas ut i studentloungerna under mässan.",
+				"LIST_6": "Tillgång till en kontaktperson innan, under och efter mässan som kan svara på alla frågor ni kan tänkas ha.",
+				"EXTRAS": "Det finns en handfull extra tillägg ni kan erbjuda för att stå ut under LARV. Se vår fulla produktkatalog för mer information."
 			},
 			"DIRECTIONS": {
 				"HEADER": "The way to the fair",
@@ -157,7 +211,7 @@
 				"INFO_4": "After: Your organization will be sent an invoice for all the additional extras you added to your fair experience as well as other events your organization has participated in. Your host will also be in touch with you and thank you for your attendance."
 			},
 			"PORTFOLIO": {
-				"HEADER": "Event Portfolio"
+				"HEADER": "Eventportfolio"
 			}
 		}
 	},

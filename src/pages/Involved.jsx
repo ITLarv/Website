@@ -72,6 +72,7 @@ export default function Involved() {
 							<li>{t("ROLES.PG.REKRYTERING")}</li>
 							<li>{t("ROLES.PG.SERVICE")}</li>
 							<li>{t("ROLES.PG.PR")}</li>
+							<li>{t("ROLES.PG.LOUNGE")}</li>
 						</ul>
 					</div>
 				</div>

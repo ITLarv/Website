@@ -4,7 +4,6 @@ import pricelist from "../content/prislista_digital.pdf";
 
 export default function MyApp() {
 	const [numPages, setNumPages] = useState(null);
-	const [pageNumber, setPageNumber] = useState(1);
 
 	function onDocumentLoadSuccess({ numPages }) {
 		setNumPages(numPages);
