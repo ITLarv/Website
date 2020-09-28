@@ -144,7 +144,7 @@ function Page() {
 						</Route>
 						<Route exact path="/musicquiz2">
 							<GoogleForm
-								height="850px "
+								height="850px"
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfA34Gltez6wZP0DnUtU-2HTek5LtAwXiCN6yovMZJnfaWIIg/viewform?embedded=true"
 							/>
 						</Route>
