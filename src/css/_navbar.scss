@@ -5,6 +5,11 @@
 	z-index: 999;
 	width: 100%;
 	height: $navbar-height;
+
+	a:any-link {
+		color: white;
+		-webkit-text-fill-color: white;
+	}
 }
 
 .active {
@@ -104,11 +109,6 @@ nav {
 			font-size: 1rem;
 		}
 	}
-}
-
-a:any-link {
-	color: white;
-	-webkit-text-fill-color: white;
 }
 
 .logo {
