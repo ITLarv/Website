@@ -7,7 +7,8 @@
 		"VOLUNTEER": "Volunteer",
 		"COORDINATOR": "Coordinator",
 		"PG": "Project Group (PG)",
-		"GET_INVOLVED": "Get Involved"
+		"GET_INVOLVED": "Get Involved",
+		"IA": "Initial Application"
 	},
 	"ROLES": {
 		"PG": {

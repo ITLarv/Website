@@ -36,6 +36,7 @@ import IAContract from "./pages/IAContract";
 import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
 import InvitationInnovation from "./pages/InvitationInnovation";
+import GoogleForm from "./pages/GoogleForm";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -135,7 +136,18 @@ function Page() {
 							path="/organizations/inbjudan_innovationsrum.pdf"
 							component={InvitationInnovation}
 						/>
-
+						<Route exact path="/musicquiz1">
+							<GoogleForm
+								height="850px"
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSdofQpERd9kmjVS2XrKLYs-Fyqw9U7xM0i762HXsEt8WCWt2Q/viewform?embedded=true"
+							/>
+						</Route>
+						<Route exact path="/musicquiz2">
+							<GoogleForm
+								height="850px"
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfA34Gltez6wZP0DnUtU-2HTek5LtAwXiCN6yovMZJnfaWIIg/viewform?embedded=true"
+							/>
+						</Route>
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
 						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
 						<Route component={NotFound} />
