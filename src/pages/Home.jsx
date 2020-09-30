@@ -62,6 +62,14 @@ export default function Home() {
 
 				<h1>{t("HOME.NEWS")}</h1>
 				<p>{t("HOME.NEWS_CONTENT")}</p>
+				<div className="twoButtons">
+					<NavLink className="button" to="/musicquiz1">
+						{t("TEMP.MUSICQUIZ")}
+					</NavLink>
+					<NavLink className="button" to="/musicquiz2">
+						{t("TEMP.MUSICQUIZ2")}
+					</NavLink>
+				</div>
 			</div>
 		</div>
 	);
