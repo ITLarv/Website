@@ -11,7 +11,7 @@ export default function Companies() {
 			<p>{t("ORGANIZATIONS.INFO_2")}</p>
 
 			<NavLink className="button" to="/organizations/initial-application">
-				{t("ORGANIZATIONS.IM")}
+				{t("GENERAL.IA")}
 			</NavLink>
 
 			<h1>{t("ORGANIZATIONS.THE_FAIR.HEADER")}</h1>

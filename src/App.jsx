@@ -35,6 +35,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import IAContract from "./pages/IAContract";
 import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
+import GoogleForm from "./pages/GoogleForm";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
