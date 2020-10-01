@@ -17,7 +17,7 @@ export default function Students() {
 			<h1>{t("GENERAL.GET_INVOLVED")}</h1>
 			<p>{t("STUDENTS.INVOLVED")}.</p>
 
-			<NavLink className="button" to="/students/involved">
+			<NavLink className="button" to="/involved">
 				{t("GENERAL.GET_INVOLVED")}
 			</NavLink>
 		</div>
