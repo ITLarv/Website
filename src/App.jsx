@@ -35,6 +35,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import IAContract from "./pages/IAContract";
 import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
+import InvitationInnovation from "./pages/InvitationInnovation";
 import GoogleForm from "./pages/GoogleForm";
 
 function DevBranchBanner() {
@@ -129,6 +130,11 @@ function Page() {
 							exact
 							path="/organizations/inbjudan_digital.pdf"
 							component={InvitationDigital}
+						/>
+						<Route
+							exact
+							path="/organizations/inbjudan_innovation.pdf"
+							component={InvitationInnovation}
 						/>
 
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />

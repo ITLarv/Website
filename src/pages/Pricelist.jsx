@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import pricelist from "../content/prislista_digital.pdf";
+import pricelist from "../content/priser-digi.pdf";
 
 export default function MyApp() {
 	const [numPages, setNumPages] = useState(null);
