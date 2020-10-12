@@ -1,10 +1,82 @@
 [
 	{
-		"question": "Student Question 1",
-		"answer": "Student Answer 1"
+		"sv": {
+			"question": "När äger LARV rum?",
+			"answer": "LARV äger rum mellan den 18–23 januari 2021."
+		},
+		"en": {
+			"question": "When does LARV occur?",
+			"answer": "LARV occurs on the dates 18 – 23 of January 2021."
+		}
 	},
 	{
-		"question": "Student Question 2",
-		"answer": "Student Answer 2"
+		"sv": {
+			"question": "Vad händer under LARV?",
+			"answer": "Under LARV så anordnas en massa aktiviteter och evenemang ämnade att få dig som student att knyta kontakt med näringslivet och din framtida karriär. Se vår kalender för en full beskrivning över de evenemang som är planerade inför årets LARV. Hittar du ingen information i denna så har vi ännu inte hunnit planera alla event. Håll då utkik på hemsidan och våra sociala medier!"
+		},
+		"en": {
+			"question": "What event and activities usually occur during LARV?",
+			"answer": "During LARV, a lot of activities and events are organized with the intent to get you as a student to connect with your dream employer and future career. See our event calendar for a full description of the events planned for this year's LARV. If you do not find any information in the calendar, we have not yet had time to plan all events. Then you will have to keep an eye on the website and our social media for more information!"
+		}
+	},
+	{
+		"sv": {
+			"question": "Vilka företag kommer delta under LARV-mässan i år?",
+			"answer": "Du kan se årets deltagande företag och organisationer i vår katalog. Denna hittar du i fliken ”Mässan” -> ”Katalog”."
+		},
+		"en": {
+			"question": "Which companies will participate during this year’s fair?",
+			"answer": "You can see this year’s participating companies and organizations in our digital catalogue. This is found in the “Fair” -> “Catalogue” tab."
+		}
+	},
+	{
+		"sv": {
+			"question": "Kostar det något att delta?",
+			"answer": "Som student kostar det inget att delta på några utav LARVs evenemang eller aktiviteter!"
+		},
+		"en": {
+			"question": "Do I have to pay to be able to participate?",
+			"answer": "No,  all LARV activities and events are completely free for students!"
+		}
+	},
+	{
+		"sv": {
+			"question": "Måste man anmäla sig för att kunna delta?",
+			"answer": "Vissa evenemang kan kräva att man anmäler sig till för att säkra sin plats. Andra, som exempelvis mässan, är det bara att dyka upp till. Kolla vår eventkalender för att läsa mer om vilka evenemang som kräver anmälan!"
+		},
+		"en": {
+			"question": "Do I have to sign up to be able to participate?",
+			"answer": "Some special events or activities may require you to sign up to secure your seat for a seminar, for example. "
+		}
+	},
+	{
+		"sv": {
+			"question": "Kan jag delta även fast jag pluggar under Luleå studentkår?",
+			"answer": "Ja, det kan du!"
+		},
+		"en": {
+			"question": "Can I participate during LARV even if I am not a member of Teknologkåren?",
+			"answer": "Yes, you can!"
+		}
+	},
+	{
+		"sv": {
+			"question": "När kan man söka in och engagera sig i LARV?",
+			"answer": "Ansökningar till projektgruppen och koordinatorer pågår under våren och värdrekryteringen äger rum under tidiga delen av hösten. Du kan läsa mer om alla poster under fliken ”engagera dig”! "
+		},
+		"en": {
+			"question": "When can I apply to be a part of LARV?",
+			"answer": "Applications to the project group and coordinators are open during the spring and volunteer recruitment takes place during the early part of the autumn. You can read more about all available positions under the tab ”Get involved”! "
+		}
+	},
+	{
+		"sv": {
+			"question": "På vilka sätt kan man engagera sig?",
+			"answer": "LARV erbjuder en rad olika engagemang när det kommer till arbetsuppgifter och tidsbelastning. Du kan läsa mer om alla poster under fliken ”engagera dig”. Vi har något för alla!"
+		},
+		"en": {
+			"question": "What types of positions are available?",
+			"answer": "LARV offers many different types of positions depending on what you are lookingwhen it comes to workload and the variety of tasks. See the “Get involved” page to read more about our available positions!"
+		}
 	}
 ]

@@ -82,6 +82,11 @@
 		"INFO_3": "Prep-week är en annan viktig del av projektet. Detta är en vecka som hålls ett par månader före mässveckan med avsikt att förbereda studenterna för LARV. Detta görs genom informativa seminarier om LARV, hur man presenterar sig för företag, hur man kommer igång med och använder LinkedIn, hur man skriver ett personligt brev och andra evenemang av liknande natur.",
 		"INFO_4": "Är du en student som vill engagera dig eller en organisation som vill delta under LARV? Läs mer om vad LARV kan göra för dig som student eller din organisation här."
 	},
+	"FAIR": {
+		"HEADER": "Mässan",
+		"INFO_1": "LARV-mässan är LARVs huvudevenemang. Detta är ett dagsevenemang där representanter från över 110 organisationer reser till Luleå tekniska universitet för att möta morgondagens kompetens, campusstudenterna. Mässan lockar ofta över 2000 studenter och hålls vanligtvis på onsdagen under LARV-veckan mellan 09.00 och 15.00. Utställarrepresentanter kommer att vara tillgängliga i sin bås redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar på teknisk fakultet inga schemalagda lektioner för den dagen. Mässan är på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta kan rymmas.",
+		"INFO_2": "Är du en organisation som vill delta i LARV? Läs mer om information om organisationsdeltagande på vår organisationssida..."
+	},
 	"CATALOG": {
 		"NOT_CURRENT_YEAR": "Katalogen för LARV 2021 har ännu inte publicerats. Nedan kan du ta en titt på de senaste årets deltagande företag.",
 		"INFO": "I den här katalogen hittar du information om organisationer som tidigare har deltagit i LARV. Varje organisation representeras av en kvadrat. Genom att klicka på denna kvadrat kan man hitta specifik information om organisationen, vilken bransch de är verksamma inom, vilka typer av studenter de letar efter och vilken typ av anställningsformer de erbjuder.",

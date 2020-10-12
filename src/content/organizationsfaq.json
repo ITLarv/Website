@@ -1,14 +1,82 @@
 [
 	{
-		"question": "Question 1",
-		"answer": "Answer 1"
+		"sv": {
+			"question": "När äger LARV rum?",
+			"answer": "LARV äger rum mellan den 18–23 januari 2021."
+		},
+		"en": {
+			"question": "When does LARV occur?",
+			"answer": "LARV occurs on the dates 18 – 23 of January 2021."
+		}
 	},
 	{
-		"question": "Question 2222",
-		"answer": "Answer 2"
+		"sv": {
+			"question": "När äger mässan rum?",
+			"answer": "Mässan kommer i år äga rum den 20 januari. Den kommer vara digital och använda en plattform från Graduateland. Läs mer i fliken ”Mässan”."
+		},
+		"en": {
+			"question": "When does the fair occur?",
+			"answer": "The LARV-fair will occur on the 20:th of January 2021. It will be completely digital and utilize a platform provided by Graduateland."
+		}
 	},
 	{
-		"question": "Question 3",
-		"answer": "abc"
+		"sv": {
+			"question": "Hur anmäler man sig?",
+			"answer": "Du kan anmälda dig genom att trycka på knappen ”inledande anmälan” i fliken ”Företag”. Funkar inte denna så kan du skicka ett mail till anmalan@larv.org där du uppger att ditt företag/organisation är intresserade av att delta. "
+		},
+		"en": {
+			"question": "How do my company sign up for the fair?",
+			"answer": "You can sign up by pressing the button “initial application” located on the “Organizations” page. If this does not work you can also send an email to anmalan@larv.org and tell us that your company wants to participate."
+		}
+	},
+	{
+		"sv": {
+			"question": "Vem kan anmäla sig till mässan?",
+			"answer": "Företag, organisationer och arbetsgivare av alla olika slag är välkomna att anmäla sig till vår mässa via inledande anmälan. Vi kommer därefter granska er anmälan och återkomma om ni får en plats på mässan."
+		},
+		"en": {
+			"question": "Who can register for the fair?",
+			"answer": "Companies, organizations and employers of all kinds are welcome to register for our trade fair via initial registration. We will then review your application and return if you get a place at the fair."
+		}
+	},
+	{
+		"sv": {
+			"question": "Vad ingår i ett baspaket?",
+			"answer": "Det ingår... \n - Tillgång till och hjälp med att sätta upp en digital mässmonter \n - Ett uppslag i vår digitala mässkatalog \n - Marknadsföring inför mässan \n - Tillgång till tjänsten Individual meetings \n - Möjlighet att skicka nyckelband, vattenflaskor, tygpåsar och annan merch som kan delas ut på plats under mässdagarna \n - Tillgång till en kontaktperson innan, under och efter"
+		},
+		"en": {
+			"question": "What is included in the digital fair package?",
+			"answer": "The package includes the following:  \n - Access to a digital booth and help with setting it up \n - A place in our digital fair catalogue \n - Marketing leading up to the fair \n - Access to the service Individual Meetings \n - The possibility to send us freebies which will be distributed on campus and during the fair \n - Access to a host which acts as your personal contact person before, during and after the fair"
+		}
+	},
+	{
+		"sv": {
+			"question": "På vilka andra sätt kan vi delta under LARV?",
+			"answer": "Ni kan synas och nå våra studenter via aktiviteter och evenemang som föreläsningar, Case-kvällar, paneldebatter, personliga samtal med flera. LARV är inte bara en mässa så kolla igenom vår eventportfolio och hör av er till event@larv.org för att boka in ert eget event eller egna aktivitet!"
+		},
+		"en": {
+			"question": "Can we be a part of LARV in any other way than the fair?",
+			"answer": "Your organization can reach our students through other events and activities such as seminars, case nights, debates, Individual meetings, and many others. LARV is not just a fair. Take some inspiration from our event portfolio and contact us at event@larv.org to book your own event or activity."
+		}
+	},
+	{
+		"sv": {
+			"question": "Vad betyder alla nyckelband?",
+			"answer": "Nyckelbanden visar vilken sektion studenterna tillhör. Grå band - Geosektionen, Blått band - I-sektionen, Gult band - Datasektionen, Rött band – Maskinsektionen."
+		},
+		"en": {
+			"question": "What do the different colors of the keychains represent?",
+			"answer": "The color of the keychain represents the different chapters of the student union of engineering. Red: Mechanical engineering, yellow: computer sciences,  gray: geological engineering and sciences, Blue: Industrial engineering and management."
+		}
+	},
+	{
+		"sv": {
+			"question": "Jag behöver göra ändringar i min order. Vem pratar jag med?",
+			"answer": "Prata med er företagsvärd så hjälper de er. Ni kan även kontakta någon ur projektgruppen. Våra kontakter finns i fliken ”kontakt”."
+		},
+		"en": {
+			"question": "I need to make changes to my order. Who do I contact?",
+			"answer": "You can contact your personal host. Otherwise, send an email to anmalan@larv.orgor any of the members of the project group. Their contact information can be found in the “Contact” page. "
+		}
 	}
 ]
