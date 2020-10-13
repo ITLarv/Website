@@ -71,7 +71,7 @@
 	},
 	"HOME": {
 		"HEADER": "LARV vid Luleå tekniska universitet",
-		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa företag att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 företag and 2000 studenter.",
+		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. Detta LARV äger rum den 18-23 januari, 2021, med själva mässan den 20:e och eventuellt den 21:a. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa företag att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 företag and 2000 studenter.",
 		"NEWS": "Nyheter",
 		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org."
 	},
@@ -84,7 +84,7 @@
 	},
 	"FAIR": {
 		"HEADER": "Mässan",
-		"INFO_1": "LARV-mässan är LARVs huvudevenemang. Detta är ett dagsevenemang där representanter från över 110 organisationer reser till Luleå tekniska universitet för att möta morgondagens kompetens, campusstudenterna. Mässan lockar ofta över 2000 studenter och hålls vanligtvis på onsdagen under LARV-veckan mellan 09.00 och 15.00. Utställarrepresentanter kommer att vara tillgängliga i sin bås redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar på teknisk fakultet inga schemalagda lektioner för den dagen. Mässan är på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta kan rymmas.",
+		"INFO_1": "LARV-mässan är LARVs huvudevenemang. Detta är ett dagsevenemang där representanter från över 110 organisationer reser till Luleå tekniska universitet för att möta morgondagens kompetens, campusstudenterna. Mässan lockar ofta över 2000 studenter. Detta LARV kommer äger rum den 18-23 januari, 2021, med själva mässan den 20:e och eventuellt den 21:a. Utställarrepresentanter kommer att vara tillgängliga i sin bås redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar på teknisk fakultet inga schemalagda lektioner för den dagen. Mässan är på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta kan rymmas.",
 		"INFO_2": "Är du en organisation som vill delta i LARV? Läs mer om information om organisationsdeltagande på vår organisationssida..."
 	},
 	"CATALOG": {
@@ -197,7 +197,7 @@
 		"THE_FAIR": {
 			"HEADER": "Mässan",
 			"INFO": "LARV-mässan är nog det mest värdefulla evenemanget under LARV och är ett måste för organisationer som är seriösa med att rekrytera och presentera sig för studenter. Många studenter som går på LARV informeras inte om alla olika möjligheter som finns efter examen. Genom att träffa dem tidigt i deras karriär kan du göra ett bestående intryck och förse din organisation nytänkande och ambitiösa medarbetare.",
-			"INFO_2": "Mässan lockar ofta över 2000 studenter och hålls vanligtvis på onsdagen i karriärveckan mellan 09.00 och 15.00. Representanter förväntas vara tillgängliga i sina montrar under majoriteten av dagen redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar program av teknisk fakultet inga schemalagda lektioner under mässdagen. Mässan hålls på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta ryms. Se till att din organisation meddelar oss så snart som möjligt för att öka chanserna att ni säkrar en plats under årets mässa!",
+			"INFO_2": "Mässan lockar ofta över 2000 studenter. Detta LARV kommer äger rum den 18-23 januari, 2021, med själva mässan den 20:e och eventuellt den 21:a. Representanter förväntas vara tillgängliga i sina montrar under majoriteten av dagen redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar program av teknisk fakultet inga schemalagda lektioner under mässdagen. Mässan hålls på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta ryms. Se till att din organisation meddelar oss så snart som möjligt för att öka chanserna att ni säkrar en plats under årets mässa!",
 			"PRICING": {
 				"HEADER": "Baspaket och prislista",
 				"BASE": "Nedan följer en lista på allting som är inkluderat i baspaketet. Vid framtagning av events förs en dialog med projektgruppen för att tillsammans komma fram till vad som fungerar bäst för just era behov.",

@@ -71,7 +71,7 @@
 	},
 	"HOME": {
 		"HEADER": "LARV at Luleå University of Technology",
-		"INFO": "LARV, short for Luleå arbetsmarknadsvecka, is the largest event held annually at Luleå university of technology. LARV is a project dedicated to help students advance their professional careers and to help employers find the competence of tomorrow. This is done through a week filled with career related events, inspiring seminars and most importantly a fair involving over 110 organisations and 2000 students.",
+		"INFO": "LARV, short for Luleå arbetsmarknadsvecka, is the largest event held annually at Luleå university of technology. This LARV takes place on January 18-23, 2021, with the fair itself on the 20th and possibly on the 21st. LARV is a project dedicated to help students advance their professional careers and to help employers find the competence of tomorrow. This is done through a week filled with career related events, inspiring seminars and most importantly a fair involving over 110 organisations and 2000 students.",
 		"NEWS": "News",
 		"NEWS_CONTENT": "This website is under development; please excuse any inconveniences. If you have any input on the website, please contact it@larv.org."
 	},
@@ -84,7 +84,7 @@
 	},
 	"FAIR": {
 		"HEADER": "The Fair",
-		"INFO_1": "The LARV-fair is the main event of LARV. This is a one day event where representatives from over 110 organizations travel to Luleå university of technology to meet the competence of tomorrow, the campus students. The fair often attracts over 2000 students and is usually held on the wednesday of the career week between 9 AM - 15 PM. Exhibitor representatives will during this time be available in their stall ready to interact with students. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated.",
+		"INFO_1": "The LARV-fair is the main event of LARV. This is a one day event where representatives from over 110 organizations travel to Luleå university of technology to meet the competence of tomorrow, the campus students. The fair often attracts over 2000 students. This LARV takes place on January 18-23, 2021, with the fair itself on the 20th and possibly on the 21st. Exhibitor representatives will during this time be available in their stall ready to interact with students. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated.",
 		"INFO_2": "Are you a organization looking to attend LARV? Read more about information regarding organization attendance at our organizations page..."
 	},
 	"CATALOG": {
@@ -197,7 +197,7 @@
 		"THE_FAIR": {
 			"HEADER": "The Fair",
 			"INFO": "The LARV-fair is perhaps the event which provides the most value during LARV and is a must for organizations that are serious about recruiting and introducing themselves to students. Many students which attend LARV are not informed about all the different opportunities which exists post graduation. By meeting them early in their career you can make a lasting impression and provide your organization with new thinking and ambition.",
-			"INFO_2": "The fair often attracts over 2000 students and is usually held on the wednesday of the career week between 9 AM - 15 PM. Exhibitor representatives are expected to be available in their stall ready to interact with students during a majority of this time. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated. Make sure that your organization notifies us as soon as possible to increase the chances of securing a spot for this years fair!",
+			"INFO_2": "The fair often attracts over 2000 students. This LARV takes place on January 18-23, 2021, with the fair itself on the 20th and possibly on the 21st. Exhibitor representatives are expected to be available in their stall ready to interact with students during a majority of this time. Because of the importance of the fair all students which study programs of technical faculty does not have any scheduled classes for that day. The fair is hosted at the campus and therefore utilizes a couple of its buildings. Because of this the available space is limited and not all exhibitors which wants to attend can be accommodated. Make sure that your organization notifies us as soon as possible to increase the chances of securing a spot for this years fair!",
 			"PRICING": {
 				"HEADER": "Base package and price",
 				"BASE": "Below is a list of everything included in the base package offered to the participating organizations. When designing events, a dialog with the project group will be established for further details.",
