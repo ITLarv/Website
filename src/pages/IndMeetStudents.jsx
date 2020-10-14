@@ -12,7 +12,11 @@ export default function InvidualMeetings() {
 			<p>{t("IM.STUDENTS.INFO_3")}</p>
 			<p>{t("IM.STUDENTS.INFO_4")}</p>
 
-			<a className="button" href="https://forms.gle/EJMax49CLeboeWHa6">
+			<a
+				className="button"
+				href="https://forms.gle/EJMax49CLeboeWHa6"
+				target="_blank"
+			>
 				{t("IM.STUDENTS.APPLY")}
 			</a>
 		</>
