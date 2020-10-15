@@ -33,7 +33,7 @@ export default function Volunteer() {
 			<h3>{t("ROLES.VOLUNTEERS.IT")}</h3>
 			<p>{t("VOLUNTEERS.IT")}</p>
 			<h3>{t("ROLES.VOLUNTEERS.MÄSSA")}</h3>
-			<p>{t("VOLUNTEERS.LOUNGE")}</p>
+			<p>{t("VOLUNTEERS.MÄSSA")}</p>
 			<h3>{t("ROLES.VOLUNTEERS.SERVICE")}</h3>
 			<p>{t("VOLUNTEERS.SERVICE")}</p>
 			<h3>{t("ROLES.VOLUNTEERS.NATT")}</h3>
