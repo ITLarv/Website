@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faSnapchatSquare } from "@fortawesome/free-brands-svg-icons";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
@@ -35,16 +36,19 @@ export default function Home() {
 				<img src={logo} className="logoLarge" alt="logotype" />
 				<h1 className="titleLine">__________</h1>
 
-				<div className="twoIcons">
+				<div className="Icons">
+					<a href="https://www.facebook.com/LARVLTU/" target="_blank">
+						<FontAwesomeIcon icon={faFacebookSquare} className="icon" />
+					</a>
 					<a
 						href="https://www.instagram.com/larv_teknologkaren/"
 						target="_blank"
 					>
 						<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
 					</a>
-					<a href="https://www.facebook.com/LARVLTU/" target="_blank">
-						<FontAwesomeIcon icon={faFacebookSquare} className="icon" />
-					</a>
+					<NavLink to="/snapchat">
+						<FontAwesomeIcon icon={faSnapchatSquare} className="icon" />
+					</NavLink>
 				</div>
 
 				<h1>{t("HOME.HEADER")}</h1>
