@@ -20,7 +20,7 @@ export default function Volunteer() {
 					<li>{t("ROLES.VOLUNTEERS.FTG")}</li>
 					{/* <li>{t("ROLES.VOLUNTEERS.EVENT")}</li> */}
 					<li>{t("ROLES.VOLUNTEERS.IT")}</li>
-					<li>{t("ROLES.VOLUNTEERS.LOUNGE")}</li>
+					<li>{t("ROLES.VOLUNTEERS.MÄSSA")}</li>
 					<li>{t("ROLES.VOLUNTEERS.SERVICE")}</li>
 					<li>{t("ROLES.VOLUNTEERS.NATT")}</li>
 					<li>{t("ROLES.VOLUNTEERS.CHAUFFÖR")}</li>
@@ -32,7 +32,7 @@ export default function Volunteer() {
 			<p>{t("VOLUNTEERS.FTG")}</p>
 			<h3>{t("ROLES.VOLUNTEERS.IT")}</h3>
 			<p>{t("VOLUNTEERS.IT")}</p>
-			<h3>{t("ROLES.VOLUNTEERS.LOUNGE")}</h3>
+			<h3>{t("ROLES.VOLUNTEERS.MÄSSA")}</h3>
 			<p>{t("VOLUNTEERS.LOUNGE")}</p>
 			<h3>{t("ROLES.VOLUNTEERS.SERVICE")}</h3>
 			<p>{t("VOLUNTEERS.SERVICE")}</p>
