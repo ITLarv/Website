@@ -37,6 +37,12 @@ const catalog = () => {
 	};
 };
 
+const calendar = () => {
+	return {
+		show: false,
+	};
+};
+
 const CoordinatorApplication = () => {
 	return {
 		open: true,
@@ -61,6 +67,7 @@ export {
 	finalApplication,
 	map,
 	catalog,
+	calendar,
 	CoordinatorApplication,
 	VolunteerApplication,
 	PGApplication,
