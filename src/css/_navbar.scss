@@ -69,7 +69,7 @@ nav {
 	top: 100%;
 	left: 0;
 	height: 100vh;
-	background: $main-color-alpha;
+	background: $main-color;
 	width: auto;
 	transform: scale(0, 1);
 	transform-origin: left;
@@ -220,7 +220,7 @@ nav {
 			margin: 0;
 			display: none;
 			position: absolute;
-			background-color: $main-color-alpha;
+			background-color: $main-color;
 			z-index: 1;
 			top: 80px;
 			transform: scale(1, 0);
