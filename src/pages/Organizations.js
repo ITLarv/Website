@@ -36,10 +36,7 @@ export default function Companies() {
 				<NavLink className="button" to="/organizations/prislista_digital.pdf">
 					{t("ORGANIZATIONS.THE_FAIR.PORTFOLIO.HEADER")}
 				</NavLink>
-				<NavLink
-					className="button"
-					to="/organizations/organizations/company_VCF_guide.pdf"
-				>
+				<NavLink className="button" to="/organizations/company_VCF_guide.pdf">
 					{t("ORGANIZATIONS.THE_FAIR.PRICING.BUTTON")}
 				</NavLink>
 			</div>
