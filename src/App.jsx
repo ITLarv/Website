@@ -37,6 +37,7 @@ import IAContract from "./pages/IAContract";
 import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
 import InvitationInnovation from "./pages/InvitationInnovation";
+import CompanyGuide from "./pages/CompanyVCFGuide";
 import GoogleForm from "./pages/GoogleForm";
 
 function DevBranchBanner() {
@@ -137,6 +138,12 @@ function Page() {
 							exact
 							path="/organizations/inbjudan_innovation.pdf"
 							component={InvitationInnovation}
+						/>
+
+						<Route
+							exact
+							path="/organizations/company_VCF_guide.pdf"
+							component={CompanyGuide}
 						/>
 
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
