@@ -201,7 +201,7 @@
 		"HEADER": "Låt LARV hjälpa dig att hitta morgondagens kompetens",
 		"IM": "Individuella samtal",
 		"INFO": "LARV är en plattform där du som organisation kan träffa studenterna vid Luleå tekniska universitet. Vi erbjuder många olika sätt för din organisation att interagera med studenter och vi utmärker oss i att tillhandahålla tjänster inom områdena rekrytering och employer branding. De tjänster vi erbjuder listas nedan. När du anmäler dig till ett evenemang i samband med LARV ingår marknadsföring av evenemanget i priset. Om du som organisation har vissa krav på marknadsföring kommer vi att ta hänsyn till detta.",
-		"INFO_2": "Är du en organisation intresserad av LARV? Registrera dig via vår inledande anmälan här. Tillgänglig till 23 oktober.",
+		"INFO_2": "Är du en organisation intresserad av LARV? Registrera dig via vår inledande anmälan här. Tillgänglig till 30 november.",
 		"THE_FAIR": {
 			"HEADER": "Mässan",
 			"INFO": "LARV-mässan är nog det mest värdefulla evenemanget under LARV och är ett måste för organisationer som är seriösa med att rekrytera och presentera sig för studenter. Många studenter som går på LARV informeras inte om alla olika möjligheter som finns efter examen. Genom att träffa dem tidigt i deras karriär kan du göra ett bestående intryck och förse din organisation nytänkande och ambitiösa medarbetare.",
@@ -215,7 +215,8 @@
 				"LIST_4": "Tillgång till vår tjänst Individuella samtal under mässan",
 				"LIST_5": "Möjlighet att skicka nyckelband, vattenflaskor, tygpåsar och annan merch som kan delas ut i studentloungerna under mässan.",
 				"LIST_6": "Tillgång till en kontaktperson innan, under och efter mässan som kan svara på alla frågor ni kan tänkas ha.",
-				"EXTRAS": "Det finns en handfull extra tillägg ni kan erbjuda för att stå ut under LARV. Se vår fulla produktkatalog för mer information."
+				"EXTRAS": "Det finns en handfull extra tillägg ni kan erbjuda för att stå ut under LARV. Se vår fulla produktkatalog för mer information. Mer information om den digitala mässan finns i guiden. Vänligen kontakta anmalan@larv.org för att få tillgång till en videogenomgång av plattformen.",
+				"BUTTON": "Digital mässguide"
 			},
 			"DIRECTIONS": {
 				"HEADER": "The way to the fair",
