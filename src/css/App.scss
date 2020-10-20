@@ -77,6 +77,10 @@ p {
 	padding: 10px;
 }
 
+li {
+	max-width: $max-width-list;
+}
+
 iframe {
 	margin: auto;
 }
