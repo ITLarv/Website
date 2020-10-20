@@ -10,8 +10,7 @@ import { faSnapchatSquare } from "@fortawesome/free-brands-svg-icons";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
-const larvDate = Date.parse("20 Jan 2021 09:00:00");
-//const larvDate = Date.parse("4 Sep 2020 12:00:00");
+const larvDate = Date.parse("18 Jan 2021 09:00:00");
 
 // Renderer callback with condition
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
@@ -52,6 +51,7 @@ export default function Home() {
 				</div>
 
 				<h1>{t("HOME.HEADER")}</h1>
+				<h1>{t("HOME.DATE")}</h1>
 
 				<Countdown date={larvDate} renderer={renderer}></Countdown>
 			</div>
