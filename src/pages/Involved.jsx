@@ -31,7 +31,7 @@ export default function Involved() {
 							<li>{t("ROLES.VOLUNTEERS.FTG")}</li>
 							<li>{t("ROLES.VOLUNTEERS.EVENT")}</li>
 							<li>{t("ROLES.VOLUNTEERS.IT")}</li>
-							<li>{t("ROLES.VOLUNTEERS.LOUNGE")}</li>
+							<li>{t("ROLES.VOLUNTEERS.MÄSSA")}</li>
 							<li>{t("ROLES.VOLUNTEERS.SERVICE")}</li>
 							<li>{t("ROLES.VOLUNTEERS.CHAUFFÖR")}</li>
 							<li>{t("ROLES.VOLUNTEERS.NATT")}</li>
