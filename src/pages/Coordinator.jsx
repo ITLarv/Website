@@ -10,9 +10,11 @@ export default function Coordinator() {
 			<p>{t("COORDINATORS.INFO_1")}</p>
 			<p>{t("COORDINATORS.INFO_2")}</p>
 
-			<NavLink className="button" to="/involved/coordinator/application">
-				{t("COORDINATORS.APPLY")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/involved/coordinator/application">
+					{t("COORDINATORS.APPLY")}
+				</NavLink>
+			</div>
 
 			<h3>{t("COORDINATORS.POSITIONS")}</h3>
 			<div className="dropdown-content">
@@ -45,9 +47,11 @@ export default function Coordinator() {
 			<h3>{t("ROLES.COORDINATORS.PR")}</h3>
 			<p>{t("COORDINATORS.PR")}</p>
 
-			<NavLink className="button" to="/involved/coordinator/application">
-				{t("COORDINATORS.APPLY")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/involved/coordinator/application">
+					{t("COORDINATORS.APPLY")}
+				</NavLink>
+			</div>
 		</>
 	);
 }

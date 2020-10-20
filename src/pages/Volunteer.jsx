@@ -10,9 +10,11 @@ export default function Volunteer() {
 			<p>{t("VOLUNTEERS.INFO_1")}</p>
 			<p>{t("VOLUNTEERS.INFO_2")}.</p>
 
-			<NavLink className="button" to="/involved/volunteer/application">
-				{t("VOLUNTEERS.HEADER")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/involved/volunteer/application">
+					{t("VOLUNTEERS.APPLY")}
+				</NavLink>
+			</div>
 
 			<h3>{t("VOLUNTEERS.POSITIONS")}</h3>
 			<div className="dropdown-content">
@@ -43,9 +45,11 @@ export default function Volunteer() {
 			<h3>{t("ROLES.VOLUNTEERS.TI")}</h3>
 			<p>{t("VOLUNTEERS.TI")}</p>
 
-			<NavLink className="button" to="/involved/volunteer/application">
-				{t("VOLUNTEERS.APPLY")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/involved/volunteer/application">
+					{t("VOLUNTEERS.APPLY")}
+				</NavLink>
+			</div>
 		</>
 	);
 }

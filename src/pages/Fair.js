@@ -16,7 +16,7 @@ export default function Fair() {
 			<p>{t("FAIR.INFO_6")}</p>
 			<p>{t("FAIR.INFO_7")}</p>
 
-			<div className="twoButtons">
+			<div className="ButtonDiv">
 				<NavLink className="button" to="/organizations">
 					{t("GENERAL.ORGANIZATIONS")}
 				</NavLink>

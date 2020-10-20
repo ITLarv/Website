@@ -12,7 +12,7 @@ export default function Involved() {
 				<p>{t("GET_INVOLVED.INFO_1")}</p>
 				<p>{t("GET_INVOLVED.INFO_2")}</p>
 
-				<div className="threeButtons">
+				<div className="ButtonDiv">
 					<NavLink className="button" to="/involved/volunteer">
 						{t("GENERAL.VOLUNTEER")}
 					</NavLink>

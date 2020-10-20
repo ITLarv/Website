@@ -58,7 +58,7 @@ export default function Home() {
 
 			<div className="content">
 				<p>{t("HOME.INFO")}</p>
-				<div className="twoButtons">
+				<div className="ButtonDiv">
 					<NavLink className="button" to="/students">
 						{t("GENERAL.STUDENTS")}
 					</NavLink>

@@ -10,9 +10,11 @@ export default function Companies() {
 			<p>{t("ORGANIZATIONS.INFO")}</p>
 			<p>{t("ORGANIZATIONS.INFO_2")}</p>
 
-			<NavLink className="button" to="/organizations/initial-application">
-				{t("GENERAL.IA")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/organizations/initial-application">
+					{t("GENERAL.IA")}
+				</NavLink>
+			</div>
 
 			<h1>{t("ORGANIZATIONS.THE_FAIR.HEADER")}</h1>
 			<p>{t("ORGANIZATIONS.THE_FAIR.INFO")}</p>
@@ -30,7 +32,7 @@ export default function Companies() {
 			</ul>
 			<p>{t("ORGANIZATIONS.THE_FAIR.PRICING.EXTRAS")}</p>
 
-			<div className="twoButtons">
+			<div className="ButtonDiv">
 				<NavLink className="button" to="/organizations/prislista_digital.pdf">
 					{t("ORGANIZATIONS.THE_FAIR.PORTFOLIO.HEADER")}
 				</NavLink>

@@ -10,16 +10,20 @@ export default function Students() {
 			<p>{t("STUDENTS.INFO_1")}</p>
 			<p>{t("STUDENTS.INFO_2")}</p>
 
-			<NavLink className="button" to="/students/individual-meetings">
-				{t("IM.HEADER")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/students/individual-meetings">
+					{t("IM.HEADER")}
+				</NavLink>
+			</div>
 
 			<h1>{t("GENERAL.GET_INVOLVED")}</h1>
 			<p>{t("STUDENTS.INVOLVED")}.</p>
 
-			<NavLink className="button" to="/involved">
-				{t("GENERAL.GET_INVOLVED")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/involved">
+					{t("GENERAL.GET_INVOLVED")}
+				</NavLink>
+			</div>
 		</div>
 	);
 }

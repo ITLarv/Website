@@ -26,17 +26,16 @@ export default function Prelarv() {
 				<li>{t("PREP_WEEK.ACTIVITIES.LIST_7")}</li>
 			</ul>
 
-			<p>{t("PREP_WEEK.ACTIVITIES.STUDENTS_MORE")}</p>
+			<p>{t("PREP_WEEK.ACTIVITIES.MORE")}</p>
 
-			<NavLink className="button" to="/home/calendar">
-				{t("GENERAL.CALENDAR")}
-			</NavLink>
-
-			<p>{t("PREP_WEEK.ACTIVITIES.ORGANIZATIONS_MORE")}</p>
-
-			<NavLink className="button" to="/organizations">
-				{t("GENERAL.ORGANIZATIONS")}
-			</NavLink>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/home/calendar">
+					{t("GENERAL.CALENDAR")}
+				</NavLink>
+				<NavLink className="button" to="/organizations">
+					{t("GENERAL.ORGANIZATIONS")}
+				</NavLink>
+			</div>
 		</div>
 	);
 }

@@ -13,9 +13,11 @@ export default function FinalApplication() {
 			<p>{t("PG.INFO_2")}</p>
 			<p>{t("PG.INFO_3")}</p>
 			{ApplicationOpen && (
-				<NavLink className="button" to="/involved/pg/application">
-					{t("PG.APPLY")}
-				</NavLink>
+				<div className="ButtonDiv">
+					<NavLink className="button" to="/involved/pg/application">
+						{t("PG.APPLY")}
+					</NavLink>
+				</div>
 			)}
 
 			<h3>PG</h3>
@@ -66,9 +68,11 @@ export default function FinalApplication() {
 			<p>{t("PG.LOUNGE")}</p>
 
 			{ApplicationOpen && (
-				<NavLink className="button" to="/involved/pg/application">
-					{t("PG.APPLY")}
-				</NavLink>
+				<div className="ButtonDiv">
+					<NavLink className="button" to="/involved/pg/application">
+						{t("PG.APPLY")}
+					</NavLink>
+				</div>
 			)}
 		</>
 	);

@@ -12,7 +12,7 @@ export default function About() {
 			<p>{t("ABOUT.INFO_3")}</p>
 			<p>{t("ABOUT.INFO_4")}</p>
 
-			<div className="twoButtons">
+			<div className="ButtonDiv">
 				<NavLink className="button" to="/students">
 					{t("GENERAL.STUDENTS")}
 				</NavLink>
