@@ -104,9 +104,9 @@
 	},
 	"PREP_WEEK": {
 		"HEADER": "Prep-Week",
-		"INFO": "Prep-week är en annan viktig del av projektet. Detta är en vecka som hålls ett par månader före mässveckan med avsikt att förbereda studenterna för LARV. Detta görs genom informativa seminarier om LARV, hur man presenterar sig för företag, hur man kommer igång med och använder LinkedIn, hur man skriver ett personligt brev osv. Genom att anordna Prep-week ser vi till att studenterna är beredda att möta de deltagande organisationerna under LARV.",
+		"INFO": "Prep-week är en annan viktig del av projektet. Detta är en vecka som hålls ett par månader före mässveckan med avsikt att förbereda studenterna för LARV. Denna prep-week hålls 2-8 november, första veckan i läsperiod 2. Detta görs genom informativa seminarier om LARV, hur man presenterar sig för företag, hur man kommer igång med och använder LinkedIn, hur man skriver ett personligt brev osv. Genom att anordna Prep-week ser vi till att studenterna är beredda att möta de deltagande organisationerna under LARV.",
 		"ACTIVITIES": {
-			"HEADER": "Akriviteter under Prep-week",
+			"HEADER": "Aktiviteter under Prep-week",
 			"INFO": "Några av aktiviteterna som sker under prep-week är:",
 			"LIST_1": "Informationsföreläsningar om vad LARV är",
 			"LIST_2": "Gärtföreläsningar från näringslivet",
@@ -118,7 +118,7 @@
 			"LIST_5": "LARV-pub på STUK för studenter",
 			"LIST_6": "Case-lösningar",
 			"LIST_7": "Frukostföreläsningar",
-			"MORE": "För mer information om de olika eventen, kolla in kalendern. Vill ditt företag vara en del av Prep-week? Läs mer om vad vi kan erbjuda på företagssidan."
+			"MORE": "Vill ditt företag vara en del av Prep-week? Läs mer om vad vi kan erbjuda på företagssidan."
 		}
 	},
 	"STUDENTS": {
@@ -168,7 +168,7 @@
 		"APPLY": "Sök till koordinator här",
 		"POSITIONS": "Koordinatorpositioner",
 		"FTG": "Som företagskoordinator kommer du att tillsammans med de företagsansvariga med uppgifterna att kontakta företag till LARV, hjälpa till med innovationsrummet samt arbeta med att söka sponsring. Grundstenen i jobbet är att ha den initiala kontakten och pitcha till företag varför just de ska komma till LARV. Har du några frågor om att vara företagskoordinator, kontakta rekrytering@larv.org.",
-		"EVENT": "Vill du lära dig hur du anordnar event för andra? Som eventkoordinator planerar du tillsammans med eventansvarig event kring LARV, detta gäller både innan och under själva LARV-veckan. Det kan vara allt från en awesome LARV-pub till att fixa de bästa lunchföreläsningarna! Tveka inte att söka idag! Har du frågor kring att vara eventkoordinator, kontakta revent@larv.org.",
+		"EVENT": "Vill du lära dig hur du anordnar event för andra? Som eventkoordinator planerar du tillsammans med eventansvarig event kring LARV, detta gäller både innan och under själva LARV-veckan. Det kan vara allt från en awesome LARV-pub till att fixa de bästa lunchföreläsningarna! Tveka inte att söka idag! Har du frågor kring att vara eventkoordinator, kontakta event@larv.org.",
 		"GRAFIK": "Som grafisk koordinator har du ett nära samarbete med vår grafiskt ansvariga. Du kommer att hjälpa till med olika grafiska arbeten som ansvarig gör för marknadsföring och de andra i projektgruppen. Har du några frågor kring att vara grafisk koordinator, kontakta grafiker@larv.org.",
 		"IT": "Som IT-koordinator hjälper du IT-ansvarig med att utveckla hemsidan, du har kontakt med teknikvärdarna, hjälper resten av projektgruppen med webservice samt ser till att tekniken fungerar under LARV. Har du frågor om att vara IT-koordinator, kontakta it@larv.org.",
 		"MÄSSA": "Som mässbyggnadskoordinator kommer du att hjälpa mässbyggnadsansvarig med planering och utförande av lounger samt logistik. Har du några frågor kring att vara mässbyggnadskoordinator, kontakta massbyggnad@larv.org.",

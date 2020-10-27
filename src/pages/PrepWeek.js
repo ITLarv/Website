@@ -1,9 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { calendar } from "../config";
 
 export default function Prelarv() {
 	const { t } = useTranslation();
+	const showCalendar = calendar().show;
 	return (
 		<div className="Prelarv">
 			<h1>{t("PREP_WEEK.HEADER")}</h1>
@@ -29,9 +31,11 @@ export default function Prelarv() {
 			<p>{t("PREP_WEEK.ACTIVITIES.MORE")}</p>
 
 			<div className="ButtonDiv">
-				<NavLink className="button" to="/home/calendar">
-					{t("GENERAL.CALENDAR")}
-				</NavLink>
+				{showCalendar && (
+					<NavLink className="button" to="/home/calendar">
+						{t("GENERAL.CALENDAR")}
+					</NavLink>
+				)}
 				<NavLink className="button" to="/organizations">
 					{t("GENERAL.ORGANIZATIONS")}
 				</NavLink>
