@@ -10,6 +10,15 @@
 		"GET_INVOLVED": "Engagera dig",
 		"IA": "Inledande anmälan"
 	},
+	"WEEK": {
+		"MON": "Måndag",
+		"TUE": "Tisdag",
+		"WED": "Onsdag",
+		"THU": "Torsdag",
+		"FRI": "Fredag",
+		"SAT": "Lördag",
+		"SUN": "Söndag"
+	},
 	"ROLES": {
 		"PG": {
 			"PL": "Projektledare",
@@ -104,21 +113,76 @@
 	},
 	"PREP_WEEK": {
 		"HEADER": "Prep-Week",
-		"INFO": "Prep-week är en annan viktig del av projektet. Detta är en vecka som hålls ett par månader före mässveckan med avsikt att förbereda studenterna för LARV. Denna prep-week hålls 2-8 november, första veckan i läsperiod 2. Detta görs genom informativa seminarier om LARV, hur man presenterar sig för företag, hur man kommer igång med och använder LinkedIn, hur man skriver ett personligt brev osv. Genom att anordna Prep-week ser vi till att studenterna är beredda att möta de deltagande organisationerna under LARV.",
+		"INFO": "Prep-week är en vecka fylld med aktiviteter för dig som student på LTU för ge dig verktygen att göra dig redo för arbetslivet och hitta ditt drömjobb! Vi kommer även att hålla tävlingar under hela prep-week där du kan vinna fina priser.",
 		"ACTIVITIES": {
-			"HEADER": "Aktiviteter under Prep-week",
-			"INFO": "Några av aktiviteterna som sker under prep-week är:",
-			"LIST_1": "Informationsföreläsningar om vad LARV är",
-			"LIST_2": "Gärtföreläsningar från näringslivet",
-			"LIST_3": "Föreläsningar från Carrer Center på LTU:",
-			"LIST_3_1": "Hur man skriver ett personligt brev",
-			"LIST_3_2": "Hur man skriver ett attraktivt CV",
-			"LIST_3_3": "Bemästra din hisspitch",
-			"LIST_4": "Workshops",
-			"LIST_5": "LARV-pub på STUK för studenter",
-			"LIST_6": "Case-lösningar",
-			"LIST_7": "Frukostföreläsningar",
-			"MORE": "Vill ditt företag vara en del av Prep-week? Läs mer om vad vi kan erbjuda på företagssidan."
+			"HEADER": "Vad händer under Prep-week?",
+			"LINK_TEXT": "Länk till eventet",
+			"EVENT_1": {
+				"HEADER": "Sveriges ingenjörer “Vägen till ingenjörsjobbet”",
+				"LOC_TIME": "B192, Måndag 2/11, 12:00-12:45",
+				"INFO_1": "Hur gör du ett bra första intryck på en arbetsgivare? Hur skriver du ett professionellt CV och personligt brev? Hur kan du använda LinkedIn i ditt jobbsökande, och vad ska du tänka på under anställningsintervjun?",
+				"INFO_2": "Under denna lunchföreläsning kommer en CV-expert från Sveriges Ingenjörer ge dig konkreta tips och råd om vad du behöver tänka på för att hitta just ditt extrajobb, sommarjobb, exjobb eller första ingenjörsjobb.",
+				"INFO_3": "De första 100 får lunch som såklart Sveriges Ingenjörer bjuder på!"
+			},
+			"EVENT_2": {
+				"HEADER": "Career center “Promote your personal brand with LinkedIn”",
+				"LOC_TIME": "Ljusgårder, Tisdag 3/11, 12:00-12:45",
+				"INFO_1": "This lecture touches on improving your profile and how to market your skills effectively on LinkedIn.  Bring your laptop and update your profile as we go along.",
+				"INFO_2": "De första 50 får lunch, först till kvarn gäller."
+			},
+			"EVENT_3": {
+				"HEADER": "Career center “Perfecting your elevator pitch”",
+				"LOC_TIME": "B192, Onsdag 4/11, 12:00-12:45",
+				"INFO_1": "Learn how to create an effective pitch where you can quickly convey who you are, what you are good at and how you can contribute.",
+				"INFO_2": "De första 50 får lunch, först till kvarn gäller."
+			},
+			"EVENT_4": {
+				"HEADER": "Frukostpanel",
+				"LOC_TIME": "Ljusgården, Torsdag 5/11, kl 8:00-10:00",
+				"INFO_1": "Torsdag morgon kommer vi anordna en paneldebatt där Luleå Näringsliv och Luleå Business Region kommer närvara för att framförallt diskutera tre olika ämnen; “Vikten av engagemang”, “Hur corona har påverkat arbetsvärlden” samt “Vad man som ung student kan tänka på inför arbetslivet”. Ni kommer få chansen att ställa frågor till dessa företag om de berörda ämnena och höra hur de hanterar dessa ämnen. ",
+				"INFO_2": "Luleå Business Region kommer även att bjuda på frukost till de 100 första under panelen."
+			},
+			"EVENT_5": {
+				"HEADER": "Infomöte LARV",
+				"LOC_TIME": "B192, Torsdag 5/11, 12:00-12:45",
+				"INFO_1": "Har du funderingar kring vad LARV är? Kom då på vårt informationsmöte och få svar på frågor som vad är LARV, hur du engagerar dig i LARV eller vad som händer i LARV i år?",
+				"INFO_2": "De första 50 får lunch, först till kvarn gäller."
+			},
+			"EVENT_6": {
+				"HEADER": "CV-fotografering",
+				"LOC_TIME": "A3024, Fredag 6/11, 12:30-13:30",
+				"INFO_1": "I samarbete med Career Center erbjuder LARV CV-fotografering, missa inte denna chans!"
+			},
+			"EVENT_7": {
+				"HEADER": "LARV-pub 2",
+				"LOC_TIME": "STUK, Fredag 6/11, 18:00, 80kr",
+				"INFO_1": "Under prep-week är det dags igen! Fredag 6 november är vår efterlängtade LARV-pub är här igen. Missa inte chansen att förboka din plats på ett corona-vänligt eventet. I biljetten ingår entré, STUKs högkvalitativa hamburgertallrik samt en dryckesbiljett. STUK kommer precis som på förra LARV-puben att slå upp dörrarna 18:00 och vi drar igång vid 18:30. Och såklart bjuds det på underhållning i form av ett quiz under kvällen samt avslutande av veckans tävling. För att släcka törsten beställ vår goda LARV-drink från baren. Missa inte LARV-puben, en biljett kostar endast 80kr!",
+				"INFO_2": "Precis som förra LARVpuben i år finns det endast ett begränsat antal platser. Se till att säkra du och dina vänner säkrar era platser nu! Biljetter går ej att köpa på plats.",
+				"INFO_3": "Så glöm inte att ta med dina vänner för rolig LARV-pub med middag på STUK, passa på att mingla med oss från LARV också under kvällen!",
+				"INFO_4": "Eventet är för studenter vid LTU. Glöm inte att ta med ert LTU-kort för att komma in på STUK. Biljetter finns i evenet och specialkost anmäls på plats. "
+			}
+		},
+		"CONTESTS": {
+			"HEADER": "Prep-week tävlingar",
+			"CONTEST_1": {
+				"HEADER": "Gå på flest LARV-event",
+				"INFO_1": "Reglerna för våran första tävling är enkla, gå på så många event som anordnas av LARV under prep-week som möjligt och ha chansen att vinna finfina priser!",
+				"INFO_2": "För att delta i tävling 1 hämtar du ut ett stämpelkort vid något av eventen. Spara det sen och fyll i namn och ideal. Vid borttappat stämpelkort ersätts inga tidigare stämplar.",
+				"INFO_3": "Stämpelkortet lämnas sedan in på fredag 6/11, antingen under eftermiddagen eller i samband med entrén till LARV-puben.",
+				"INFO_4": "Det går även att lämna in under måndagen veckan därpå, senast kl.16.00. Kontakta då event@larv.org."
+			},
+			"CONTEST_2": {
+				"HEADER": "Nominera en vän",
+				"INFO_1": "I tävling 2 gäller det att nominera en vän, eller varför inte en ovän? Skriv en bra nominering, så kanske just ni blir ett par av fem som vinner varsin lunchbiljett från STUK. Ni har hela prep-week på er att nominera. De 5 vinnarna dras måndagen därpå. 10 lunchbiljetter står på spel!"
+			},
+			"CONTEST_3": {
+				"HEADER": "Triathlon",
+				"INFO_1": "Vår sista och mest omfattande tävling innehåller tre delmoment och vinst belönas med ett åtråvärt pris. Delmomenten är:",
+				"LI_1": "Spela in en pitch på ca en minut där du förklarar varför just ditt favoritföretag borde komma till LARV, skicka ditt bidrag (antingen videon direkt eller via en länk) till event@larv.com för att garanterat kamma hem hela 10 poäng! Deadline för att skicka in detta bidrag är fredag 6/11 12:00.",
+				"LI_2": "Andra delen av denna tävling utförs på frukostpanelen torsdag 5/11, där man samlar poäng genom att ställa frågor. Hela 5 poäng kan hämtas här, ett för varje inskickad fråga.",
+				"LI_3": "Den sista delen består av att medverka på det quiz som hålls under LARV-puben och visa att det är just DU som vet mest. Här är det 15 poäng som står på spel.",
+				"INFO_2": "Hela denna tävling är okej att göra i lag på upp till fem personer, se bara till att vara samma lag genom alla tre delmoment! Vi vill att varje bidrag lämnas in tillsammans med ett lagnamn och namnet på samtliga medlemmar och deras skolideal."
+			}
 		}
 	},
 	"STUDENTS": {
