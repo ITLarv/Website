@@ -36,12 +36,12 @@ export default function Home() {
 				<h1 className="titleLine">__________</h1>
 
 				<div className="Icons">
-					<a href="https://www.facebook.com/LARVLTU/" target="_blank">
+					<a href="https://www.facebook.com/LARVLTU/" target="_blank" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faFacebookSquare} className="icon" />
 					</a>
 					<a
 						href="https://www.instagram.com/larv_teknologkaren/"
-						target="_blank"
+						target="_blank" rel="noopener noreferrer"
 					>
 						<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
 					</a>
