@@ -84,6 +84,11 @@ export default function Prelarv() {
 
 			<h2>{t("PREP_WEEK.CONTESTS.CONTEST_2.HEADER")}</h2>
 			<p>{t("PREP_WEEK.CONTESTS.CONTEST_2.INFO_1")}</p>
+			<div className="ButtonDiv">
+				<NavLink className="button" to="/involved/volunteer/nomination">
+					{t("PREP_WEEK.CONTESTS.CONTEST_2.BUTTON")}
+				</NavLink>
+			</div>
 
 			<h2>{t("PREP_WEEK.CONTESTS.CONTEST_3.HEADER")}</h2>
 			<p>{t("PREP_WEEK.CONTESTS.CONTEST_3.INFO_1")}</p>

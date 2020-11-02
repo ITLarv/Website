@@ -52,6 +52,7 @@ const CoordinatorApplication = () => {
 const VolunteerApplication = () => {
 	return {
 		open: true,
+		nomination: true,
 	};
 };
 

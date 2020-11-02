@@ -173,7 +173,8 @@
 			},
 			"CONTEST_2": {
 				"HEADER": "Nominera en vän",
-				"INFO_1": "I tävling 2 gäller det att nominera en vän, eller varför inte en ovän? Skriv en bra nominering, så kanske just ni blir ett par av fem som vinner varsin lunchbiljett från STUK. Ni har hela prep-week på er att nominera. De 5 vinnarna dras måndagen därpå. 10 lunchbiljetter står på spel!"
+				"INFO_1": "I tävling 2 gäller det att nominera en vän, eller varför inte en ovän? Skriv en bra nominering, så kanske just ni blir ett par av fem som vinner varsin lunchbiljett från STUK. Ni har hela prep-week på er att nominera. De 5 vinnarna dras måndagen därpå. 10 lunchbiljetter står på spel!",
+				"BUTTON": "Nominera här"
 			},
 			"CONTEST_3": {
 				"HEADER": "Triathlon",

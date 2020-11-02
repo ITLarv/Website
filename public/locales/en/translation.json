@@ -164,7 +164,8 @@
 			},
 			"CONTEST_2": {
 				"HEADER": "Nominate a friend",
-				"INFO_1": "In competition 2, it is important to nominate a friend, or why not an enemy? Write a good nomination, so maybe you will be a couple of five who each win a lunch ticket from STUK. You have the entire prep week to nominate. The 5 winners will be drawn the following Monday. 10 lunch tickets are at stake!"
+				"INFO_1": "In competition 2, it is important to nominate a friend, or why not an enemy? Write a good nomination, so maybe you will be a couple of five who each win a lunch ticket from STUK. You have the entire prep week to nominate. The 5 winners will be drawn the following Monday. 10 lunch tickets are at stake!",
+				"BUTTON": "Nominate here"
 			},
 			"CONTEST_3": {
 				"HEADER": "Triathlon",

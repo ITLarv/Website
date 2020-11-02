@@ -18,6 +18,7 @@ import IndMeetStudents from "./pages/IndMeetStudents";
 import Involved from "./pages/Involved";
 import Volunteer from "./pages/Volunteer";
 import VolunteerApplication from "./pages/VolunteerApplication";
+import VolunteerNomination from "./pages/VolunteerNomination";
 import Coordinator from "./pages/Coordinator";
 import CoordinatorApplication from "./pages/CoordinatorApplication";
 import PG from "./pages/PG";
@@ -87,6 +88,11 @@ function Page() {
 							exact
 							path="/involved/volunteer/application"
 							component={VolunteerApplication}
+						/>
+						<Route
+							exact
+							path="/involved/volunteer/nomination"
+							component={VolunteerNomination}
 						/>
 						<Route exact path="/involved/coordinator" component={Coordinator} />
 						<Route
