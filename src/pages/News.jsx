@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import ImageContent from "../components/ImageContent";
-import img1 from "../img/misc/massan-006.jpg";
-import img2 from "../img/misc/massan-122.jpg";
+import img1 from "../img/misc/rsz_massan-006.jpg";
+import img2 from "../img/misc/rsz_massan-122.jpg";
 
 export default function News() {
 	const news = [
