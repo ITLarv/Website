@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { faSnapchatSquare } from "@fortawesome/free-brands-svg-icons";
+import News from "./News";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
@@ -36,12 +37,17 @@ export default function Home() {
 				<h1 className="titleLine">__________</h1>
 
 				<div className="Icons">
-					<a href="https://www.facebook.com/LARVLTU/" target="_blank">
+					<a
+						href="https://www.facebook.com/LARVLTU/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<FontAwesomeIcon icon={faFacebookSquare} className="icon" />
 					</a>
 					<a
 						href="https://www.instagram.com/larv_teknologkaren/"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
 					</a>
@@ -67,8 +73,7 @@ export default function Home() {
 					</NavLink>
 				</div>
 
-				<h1>{t("HOME.NEWS")}</h1>
-				<p>{t("HOME.NEWS_CONTENT")}</p>
+				<News />
 			</div>
 		</div>
 	);
