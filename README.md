@@ -43,6 +43,10 @@ NOTE: ONLY the .scss files should be edited together with a sass compiler. Any o
 
 Yes, this project really _should_ contain tests. Any day now. It's the next thing on my TODO ™
 
+# LICENSE
+
+This project is licensed under the MIT license.
+
 # Hosting (Sponsored by Vercel)
 
 The website is hosted using [Vercel](https://vercel.com?utm_source=larv-website&utm_campaign=oss). The master (alpha) branch can be found on [dev.larv.org](https://dev.larv.org). Staging (beta) on [staging.larv.org](https://staging.larv.org). The production is [larv.org](https://larv.org).
