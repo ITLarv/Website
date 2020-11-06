@@ -10,23 +10,10 @@
 	border-width: 0.3rem;
 	border-radius: 5px;
 	width: max-content;
+	height: fit-content;
 }
 
 .ButtonDiv {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-grow: 2;
-}
-
-.twoButtons {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-grow: 2;
-}
-
-.threeButtons {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
