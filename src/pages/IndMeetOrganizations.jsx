@@ -6,10 +6,10 @@ export default function InvidualMeetings() {
 	return (
 		<>
 			<h1>{t("IM.HEADER")}</h1>
-			<p>{t("IM.STUDENTS.INFO_1")}</p>
-			<p>{t("IM.STUDENTS.INFO_2")}</p>
-			<p>{t("IM.STUDENTS.INFO_3")}.</p>
-			<p>{t("IM.STUDENTS.INFO_4")}.</p>
+			<p>{t("IM.ORGANIZATIONS.INFO_1")}</p>
+			<p>{t("IM.ORGANIZATIONS.INFO_2")}</p>
+			<p>{t("IM.ORGANIZATIONS.INFO_3")}.</p>
+			<p>{t("IM.ORGANIZATIONS.INFO_4")}.</p>
 		</>
 	);
 }
