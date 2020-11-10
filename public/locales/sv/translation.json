@@ -298,5 +298,11 @@
 	},
 	"IA": {
 		"HEADER": "Inledande anmälan"
+	},
+	"QUIZ": {
+		"HEADER": "LARV-Pub - Quiz",
+		"ONE": "Etapp 1",
+		"TWO": "Etapp 2",
+		"THREE": "Etapp 3"
 	}
 }
