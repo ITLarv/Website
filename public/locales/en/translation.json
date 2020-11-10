@@ -194,9 +194,10 @@
 			"APPLY": "Apply here"
 		},
 		"ORGANIZATIONS": {
-			"INFO_1": "Individual meetings is a service which is highly appreciated by both students and organizations. Individual meetings allows representatives from your organization to sit down and have personal talks with students in a private, relaxed environment. This is a great way to find possible future colleagues and get to know what students prioritize when looking at employers. The meetings are 30 minutes long and you will be given a room for the whole day of the fair where you can conduct as many meetings as you can manage.",
-			"INFO_2": "If your organization want to participate in the meetings you will send us specifics regarding what types of student you preferably would like to talk to. When the students sign up for the meetings they will provide us with a CV. We will then select the appropriate students for your meetings. The price for this service is 4000kr for the whole day.",
-			"INFO_3": "Applications are yet to open but you can report your interest by signing the form below. We will then contact you once the application form is open"
+			"INFO_1": "Individual Meetings is a service that is offered to all companies that have chosen the digital fair package during LARV, free of charge. This is a service that collects CV, cover letter or other material that might be of interest from students. Thereafter you as a company choose the students you want to continue with and meet virtually. This is a fantastic opportunity to meet the students and give yourself a more thorough introduction. One meeting lasts about 20-30 minutes, where 12 meetings per company are included in the package. If you wish to add more meetings you are welcome add another Individual Meetings package.",
+			"INFO_2": "This year, along with the regular Individual Meetings, LARV is offering FutureTalks. These are meetings aimed at thesis projects. The meetings and matching with students is done in the same way as with Individual Meetings and is an excellent opportunity for those who have not secured the perfect candidate for their thesis project, or want to meet students to discuss opportunities. FutureTalks are planned to take place during week 48 of 2020.",
+			"INFO_3": "The cost for the service Individual Meetings is 6000 SEK per package if added outside of the digital fair package. The cost of the service FutureTalks is 6000 SEK per package.",
+			"INFO_4": "If you have any questions or wish to add any of the services you are welcome to contact individualmeetings@larv.org."
 		}
 	},
 	"GET_INVOLVED": {

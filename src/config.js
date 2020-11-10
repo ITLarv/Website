@@ -45,14 +45,14 @@ const calendar = () => {
 
 const CoordinatorApplication = () => {
 	return {
-		open: true,
+		open: false,
 	};
 };
 
 const VolunteerApplication = () => {
 	return {
-		open: true,
-		nomination: true,
+		open: false,
+		nomination: false,
 	};
 };
 

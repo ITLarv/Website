@@ -203,9 +203,10 @@
 			"APPLY": "Anmäl dig här"
 		},
 		"ORGANIZATIONS": {
-			"INFO_1": "Individuella samtal är en tjänst som uppskattas av både studenter och organisationer. Enskilda möten tillåter representanter från din organisation att sitta ner och ha personliga samtal med studenter i en privat, avslappnad miljö. Detta är ett utmärkt sätt att hitta möjliga framtida kollegor och få höra hur studenter ser på er som arbetsgivare. Mötena är 30 minuter långa och du får ett rum för hela mässans dag där ni kan hålla så många möten som ni hinner med.",
-			"INFO_2": "Om din organisation vill delta i mötena kommer du att skicka oss information om vilka typer av studenter du helst vill prata med. När studenterna anmäler sig till mötena förser de oss med ett CV. Vi väljer sedan de mest lämpliga studenterna för dina möten. Priset för denna tjänst är 6000 kr för hela dagen.",
-			"INFO_3": "Ansökningar har ännu inte öppnats men du kan rapportera ditt intresse genom att fylla i formuläret nedan. Vi kommer sedan att kontakta dig när ansökningsblanketten är öppen."
+			"INFO_1": "Individual Meetings är en tjänst som erbjuds för alla företag som har valt baspaketet under LARV, utan någon extra kostnad. Detta är en tjänst som samlar in CV, personligt brev eller annat material ni kan vara intresserade av från studenter. Därefter väljer ni vilka studenter ni vill gå vidare med och träffa digitalt. Detta är ett fantastiskt tillfälle att träffa toppstudenter som har visat intresse för er samtidigt som ni ges chansen till en djupare presentation. Ett möte tar cirka 20-30 minuter, där det ingår 12 intervjubokningar per företag. Önskar ni fler boka fler intervjuer går det bra att lägga till ett ytterligare paket.",
+			"INFO_2": "I år finns utöver de vanliga Individual Meetings som sker i samband med LARV även möjlighet till Framtidssamtal, samtal som i huvudsak är för exjobb. Samtalen och matchningen sker på samma sätt som för Individual Meetings och är en utmärkt möjlighet för er som ännu inte har säkrat den perfekta exjobbs-kandidaten eller vill träffa intressanta studenter och diskutera möjligheter. Framtidssamtalen är planerade att äga rum under vecka 48.",
+			"INFO_3": "Kostnaden för tjänsten Individual Meetings är 6000 kr per paket om den läggs till utöver baspaketet. Kostnaden för Framtidssamtal är 6000 kr per paket.",
+			"INFO_4": "Ifall ni har några frågor eller önskar att lägga till någon av tjänsterna är ni välkomna att kontakta individualmeetings@larv.org."
 		}
 	},
 	"GET_INVOLVED": {

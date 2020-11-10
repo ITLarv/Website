@@ -26,7 +26,7 @@ export default function VolunteerAplication() {
 					<p>
 						The application is sadly not open at the moment. If there are any
 						questions about the application, please contact{" "}
-						<a href="rekrytering@larv.org">Head of HR</a>
+						<a href="mailto:rekrytering@larv.org">Head of HR</a>
 					</p>
 				</>
 			)}
