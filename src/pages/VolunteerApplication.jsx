@@ -1,7 +1,9 @@
 import React from "react";
 import { VolunteerApplication } from "../config";
+import { useTranslation } from "react-i18next";
 
 export default function VolunteerAplication() {
+	const { t } = useTranslation();
 	const ApplicationOpen = VolunteerApplication().open;
 	return (
 		<>
@@ -22,12 +24,8 @@ export default function VolunteerAplication() {
 			)}
 			{!ApplicationOpen && (
 				<>
-					<h1>Volunteer Application</h1>
-					<p>
-						The application is sadly not open at the moment. If there are any
-						questions about the application, please contact{" "}
-						<a href="mailto:rekrytering@larv.org">Head of HR</a>
-					</p>
+					<h1>{t("VOLUNTEERS.APPLICATION_HEADER")}</h1>
+					<p>{t("GET_INVOLVED.APPLICATION_CLOSED")}</p>
 				</>
 			)}
 		</>

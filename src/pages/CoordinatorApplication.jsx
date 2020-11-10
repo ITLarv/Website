@@ -1,7 +1,9 @@
 import React from "react";
 import { CoordinatorApplication } from "../config";
+import { useTranslation } from "react-i18next";
 
 export default function CoordinatorAplication() {
+	const { t } = useTranslation();
 	const ApplicationOpen = CoordinatorApplication().open;
 	return (
 		<>
@@ -20,12 +22,8 @@ export default function CoordinatorAplication() {
 			)}
 			{!ApplicationOpen && (
 				<>
-					<h1>Coordinatior Application</h1>
-					<p>
-						The application is sadly not open at the moment. If there are any
-						questions about the application, please contact{" "}
-						<a href="rekrytering@larv.org">Head of HR</a>
-					</p>
+					<h1>{t("COORDINATORS.APPLICATION_HEADER")}</h1>
+					<p>{t("GET_INVOLVED.APPLICATION_CLOSED")}</p>
 				</>
 			)}
 		</>
