@@ -175,6 +175,10 @@ function Page() {
 							from="/foretag/kontaktsamtal/"
 							to="/organizations/individual-meetings"
 						/>
+						<Redirect
+							from="/foretag/baspaket_och_tillval_2020.pdf"
+							to="/organizations/prislista_digital.pdf"
+						/>
 						<Route component={NotFound} />
 					</Switch>
 				</div>
