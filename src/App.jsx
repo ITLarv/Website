@@ -171,6 +171,10 @@ function Page() {
 
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
 						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
+						<Redirect
+							from="/foretag/kontaktsamtal/"
+							to="/organizations/individual-meetings"
+						/>
 						<Route component={NotFound} />
 					</Switch>
 				</div>
