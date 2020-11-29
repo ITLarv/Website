@@ -7,7 +7,7 @@ export default function Event(props) {
 
 	useEffect(() => {
 		const init = (props) => {
-			const url = props?.location?.state?.url;
+			//const url = props?.location?.state?.url;
 			const e = props?.location?.state;
 			if (e === undefined) {
 				// Handle undefined event
