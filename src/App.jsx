@@ -40,6 +40,7 @@ import InvitationDigital from "./pages/InvitationDigital";
 import InvitationInnovation from "./pages/InvitationInnovation";
 import CompanyGuide from "./pages/CompanyVCFGuide";
 import GoogleForm from "./pages/GoogleForm";
+import Covid19 from "./pages/Covid19";
 import Quiz from "./pages/Quiz";
 import Quiz1 from "./pages/Quiz1";
 import Quiz2 from "./pages/Quiz2";
@@ -70,6 +71,7 @@ function Page() {
 						<Route exact path="/snapchat" component={Snapchat} />
 						<Route exact path="/home/about" component={About} />
 						<Route exact path="/home/calendar" component={Calendar} />
+						<Route exact path="/covid" component={Covid19} />
 						<Route exact path="/event" component={Event} />
 						<Route exact path="/fair" component={Fair} />
 						<Route exact path="/fair/catalog" component={Catalog} />
