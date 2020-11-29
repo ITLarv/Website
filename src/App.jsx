@@ -42,9 +42,6 @@ import CompanyGuide from "./pages/CompanyVCFGuide";
 import GoogleForm from "./pages/GoogleForm";
 import Covid19 from "./pages/Covid19";
 import Quiz from "./pages/Quiz";
-import Quiz1 from "./pages/Quiz1";
-import Quiz2 from "./pages/Quiz2";
-import Quiz3 from "./pages/Quiz3";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -107,11 +104,7 @@ function Page() {
 							component={CoordinatorApplication}
 						/>
 						<Route exact path="/involved/pg" component={PG} />
-						<Route
-							exact
-							path="/involved/pg/application"
-							component={PGApplication}
-						/>
+						<Route exact path="/involved/pg/application" component={PGApplication} />
 						<Route exact path="/organizations" component={Organizations} />
 						<Route exact path="/organizations/faq">
 							<Faq questions={OrganizationsFAQ} />
@@ -180,6 +173,14 @@ function Page() {
 
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
 						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
+						<Redirect
+							from="/foretag/kontaktsamtal/"
+							to="/organizations/individual-meetings"
+						/>
+						<Redirect
+							from="/foretag/baspaket_och_tillval_2020.pdf"
+							to="/organizations/prislista_digital.pdf"
+						/>
 						<Route component={NotFound} />
 					</Switch>
 				</div>

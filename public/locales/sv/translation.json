@@ -82,7 +82,7 @@
 	"HOME": {
 		"HEADER": "LARV vid Luleå tekniska universitet",
 		"DATE": "18:e - 23:a januari, 2021",
-		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. Detta LARV äger rum den 18-23 januari, 2021, med själva mässan den 20:e och eventuellt den 21:a. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa företag att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 företag och 2000 studenter.",
+		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. Detta LARV äger rum den 18-23 januari, 2021, med själva mässan den 20:e. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa företag att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 företag och 2000 studenter.",
 		"NEWS": "Nyheter",
 		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org."
 	},
@@ -102,7 +102,10 @@
 		"INFO_4": "Att mäta utfallet av ett fysiskt mässdeltagande är ofta svårt men med årets digitala plattform så har vi möjligheten att se exakt hur många studenter som besökt er monter, vilka program de studerar, vad de är intresserade av samt mycket annat. Vi kan på ett konkret sätt mäta utfallet och värdet av ett deltagande på mässan samt enklare följa upp arbetet med intressanta kandidater.",
 		"INFO_5": "För deltagare som annars skulle resa långt blir kostnaden i slutändan mindre då representanter inte behöver ta tid från sina vardagliga uppgifter för att resa. Ett digitalt deltagande kräver i grunden endast att representanter har en dator med internetuppkoppling tillgänglig under tiden er monter är live för att kunna besvara frågor och ta eventuella samtal. Vart i landet de befinner sig spelar ingen roll, huvudkontor som affärsresa.",
 		"INFO_6": "Employer branding delen är dock inte lika stark med en digital plattform som med en fysisk mässa så i årets mässpaket ingår marknadsföring i vår digitala mässkatalog samt extra marknadsföring inför mässan men även fri tillgång till tjänsten Individual Meetings. Detta är en tjänst som tillåter er att direkt samtala med utvalda, intressanta studenter på en djupare nivå. Vi har valt att inkludera mer i årets mässpaket då vi fortfarande vill erbjuda den exponering och personliga kontakt som normalt sett är en av LARVs hörnstenar.",
-		"INFO_7": "Är du en organisation som vill delta i LARV? Läs mer om information om organisationsdeltagande på vår organisationssida..."
+		"INFO_7": "Är du en organisation som vill delta i LARV? Läs mer om information om organisationsdeltagande på vår organisationssida...",
+		"HEADER_3": "Fysisk närvaro",
+		"INFO_8": "Även om själva mässan kommer att vara digital betyder det inte att LARV endast kommer vara digital. Under hela LARV-veckan kommer det att finnas föreläsningar och presentationer med olika organisationer. Vi i LARV tycker även att det är viktigt att det fortfarande är någon slags “mässa” på plats för studenter att besöka, därför kommer årets LARV att ha olika lounger på skolan där organisationer själva kan visa upp en kort film om sig och man kan få hjälp med den digitala plattformen.",
+		"INFO_9": "Håll utkik på LARVs hemsida och sociala medier om vilka företag kommer medverka när under LARV-veckan."
 	},
 	"CATALOG": {
 		"NOT_CURRENT_YEAR": "Katalogen för LARV 2021 har ännu inte publicerats. Nedan kan du ta en titt på de senaste årets deltagande företag.",
@@ -194,27 +197,30 @@
 		"INVOLVED": "Vill du få alla fördelarna som nämns ovan samt utveckla färdigheter som ledarskap, lagarbete, ansvar, planering och mycket mer? Då är ett engagemang i LARV-projektet rätt för dig! LARV möjliggörs av de 140 studenter som är involverade i projektet. LARV erbjuder olika nivåer av engagemang när det gäller den tid som krävs eller de uppgifter du kommer att utföra. Det finns något för alla och oavsett vilken typ av engagemang du väljer kommer du att ha en märkbar inverkan på projektet och få värdefull personlig erfarenhet. Låter det här intressant för dig? Läs mer om de olika typerna av engagemang som LARV erbjuder."
 	},
 	"IM": {
-		"HEADER": "Individuella samtal och Framtidssamtal",
+		"HEADER": "Individuella samtal",
 		"STUDENTS": {
-			"INFO_1": "Individual Meetings och Framtidssamtal är din chans att ha djupgående samtal med representanter från utvalda företag och få din fot genom dörren hos din framtida arbetsgivare. Dessa tjänster är till för studenter som är intresserade av att veta mer om specifika arbetsgivare och vilka möjligheter de kan erbjuda dem. Mötena är strukturerade ungefär som en avslappnad anställningsintervju. Du och representanten är fria att prata om allt ni tycker är relevant.",
-			"INFO_2": "Framtidssamtal är ett nytt koncept för årets LARV och planeras infalla under vecka 48, vilket gör att Framtidssamtalen är lämpliga för dig som är på jakt efter examensarbete att utföra till våren.",
-			"INFO_3": "När du anmäler dig till ett möte har du möjlighet att välja vilka företag du är intresserade av att träffa. Du väljer även vilken typ av jobb du söker, vare sig det är exjobb eller praktik. Baserat på dina val kommer du bli anmäld till både Individual Meetings och Framtidssamtal, eller ett av dem. Du måste förse oss med ett CV samt ett personligt brev för att vi på bästa sätt ska kunna se till att dina och företagets intressen är i linje med varandra. Mötena är cirka 30 minuter långa och du kan boka så många möten som du hinner med. Du kan dock bara boka ett möte per företag.",
-			"INFO_4": "Intresserad av att boka ett möte? Gör en intresseanmälan genom att fylla i formuläret nedan. Vi kontaktar dig med mer information så snart de deltagande företagen har fastställts.",
+			"INFO_1": "Individual Meetings är din chans att ha djupgående samtal med representanter från utvalda företag och få din fot genom dörren hos din framtida arbetsgivare. Denna tjänst är till för studenter som är intresserade av att veta mer om specifika arbetsgivare och vilka möjligheter de kan erbjuda dem. Mötena är strukturerade ungefär som en avslappnad anställningsintervju. Du och representanten är fria att prata om allt ni tycker är relevant.",
+			"INFO_2": "När du anmäler dig till ett möte har du möjlighet att välja vilka företag du är intresserade av att träffa. Du väljer även vilken typ av jobb du söker, vare sig det är exjobb eller praktik. Du måste förse oss med ett CV samt ett personligt brev för att vi på bästa sätt ska kunna se till att dina och företagets intressen är i linje med varandra. Mötena är cirka 30 minuter långa och du kan boka så många möten som du hinner med. Du kan dock bara boka ett möte per företag.",
+			"INFO_3": "Intresserad av att boka ett möte? Gör en intresseanmälan genom att fylla i formuläret nedan. Vi kontaktar dig med mer information så snart de deltagande företagen har fastställts.",
+			"INFO_4": "OBS! Tyvärr har Framtidssamtalen ställts in, vi tackar för visat intresse och hoppas att ni som anmält er kan delta på Individual Meetings istället.",
 			"APPLY": "Anmäl dig här"
 		},
 		"ORGANIZATIONS": {
-			"INFO_1": "Individuella samtal är en tjänst som uppskattas av både studenter och organisationer. Enskilda möten tillåter representanter från din organisation att sitta ner och ha personliga samtal med studenter i en privat, avslappnad miljö. Detta är ett utmärkt sätt att hitta möjliga framtida kollegor och få höra hur studenter ser på er som arbetsgivare. Mötena är 30 minuter långa och du får ett rum för hela mässans dag där ni kan hålla så många möten som ni hinner med.",
-			"INFO_2": "Om din organisation vill delta i mötena kommer du att skicka oss information om vilka typer av studenter du helst vill prata med. När studenterna anmäler sig till mötena förser de oss med ett CV. Vi väljer sedan de mest lämpliga studenterna för dina möten. Priset för denna tjänst är 6000 kr för hela dagen.",
-			"INFO_3": "Ansökningar har ännu inte öppnats men du kan rapportera ditt intresse genom att fylla i formuläret nedan. Vi kommer sedan att kontakta dig när ansökningsblanketten är öppen."
+			"INFO_1": "Individual Meetings är en tjänst som erbjuds för alla företag som har valt baspaketet under LARV, utan någon extra kostnad. Detta är en tjänst som samlar in CV, personligt brev eller annat material ni kan vara intresserade av från studenter. Därefter väljer ni vilka studenter ni vill gå vidare med och träffa digitalt. Detta är ett fantastiskt tillfälle att träffa toppstudenter som har visat intresse för er samtidigt som ni ges chansen till en djupare presentation. Ett möte tar cirka 20-30 minuter, där det ingår 12 intervjubokningar per företag. Önskar ni fler intervjuer går det bra att lägga till ett ytterligare paket.",
+			"INFO_2": "Kostnaden för tjänsten Individual Meetings är 6000 kr per paket om den läggs till utöver baspaketet.",
+			"INFO_3": "Ifall ni har några frågor eller önskar att lägga till någon av tjänsterna är ni välkomna att kontakta individualmeetings@larv.org.",
+			"INFO_4": "OBS! Tyvärr har Framtidssamtalen ställts in, vi tackar för visat intresse och hoppas att ni som anmält er kan delta på Individual Meetings istället."
 		}
 	},
 	"GET_INVOLVED": {
 		"HEADER": "Engagera dig i LARV",
 		"INFO_1": "Personlig utveckling, värdefull erfarenhet, stimulerande uppgifter och härliga människor. Detta är vad ett engagemang i LARV erbjuder dig som student, oavsett om du letar efter något litet att göra på sidan av studierna eller något att helt kasta dig in i. Det är de 140 engagerade studenterna som gör LARV möjligt varje år så ta chansen att sätta din prägel på projektet!",
-		"INFO_2": "LARV erbjuder olika nivåer av engagemang när det kommer till den tid som krävs eller de uppgifter du kommer att utföra."
+		"INFO_2": "LARV erbjuder olika nivåer av engagemang när det kommer till den tid som krävs eller de uppgifter du kommer att utföra.",
+		"APPLICATION_CLOSED": "Ansökan är tyvärr inte öppen just nu. Om det finns några frågor om ansökan, vänligen kontakta rekrytering@larv.org"
 	},
 	"VOLUNTEERS": {
 		"HEADER": "Värdar",
+		"APPLICATION_HEADER": "Värdansäkan",
 		"INFO_1": "Som värd är du främst involverad under LARV och Prep-week för att hjälpa till med de praktiska aspekterna av projektet. Värdar är de som gör det möjligt att genomföra LARV enligt den plan som projektgruppen och koordinatorerna fastställt. På samma sätt som koordinatorposterna varierar uppgifterna mycket mellan olika typer av värdar. En servicevärd kan till exempel vara receptionist eller chaufför medan en företagsvärd har till uppgift att kontakta, träffa och ta hand om två utställande företag före och under mässan. Se listan nedan för en fullständig beskrivning av olika typer av värdar och deras uppgifter.",
 		"INFO_2": "Eftersom de flesta värdar utses några månader före LARV deltar de inte i första hand i planeringen av projektet. Istället har du som värd en inverkan på projektet genom utvärderingar, workshops och direktkontakt med den person som ansvarar för ditt område. Perioden för engagemang och arbetsbelastning är för en värd i allmänhet den kortaste och mildaste av de åtaganden som LARV erbjuder. Återigen beror detta mycket på vilken typ av värd du vill bli. Förväntad arbetstid uppgår till 5 timmar i veckan men vanligtvis mindre. Tjänsten som värd är därför lämplig för dig som till exempel vill testa ett enklare, mindre tidskrävande engagemang eller få en ytlig inblick i LARV som ett projekt.",
 		"APPLY": "Sök till värd här",
@@ -229,6 +235,7 @@
 	},
 	"COORDINATORS": {
 		"HEADER": "Koordinator",
+		"APPLICATION_HEADER": "Koordinatoransökan",
 		"INFO_1": "Som koordinator blir du din områdesansvariges hjälpande hand. Du har till uppgift att hjälpa honom/henne med saker där de behöver stöd. Det kan vara allt från små uppgifter som att svara på e-post eller boka salar till att vara ansvariga för postspecifika projekt eller fungera som rådgivare för nya idéer. En koordinators uppgifter är därför mycket beroende av vilken post de ska bistå och vad som planeras för den posten det specifika året. En företagskoordinator kan till exempel vara ansvarig för att kontakta ett visst antal företag före mässan medan bankettkoordinatorer kan vara ansvariga för att boka mat och dryck. Fler exempel på specifika uppgifter kan hittas nedan. Koordinatorer arbetar också nära med projektgruppen och kommer därför också att vara involverade i planering och genomförande av projektet på en högre nivå. Detta innebär till exempel att kunna delta i workshops, föreläsningar, teambuildingövningar och andra tillfällen som kan planeras för projektgruppen och dess koordinatorer.",
 		"INFO_2": "En position som koordinator innebär att du måste ta mer ansvar för ditt arbete och lägga mer tid på projektet än om du var värd. Som med värdar skiljer sig arbetsbelastningen mycket mellan olika typer av koordinatorer. Du kan förväntas spendera mellan 3-10 timmar per vecka på ditt engagemang som koordinator. En koordinatorposition är därför lämplig för dig som till exempel vill utveckla din förmåga att samarbeta med andra och ta ett större ansvar, arbeta med större projekt eller vill få en djupare inblick i exakt hur LARV planeras.",
 		"APPLY": "Sök till koordinator här",
@@ -271,7 +278,7 @@
 		"THE_FAIR": {
 			"HEADER": "Mässan",
 			"INFO": "LARV-mässan är nog det mest värdefulla evenemanget under LARV och är ett måste för organisationer som är seriösa med att rekrytera och presentera sig för studenter. Många studenter som går på LARV informeras inte om alla olika möjligheter som finns efter examen. Genom att träffa dem tidigt i deras karriär kan du göra ett bestående intryck och förse din organisation nytänkande och ambitiösa medarbetare.",
-			"INFO_2": "Mässan lockar ofta över 2000 studenter. Detta LARV kommer äger rum den 18-23 januari, 2021, med själva mässan den 20:e och eventuellt den 21:a. Representanter förväntas vara tillgängliga i sina montrar under majoriteten av dagen redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar program av teknisk fakultet inga schemalagda lektioner under mässdagen. Mässan hålls på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta ryms. Se till att din organisation meddelar oss så snart som möjligt för att öka chanserna att ni säkrar en plats under årets mässa!",
+			"INFO_2": "Mässan lockar ofta över 2000 studenter. Detta LARV kommer äger rum den 18-23 januari, 2021, med själva mässan den 20:e. Representanter förväntas vara tillgängliga i sina montrar under majoriteten av dagen redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar program av teknisk fakultet inga schemalagda lektioner under mässdagen. Mässan hålls på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta ryms. Se till att din organisation meddelar oss så snart som möjligt för att öka chanserna att ni säkrar en plats under årets mässa!",
 			"PRICING": {
 				"HEADER": "Baspaket och prislista",
 				"BASE": "Nedan följer en lista på allting som är inkluderat i baspaketet. Vid framtagning av events förs en dialog med projektgruppen för att tillsammans komma fram till vad som fungerar bäst för just era behov.",
@@ -298,5 +305,11 @@
 	},
 	"IA": {
 		"HEADER": "Inledande anmälan"
+	},
+	"QUIZ": {
+		"HEADER": "LARV-Pub - Quiz",
+		"ONE": "Etapp 1",
+		"TWO": "Etapp 2",
+		"THREE": "Etapp 3"
 	}
 }

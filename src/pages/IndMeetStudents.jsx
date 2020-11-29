@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 export default function InvidualMeetings() {
@@ -17,6 +16,7 @@ export default function InvidualMeetings() {
 					className="button"
 					href="https://forms.gle/EJMax49CLeboeWHa6"
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					{t("IM.STUDENTS.APPLY")}
 				</a>

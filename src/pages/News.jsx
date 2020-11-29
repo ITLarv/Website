@@ -24,16 +24,16 @@ export default function News() {
 		},
 		{
 			title: {
-				en: "Join LARV Prep-Week",
-				sv: "Delta i LARV Prep-Week",
+				en: "Join LARV",
+				sv: "Delta i LARV",
 			},
 			image: img1,
 			imageAlt: "",
 			content: {
 				en:
-					"Week 45 is LARV Prep-week. A week full of lectures, competitions, a LARV pub and much more! Read more under Prep-Week in the menu above.",
+					"Week 3, 2021, is LARV. A week full of lectures, competitions, the fair and much more! Read more under Fair in the menu above.",
 				sv:
-					"Vecka 45 är det LARV Prep-week. En vecka fylld av föreläsningar, tävlingar, en LARV-pub och mycket mer! Läs mer under Prep-Week i menyn ovan.",
+					"Vecka 3, 2021, är det LARV. En vecka fylld av föreläsningar, tävlingar, mässan och mycket mer! Läs mer under Mässan i menyn ovan.",
 			},
 		},
 		{
