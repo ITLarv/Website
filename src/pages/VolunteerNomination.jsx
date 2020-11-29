@@ -23,8 +23,8 @@ export default function VolunteerNomination() {
 				<>
 					<h1>Volunteer Application</h1>
 					<p>
-						The application is sadly not open at the moment. If there are any
-						questions about the application, please contact{" "}
+						The application is sadly not open at the moment. If there are any questions
+						about the application, please contact{" "}
 						<a href="rekrytering@larv.org">Head of HR</a>
 					</p>
 				</>

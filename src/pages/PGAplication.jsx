@@ -22,9 +22,8 @@ export default function PGAplication() {
 				<>
 					<h1>PG Application</h1>
 					<p>
-						The application is sadly not open at the moment. If there are any
-						questions, please contact the{" "}
-						<a href="pl@larv.org">Project Manager</a>
+						The application is sadly not open at the moment. If there are any questions,
+						please contact the <a href="pl@larv.org">Project Manager</a>
 					</p>
 				</>
 			)}

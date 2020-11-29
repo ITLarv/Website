@@ -23,7 +23,7 @@ export default function TestMap() {
 		const loadExhibitors = async () => {
 			if (allExhibitors.length > 0) return;
 			const response = await fetch(
-				"https://p18.jexpo.se/larv/exhibitors?getAttributes=true&filter=[%22workspace:2020%22,%22published:true%22]"
+				"https://p18.jexpo.se/larv/exhibitors?getAttributes=true&filter=[%22workspace:2020%22,%22published:true%22]",
 			);
 			if (response.ok) {
 				const json = await response.json();

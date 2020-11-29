@@ -11,10 +11,7 @@ export default function ImageContent(props) {
 
 	const history = useHistory();
 
-	const handleOnClick = useCallback(() => history.push(props.linkTo), [
-		history,
-		props.linkTo,
-	]);
+	const handleOnClick = useCallback(() => history.push(props.linkTo), [history, props.linkTo]);
 
 	return (
 		<div className="NewsItem" onClick={handleOnClick}>
