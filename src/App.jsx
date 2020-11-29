@@ -39,7 +39,7 @@ import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
 import InvitationInnovation from "./pages/InvitationInnovation";
 import CompanyGuide from "./pages/CompanyVCFGuide";
-import GoogleForm from "./pages/GoogleForm";
+//import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
 import Covid19 from "./pages/Covid19";
 
 function DevBranchBanner() {
