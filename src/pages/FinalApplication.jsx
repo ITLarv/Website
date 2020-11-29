@@ -1,22 +1,24 @@
+/* eslint-disable no-undef */
 import React from "react";
-import JexpoFinalApplication from "../components/Jexpo/JexpoFinalApplication.js";
+export default () => {
+	React.useEffect(() => {
+		Jexpo.init(
+			{
+				lang: "sv",
+				endpoint: "p18.jexpo.se/larv",
+			},
+			function () {
+				Jexpo.dialog("app-dialog");
+				Jexpo.ExhibitorsFinalRegistration("app", { workspace: "2021" });
+			},
+		);
+		console.info({ window });
+	}, []);
 
-export default function FinalApplication() {
 	return (
-		<div className="jexpo-container">
-			<h1>Final Application</h1>
-			<iframe
-				title="jexpo-final-application"
-				className="iframe-jexpo"
-				srcDoc={JexpoFinalApplication}
-				width="500"
-				height="500"
-				frameborder="0"
-				marginheight="0"
-				marginwidth="0"
-			>
-				Läser in...
-			</iframe>
+		<div>
+			<div id="app" className="jexpo jexpo-forms"></div>
+			<div id="app-dialog" className="jexpo jexpo-forms"></div>
 		</div>
 	);
-}
+};
