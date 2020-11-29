@@ -41,7 +41,6 @@ import InvitationInnovation from "./pages/InvitationInnovation";
 import CompanyGuide from "./pages/CompanyVCFGuide";
 import GoogleForm from "./pages/GoogleForm";
 import Covid19 from "./pages/Covid19";
-import Quiz from "./pages/Quiz";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -150,27 +149,6 @@ function Page() {
 							path="/organizations/company_VCF_guide.pdf"
 							component={CompanyGuide}
 						/>
-
-						<Route exact path="/quiz" component={Quiz} />
-						<Route exact path="/quiz/one">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSdQ37hbcq5H1QiYZqF9sbrTFGC2tSVswMEocexftknthQL7RQ/viewform?embedded=true"
-								height="1800px"
-							/>
-						</Route>
-						<Route exact path="/quiz/two">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScsa_wCB5QoQC9LwnCB0FCBN9ST_PFVg9UmXo6c407Jkbdvyw/viewform?embedded=true"
-								height="1800px"
-							/>
-						</Route>
-						<Route exact path="/quiz/three">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfKhUl7D1TcJX8VDHolQo_Cj2k9OkXwDCT1q6zzTwLtxb_Pcw/viewform?embedded=true"
-								height="1800px"
-							/>
-						</Route>
-
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
 						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
 						<Redirect
