@@ -13,7 +13,7 @@ const transparentIcon = new L.icon({
 
 export default function TestMap() {
 	const click = (e) => {
-		console.log(e.latlng);
+		console.info(e.latlng);
 	};
 
 	const [allExhibitors, setAllExhibitors] = useState([]);
@@ -36,7 +36,6 @@ export default function TestMap() {
 				const placedExhibitors = sorted.filter((e) => {
 					return e?.profile?.booth;
 				});
-				console.log({ placedExhibitors });
 				setSearchedExhibitors(placedExhibitors);
 			} else {
 				alert("Fetching exhibitors error");
@@ -48,7 +47,6 @@ export default function TestMap() {
 	const getCoordinates = (booth) => {
 		const c = coordinates[booth];
 		const ca = [c.lat, c.lng];
-		console.log(ca);
 		return ca;
 	};
 
