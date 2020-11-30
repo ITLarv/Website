@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { extractTranslation } from "../HelperFunctions";
+import { useHistory } from "react-router-dom";
 
 export default function ImageContent(props) {
 	const { i18n } = useTranslation();
@@ -8,8 +9,12 @@ export default function ImageContent(props) {
 	const title = extractTranslation(props.title, lang);
 	const content = extractTranslation(props.content, lang);
 
+	const history = useHistory();
+
+	const handleOnClick = useCallback(() => history.push(props.linkTo), [history, props.linkTo]);
+
 	return (
-		<div className="NewsItem">
+		<div className="NewsItem" onClick={handleOnClick}>
 			<img src={props.image} alt={props.imageAlt} />
 			<h2 className="NewsHeader">
 				{title.slice(0, 45)}

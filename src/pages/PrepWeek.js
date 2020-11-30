@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { calendar } from "../config";
+//import { calendar } from "../config";
 
 export default function Prelarv() {
 	const { t } = useTranslation();
-	const showCalendar = calendar().show;
+	//const showCalendar = calendar().show;
 	return (
 		<div className="Prelarv">
 			<h1>{t("PREP_WEEK.HEADER")}</h1>
@@ -18,7 +18,12 @@ export default function Prelarv() {
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_2.INFO_1")}</p>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_2.INFO_2")}</p>
 			<div className="ButtonDiv">
-				<a className="button" href="https://fb.me/e/5WudSXeDy" target="_blank">
+				<a
+					className="button"
+					href="https://fb.me/e/5WudSXeDy"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
 				</a>
 			</div>
@@ -28,7 +33,12 @@ export default function Prelarv() {
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_3.INFO_1")}</p>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_3.INFO_2")}</p>
 			<div className="ButtonDiv">
-				<a className="button" href="https://fb.me/e/33Rw5IJXe" target="_blank">
+				<a
+					className="button"
+					href="https://fb.me/e/33Rw5IJXe"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
 				</a>
 			</div>
@@ -38,7 +48,12 @@ export default function Prelarv() {
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_4.INFO_1")}</p>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_4.INFO_2")}</p>
 			<div className="ButtonDiv">
-				<a className="button" href="https://fb.me/e/3wELGiJUS" target="_blank">
+				<a
+					className="button"
+					href="https://fb.me/e/3wELGiJUS"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
 				</a>
 			</div>
@@ -48,7 +63,12 @@ export default function Prelarv() {
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_5.INFO_1")}</p>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_5.INFO_2")}</p>
 			<div className="ButtonDiv">
-				<a className="button" href="https://fb.me/e/fo1cO29jS" target="_blank">
+				<a
+					className="button"
+					href="https://fb.me/e/fo1cO29jS"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
 				</a>
 			</div>
@@ -57,7 +77,12 @@ export default function Prelarv() {
 			<h3>{t("PREP_WEEK.ACTIVITIES.EVENT_6.LOC_TIME")}</h3>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_6.INFO_1")}</p>
 			<div className="ButtonDiv">
-				<a className="button" href="https://fb.me/e/3phvbL3no" target="_blank">
+				<a
+					className="button"
+					href="https://fb.me/e/3phvbL3no"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
 				</a>
 			</div>
@@ -69,7 +94,12 @@ export default function Prelarv() {
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_7.INFO_3")}</p>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_7.INFO_4")}</p>
 			<div className="ButtonDiv">
-				<a className="button" href="https://fb.me/e/1MGMdpguc" target="_blank">
+				<a
+					className="button"
+					href="https://fb.me/e/1MGMdpguc"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
 				</a>
 			</div>

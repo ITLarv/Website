@@ -17,7 +17,7 @@ export default function CoordinatorAplication() {
 					marginheight="0"
 					marginwidth="0"
 				>
-					Läser in …
+					Läser in...
 				</iframe>
 			)}
 			{!ApplicationOpen && (

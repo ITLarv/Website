@@ -19,12 +19,7 @@ export default function Calendar() {
 	return (
 		<FullCalendar
 			defaultView="dayGridMonth"
-			plugins={[
-				dayGridPlugin,
-				timeGridPlugin,
-				listPlugin,
-				googleCalendarPlugin,
-			]}
+			plugins={[dayGridPlugin, timeGridPlugin, listPlugin, googleCalendarPlugin]}
 			header={{
 				left: "prev,next today",
 				center: "title",
