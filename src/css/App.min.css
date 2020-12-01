@@ -627,6 +627,35 @@ ul .indentList {
 	-ms-flex-positive: 2;
 	flex-grow: 2;
 }
+.jexpo table {
+	width: 100%;
+}
+.jexpo .form-control {
+	width: 100%;
+}
+.jexpo .fa-check-circle {
+	color: green;
+}
+.jexpo .text-warning {
+	color: orange;
+}
+.jexpo .checkboxes {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.jexpo a {
+	color: #337ab7;
+	text-decoration: none;
+}
+.jexpo a:hover {
+	color: #23527c;
+	text-decoration: underline;
+}
 .covid a {
 	text-decoration: none;
 	color: #a6192e;
