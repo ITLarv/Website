@@ -18,7 +18,7 @@ export default function VolunteerAplication() {
 						marginheight="0"
 						marginwidth="0"
 					>
-						Läser in …
+						Läser in...
 					</iframe>
 				</div>
 			)}

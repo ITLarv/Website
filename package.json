@@ -71,6 +71,7 @@
 		"react-dom": "^16.13.1",
 		"react-i18next": "^11.7.3",
 		"react-leaflet": "^2.7.0",
+		"react-parallax": "^3.1.2",
 		"react-pdf": "^5.0.0",
 		"react-responsive": "^8.1.0",
 		"react-router-dom": "^5.2.0",
@@ -81,6 +82,7 @@
 		"style-loader": "0.23.1",
 		"terser-webpack-plugin": "^4.2.2",
 		"ts-pnp": "1.1.5",
+		"typescript": "^4.0.5",
 		"url-loader": "2.3.0",
 		"webpack": "4.41.5",
 		"webpack-dev-server": "^3.11.0",
@@ -116,12 +118,10 @@
 	},
 	"lint-staged": {
 		"*.+(js|ts)": [
-			"eslint --fix",
-			"git add"
+			"eslint --fix"
 		],
 		"*.+(json|css|md)": [
-			"prettier --write",
-			"git add"
+			"prettier --write"
 		]
 	}
 }

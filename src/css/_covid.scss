@@ -1,0 +1,9 @@
+.covid {
+	a {
+		text-decoration: none;
+		color: $main-color;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

@@ -39,11 +39,8 @@ import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
 import InvitationInnovation from "./pages/InvitationInnovation";
 import CompanyGuide from "./pages/CompanyVCFGuide";
-import GoogleForm from "./pages/GoogleForm";
-import Quiz from "./pages/Quiz";
-import Quiz1 from "./pages/Quiz1";
-import Quiz2 from "./pages/Quiz2";
-import Quiz3 from "./pages/Quiz3";
+//import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
+import Covid19 from "./pages/Covid19";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -70,6 +67,7 @@ function Page() {
 						<Route exact path="/snapchat" component={Snapchat} />
 						<Route exact path="/home/about" component={About} />
 						<Route exact path="/home/calendar" component={Calendar} />
+						<Route exact path="/covid" component={Covid19} />
 						<Route exact path="/event" component={Event} />
 						<Route exact path="/fair" component={Fair} />
 						<Route exact path="/fair/catalog" component={Catalog} />
@@ -105,11 +103,7 @@ function Page() {
 							component={CoordinatorApplication}
 						/>
 						<Route exact path="/involved/pg" component={PG} />
-						<Route
-							exact
-							path="/involved/pg/application"
-							component={PGApplication}
-						/>
+						<Route exact path="/involved/pg/application" component={PGApplication} />
 						<Route exact path="/organizations" component={Organizations} />
 						<Route exact path="/organizations/faq">
 							<Faq questions={OrganizationsFAQ} />
@@ -155,29 +149,16 @@ function Page() {
 							path="/organizations/company_VCF_guide.pdf"
 							component={CompanyGuide}
 						/>
-
-						<Route exact path="/quiz" component={Quiz} />
-						<Route exact path="/quiz/one">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSdQ37hbcq5H1QiYZqF9sbrTFGC2tSVswMEocexftknthQL7RQ/viewform?embedded=true"
-								height="1800px"
-							/>
-						</Route>
-						<Route exact path="/quiz/two">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScsa_wCB5QoQC9LwnCB0FCBN9ST_PFVg9UmXo6c407Jkbdvyw/viewform?embedded=true"
-								height="1800px"
-							/>
-						</Route>
-						<Route exact path="/quiz/three">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfKhUl7D1TcJX8VDHolQo_Cj2k9OkXwDCT1q6zzTwLtxb_Pcw/viewform?embedded=true"
-								height="1800px"
-							/>
-						</Route>
-
 						<Redirect from="/postbeskrivningar/pg" to="/involved" />
 						<Redirect from="/foretag/inledande-anmalan/" to="/organizations" />
+						<Redirect
+							from="/foretag/kontaktsamtal/"
+							to="/organizations/individual-meetings"
+						/>
+						<Redirect
+							from="/foretag/baspaket_och_tillval_2020.pdf"
+							to="/organizations/prislista_digital.pdf"
+						/>
 						<Route component={NotFound} />
 					</Switch>
 				</div>

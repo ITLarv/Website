@@ -7,12 +7,11 @@ export default function Event(props) {
 
 	useEffect(() => {
 		const init = (props) => {
-			const url = props?.location?.state?.url;
-			console.log({ url });
+			//const url = props?.location?.state?.url;
 			const e = props?.location?.state;
 			if (e === undefined) {
 				// Handle undefined event
-				console.log("Event is undefined");
+				console.error("Event is undefined");
 				history.push("/home/calendar");
 				return;
 			}
@@ -21,7 +20,7 @@ export default function Event(props) {
 			try {
 				jsonContent = JSON.parse(strippedContent);
 			} catch (e) {
-				console.log(e);
+				console.error(e);
 			}
 			setEvent({
 				title: e.title,

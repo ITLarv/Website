@@ -9,6 +9,7 @@ export default function Fair() {
 			<h1>{t("FAIR.HEADER")}</h1>
 			<p>{t("FAIR.INFO_1")}</p>
 			<p>{t("FAIR.INFO_2")}</p>
+
 			<h2>{t("FAIR.HEADER_2")}</h2>
 			<p>{t("FAIR.INFO_3")}</p>
 			<p>{t("FAIR.INFO_4")}</p>
@@ -24,6 +25,9 @@ export default function Fair() {
 					{t("GENERAL.IA")}
 				</NavLink>
 			</div>
+
+			<h2>{t("FAIR.HEADER_3")}</h2>
+			<p>{t("FAIR.INFO_8")}</p>
 		</div>
 	);
 }

@@ -1,0 +1,27 @@
+.jexpo {
+	table {
+		width: 100%;
+	}
+	.form-control {
+		width: 100%;
+	}
+	.fa-check-circle {
+		color: green;
+	}
+	.text-warning {
+		color: orange;
+	}
+	.checkboxes {
+		display: flex;
+		flex-direction: column;
+	}
+	a {
+		color: #337ab7;
+		text-decoration: none;
+
+		&:hover {
+			color: #23527c;
+			text-decoration: underline;
+		}
+	}
+}

@@ -8,6 +8,7 @@ export default function VolunteerNomination() {
 			{NominationOpen && (
 				<div className="iframe-container">
 					<iframe
+						title="Volunteer Application"
 						src="https://docs.google.com/forms/d/e/1FAIpQLSeWhWnMu2OZ04ls4pp5CJgtAbtTSmJthAHml_5ZEF47QEcHyA/viewform?embedded=true"
 						width="640"
 						height="4051"
@@ -15,7 +16,7 @@ export default function VolunteerNomination() {
 						marginheight="0"
 						marginwidth="0"
 					>
-						Läser in …
+						Läser in...
 					</iframe>
 				</div>
 			)}
@@ -23,8 +24,8 @@ export default function VolunteerNomination() {
 				<>
 					<h1>Volunteer Application</h1>
 					<p>
-						The application is sadly not open at the moment. If there are any
-						questions about the application, please contact{" "}
+						The application is sadly not open at the moment. If there are any questions
+						about the application, please contact{" "}
 						<a href="rekrytering@larv.org">Head of HR</a>
 					</p>
 				</>

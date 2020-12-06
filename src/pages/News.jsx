@@ -3,21 +3,37 @@ import { useTranslation } from "react-i18next";
 import ImageContent from "../components/ImageContent";
 import img1 from "../img/misc/rsz_massan-006.jpg";
 import img2 from "../img/misc/rsz_massan-122.jpg";
+import covid from "../img/misc/stop-covid.png";
 
 export default function News() {
 	const news = [
 		{
 			title: {
-				en: "Join LARV Prep-Week",
-				sv: "Delta i LARV Prep-Week",
+				en: "LARV and Covid-19",
+				sv: "LARV och Covid-19",
+			},
+			image: covid,
+			imageAlt: "",
+			content: {
+				en:
+					"Read more about how Covid-19 affects LARV 2021 and how we work to create a career fair that creates value for both exhibitors and students",
+				sv:
+					"Läs mer om hur Covid-19 påverkar LARV 2021 och hur vi arbetar för att ändå genomföra en mässa som skapar värde åt både utställare och studenter",
+			},
+			linkTo: "/covid",
+		},
+		{
+			title: {
+				en: "Join LARV",
+				sv: "Delta i LARV",
 			},
 			image: img1,
 			imageAlt: "",
 			content: {
 				en:
-					"Week 45 is LARVE Prep-week. A week full of lectures, competitions, a LARV pub and much more! Read more under Prep-Week in the menu above.",
+					"Week 3, 2021, is LARV. A week full of lectures, competitions, the fair and much more! Read more under Fair in the menu above.",
 				sv:
-					"Vecka 45 är det LARV Prep-week. En vecka fylld av föreläsningar, tävlingar, en LARV-pub och mycket mer! Läs mer under Prep-Week i menyn ovan.",
+					"Vecka 3, 2021, är det LARV. En vecka fylld av föreläsningar, tävlingar, mässan och mycket mer! Läs mer under Mässan i menyn ovan.",
 			},
 		},
 		{
@@ -43,11 +59,12 @@ export default function News() {
 			<div className="NewsFlow">
 				{news.map((newsItem) => (
 					<ImageContent
-						key={newsItem.title}
+						key={newsItem.title.en}
 						title={newsItem.title}
 						content={newsItem.content}
 						image={newsItem.image}
 						imageAlt={newsItem.imageAlt}
+						linkTo={newsItem.linkTo}
 					/>
 				))}
 			</div>
