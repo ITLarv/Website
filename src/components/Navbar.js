@@ -97,6 +97,16 @@ export default function Navbar() {
 										<NavLink
 											exact
 											activeClassName="active"
+											to="/covid"
+											onClick={closeNav}
+										>
+											{t("NAVBAR.COVID")}
+										</NavLink>
+									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
 											to="/fair/catalog"
 											onClick={closeNav}
 										>

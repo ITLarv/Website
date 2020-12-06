@@ -68,7 +68,8 @@
 		"COORDINATOR": "Coordinator",
 		"PG": "Project Group",
 		"ORGANIZATIONS": "ORGANIZATIONS",
-		"IA": "Initial Application"
+		"IA": "Initial Application",
+		"COVID": "Covid-19"
 	},
 	"HOME": {
 		"HEADER": "LARV at Luleå University of Technology",
