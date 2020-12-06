@@ -595,6 +595,7 @@ ul .indentList {
 	display: none;
 }
 .button {
+	cursor: pointer;
 	color: white;
 	text-decoration: none;
 	font-size: 2rem;
