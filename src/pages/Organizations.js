@@ -11,6 +11,14 @@ export default function Companies() {
 			<p>{t("ORGANIZATIONS.INFO_2")}</p>
 
 			<div className="ButtonDiv">
+				<a
+					className="button"
+					href="https://fair.larv.org/sv/event/4547"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{t("PLATFORM.BUTTON")}
+				</a>
 				<NavLink className="button" to="/organizations/initial-application">
 					{t("GENERAL.IA")}
 				</NavLink>

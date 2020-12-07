@@ -8,6 +8,18 @@ export default function Students() {
 		<div className="Students">
 			<h1>{t("STUDENTS.HEADER")}</h1>
 			<p>{t("STUDENTS.INFO_1")}</p>
+
+			<div className="ButtonDiv">
+				<a
+					className="button"
+					href="https://fair.larv.org/sv/event/4547"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{t("PLATFORM.BUTTON")}
+				</a>
+			</div>
+
 			<p>{t("STUDENTS.INFO_2")}</p>
 
 			<div className="ButtonDiv">
@@ -17,7 +29,7 @@ export default function Students() {
 			</div>
 
 			<h1>{t("GENERAL.GET_INVOLVED")}</h1>
-			<p>{t("STUDENTS.INVOLVED")}.</p>
+			<p>{t("STUDENTS.INVOLVED")}</p>
 
 			<div className="ButtonDiv">
 				<NavLink className="button" to="/involved">

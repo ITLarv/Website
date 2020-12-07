@@ -296,5 +296,8 @@
 	},
 	"IA": {
 		"HEADER": "Initial Application"
+	},
+	"PLATFORM": {
+		"BUTTON": "To The Platform"
 	}
 }

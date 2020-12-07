@@ -69,6 +69,14 @@ export default function Home() {
 			<div className="content">
 				<p>{t("HOME.INFO")}</p>
 				<div className="ButtonDiv">
+					<a
+						className="button"
+						href="https://fair.larv.org/sv/event/4547"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{t("PLATFORM.BUTTON")}
+					</a>
 					<NavLink className="button" to="/students">
 						{t("GENERAL.STUDENTS")}
 					</NavLink>

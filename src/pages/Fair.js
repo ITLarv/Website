@@ -10,6 +10,17 @@ export default function Fair() {
 			<p>{t("FAIR.INFO_1")}</p>
 			<p>{t("FAIR.INFO_2")}</p>
 
+			<div className="ButtonDiv">
+				<a
+					className="button"
+					href="https://fair.larv.org/sv/event/4547"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{t("PLATFORM.BUTTON")}
+				</a>
+			</div>
+
 			<h2>{t("FAIR.HEADER_2")}</h2>
 			<p>{t("FAIR.INFO_3")}</p>
 			<p>{t("FAIR.INFO_4")}</p>
