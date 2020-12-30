@@ -572,6 +572,9 @@ nav .dropdown-content a {
 	width: 50px;
 	margin: 5px;
 }
+.home p {
+	size: 100px;
+}
 ul {
 	display: inline-block;
 	padding-left: 0;
@@ -751,5 +754,9 @@ iframe {
 }
 .pdf {
 	margin: auto;
+}
+.students .involved {
+	background-color: grey;
+	color: white;
 }
 /*# sourceMappingURL=App.min.css.map */
