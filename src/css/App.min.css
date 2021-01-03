@@ -714,6 +714,12 @@ h1:after {
 	width: 150px;
 	margin: 0 auto;
 }
+.banner {
+	color: white;
+}
+.banner h1 {
+	padding: 20px 0;
+}
 .App {
 	text-align: center;
 	display: -webkit-box;
