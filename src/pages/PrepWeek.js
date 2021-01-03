@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 //import { calendar } from "../config";
 
 export default function Prelarv() {
@@ -8,7 +10,17 @@ export default function Prelarv() {
 	//const showCalendar = calendar().show;
 	return (
 		<div className="Prelarv">
-			<h1>{t("PREP_WEEK.HEADER")}</h1>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>{t("PREP_WEEK.HEADER")}</h1>
+				</Parallax>
+			</div>
 			<p>{t("PREP_WEEK.INFO")}</p>
 
 			<h1>{t("PREP_WEEK.ACTIVITIES.HEADER")}</h1>

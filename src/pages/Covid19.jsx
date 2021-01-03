@@ -1,10 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 function Covid19() {
 	return (
 		<div className="covid">
-			<h1>Covid-19</h1>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>Covid-19</h1>
+				</Parallax>
+			</div>
 			<h2>Hur LARV 2021 arbetar</h2>
 			<p>
 				Projektgruppen för LARV 2021 träffas varje vecka och följer alltid upp nya

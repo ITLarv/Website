@@ -1,12 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 export default function Companies() {
 	const { t } = useTranslation();
 	return (
 		<div className="Companies">
-			<h1>{t("ORGANIZATIONS.HEADER")}</h1>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>{t("ORGANIZATIONS.HEADER")}</h1>
+				</Parallax>
+			</div>
 			<p>{t("ORGANIZATIONS.INFO")}</p>
 			<p>{t("ORGANIZATIONS.INFO_2")}</p>
 
