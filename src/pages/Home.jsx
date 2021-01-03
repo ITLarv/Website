@@ -37,7 +37,7 @@ export default function Home() {
 			<Parallax className="parallax" blur={0} bgImage={bgImage} bgImageAlt="" strength={300}>
 				<div className="firstView">
 					<img src={logo} className="logoLarge" alt="logotype" />
-					<h1 className="titleLine">__________</h1>
+					<h1 className="titleLine">______________</h1>
 
 					<div className="Icons">
 						<a

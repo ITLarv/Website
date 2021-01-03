@@ -551,6 +551,9 @@ nav .dropdown-content a {
 .home .firstView h1 {
 	color: white;
 }
+.home .firstView h1:after {
+	border: none;
+}
 .home .firstView .titleLine {
 	color: #a6192e;
 }
@@ -675,6 +678,25 @@ ul .indentList {
 .covid a:hover {
 	text-decoration: underline;
 }
+p {
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+li {
+	max-width: 450px;
+}
+h1:after {
+	content: "";
+	display: block;
+	border-bottom: 3px solid #a6192e;
+	border-radius: 1px;
+	position: relative;
+	top: 4px;
+	width: 150px;
+	margin: 0 auto;
+}
 .App {
 	text-align: center;
 	display: -webkit-box;
@@ -745,15 +767,6 @@ ul .indentList {
 	padding-right: 40px;
 	padding-left: 40px;
 	overflow: visible;
-}
-p {
-	max-width: 700px;
-	text-align: center;
-	margin: 0 auto;
-	padding: 10px;
-}
-li {
-	max-width: 450px;
 }
 iframe {
 	margin: auto;

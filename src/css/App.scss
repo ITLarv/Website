@@ -11,6 +11,7 @@
 @import "./buttons";
 @import "./jexpo";
 @import "./covid";
+@import "./text";
 
 .App {
 	text-align: center;
@@ -71,17 +72,6 @@
 		padding-left: 40px;
 		overflow: visible;
 	}
-}
-
-p {
-	max-width: $max-width-text;
-	text-align: center;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-li {
-	max-width: $max-width-list;
 }
 
 iframe {
