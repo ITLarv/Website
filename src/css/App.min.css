@@ -575,6 +575,15 @@ nav .dropdown-content a {
 .home p {
 	size: 100px;
 }
+.home .news {
+	position: relative;
+	top: 20px;
+	background-color: grey;
+	padding: 10px;
+}
+.home .news h1 {
+	color: white;
+}
 ul {
 	display: inline-block;
 	padding-left: 0;

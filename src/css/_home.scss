@@ -42,4 +42,15 @@
 	p {
 		size: 100px;
 	}
+
+	.news {
+		position: relative;
+		top: 20px;
+		background-color: grey;
+		padding: 10px;
+
+		h1 {
+			color: white;
+		}
+	}
 }
