@@ -596,6 +596,11 @@ ul .indentList {
 	list-style-type: circle;
 	margin-left: 15px;
 }
+.involved .info {
+	background-color: grey;
+	color: white;
+	padding: 15px 0;
+}
 .involved .threeColumns {
 	display: -webkit-box;
 	display: -ms-flexbox;

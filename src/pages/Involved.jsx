@@ -8,9 +8,10 @@ export default function Involved() {
 		<>
 			<div className="involved">
 				<h1>{t("GET_INVOLVED.HEADER")}</h1>
-
-				<p>{t("GET_INVOLVED.INFO_1")}</p>
-				<p>{t("GET_INVOLVED.INFO_2")}</p>
+				<div className="info">
+					<p>{t("GET_INVOLVED.INFO_1")}</p>
+					<p>{t("GET_INVOLVED.INFO_2")}</p>
+				</div>
 
 				<div className="threeColumns">
 					<div className="column">
