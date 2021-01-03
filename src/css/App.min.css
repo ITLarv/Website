@@ -596,19 +596,32 @@ ul .indentList {
 	list-style-type: circle;
 	margin-left: 15px;
 }
-.involved .dropdown {
-	width: 80%;
-	margin: auto;
-	position: relative;
+.involved .threeColumns {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
-.involved .dropdown .dropdown-content {
-	display: block;
+.involved .threeColumns .column {
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
 }
-.involved .dropdown .dropdown-content ul {
+.involved .threeColumns .column ul {
+	font-size: medium;
+	font-weight: bold;
 	text-align: center;
-}
-.involved .dropdown h3:hover ul {
-	display: none;
+	list-style: none;
 }
 .button {
 	cursor: pointer;
@@ -691,7 +704,6 @@ h1:after {
 	content: "";
 	display: block;
 	border-bottom: 3px solid #a6192e;
-	border-radius: 1px;
 	position: relative;
 	top: 4px;
 	width: 150px;
