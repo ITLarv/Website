@@ -296,5 +296,29 @@
 	},
 	"IA": {
 		"HEADER": "Initial Application"
+	},
+	"COVID19": {
+		"HEADER": "Covid-19",
+		"HEADER_1": "How LARV 2021 Works",
+		"INFO_1": "The project group for LARV 2021 meets every week and always follows up on new recommendations from the Swedish Public Health Agency, the region and the government. We actively monitor the outside world and work to create the best possible conditions we can according to both light and dark forecasts. The project group consists of 11 creative people and a number of helpful coordinators who regularly hold workshops, brainstorm ideas and creative solutions. Some of these will probably not be implemented as a result of stricter recommendations than when we started, others you will find below. But what you can be sure of is that we work to create as much value for both companies and students as we can in the current circumstances, and we are more than happy to answer questions about how we work to meet your specific needs, regardless of whether you represents a company or is one of Luleå University of Technology's 15,000 students.",
+		"HEADER_2": "Digital Fair",
+		"INFO_2_1": "As usual, the fair starts at 09:00 and runs until 16:00 and it takes place on January 20, 2021. Between these hours, there will be a number of students and companies who want to meet and make contacts. The only difference is that this year it will be done digitally instead of physically. There will be the opportunity to chat between students and companies, but also the opportunity to talk face to face using video chat.",
+		"INFO_2_2": "Students who study programs of the Faculty of Engineering will have a schedule break posted throughout the day. This is to ensure that there are no teaching opportunities that can get in the way of their participation and chance to meet all exhibitors!",
+		"HEADER_3": "Plattform",
+		"INFO_3": "LARV has evaluated a number of different solutions and, like many other fairs, has found that Graduateland can offer the solution that creates the best value for all LARV's visitors and participants. It is a solution that many companies are already familiar with and that focuses on communication over buzzwords and immature \"3D\" technology. The fact that the majority of the other university fairs have chosen the same solution also means that companies that participate in several fairs save a lot of time as they do not have to register on different platforms.",
+		"HEADER_4": "How does the platform work?",
+		"INFO_4": "We are currently working on developing guides that are easy to follow for both participating companies and visiting students.",
+		"HEADER_5": "Digital exhibition platform",
+		"INFO_5": "Under the tab \"fair\" we have gathered the information regarding the fair platform. Among other things, what advantages there is with a digital trade fair compared to a classic physical one and how we work with the challenges that a digital platform brings with it. What is good to think about before, during, and after the fair.",
+		"HEADER_6": "Event",
+		"HEADER_7": "Lectures",
+		"INFO_6": "This year we are investing more in lectures than ever before. In addition to lectures during the actual fair day, we also focus on filling the entire Thursday with shorter presentations from companies that get a unique opportunity to present themselves and their work. Do you have an exciting technology, interesting solution, or unique competence that you are happy to talk about for 20-30 minutes? Get in touch via email to event@larv.org.",
+		"HEADER_8": "Panels",
+		"INFO_7": "In addition to classical lectures, we also think of interactive panels where representatives from companies are given the opportunity to discuss topics. These topics can touch on both specific industries, but also overall challenges. Do you as a student or company have something special you want to see, or want to participate in. Do not hesitate to contact event@larv.org.",
+		"HEADER_9": "LARV-Car",
+		"INFO_8": "What students love most about job fairs, in addition to the opportunity for jobs and networking, is of course to take part in all companies 'fun giveaways, merchandise, and sponsors' test products. In popular parlance called \"swag\". This is of course a challenge during a digital trade fair where we take responsibility and advise people not to gather in one place. That is why this year we have a concept called LARV car that drives out goodie bags to students who register an interest. These goodie bags are meant to contain just \"swag\" from companies and sponsors. All goodie bags are handled by a few people after thorough washing of rubbing alcohol (and of course regular soap and water when available).",
+		"INFO_9": "Do you have something physical you want the students to take part in? Contact anmalan@larv.org and we will solve it!",
+		"HEADER_10": "Other?",
+		"INFO_10": "If you have other ideas for events, we are of course more than happy to accept them!"
 	}
 }
