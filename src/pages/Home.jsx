@@ -37,7 +37,7 @@ export default function Home() {
 			<Parallax className="parallax" blur={0} bgImage={bgImage} bgImageAlt="" strength={300}>
 				<div className="firstView">
 					<img src={logo} className="logoLarge" alt="logotype" />
-					<h1 className="titleLine">__________</h1>
+					<h1 className="titleLine">______________</h1>
 
 					<div className="Icons">
 						<a
@@ -67,17 +67,29 @@ export default function Home() {
 			</Parallax>
 
 			<div className="content">
-				<p>{t("HOME.INFO")}</p>
-				<div className="ButtonDiv">
-					<NavLink className="button" to="/students">
-						{t("GENERAL.STUDENTS")}
-					</NavLink>
-					<NavLink className="button" to="/organizations">
-						{t("GENERAL.ORGANIZATIONS")}
-					</NavLink>
+				<div className="info">
+					<h1>{t("HOME.HEADER_2")}</h1>
+					<p>{t("HOME.INFO")}</p>
+					<div className="ButtonDiv">
+						<a
+							className="button"
+							href="https://fair.larv.org/sv/event/4547"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{t("PLATFORM.BUTTON")}
+						</a>
+						<NavLink className="button" to="/students">
+							{t("GENERAL.STUDENTS")}
+						</NavLink>
+						<NavLink className="button" to="/organizations">
+							{t("GENERAL.ORGANIZATIONS")}
+						</NavLink>
+					</div>
 				</div>
-
-				<News />
+				<div className="news">
+					<News />
+				</div>
 			</div>
 		</div>
 	);

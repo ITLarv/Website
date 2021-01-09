@@ -551,6 +551,9 @@ nav .dropdown-content a {
 .home .firstView h1 {
 	color: white;
 }
+.home .firstView h1:after {
+	border: none;
+}
 .home .firstView .titleLine {
 	color: #a6192e;
 }
@@ -572,6 +575,18 @@ nav .dropdown-content a {
 	width: 50px;
 	margin: 5px;
 }
+.home p {
+	size: 100px;
+}
+.home .news {
+	position: relative;
+	top: 20px;
+	background-color: grey;
+	padding: 10px;
+}
+.home .news h1 {
+	color: white;
+}
 ul {
 	display: inline-block;
 	padding-left: 0;
@@ -581,19 +596,37 @@ ul .indentList {
 	list-style-type: circle;
 	margin-left: 15px;
 }
-.involved .dropdown {
-	width: 80%;
-	margin: auto;
-	position: relative;
+.involved .info {
+	background-color: grey;
+	color: white;
+	padding: 15px 0;
 }
-.involved .dropdown .dropdown-content {
-	display: block;
+.involved .threeColumns {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
-.involved .dropdown .dropdown-content ul {
+.involved .threeColumns .column {
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+}
+.involved .threeColumns .column ul {
+	font-size: medium;
+	font-weight: bold;
 	text-align: center;
-}
-.involved .dropdown h3:hover ul {
-	display: none;
+	list-style: none;
 }
 .button {
 	cursor: pointer;
@@ -662,6 +695,30 @@ ul .indentList {
 }
 .covid a:hover {
 	text-decoration: underline;
+}
+p {
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+li {
+	max-width: 450px;
+}
+h1:after {
+	content: "";
+	display: block;
+	border-bottom: 3px solid #a6192e;
+	position: relative;
+	top: 4px;
+	width: 150px;
+	margin: 0 auto;
+}
+.banner {
+	color: white;
+}
+.banner h1 {
+	padding: 30px 0;
 }
 .App {
 	text-align: center;
@@ -734,15 +791,6 @@ ul .indentList {
 	padding-left: 40px;
 	overflow: visible;
 }
-p {
-	max-width: 700px;
-	text-align: center;
-	margin: 0 auto;
-	padding: 10px;
-}
-li {
-	max-width: 450px;
-}
 iframe {
 	margin: auto;
 }
@@ -751,5 +799,9 @@ iframe {
 }
 .pdf {
 	margin: auto;
+}
+.students .involved {
+	background-color: grey;
+	color: white;
 }
 /*# sourceMappingURL=App.min.css.map */

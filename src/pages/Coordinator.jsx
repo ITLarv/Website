@@ -1,12 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 export default function Coordinator() {
 	const { t } = useTranslation();
 	return (
 		<>
-			<h1>{t("COORDINATORS.HEADER")}</h1>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>{t("COORDINATORS.HEADER")}</h1>
+				</Parallax>
+			</div>
 			<p>{t("COORDINATORS.INFO_1")}</p>
 			<p>{t("COORDINATORS.INFO_2")}</p>
 

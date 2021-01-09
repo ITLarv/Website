@@ -1,12 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 export default function Volunteer() {
 	const { t } = useTranslation();
 	return (
 		<>
-			<h1>{t("VOLUNTEERS.HEADER")}</h1>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>{t("VOLUNTEERS.HEADER")}</h1>
+				</Parallax>
+			</div>
 			<p>{t("VOLUNTEERS.INFO_1")}</p>
 			<p>{t("VOLUNTEERS.INFO_2")}.</p>
 

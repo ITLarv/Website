@@ -11,6 +11,8 @@
 @import "./buttons";
 @import "./jexpo";
 @import "./covid";
+@import "./text";
+@import "./banner";
 
 .App {
 	text-align: center;
@@ -73,17 +75,6 @@
 	}
 }
 
-p {
-	max-width: $max-width-text;
-	text-align: center;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-li {
-	max-width: $max-width-list;
-}
-
 iframe {
 	margin: auto;
 }
@@ -94,4 +85,11 @@ iframe {
 
 .pdf {
 	margin: auto;
+}
+
+.students {
+	.involved {
+		background-color: grey;
+		color: white;
+	}
 }
