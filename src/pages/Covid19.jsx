@@ -1,15 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
 import { useTranslation } from "react-i18next";
-
 
 export default function Covid19() {
 	const { t } = useTranslation();
 	return (
 		<div className="Covid19">
-      <div className="banner">
+			<div className="banner">
 				<Parallax
 					className="parallax"
 					blur={0}
