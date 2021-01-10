@@ -30,6 +30,9 @@ export default function Students() {
 				>
 					{t("PLATFORM.BUTTON")}
 				</a>
+				<NavLink className="button" to="/students/guide">
+					{t("GUIDE_GL.BUTTON")}
+				</NavLink>
 			</div>
 
 			<p>{t("STUDENTS.INFO_2")}</p>

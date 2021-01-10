@@ -31,6 +31,9 @@ export default function Fair() {
 				>
 					{t("PLATFORM.BUTTON")}
 				</a>
+				<NavLink className="button" to="/students/guide">
+					{t("GUIDE_GL.BUTTON")}
+				</NavLink>
 			</div>
 
 			<h2>{t("FAIR.HEADER_2")}</h2>

@@ -215,6 +215,7 @@
 		}
 	},
 	"GUIDE_GL": {
+		"BUTTON": "Mässguide för studenter",
 		"HEADER_1": "En students guide till LARV 2021",
 		"INFO_1": "Luleå Arbetsmarknadsvecka, även kallat LARV, äger varje år rum vid LTU i januari månad. Veckans fokus brukar ligga på den mässa som anordnas, i år på onsdag 20 januari, dit tusentals studenter drar sig för att träffa intressanta företag och skapa kontakter inför arbetslivet. Men, som vi alla vet är situationen väldigt annorlunda detta år, och som följd av detta arrangeras LARV digitalt för första gången! En digital mässa är något som bringat många hinder och krävt nya sätt att lösa problem, men även öppnat upp för mängder av möjligheter och styrkor.",
 		"HEADER_2": "Den digitala mässan - Graduateland",
