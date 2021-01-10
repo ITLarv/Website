@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import bgImage from "../img/banner.jpg";
 import { useTranslation } from "react-i18next";
 
-export default function Covid19() {
+export default function GuideGL() {
 	const { t } = useTranslation();
 	return (
 		<div className="GuideGL">

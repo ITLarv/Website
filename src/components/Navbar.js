@@ -169,6 +169,16 @@ export default function Navbar() {
 											{t("NAVBAR.IM")}
 										</NavLink>
 									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/students/guide"
+											onClick={closeNav}
+										>
+											{t("NAVBAR.GUIDE")}
+										</NavLink>
+									</li>
 								</ul>
 							</div>
 						</div>

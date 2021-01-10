@@ -42,6 +42,7 @@ import CompanyGuide from "./pages/CompanyVCFGuide";
 //import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
 import Covid19 from "./pages/Covid19";
 import GuideGL from "./pages/GuideGL";
+import ScheduleFair from "./pages/ScheduleFair";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -74,6 +75,7 @@ function Page() {
 						<Route exact path="/fair/catalog" component={Catalog} />
 						<Route exact path="/fair/map" component={LARVMap} />
 						<Route exact path="/fair/gallery" component={Gallery} />
+						<Route exact path="/fair/schedule" component={ScheduleFair} />
 						<Route exact path="/prep-week" component={PrepWeek} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
