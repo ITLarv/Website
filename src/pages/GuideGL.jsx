@@ -50,7 +50,7 @@ export default function GuideGL() {
 			<p>{t("GUIDE_GL.INFO_9")}</p>
 
 			<div className="ButtonDiv">
-				<NavLink className="button" to="/fair/presentations">
+				<NavLink className="button" to="/fair/schedule">
 					{t("GUIDE_GL.BUTTON_1")}
 				</NavLink>
 			</div>

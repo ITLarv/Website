@@ -43,6 +43,7 @@ import CompanyGuide from "./pages/CompanyVCFGuide";
 import Covid19 from "./pages/Covid19";
 import GuideGL from "./pages/GuideGL";
 import ScheduleFair from "./pages/ScheduleFair";
+import Competition from "./pages/Competition";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -76,6 +77,7 @@ function Page() {
 						<Route exact path="/fair/map" component={LARVMap} />
 						<Route exact path="/fair/gallery" component={Gallery} />
 						<Route exact path="/fair/schedule" component={ScheduleFair} />
+						<Route exact path="/fair/competition" component={Competition} />
 						<Route exact path="/prep-week" component={PrepWeek} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
