@@ -41,6 +41,7 @@ import InvitationInnovation from "./pages/InvitationInnovation";
 import CompanyGuide from "./pages/CompanyVCFGuide";
 //import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
 import Covid19 from "./pages/Covid19";
+import GuideGL from "./pages/GuideGL";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -79,11 +80,13 @@ function Page() {
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
+
 						<Route
 							exact
 							path="/students/individual-meetings"
 							component={IndMeetStudents}
 						/>
+						<Route exact path="/students/guide" component={GuideGL} />
 						<Route exact path="/involved" component={Involved} />
 						<Route exact path="/involved/volunteer" component={Volunteer} />
 						<Route

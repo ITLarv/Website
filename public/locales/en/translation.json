@@ -204,6 +204,32 @@
 			"INFO_4": "OBS! Unfortunately the FutureTalks have been canceled. We thank you for the interest shown and hope that those of you who had registered have the possibility to attend the Individual Meetings instead."
 		}
 	},
+	"GUIDE_GL": {
+		"HEADER_1": "A student’s guide to LARV 2021",
+		"INFO_1": "LARV, short for Luleå Arbetsmarknadsvecka, is held every year at LTU in January. The focus of the week is usually on the fair that takes place, this year on January 20th, where thousands of students come to meet interesting organizations and make connections for their careers. But as we all know the situation is far from normal this year. As a product of this, LARV is organized digitally for the first time! A digital fair is something that comes with a lot of obstacles to overcome and has required new ways to solve problems, but also opened up to loads of opportunities and strengths.",
+		"HEADER_2": "The digital fair - Graduateland",
+		"INFO_2": "In order to organize the fair LARV is using the digital platform Graduateland. The platform is not that different from a physical fair - the exhibitors will still have their stalls where they present themselves and offer representatives to talk to. Within Graduateland exhibitors will have the possibility to give live-presentations, workshops, personal meetings and more. Only the fantasy sets the limits!",
+		"SUBHEADER_1": "Attending the fair",
+		"INFO_3": "To attend the fair you need two things; an internet connection and a Graduateland account. To make an account, go to fair.larv.org, press the “Sign up” button at the top of the page. Fill in the information you find relevant and want recruiters to see. Your profile is how you are portrayed on the platform, so make sure to fill it out as much as possible! If you already have an account you can sign in directly by choosing the “Log in” button.",
+		"INFO_4": "After you have created your account or signed in you want to sign up to the fair. This is as simple as it gets, and you do it by pressing the “Register” button. Now you’re all set! On the page you can also see which organizations that have chosen to attend this year’s LARV.",
+		"SUBHEADER_2": "Talking to exhibitors",
+		"INFO_5": "The purpose of attending LARV is of course to talk to the exhibitors. You can start doing this during the day of the fair. Then, all the exhibitor’s stalls will be visible in a grid, and you visit a specific one by clicking on it. Inside their stall you’re greeted by a page where they have chosen how to present themselves. There can be texts, videos, pictures or other stuff they want you to see. In a stall there are three main ways to interact with the exhibitor; job opportunities, chats and Individual Meetings.",
+		"SUBSUBHEADER_1": "Job opportunities",
+		"INFO_6": "Here exhibitors can choose to publish active positions within their organization. It can range from part-time jobs, to full-time jobs or thesis projects. You can read more about a position and find ways to apply by clicking on it. Alongside a position a percentage of how well your profile matches it is shown. You can also choose to talk about job opportunities in chats.",
+		"SUBSUBHEADER_2": "Chats",
+		"INFO_7": "Exhibitors have the possibility to publish a number of subjects you can chat with them about. If they have positions to offer one of these will be called “Job opportunities”, or something similar. The other subjects can be anything they like. Once inside a chat, you and the organization’s representative are free to talk about anything you find relevant. The representative can also choose to talk to you via a voice or video call, as well as send you their published positions directly in the chat. You can open how many chats you like, and you can continue to use them after the fair. Note that it is only possible to start new chats during the day of the fair. If you wish to have a more personal connection with an exhibitor there are Individual Meetings.",
+		"SUBSUBHEADER_3": "Individual Meetings - personal meetings",
+		"INFO_8": "In a stall the exhibitors can also offer so called Individual Meetings. These are supposed to be a relaxed personal conversation, where you and the representative can talk in a stress-free environment about anything you want. You show interest in a meeting by clicking on the desired time slot under the section “Video conversations”. The organization will accept or reject your application. If you’re accepted you will connect to the meeting by clicking on the time slot. See this as an opportunity to make connections for your career, if not the first step towards a job! The meetings are about 30 minutes long, and you can only book one meeting per exhibitor. This function will open before the fair, so that you can read up on and book meetings with exhibitors in advance.",
+		"SUBHEADER_3": "Live-presentations",
+		"INFO_9": "During the fair exhibitors will be able to give live-presentations. These can be viewed right within Graduateland, and there will be possibilities to submit questions to a live Q&A. You can find a schedule of the planned presentations by pressing the button below.",
+		"BUTTON_1": "Schedule for presentations",
+		"HEADER_3": "LARV Competition",
+		"INFO_10": "LARV Competition offers you the opportunity to win fine prizes! The competition will be done in the following way: You as a student collect points by doing things during the fair. This can be for example attending live-presentations, filling out your profile, talking to exhibitors and more. And when you enter a competition, you want some prizes. Therefore we have put together an awesome price list! The prizes will be raffled. The points you collect during the fair will equal to one ticket in the raffle, where a greater number of tickets will result in a greater chance of winning. When you win a prize, all your other tickets will be drawn from the raffle. In other words you can only win once. The prizes have been ranked according to market value, in descending order. The prizes with a lower value will have a higher quantity, and vice versa, making it possible for several people to win the same prize.",
+		"INFO_11": "Don’t hesitate, enter the competition from the start for the greatest chance of winning fine prizes! You can read more about the competition and find the prize list by clicking the button below.",
+		"BUTTON_2": "Competition and prize list",
+		"HEADER_4": "LARV-car",
+		"INFO_12": "Many visit LARV to take part of all the goodies organizations bring to their stalls. To make sure that you don’t miss out on that this year LARV has put together a goodie bag! These will be given to the first 300 people who sign up to Graduateland, and will be delivered during LARV using something we call the LARV-car. LARV’s project group will drive around and distribute these, in a controlled and Corona-safe manner. In order for the LARV-car to reach you you need to live in one of the student housing areas around LTU Campus Luleå, or be able to collect the goodie bag on your own at the Teknologkåren office at Campus Luleå. If you wish to collect your goodie bag yourself you’ll have to do this during the LARV-week. Keep an eye out for further information regarding when the LARV-car will be in your area."
+	},
 	"GET_INVOLVED": {
 		"HEADER": "Get involved in LARV",
 		"INFO_1": "Personal development, valuable experience, stimulating tasks and loads of fun. This is what an involvement in LARV offers you as a student, no matter if you are looking for something small to do on the side of the studies or something to completely throw yourself into. It's the 140 involved students that makes LARV possible every year so take the chance to make your mark on the project!",
@@ -314,7 +340,7 @@
 		"INFO_9": "Do you have something physical you want the students to take part in? Contact anmalan@larv.org and we will solve it!",
 		"HEADER_10": "Other?",
 		"INFO_10": "If you have other ideas for events, we are of course more than happy to accept them!"
-  },
+	},
 	"PLATFORM": {
 		"BUTTON": "To The Platform"
 	}

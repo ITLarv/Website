@@ -213,6 +213,32 @@
 			"INFO_4": "OBS! Tyvärr har Framtidssamtalen ställts in, vi tackar för visat intresse och hoppas att ni som anmält er kan delta på Individual Meetings istället."
 		}
 	},
+	"GUIDE_GL": {
+		"HEADER_1": "En students guide till LARV 2021",
+		"INFO_1": "Luleå Arbetsmarknadsvecka, även kallat LARV, äger varje år rum vid LTU i januari månad. Veckans fokus brukar ligga på den mässa som anordnas, i år på onsdag 20 januari, dit tusentals studenter drar sig för att träffa intressanta företag och skapa kontakter inför arbetslivet. Men, som vi alla vet är situationen väldigt annorlunda detta år, och som följd av detta arrangeras LARV digitalt för första gången! En digital mässa är något som bringat många hinder och krävt nya sätt att lösa problem, men även öppnat upp för mängder av möjligheter och styrkor.",
+		"HEADER_2": "Den digitala mässan - Graduateland",
+		"INFO_2": "För att anordna mässan använder LARV sig av den digitala plattformen Graduateland. Plattformen är inte helt olik en fysisk mässa - utställarna kommer fortfarande ha sina montrar där de visar upp sig själva och erbjuder representanter att prata med. I Graduateland kommer utställare kunna hålla i live-presentationer, workshops, personliga samtal med mera. Endast fantasin sätter gränserna!",
+		"SUBHEADER_1": "Så deltar du på mässan",
+		"INFO_3": "För att delta på mässan behöver du två saker; en webbläsare och ett konto på Graduateland. För att skapa ett konto surfar du in på fair.larv.org, och klickar på knappen “Gå med” högst upp på sidan. Där fyller du i relevant information du vill att utställare ska kunna se. Din profil blir ditt ansikte utåt, så fyll i så mycket du kan! Har du redan ett konto väljer du istället att “Logga in som student” på knappen intill.",
+		"INFO_4": "Efter att du skapat ditt konto eller loggat in vill du anmäla dig till mässan. Det är jätteenkelt och det gör du genom att klicka på “Registrera”. Nu är du anmäld! På sidan kan du även se vilka utställare som valt att delta på årets LARV.",
+		"SUBHEADER_2": "Så pratar du med utställare",
+		"INFO_5": "Anledningen till att gå på LARV är såklart möjligheten att prata med utställarna. Detta kan du börja göra under själva mässdagen. Då kommer alla utställarnas montrar att synas i ett rutnät, och du besöker en specifik genom att klicka på den du vill besöka. Väl inne i deras monter möts du av en sida där de själva valt hur de vill presentera sig. De kan ha texter, videos, bilder eller annat de tycker du ska se. I en monter finns tre huvudsakliga sätt att kommunicera med utställaren; jobbannonser, chattar och Individual Meetings.",
+		"SUBSUBHEADER_1": "Jobbannonser - Job opportunities",
+		"INFO_6": "Här kan utställare välja att lägga upp aktiva tjänster, vare sig det är deltidsjobb, extrajobb, heltidsjobb eller examensarbeten. Du läser mer om en tjänst och hittar möjligheten att ansöka genom att klicka på det. Vid ett jobb syns en procentandel som anger hur mycket din profil matcher det utställaren söker. Du kan även välja att prata om jobbmöjligheter - Job opportunities - i chattar.",
+		"SUBSUBHEADER_2": "Chattar",
+		"INFO_7": "Utställare har möjligheten att lägga upp ett antal chattämnen där du som student väljer vad du vill prata med dem om. Har de jobb att erbjuda är ett av ämnena just jobb, och benämns något i stil med “Job opportunities”. De övriga ämnena kan vara vad som helst. Väl inne i en chatt är du och utställaren välkomna att prata om allt ni anser relevant. Där kan representanten även välja att prata med dig via röst- eller videosamtal, samt skicka deras jobbannonser direkt i chatten.  Du kan öppna hur många chattar med hur många utställare du vill under mässdagen, och du kan fortsätta chatta i redan öppnade chattar efter mässdagen. Värt att notera är att du endast kan starta nya chattar under mässdagen. Vill man ha en mer personlig kontakt med en utställare kan man även boka Individual Meetings.",
+		"SUBSUBHEADER_3": "Individual Meetings - personliga samtal",
+		"INFO_8": "I en utställares monter kan de även erbjuda så kallade Individual Meetings. Dessa är tänkta som ett avslappnat personligt samtal, där du och utställaren får prata i lugn och ro om vad ni vill. Du anmäler intresse till ett samtal genom att klicka på den önskade tiden i en utställares monter under rubriken “kontaktsamtal”. Utställaren kommer sedan att godkänna eller neka din intresseanmälan. Blir du godkänd kommer du sedan att ansluta till samtalen genom att klicka på tiden. Se detta som en möjlighet att skapa kontakter för arbetslivet, om inte första steget till ett jobb! Samtalen är cirka 30 minuter långa, och du kan endast boka ett samtal per utställare. Denna funktion kommer vara öppen redan innan mässdagen, så att du kan läsa på om och boka samtal med utställare i god tid.",
+		"SUBHEADER_3": "Live-presentationer",
+		"INFO_9": "Under mässdagen kommer utställare kunna hålla i live-presentationer. Dessa kommer du kunna se på direkt i Graduateland, och möjligheter finnas att ställa frågor till en live Q&A. Ett schema över alla planerade presentationer hittar du genom att klicka på knappen nedan.",
+		"BUTTON_1": "Schema för presentationer",
+		"HEADER_3": "LARV Competition",
+		"INFO_10": "LARV Competition erbjuder dig möjligheten att vinna fina priser! Tävlingen kommer gå till på följande sätt: Du som student samlar poäng genom att göra saker under mässan. Exempel på sådant kan vara att delta på live-presentationer, fylla i din profil på Graduateland, prata med utställare och mycket mer. Och i en tävling vill man ha priser, därför har vi tagit fram en grym prislista till er! Priserna kommer att lottas ut. Poängen du samlar in under mässan kommer att omvandlas till lotter, där ett större antal lotter medför större chans till vinst. Så fort man vunnit ett pris dras ens övriga lotter från dragningen. Man kan alltså bara vinna ett pris. Priserna har ordnats efter gällande värde, från högst till lägst. Priserna med lägre värde kommer att finnas i större antal, och vice versa, vilket gör att flera kan vinna samma pris.",
+		"INFO_11": "Tveka inte, delta i tävlingen från start för största chansen till fina priser! Du kan läsa mer om hur tävlingen går till och se prislistan genom att clicka på knappen nedan.",
+		"BUTTON_2": "Tävlingen och prislista",
+		"HEADER_4": "LARV-bilen",
+		"INFO_12": "Många besöker LARV för att ta del av alla goodies utställare har med sig till sina montrar. För att du inte ska gå miste om den aspekten i år har vi i LARV satt ihop en goodiebag med blandat smått och gott! Dessa kommer vi dela ut till de 300 första som ansluter sig till Graduateland, och kommer levereras under LARV med något vi kallar LARV-bilen. I den kommer LARVs projektgrupp åka runt och dela ut goodiebags, på ett kontrollerat och Corona-säkert sätt. För att LARV-bilen ska kunna nå dig måste du antingen bo i ett av studentområdena kring LTU Campus Luleå, eller själv ha möjlighet att komma till Teknologkårens kontor på Campus Luleå för att hämta din goodiebag. Vill du hämta din goodiebag själv måste du göra detta under LARV. Håll utkik efter mer info om när LARV-bilen är i ditt område."
+	},
 	"GET_INVOLVED": {
 		"HEADER": "Engagera dig i LARV",
 		"INFO_1": "Personlig utveckling, värdefull erfarenhet, stimulerande uppgifter och härliga människor. Detta är vad ett engagemang i LARV erbjuder dig som student, oavsett om du letar efter något litet att göra på sidan av studierna eller något att helt kasta dig in i. Det är de 140 engagerade studenterna som gör LARV möjligt varje år så ta chansen att sätta din prägel på projektet!",
@@ -323,7 +349,7 @@
 		"INFO_9": "Har ni någonting fysiskt ni vill att studenterna ska ta del av? Kontakta anmalan@larv.org så löser vi det!",
 		"HEADER_10": "Övrigt?",
 		"INFO_10": "Har ni andra idéer på events tar vi självklart mer än gärna emot dessa!"
-  },
+	},
 	"PLATFORM": {
 		"BUTTON": "Till plattformen"
 	}

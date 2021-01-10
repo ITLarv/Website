@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
 import { useTranslation } from "react-i18next";
