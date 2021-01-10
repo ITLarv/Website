@@ -7,14 +7,14 @@ const devBranch = () => {
 
 const initialApplication = () => {
 	return {
-		navLink: true,
-		open: true,
+		navLink: false,
+		open: false,
 	};
 };
 
 const finalApplication = () => {
 	return {
-		enabled: false,
+		enabled: true,
 	};
 };
 
@@ -33,7 +33,7 @@ const gallery = () => {
 const catalog = () => {
 	return {
 		show: true,
-		currentYear: false,
+		currentYear: true,
 	};
 };
 
@@ -51,7 +51,7 @@ const CoordinatorApplication = () => {
 
 const VolunteerApplication = () => {
 	return {
-		open: true,
+		open: false,
 		nomination: false,
 	};
 };

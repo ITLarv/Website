@@ -20,7 +20,7 @@ export default function Companies() {
 				</Parallax>
 			</div>
 			<p>{t("ORGANIZATIONS.INFO")}</p>
-			<p>{t("ORGANIZATIONS.INFO_2")}</p>
+			{/* <p>{t("ORGANIZATIONS.INFO_2")}</p> */}
 
 			<div className="ButtonDiv">
 				<a
@@ -31,9 +31,9 @@ export default function Companies() {
 				>
 					{t("PLATFORM.BUTTON")}
 				</a>
-				<NavLink className="button" to="/organizations/initial-application">
+				{/* <NavLink className="button" to="/organizations/initial-application">
 					{t("GENERAL.IA")}
-				</NavLink>
+				</NavLink> */}
 			</div>
 
 			<h1>{t("ORGANIZATIONS.THE_FAIR.HEADER")}</h1>
