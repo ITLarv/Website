@@ -113,6 +113,16 @@ export default function Navbar() {
 											{t("NAVBAR.CATALOG")}
 										</NavLink>
 									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/fair/competition"
+											onClick={closeNav}
+										>
+											LARV-Competition
+										</NavLink>
+									</li>
 									{showGallery && (
 										<li>
 											<NavLink

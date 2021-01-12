@@ -119,13 +119,13 @@
 	},
 	"COMPETITION": {
 		"HEADER_1": "MAXIMERA DIN MÄSSUPPLEVELSE OCH BLI BELÖNAD GENOM LARV COMPETITION!",
-		"INFO_1": "LARVCompetitonär en gamification-funktion i den virtuella mässan med målen att (1) locka fler studenter till mässan och (2) motiverastudenternaatt interagera med mässans utställarepå ett mer konstruktivt sätt. Det kommer att finnas incitament (priser) för att locka studenter och uppgifter(poäng) som mäter studentersaktivitet. Studenterna kommer att tjäna poäng för att ha varit aktiv på mässplattformenoch sedan tilldelas priser baserat på deras poäng. Varje poäng motsvarar en chans att vinna ett pris.Ju fler poäng man har desto bättre. ",
+		"INFO_1": "LARV-Competiton är en gamification-funktion i den virtuella mässan med målen att (1) locka fler studenter till mässan och (2) motivera studenterna att interagera med mässans utställare på ett mer konstruktivt sätt. Det kommer att finnas incitament (priser) för att locka studenter och uppgifter (poäng) som mäter studenters aktivitet. Studenterna kommer att tjäna poäng för att ha varit aktiv på mässplattformen och sedan tilldelas priser baserat på deras poäng. Varje poäng motsvarar en chans att vinna ett pris. Ju fler poäng man har desto bättre.",
 		"PRIZES": {
 			"HEADER": "PRISER",
 			"SUBHEADER_1": "RANGERING",
-			"INFO_1": "Priserna kommer att rankas av LARV efter marknadsvärde där nivånummer 3är deprisersom har högst marknadsvärde.",
+			"INFO_1": "Priserna kommer att rankas av LARV efter marknadsvärde där nivånummer 3 är de priser som har högst marknadsvärde.",
 			"SUBHEADER_2": "LARV-FINANSIERADE PRISER",
-			"INFO_2": "LARVkommeratt finansiera priser av olika prisnivåer.Det kommer finnas artiklar avhögre marknadsvärdemenfärre i antalochlägre marknadsvärdefastfler i antal. LARV strävar efter att geutså många priser som ekonomiskt möjligt men kommer inte dela ut färre än 62st. ",
+			"INFO_2": "LARV kommer att finansiera priser av olika prisnivåer. Det kommer finnas artiklar av högre marknadsvärde men färre i antal och lägre marknadsvärde fast fler i antal. LARV strävar efter att ge ut så många priser som ekonomiskt möjligt men kommer inte dela ut färre än 62st. ",
 			"LIST_1": "Nivå 3 – minst 45 poäng",
 			"SUBLIST_1": "1 PS5 / XBOX SERIES X",
 			"SUBLIST_2": "1 reMarkable1",
