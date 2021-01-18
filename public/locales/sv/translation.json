@@ -68,6 +68,7 @@
 		"FAIR": "MÄSSAN",
 		"CATALOG": "Katalog",
 		"GALLERY": "Galleri",
+		"SCHEDULE": "Presentationsschema",
 		"MAP": "KARTA",
 		"CONTACT": "KONTAKT",
 		"STUDENTS": "STUDENTER",
@@ -188,6 +189,11 @@
 		"HEADER_5": "KONTAKT",
 		"INFO_9": "Ansvarig för LARV-tävlingen är Magnus Stenfeldt, nås på massbyggnad@larv.org. Ansvarig för LARV 2021 är projektledaren Viktor Centing, som kan nås på pl@larv.org.",
 		"INFO_10": "Särskilt tack till Leonard Hökby och Daniel Aston från THS Armada-teamet 2020 för att ha hjälpt oss att skapa den här tävlingen."
+	},
+	"SCHEDULE": {
+		"HEADER": "SCHEMA FÖR PRESENTATIONER",
+		"INFO": "Föreläsningarna under mässdagen kommer du kunna se på direkt i Graduateland, och möjligheter finnas att ställa frågor till en live Q&A. Länk till Graduateland finns nedan.",
+		"BY": "av"
 	},
 	"PREP_WEEK": {
 		"HEADER": "Prep-Week",

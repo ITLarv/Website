@@ -11,6 +11,15 @@
 		"IA": "Initial Application",
 		"NEWS": "News"
 	},
+	"WEEK": {
+		"MON": "Monday",
+		"TUE": "Tuesday",
+		"WED": "Wednesday",
+		"THU": "Thursday",
+		"FRI": "Friday",
+		"SAT": "Saturday",
+		"SUN": "Sunday"
+	},
 	"ROLES": {
 		"PG": {
 			"PL": "Project manager",
@@ -59,6 +68,7 @@
 		"FAIR": "FAIR",
 		"CATALOG": "Catalog",
 		"GALLERY": "Gallery",
+		"SCHEDULE": "Presentations Schedule",
 		"MAP": "MAP",
 		"CONTACT": "CONTACT",
 		"STUDENTS": "STUDENTS",
@@ -180,6 +190,11 @@
 		"HEADER_5": "CONTACT AND RESPONSIBILITIES",
 		"INFO_9": "Responsible for the LARV Competition is Magnus Stenfeldt, reachable at massbyggnad@larv.org. Responsible for LARV 2021 is Project Manager Viktor Centing, reachable at pl@larv.org.",
 		"INFO_10": "Special thanks to Leonard Hökby and Daniel Aston of the THS Armada team of 2020 for helping us to create this competition."
+	},
+	"SCHEDULE": {
+		"HEADER": "SCHEDULE FOR PRESENTATIONS",
+		"INFO": "You will be able to watch the presentations during the fair day directly in Graduateland, and there are opportunities to ask questions for a live Q&A. Link to Graduateland is below.",
+		"BY": "by"
 	},
 	"PREP_WEEK": {
 		"HEADER": "Prep-Week",

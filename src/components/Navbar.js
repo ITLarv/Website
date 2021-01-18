@@ -135,6 +135,14 @@ export default function Navbar() {
 											</NavLink>
 										</li>
 									)}
+									<NavLink
+										exact
+										activeClassName="active"
+										to="/fair/schedule"
+										onClick={closeNav}
+									>
+										{t("NAVBAR.SCHEDULE")}
+									</NavLink>
 								</ul>
 							</div>
 						</div>
