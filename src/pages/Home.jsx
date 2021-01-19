@@ -61,6 +61,7 @@ export default function Home() {
 
 					<h1>{t("HOME.HEADER")}</h1>
 					<h1>{t("HOME.DATE")}</h1>
+					<h1>{t("HOME.FAIR")}</h1>
 
 					<Countdown date={larvDate} renderer={renderer}></Countdown>
 				</div>

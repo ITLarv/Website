@@ -19,21 +19,6 @@ export default function ScheduleFair() {
 				</Parallax>
 			</div>
 
-			<h1>{t("WEEK.TUE")} 19/1</h1>
-			<h2>Story of a talent who joined a startup company</h2>
-			<h3>12:00-12:45 {t("SCHEDULE.BY")} Arctic Business Incubator</h3>
-
-			<div className="ButtonDiv">
-				<a
-					className="button"
-					href="https://fb.me/e/3Wx4tqN7f"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
-				</a>
-			</div>
-
 			<h1>{t("WEEK.WED")} 20/1</h1>
 			<p>{t("SCHEDULE.INFO")}</p>
 
@@ -50,6 +35,12 @@ export default function ScheduleFair() {
 
 			<h2>Så presenterar du din idé</h2>
 			<h3>10:00-10:30 {t("SCHEDULE.BY")} Venture Cup</h3>
+			<p>
+				Föreläsningen kommer handla om Venture Cup, vår nästa tävling och konkreta tips hur
+				man arbetar med en pitch och ett pitch deck. Som min kollega skrev, bra redskap att
+				ha med sig inför framtida presentationer och intervjuer när man söker jobb eller ska
+				starta eget.
+			</p>
 			<p></p>
 
 			<h2>Är du tillräckligt viktig på riktigt?</h2>
@@ -70,6 +61,7 @@ export default function ScheduleFair() {
 				have to think about as a newcomer in the work life?", "The way to success" and "How
 				to compete as a newcomer with those that are more experienced" in the presentation.
 			</p>
+			<p></p>
 
 			<h2>Värdet av rutiner och scheman</h2>
 			<h3>14:00-14:20 {t("SCHEDULE.BY")} Lindbäcks bygg</h3>
