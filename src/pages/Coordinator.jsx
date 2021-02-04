@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
+import { CoordinatorApplication } from "../config";
 
 export default function Coordinator() {
+	const ApplicationOpen = CoordinatorApplication().open;
 	const { t } = useTranslation();
 	return (
 		<>
@@ -22,11 +24,13 @@ export default function Coordinator() {
 			<p>{t("COORDINATORS.INFO_1")}</p>
 			<p>{t("COORDINATORS.INFO_2")}</p>
 
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/involved/coordinator/application">
-					{t("COORDINATORS.APPLY")}
-				</NavLink>
-			</div>
+			{ApplicationOpen && (
+				<div className="ButtonDiv">
+					<NavLink className="button" to="/involved/coordinator/application">
+						{t("COORDINATORS.APPLY")}
+					</NavLink>
+				</div>
+			)}
 
 			<h3>{t("COORDINATORS.POSITIONS")}</h3>
 			<div className="dropdown-content">
@@ -59,11 +63,13 @@ export default function Coordinator() {
 			<h3>{t("ROLES.COORDINATORS.PR")}</h3>
 			<p>{t("COORDINATORS.PR")}</p>
 
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/involved/coordinator/application">
-					{t("COORDINATORS.APPLY")}
-				</NavLink>
-			</div>
+			{ApplicationOpen && (
+				<div className="ButtonDiv">
+					<NavLink className="button" to="/involved/coordinator/application">
+						{t("COORDINATORS.APPLY")}
+					</NavLink>
+				</div>
+			)}
 		</>
 	);
 }

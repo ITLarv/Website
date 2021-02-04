@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
+import { VolunteerApplication } from "../config";
 
 export default function Volunteer() {
+	const ApplicationOpen = VolunteerApplication().open;
 	const { t } = useTranslation();
 	return (
 		<>
@@ -22,11 +24,13 @@ export default function Volunteer() {
 			<p>{t("VOLUNTEERS.INFO_1")}</p>
 			<p>{t("VOLUNTEERS.INFO_2")}.</p>
 
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/involved/volunteer/application">
-					{t("VOLUNTEERS.APPLY")}
-				</NavLink>
-			</div>
+			{ApplicationOpen && (
+				<div className="ButtonDiv">
+					<NavLink className="button" to="/involved/volunteer/application">
+						{t("VOLUNTEERS.APPLY")}
+					</NavLink>
+				</div>
+			)}
 
 			<h3>{t("VOLUNTEERS.POSITIONS")}</h3>
 			<div className="dropdown-content">
@@ -57,11 +61,13 @@ export default function Volunteer() {
 			<h3>{t("ROLES.VOLUNTEERS.TI")}</h3>
 			<p>{t("VOLUNTEERS.TI")}</p>
 
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/involved/volunteer/application">
-					{t("VOLUNTEERS.APPLY")}
-				</NavLink>
-			</div>
+			{ApplicationOpen && (
+				<div className="ButtonDiv">
+					<NavLink className="button" to="/involved/volunteer/application">
+						{t("VOLUNTEERS.APPLY")}
+					</NavLink>
+				</div>
+			)}
 		</>
 	);
 }
