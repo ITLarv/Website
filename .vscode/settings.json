@@ -8,5 +8,7 @@
 			"extensionName": ".min.css",
 			"savePath": null
 		}
-	]
+	],
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
 }
