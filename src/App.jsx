@@ -22,7 +22,7 @@ import VolunteerNomination from "./pages/VolunteerNomination";
 import Coordinator from "./pages/Coordinator";
 import CoordinatorApplication from "./pages/CoordinatorApplication";
 import PG from "./pages/PG";
-import PGApplication from "./pages/PGAplication";
+//import PGApplication from "./pages/PGAplication";
 import Organizations from "./pages/Organizations";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import InitialApplication from "./pages/InitialApplication";
@@ -39,7 +39,7 @@ import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
 import InvitationInnovation from "./pages/InvitationInnovation";
 import CompanyGuide from "./pages/CompanyVCFGuide";
-//import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
+import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
 import Covid19 from "./pages/Covid19";
 import GuideGL from "./pages/GuideGL";
 import ScheduleFair from "./pages/ScheduleFair";
@@ -110,7 +110,14 @@ function Page() {
 							component={CoordinatorApplication}
 						/>
 						<Route exact path="/involved/pg" component={PG} />
-						<Route exact path="/involved/pg/application" component={PGApplication} />
+						<Route exact path="/involved/pg/application">
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScpM1dFsxRZtb3Dpga_dZBSmRPm4yUwLTLMsIDl6OyAnFrCFg/viewform?embedded=true"
+								height={1600}
+							/>
+						</Route>
+						<Redirect from="/sök" to="/involved/pg/application" />
+
 						<Route exact path="/organizations" component={Organizations} />
 						<Route exact path="/organizations/faq">
 							<Faq questions={OrganizationsFAQ} />
