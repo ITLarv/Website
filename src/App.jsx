@@ -17,12 +17,8 @@ import Students from "./pages/Students";
 import IndMeetStudents from "./pages/IndMeetStudents";
 import Involved from "./pages/Involved";
 import Volunteer from "./pages/Volunteer";
-import VolunteerApplication from "./pages/VolunteerApplication";
-import VolunteerNomination from "./pages/VolunteerNomination";
 import Coordinator from "./pages/Coordinator";
-import CoordinatorApplication from "./pages/CoordinatorApplication";
 import PG from "./pages/PG";
-//import PGApplication from "./pages/PGAplication";
 import Organizations from "./pages/Organizations";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import InitialApplication from "./pages/InitialApplication";
@@ -93,22 +89,19 @@ function Page() {
 						<Route exact path="/students/guide" component={GuideGL} />
 						<Route exact path="/involved" component={Involved} />
 						<Route exact path="/involved/volunteer" component={Volunteer} />
-						<Route
-							exact
-							path="/involved/volunteer/application"
-							component={VolunteerApplication}
-						/>
-						<Route
-							exact
-							path="/involved/volunteer/nomination"
-							component={VolunteerNomination}
-						/>
+						<Route exact path="/involved/volunteer/application">
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSdeifunBO-RrU3EyjJ-PzxL6lKVlCcDs6uUZyJSnN5SoBOGMQ/viewform?embedded=true"
+								height={2200}
+							/>
+						</Route>
 						<Route exact path="/involved/coordinator" component={Coordinator} />
-						<Route
-							exact
-							path="/involved/coordinator/application"
-							component={CoordinatorApplication}
-						/>
+						<Route exact path="/involved/coordinator/application">
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfuRoLOfZuLdtqAhg7Q9mhOqZaHePj4X9vVcGcSjTBUJgn2pQ/viewform?embedded=true"
+								height={1920}
+							/>
+						</Route>
 						<Route exact path="/involved/pg" component={PG} />
 						<Route exact path="/involved/pg/application">
 							<GoogleForm
