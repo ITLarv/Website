@@ -58,7 +58,7 @@ const VolunteerApplication = () => {
 
 const PGApplication = () => {
 	return {
-		open: false,
+		open: true,
 	};
 };
 
