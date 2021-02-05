@@ -75,7 +75,7 @@ export default function FinalApplication() {
 			<h3>{t("ROLES.PG.SERVICE")}</h3>
 			<p>{t("PG.SERVICE")}</p>
 			<h3>{t("ROLES.PG.PR")}</h3>
-			<p>{t("PG.SERVICE")}</p>
+			<p>{t("PG.PR")}</p>
 			<h3>{t("ROLES.PG.LOUNGE")}</h3>
 			<p>{t("PG.LOUNGE")}</p>
 
