@@ -1,19 +1,39 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 export default function Companies() {
 	const { t } = useTranslation();
 	return (
 		<div className="Companies">
-			<h1>{t("ORGANIZATIONS.HEADER")}</h1>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>{t("ORGANIZATIONS.HEADER")}</h1>
+				</Parallax>
+			</div>
 			<p>{t("ORGANIZATIONS.INFO")}</p>
-			<p>{t("ORGANIZATIONS.INFO_2")}</p>
+			{/* <p>{t("ORGANIZATIONS.INFO_2")}</p> */}
 
 			<div className="ButtonDiv">
-				<NavLink className="button" to="/organizations/initial-application">
+				<a
+					className="button"
+					href="https://fair.larv.org/sv/event/4547"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{t("PLATFORM.BUTTON")}
+				</a>
+				{/* <NavLink className="button" to="/organizations/initial-application">
 					{t("GENERAL.IA")}
-				</NavLink>
+				</NavLink> */}
 			</div>
 
 			<h1>{t("ORGANIZATIONS.THE_FAIR.HEADER")}</h1>

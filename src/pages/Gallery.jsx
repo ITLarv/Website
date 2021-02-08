@@ -1,11 +1,7 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+//import Gallery from "react-photo-gallery";
+//import { photos } from "./photos";
 
 export default function Gallery() {
-	const { t } = useTranslation();
-	return (
-		<div className="firstView">
-			<h1>{t("GALLERY.HEADER")}</h1>
-		</div>
-	);
+	return <div className="gallery"></div>;
 }

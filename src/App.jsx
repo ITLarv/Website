@@ -17,12 +17,8 @@ import Students from "./pages/Students";
 import IndMeetStudents from "./pages/IndMeetStudents";
 import Involved from "./pages/Involved";
 import Volunteer from "./pages/Volunteer";
-import VolunteerApplication from "./pages/VolunteerApplication";
-import VolunteerNomination from "./pages/VolunteerNomination";
 import Coordinator from "./pages/Coordinator";
-import CoordinatorApplication from "./pages/CoordinatorApplication";
 import PG from "./pages/PG";
-import PGApplication from "./pages/PGAplication";
 import Organizations from "./pages/Organizations";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import InitialApplication from "./pages/InitialApplication";
@@ -39,8 +35,11 @@ import Pricelist from "./pages/Pricelist";
 import InvitationDigital from "./pages/InvitationDigital";
 import InvitationInnovation from "./pages/InvitationInnovation";
 import CompanyGuide from "./pages/CompanyVCFGuide";
-//import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
+import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
 import Covid19 from "./pages/Covid19";
+import GuideGL from "./pages/GuideGL";
+import ScheduleFair from "./pages/ScheduleFair";
+import Competition from "./pages/Competition";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -73,37 +72,45 @@ function Page() {
 						<Route exact path="/fair/catalog" component={Catalog} />
 						<Route exact path="/fair/map" component={LARVMap} />
 						<Route exact path="/fair/gallery" component={Gallery} />
+						<Route exact path="/fair/schedule" component={ScheduleFair} />
+						<Route exact path="/fair/competition" component={Competition} />
 						<Route exact path="/prep-week" component={PrepWeek} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
+
 						<Route
 							exact
 							path="/students/individual-meetings"
 							component={IndMeetStudents}
 						/>
+						<Route exact path="/students/guide" component={GuideGL} />
 						<Route exact path="/involved" component={Involved} />
 						<Route exact path="/involved/volunteer" component={Volunteer} />
-						<Route
-							exact
-							path="/involved/volunteer/application"
-							component={VolunteerApplication}
-						/>
-						<Route
-							exact
-							path="/involved/volunteer/nomination"
-							component={VolunteerNomination}
-						/>
+						<Route exact path="/involved/volunteer/application">
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSdeifunBO-RrU3EyjJ-PzxL6lKVlCcDs6uUZyJSnN5SoBOGMQ/viewform?embedded=true"
+								height={2200}
+							/>
+						</Route>
 						<Route exact path="/involved/coordinator" component={Coordinator} />
-						<Route
-							exact
-							path="/involved/coordinator/application"
-							component={CoordinatorApplication}
-						/>
+						<Route exact path="/involved/coordinator/application">
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfuRoLOfZuLdtqAhg7Q9mhOqZaHePj4X9vVcGcSjTBUJgn2pQ/viewform?embedded=true"
+								height={1920}
+							/>
+						</Route>
 						<Route exact path="/involved/pg" component={PG} />
-						<Route exact path="/involved/pg/application" component={PGApplication} />
+						<Route exact path="/involved/pg/application">
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScpM1dFsxRZtb3Dpga_dZBSmRPm4yUwLTLMsIDl6OyAnFrCFg/viewform?embedded=true"
+								height={1600}
+							/>
+						</Route>
+						<Redirect from="/sök" to="/involved/pg/application" />
+
 						<Route exact path="/organizations" component={Organizations} />
 						<Route exact path="/organizations/faq">
 							<Faq questions={OrganizationsFAQ} />

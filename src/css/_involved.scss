@@ -1,18 +1,28 @@
 .involved {
-	.dropdown {
-		width: 80%;
-		margin: auto;
-		position: relative;
+	.info {
+		background-color: grey;
+		color: white;
+		padding: 15px 0;
+	}
 
-		.dropdown-content {
-			display: block;
+	.threeColumns {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch;
+		flex-wrap: wrap;
+
+		.column {
+			flex-basis: auto;
 
 			ul {
+				font-size: medium;
+				font-weight: bold;
 				text-align: center;
+				list-style: none;
 			}
-		}
-		h3:hover ul {
-			display: none;
 		}
 	}
 }
+
+//TODO: add so that when it flexes it is just one item per row instead of 2+1

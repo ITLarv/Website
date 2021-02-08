@@ -6,30 +6,38 @@
 	width: 100%;
 	height: 80px;
 }
+
 .navbar a:-webkit-any-link {
 	color: white;
 	-webkit-text-fill-color: white;
 }
+
 .navbar a:-moz-any-link {
 	color: white;
 	-webkit-text-fill-color: white;
 }
+
 .navbar a:any-link {
 	color: white;
 	-webkit-text-fill-color: white;
 }
+
 .active {
 	text-decoration: underline;
 	font-weight: bold;
 }
+
 .nav-toggle {
 	position: absolute !important;
 	top: -9999px !important;
 	left: -9999px !important;
 }
+
+/* TODO: Fix */
 .nav-toggle:focus ~ .nav-toggle-label {
 	outline: none;
 }
+
 .nav-toggle-label {
 	position: absolute;
 	top: 0;
@@ -43,6 +51,7 @@
 	-ms-flex-align: center;
 	align-items: center;
 }
+
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
@@ -53,17 +62,21 @@
 	border-radius: 2px;
 	position: relative;
 }
+
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
 	content: "";
 	position: absolute;
 }
+
 .nav-toggle-label span::before {
 	bottom: 7px;
 }
+
 .nav-toggle-label span::after {
 	top: 7px;
 }
+
 nav {
 	position: absolute;
 	text-align: left;
@@ -84,20 +97,24 @@ nav {
 	overflow: scroll;
 	padding-bottom: 80px;
 }
+
 nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
+
 @-moz-document url-prefix() {
 	nav .nav-ul {
 		padding-bottom: 80px;
 	}
 }
+
 nav li {
 	margin-bottom: 1em;
 	margin-left: 1em;
 }
+
 nav a {
 	text-decoration: none;
 	font-size: 1.2rem;
@@ -105,26 +122,32 @@ nav a {
 	-webkit-transition: opacity 150ms ease-in-out;
 	transition: opacity 150ms ease-in-out;
 }
+
 nav .dropdown-content {
 	margin: 1em 1em;
 }
+
 nav .dropdown-content a {
 	font-size: 1rem;
 }
+
 .logo {
 	height: 40px;
 	width: auto;
 	margin: 20px 5px;
 }
+
 .nav-toggle:checked ~ nav {
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 }
+
 .nav-toggle:checked ~ nav a {
 	opacity: 1;
 	-webkit-transition: opacity 250ms ease-in-out 250ms;
 	transition: opacity 250ms ease-in-out 250ms;
 }
+
 .languages {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -133,6 +156,7 @@ nav .dropdown-content a {
 	-ms-flex-pack: space-evenly;
 	justify-content: space-evenly;
 }
+
 @media screen and (min-width: 1080px) {
 	.active {
 		text-decoration: none;
@@ -287,11 +311,13 @@ nav .dropdown-content a {
 		height: 80px;
 	}
 }
+
 @media screen and (min-width: 1080px) and (min-width: 1200px) {
 	nav a {
 		font-size: 1.1rem;
 	}
 }
+
 .Contact {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -304,19 +330,23 @@ nav .dropdown-content a {
 	max-width: 1000px;
 	margin: auto;
 }
+
 .Contact h4 {
 	color: black;
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 1.1;
 }
+
 .Contact a {
 	text-decoration: none;
 	color: #a6192e;
 }
+
 .Contact a:hover {
 	text-decoration: underline;
 }
+
 .Contact img {
 	width: 200px;
 	height: 250px;
@@ -324,9 +354,11 @@ nav .dropdown-content a {
 	object-fit: cover;
 	border-radius: 5px;
 }
+
 .Contact p {
 	color: #777;
 }
+
 .Contact .pg {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -337,25 +369,31 @@ nav .dropdown-content a {
 	-ms-flex-pack: space-evenly;
 	justify-content: space-evenly;
 }
+
 .Contact .Person {
 	margin: 40px 60px;
 }
+
 .Contact .Person * {
 	text-align: center;
 	margin: 5px auto;
 }
+
 .Contact .icon {
 	color: #777;
 	margin-right: 5px;
 }
+
 .Contact .phone {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 }
+
 .Contact .phone p {
 	margin-left: 0;
 }
+
 .Catalog {
 	width: 100%;
 	height: 100vh;
@@ -376,11 +414,13 @@ nav .dropdown-content a {
 	right: 0;
 	bottom: 0;
 }
+
 .Catalog p {
 	margin: auto;
 	margin-bottom: 0;
 	margin-top: 0;
 }
+
 .Catalog iframe {
 	display: absolute;
 	border: none;
@@ -392,6 +432,7 @@ nav .dropdown-content a {
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 }
+
 .Map {
 	position: absolute;
 	top: 80px;
@@ -399,14 +440,17 @@ nav .dropdown-content a {
 	left: 0;
 	right: 0;
 }
+
 .Map .leaflet-container {
 	height: 100%;
 }
+
 .Map .textSearch {
 	position: absolute;
 	top: 400px;
 	right: 400px;
 }
+
 .NewsFlow {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -419,20 +463,22 @@ nav .dropdown-content a {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
 .NewsItem {
 	position: relative;
 	width: 350px;
 	background-color: lightblue;
 	margin-bottom: 15px;
 	height: 300px;
-	cursor: pointer;
 }
+
 .NewsItem img {
 	-o-object-fit: cover;
 	object-fit: cover;
 	width: 100%;
 	height: 300px;
 }
+
 .NewsItem .NewsHeader {
 	color: white;
 	background-color: #222;
@@ -443,6 +489,7 @@ nav .dropdown-content a {
 	bottom: 0;
 	padding: 5px;
 }
+
 .NewsItem .NewsOverlay {
 	position: absolute;
 	top: 0;
@@ -456,6 +503,7 @@ nav .dropdown-content a {
 	transition: 0.5s ease-in-out;
 	background-color: #a6192e;
 }
+
 .NewsItem .NewsOverlay p {
 	color: white;
 	position: absolute;
@@ -466,9 +514,11 @@ nav .dropdown-content a {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 }
+
 .NewsItem:hover .NewsOverlay {
 	opacity: 0.9;
 }
+
 .footer {
 	background: #222;
 	width: 100%;
@@ -484,6 +534,7 @@ nav .dropdown-content a {
 	align-items: center;
 	padding: 16px;
 }
+
 .footer h3,
 .footer h4,
 .footer p {
@@ -491,14 +542,17 @@ nav .dropdown-content a {
 	font-weight: 500;
 	margin: 0;
 }
+
 .footer h3 {
 	margin-bottom: 8px;
 }
+
 .footer img {
 	height: 120px;
 	width: auto;
 	margin: 16px;
 }
+
 .footer .sponsor {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -509,20 +563,24 @@ nav .dropdown-content a {
 	margin: 10px 0;
 	height: 100%;
 }
+
 .footer .sponsor a {
 	height: 16px;
 }
+
 .footer .sponsor p {
 	margin: 0;
 	margin-right: 3px;
 	line-height: 16px;
 	font-size: 0.9em;
 }
+
 .footer .sponsor img {
 	margin: 0;
 	height: 16px;
 	margin-left: 3px;
 }
+
 @media screen and (max-width: 1080px) {
 	.footer {
 		padding: 8px;
@@ -539,7 +597,10 @@ nav .dropdown-content a {
 		margin-top: 8px;
 	}
 }
+
 .home .firstView {
+	background-image: url(../img/header.jpg);
+	background-position: center;
 	width: 100%;
 	right: 0;
 	left: 0;
@@ -548,19 +609,20 @@ nav .dropdown-content a {
 	padding-left: -100px;
 	padding-right: -100px;
 }
+
 .home .firstView h1 {
 	color: white;
 }
-.home .firstView h1:after {
-	border: none;
-}
+
 .home .firstView .titleLine {
 	color: #a6192e;
 }
+
 .home .firstView .countdown {
 	color: white;
 	font-size: 2em;
 }
+
 .home .firstView .logoLarge {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -569,67 +631,44 @@ nav .dropdown-content a {
 	width: 50%;
 	margin: 25px auto;
 }
+
 .home .firstView .Icons .icon {
 	color: white;
 	height: 50px;
 	width: 50px;
 	margin: 5px;
 }
-.home p {
-	size: 100px;
-}
-.home .news {
-	position: relative;
-	top: 20px;
-	background-color: grey;
-	padding: 10px;
-}
-.home .news h1 {
-	color: white;
-}
+
 ul {
 	display: inline-block;
 	padding-left: 0;
 	text-align: left;
 }
+
 ul .indentList {
 	list-style-type: circle;
 	margin-left: 15px;
 }
-.involved .info {
-	background-color: grey;
-	color: white;
-	padding: 15px 0;
+
+.involved .dropdown {
+	width: 80%;
+	margin: auto;
+	position: relative;
 }
-.involved .threeColumns {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: stretch;
-	-ms-flex-align: stretch;
-	align-items: stretch;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+
+.involved .dropdown .dropdown-content {
+	display: block;
 }
-.involved .threeColumns .column {
-	-ms-flex-preferred-size: auto;
-	flex-basis: auto;
-}
-.involved .threeColumns .column ul {
-	font-size: medium;
-	font-weight: bold;
+
+.involved .dropdown .dropdown-content ul {
 	text-align: center;
-	list-style: none;
 }
+
+.involved .dropdown h3:hover ul {
+	display: none;
+}
+
 .button {
-	cursor: pointer;
 	color: white;
 	text-decoration: none;
 	font-size: 2rem;
@@ -647,6 +686,7 @@ ul .indentList {
 	height: -moz-fit-content;
 	height: fit-content;
 }
+
 .ButtonDiv {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -660,66 +700,7 @@ ul .indentList {
 	-ms-flex-positive: 2;
 	flex-grow: 2;
 }
-.jexpo table {
-	width: 100%;
-}
-.jexpo .form-control {
-	width: 100%;
-}
-.jexpo .fa-check-circle {
-	color: green;
-}
-.jexpo .text-warning {
-	color: orange;
-}
-.jexpo .checkboxes {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-}
-.jexpo a {
-	color: #337ab7;
-	text-decoration: none;
-}
-.jexpo a:hover {
-	color: #23527c;
-	text-decoration: underline;
-}
-.covid a {
-	text-decoration: none;
-	color: #a6192e;
-}
-.covid a:hover {
-	text-decoration: underline;
-}
-p {
-	max-width: 700px;
-	text-align: center;
-	margin: 0 auto;
-	padding: 10px;
-}
-li {
-	max-width: 450px;
-}
-h1:after {
-	content: "";
-	display: block;
-	border-bottom: 3px solid #a6192e;
-	position: relative;
-	top: 4px;
-	width: 150px;
-	margin: 0 auto;
-}
-.banner {
-	color: white;
-}
-.banner h1 {
-	padding: 30px 0;
-}
+
 .App {
 	text-align: center;
 	display: -webkit-box;
@@ -732,6 +713,7 @@ h1:after {
 	min-height: 100vh;
 	width: 100%;
 }
+
 .Content {
 	background-blend-mode: multiply;
 	background-size: cover;
@@ -750,24 +732,28 @@ h1:after {
 	flex-direction: column;
 	margin-bottom: 20px;
 }
+
 .navbar,
 .footer,
 .Content {
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
 }
+
 .navbar,
 .footer {
 	-webkit-box-flex: 0;
 	-ms-flex-positive: 0;
 	flex-grow: 0;
 }
+
 *,
 *::before,
 *::after {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 .titleLine {
 	color: #a6192e;
 	margin-top: 0;
@@ -776,6 +762,7 @@ h1:after {
 	font-weight: bold;
 	margin-bottom: 0;
 }
+
 .devBranchBanner {
 	z-index: 1000;
 	position: fixed;
@@ -783,6 +770,7 @@ h1:after {
 	transform: rotate(45deg);
 	right: -32px;
 }
+
 .devBranchBanner p {
 	color: #a6192e;
 	background-color: white;
@@ -791,17 +779,27 @@ h1:after {
 	padding-left: 40px;
 	overflow: visible;
 }
+
+p {
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+li {
+	max-width: 450px;
+}
+
 iframe {
 	margin: auto;
 }
+
 .jexpo-container {
 	margin: auto;
 }
+
 .pdf {
 	margin: auto;
 }
-.students .involved {
-	background-color: grey;
-	color: white;
-}
-/*# sourceMappingURL=App.min.css.map */
+/*# sourceMappingURL=App.css.map */

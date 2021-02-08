@@ -19,7 +19,7 @@ const JexpoCatalog = `
 		});
 		Jexpo.dialog("app-dialog");
 		Jexpo.ExhibitorsCatalogue("catalogue", {
-			workspace: "2020",
+			workspace: "2021",
 			search: [
 				"name",
 				"profile.weOffer",

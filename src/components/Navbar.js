@@ -113,6 +113,16 @@ export default function Navbar() {
 											{t("NAVBAR.CATALOG")}
 										</NavLink>
 									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/fair/competition"
+											onClick={closeNav}
+										>
+											LARV-Competition
+										</NavLink>
+									</li>
 									{showGallery && (
 										<li>
 											<NavLink
@@ -125,6 +135,14 @@ export default function Navbar() {
 											</NavLink>
 										</li>
 									)}
+									<NavLink
+										exact
+										activeClassName="active"
+										to="/fair/schedule"
+										onClick={closeNav}
+									>
+										{t("NAVBAR.SCHEDULE")}
+									</NavLink>
 								</ul>
 							</div>
 						</div>
@@ -167,6 +185,16 @@ export default function Navbar() {
 											onClick={closeNav}
 										>
 											{t("NAVBAR.IM")}
+										</NavLink>
+									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/students/guide"
+											onClick={closeNav}
+										>
+											{t("NAVBAR.GUIDE")}
 										</NavLink>
 									</li>
 								</ul>

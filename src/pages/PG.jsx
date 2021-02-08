@@ -2,13 +2,25 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { PGApplication } from "../config";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 export default function FinalApplication() {
 	const ApplicationOpen = PGApplication().open;
 	const { t } = useTranslation();
 	return (
 		<>
-			<h1>{t("PG.HEADER")}</h1>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>{t("PG.HEADER")}</h1>
+				</Parallax>
+			</div>
 			<p>{t("PG.INFO_1")}</p>
 			<p>{t("PG.INFO_2")}</p>
 			<p>{t("PG.INFO_3")}</p>
@@ -63,7 +75,7 @@ export default function FinalApplication() {
 			<h3>{t("ROLES.PG.SERVICE")}</h3>
 			<p>{t("PG.SERVICE")}</p>
 			<h3>{t("ROLES.PG.PR")}</h3>
-			<p>{t("PG.SERVICE")}</p>
+			<p>{t("PG.PR")}</p>
 			<h3>{t("ROLES.PG.LOUNGE")}</h3>
 			<p>{t("PG.LOUNGE")}</p>
 

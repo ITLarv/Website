@@ -1,0 +1,20 @@
+p {
+	max-width: $max-width-text;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+li {
+	max-width: $max-width-list;
+}
+
+h1:after {
+	content: "";
+	display: block;
+	border-bottom: 3px solid $main-color;
+	position: relative;
+	top: 4px;
+	width: 150px;
+	margin: 0 auto;
+}
