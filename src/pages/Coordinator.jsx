@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
 import { CoordinatorApplication } from "../config";
+import Dropdown from "./Dropdown";
 
 export default function Coordinator() {
 	const ApplicationOpen = CoordinatorApplication().open;
@@ -21,48 +22,11 @@ export default function Coordinator() {
 					<h1>{t("COORDINATORS.HEADER")}</h1>
 				</Parallax>
 			</div>
-			<p>{t("COORDINATORS.INFO_1")}</p>
-			<p>{t("COORDINATORS.INFO_2")}</p>
-
-			{ApplicationOpen && (
-				<div className="ButtonDiv">
-					<NavLink className="button" to="/involved/coordinator/application">
-						{t("COORDINATORS.APPLY")}
-					</NavLink>
-				</div>
-			)}
-
-			<h3>{t("COORDINATORS.POSITIONS")}</h3>
-			<div className="dropdown-content">
-				<ul>
-					<li>{t("ROLES.COORDINATORS.FTG")}</li>
-					<li>{t("ROLES.COORDINATORS.EVENT")}</li>
-					<li>{t("ROLES.COORDINATORS.GRAFIK")}</li>
-					<li>{t("ROLES.COORDINATORS.IT")}</li>
-					<li>{t("ROLES.COORDINATORS.MÄSSA")}</li>
-					<li>{t("ROLES.COORDINATORS.REKRYTERING")}</li>
-					<li>{t("ROLES.COORDINATORS.SERVICE")}</li>
-					<li>{t("ROLES.COORDINATORS.PR")}</li>
-				</ul>
+			<div className="grey">
+				<p>{t("COORDINATORS.INFO_1")}</p>
+				<p>{t("COORDINATORS.INFO_2")}</p>
 			</div>
 
-			<h3>{t("ROLES.COORDINATORS.FTG")}</h3>
-			<p>{t("COORDINATORS.FTG")}</p>
-			<h3>{t("ROLES.COORDINATORS.EVENT")}</h3>
-			<p>{t("COORDINATORS.EVENT")}</p>
-			<h3>{t("ROLES.COORDINATORS.GRAFIK")}</h3>
-			<p>{t("COORDINATORS.GRAFIK")}</p>
-			<h3>{t("ROLES.COORDINATORS.IT")}</h3>
-			<p>{t("COORDINATORS.IT")}</p>
-			<h3>IT-{t("ROLES.COORDINATORS.MÄSSA")}</h3>
-			<p>{t("COORDINATORS.MÄSSA")}</p>
-			<h3>{t("ROLES.COORDINATORS.REKRYTERING")}</h3>
-			<p>{t("COORDINATORS.REKRYTERING")}</p>
-			<h3>{t("ROLES.COORDINATORS.SERVICE")}</h3>
-			<p>{t("COORDINATORS.SERVICE")}</p>
-			<h3>{t("ROLES.COORDINATORS.PR")}</h3>
-			<p>{t("COORDINATORS.PR")}</p>
-
 			{ApplicationOpen && (
 				<div className="ButtonDiv">
 					<NavLink className="button" to="/involved/coordinator/application">
@@ -70,6 +34,21 @@ export default function Coordinator() {
 					</NavLink>
 				</div>
 			)}
+
+			<div className="dropdown-container">
+				<h1>{t("COORDINATORS.POSITIONS")}</h1>
+				<Dropdown h={t("ROLES.COORDINATORS.FTG")} p={t("COORDINATORS.FTG")} />
+				<Dropdown h={t("ROLES.COORDINATORS.EVENT")} p={t("COORDINATORS.EVENT")} />
+				<Dropdown h={t("ROLES.COORDINATORS.IT")} p={t("COORDINATORS.IT")} />
+				<Dropdown h={t("ROLES.COORDINATORS.MÄSSA")} p={t("COORDINATORS.MÄSSA")} />
+				<Dropdown h={t("ROLES.COORDINATORS.SERVICE")} p={t("COORDINATORS.SERVICE")} />
+				<Dropdown h={t("ROLES.COORDINATORS.GRAFIK")} p={t("COORDINATORS.GRAFIK")} />
+				<Dropdown
+					h={t("ROLES.COORDINATORS.REKRYTERING")}
+					p={t("COORDINATORS.REKRYTERING")}
+				/>
+				<Dropdown h={t("ROLES.COORDINATORS.PR")} p={t("COORDINATORS.PR")} />
+			</div>
 		</>
 	);
 }

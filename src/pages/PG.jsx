@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { PGApplication } from "../config";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
+import Dropdown from "./Dropdown";
 
 export default function FinalApplication() {
 	const ApplicationOpen = PGApplication().open;
 	const { t } = useTranslation();
+
 	return (
 		<>
 			<div className="banner">
@@ -21,64 +23,12 @@ export default function FinalApplication() {
 					<h1>{t("PG.HEADER")}</h1>
 				</Parallax>
 			</div>
-			<p>{t("PG.INFO_1")}</p>
-			<p>{t("PG.INFO_2")}</p>
-			<p>{t("PG.INFO_3")}</p>
-			{ApplicationOpen && (
-				<div className="ButtonDiv">
-					<NavLink className="button" to="/involved/pg/application">
-						{t("PG.APPLY")}
-					</NavLink>
-				</div>
-			)}
-
-			<h3>PG</h3>
-			<div className="dropdown-content">
-				<ul>
-					<li>{t("ROLES.PG.PL")}</li>
-					<li>{t("ROLES.PG.VPL")}</li>
-					<li>{t("ROLES.PG.FTG")}</li>
-					<li>{t("ROLES.PG.SAMARBETE")}</li>
-					<li>{t("ROLES.PG.EVENT")}</li>
-					<li>{t("ROLES.PG.GRAFIK")}</li>
-					<li>{t("ROLES.PG.IT")}</li>
-					<li>{t("ROLES.PG.MÄSSA")}</li>
-					<li>{t("ROLES.PG.LOGISTIK")}</li>
-					<li>{t("ROLES.PG.BANKETT")}</li>
-					<li>{t("ROLES.PG.REKRYTERING")}</li>
-					<li>{t("ROLES.PG.SERVICE")}</li>
-					<li>{t("ROLES.PG.PR")}</li>
-					<li>{t("ROLES.PG.LOUNGE")}</li>
-				</ul>
+			<div className="grey">
+				<p>{t("PG.INFO_1")}</p>
+				<p>{t("PG.INFO_2")}</p>
+				<p>{t("PG.INFO_3")}</p>
 			</div>
 
-			<h3>{t("ROLES.PG.VPL")}</h3>
-			<p>{t("PG.VPL")}</p>
-			<h3>{t("ROLES.PG.FTG")}</h3>
-			<p>{t("PG.FTG")}</p>
-			<h3>{t("ROLES.PG.SAMARBETE")}</h3>
-			<p>{t("PG.SAMARBETE")}</p>
-			<h3>{t("ROLES.PG.EVENT")}</h3>
-			<p>{t("PG.EVENT")}</p>
-			<h3>{t("ROLES.PG.GRAFIK")}</h3>
-			<p>{t("PG.GRAFIK")}</p>
-			<h3>{t("ROLES.PG.IT")}</h3>
-			<p>{t("PG.IT")}</p>
-			<h3>{t("ROLES.PG.MÄSSA")}</h3>
-			<p>{t("PG.MÄSSA")}</p>
-			<h3>{t("ROLES.PG.LOGISTIK")}</h3>
-			<p>{t("PG.LOGISTIK")}</p>
-			<h3>{t("ROLES.PG.BANKETT")}</h3>
-			<p>{t("PG.BANKETT")}</p>
-			<h3>{t("ROLES.PG.REKRYTERING")}</h3>
-			<p>{t("PG.REKRYTERING")}</p>
-			<h3>{t("ROLES.PG.SERVICE")}</h3>
-			<p>{t("PG.SERVICE")}</p>
-			<h3>{t("ROLES.PG.PR")}</h3>
-			<p>{t("PG.PR")}</p>
-			<h3>{t("ROLES.PG.LOUNGE")}</h3>
-			<p>{t("PG.LOUNGE")}</p>
-
 			{ApplicationOpen && (
 				<div className="ButtonDiv">
 					<NavLink className="button" to="/involved/pg/application">
@@ -86,6 +36,23 @@ export default function FinalApplication() {
 					</NavLink>
 				</div>
 			)}
+
+			<div className="dropdown-container">
+				<h1>{t("PG.POSITIONS")}</h1>
+				<Dropdown h={t("ROLES.PG.VPL")} p={t("PG.VPL")} />
+				<Dropdown h={t("ROLES.PG.FTG")} p={t("PG.FTG")} />
+				<Dropdown h={t("ROLES.PG.SAMARBETE")} p={t("PG.SAMARBETE")} />
+				<Dropdown h={t("ROLES.PG.EVENT")} p={t("PG.EVENT")} />
+				<Dropdown h={t("ROLES.PG.GRAFIK")} p={t("PG.GRAFIK")} />
+				<Dropdown h={t("ROLES.PG.IT")} p={t("PG.IT")} />
+				<Dropdown h={t("ROLES.PG.MÄSSA")} p={t("PG.MÄSSA")} />
+				<Dropdown h={t("ROLES.PG.LOGISTIK")} p={t("PG.LOGISTIK")} />
+				<Dropdown h={t("ROLES.PG.BANKETT")} p={t("PG.BANKETT")} />
+				<Dropdown h={t("ROLES.PG.REKRYTERING")} p={t("PG.REKRYTERING")} />
+				<Dropdown h={t("ROLES.PG.SERVICE")} p={t("PG.SERVICE")} />
+				<Dropdown h={t("ROLES.PG.PR")} p={t("PG.PR")} />
+				<Dropdown h={t("ROLES.PG.LOUNGE")} p={t("PG.LOUNGE")} />
+			</div>
 		</>
 	);
 }

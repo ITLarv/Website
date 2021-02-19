@@ -720,6 +720,40 @@ h1:after {
 .banner h1 {
 	padding: 30px 0;
 }
+.dropdown-container {
+	margin: auto;
+}
+.dropdown-container .dropdown summary {
+	font-size: 1.5em;
+	font-weight: bolder;
+	border: outset;
+	border-color: #222;
+	border-width: 0.3rem;
+	border-radius: 5px;
+	padding: 8px;
+	background-color: #222;
+	color: white;
+	margin: 5px;
+	max-width: 600px;
+}
+.dropdown-container .dropdown summary::-webkit-details-marker {
+	display: none;
+}
+.dropdown-container .dropdown p {
+	max-width: 600px;
+}
+.dropdown-container details summary::after {
+	content: "   <";
+	color: #a6192e;
+}
+.dropdown-container details[open] summary::after {
+	content: "   ^";
+	color: #a6192e;
+}
+.grey {
+	background-color: grey;
+	color: white;
+}
 .App {
 	text-align: center;
 	display: -webkit-box;

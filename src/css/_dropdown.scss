@@ -1,0 +1,38 @@
+.dropdown-container {
+	margin: auto;
+	.dropdown {
+		summary {
+			font-size: 1.5em;
+			font-weight: bolder;
+			border: outset;
+			border-color: $secondary-color;
+			border-width: 0.3rem;
+			border-radius: 5px;
+			padding: 8px;
+			background-color: $secondary-color;
+			color: white;
+			margin: 5px;
+			max-width: $max-width-dropdown;
+
+			&::-webkit-details-marker {
+				display: none;
+			}
+		}
+
+		p {
+			max-width: $max-width-dropdown;
+		}
+	}
+
+	details summary::after {
+		content: "   <";
+		color: $main-color;
+		/* you can style it however you want, use background-image for example */
+	}
+
+	/* By using [open] we can define different styles when the disclosure widget is open */
+	details[open] summary::after {
+		content: "   ^";
+		color: $main-color;
+	}
+}

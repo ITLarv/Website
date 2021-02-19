@@ -33,7 +33,8 @@ export default function Involved() {
 								{t("GENERAL.VOLUNTEER")}
 							</NavLink>
 						</div>
-						<ul>
+
+						{/* <ul>
 							<li>{t("ROLES.VOLUNTEERS.FTG")}</li>
 							<li>{t("ROLES.VOLUNTEERS.EVENT")}</li>
 							<li>{t("ROLES.VOLUNTEERS.IT")}</li>
@@ -42,7 +43,7 @@ export default function Involved() {
 							<li>{t("ROLES.VOLUNTEERS.CHAUFFÖR")}</li>
 							<li>{t("ROLES.VOLUNTEERS.NATT")}</li>
 							<li>{t("ROLES.VOLUNTEERS.TI")}</li>
-						</ul>
+						</ul> */}
 					</div>
 
 					<div className="column">
@@ -51,7 +52,7 @@ export default function Involved() {
 								{t("GENERAL.COORDINATOR")}
 							</NavLink>
 						</div>
-						<ul>
+						{/* <ul>
 							<li>{t("ROLES.COORDINATORS.FTG")}</li>
 							<li>{t("ROLES.COORDINATORS.SAMARBETE")}</li>
 							<li>{t("ROLES.COORDINATORS.EVENT")}</li>
@@ -63,7 +64,7 @@ export default function Involved() {
 							<li>{t("ROLES.COORDINATORS.REKRYTERING")}</li>
 							<li>{t("ROLES.COORDINATORS.SERVICE")}</li>
 							<li>{t("ROLES.COORDINATORS.PR")}</li>
-						</ul>
+						</ul> */}
 					</div>
 
 					<div className="column">
@@ -72,7 +73,7 @@ export default function Involved() {
 								{t("GENERAL.PG")}
 							</NavLink>
 						</div>
-						<ul>
+						{/* <ul>
 							<li>{t("ROLES.PG.PL")}</li>
 							<li>{t("ROLES.PG.VPL")}</li>
 							<li>{t("ROLES.PG.FTG")}</li>
@@ -87,7 +88,7 @@ export default function Involved() {
 							<li>{t("ROLES.PG.SERVICE")}</li>
 							<li>{t("ROLES.PG.PR")}</li>
 							<li>{t("ROLES.PG.LOUNGE")}</li>
-						</ul>
+						</ul> */}
 					</div>
 				</div>
 			</div>
