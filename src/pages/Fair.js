@@ -36,20 +36,22 @@ export default function Fair() {
 				</NavLink>
 			</div>
 
-			<h2>{t("FAIR.HEADER_2")}</h2>
-			<p>{t("FAIR.INFO_3")}</p>
-			<p>{t("FAIR.INFO_4")}</p>
-			<p>{t("FAIR.INFO_5")}</p>
-			<p>{t("FAIR.INFO_6")}</p>
-			<p>{t("FAIR.INFO_7")}</p>
+			<div className="grey">
+				<h2>{t("FAIR.HEADER_2")}</h2>
+				<p>{t("FAIR.INFO_3")}</p>
+				<p>{t("FAIR.INFO_4")}</p>
+				<p>{t("FAIR.INFO_5")}</p>
+				<p>{t("FAIR.INFO_6")}</p>
+				<p>{t("FAIR.INFO_7")}</p>
 
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/organizations">
-					{t("GENERAL.ORGANIZATIONS")}
-				</NavLink>
-				<NavLink className="button" to="/organizations/initial-application">
-					{t("GENERAL.IA")}
-				</NavLink>
+				<div className="ButtonDiv">
+					<NavLink className="button" to="/organizations">
+						{t("GENERAL.ORGANIZATIONS")}
+					</NavLink>
+					<NavLink className="button" to="/organizations/initial-application">
+						{t("GENERAL.IA")}
+					</NavLink>
+				</div>
 			</div>
 
 			<h2>{t("FAIR.HEADER_3")}</h2>

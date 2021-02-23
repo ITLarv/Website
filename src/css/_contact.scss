@@ -10,6 +10,16 @@
 		font-size: 24px;
 		font-weight: 500;
 		line-height: 1.1;
+
+		&:after {
+			content: "";
+			display: block;
+			border-bottom: 2px solid $main-color;
+			position: relative;
+			top: 4px;
+			width: 120px;
+			margin: 0 auto;
+		}
 	}
 
 	a {

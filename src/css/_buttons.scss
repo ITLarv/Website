@@ -12,6 +12,21 @@
 	border-radius: 5px;
 	width: max-content;
 	height: fit-content;
+
+	&::before {
+		content: "";
+		display: block;
+		border-bottom: 2px solid white;
+		position: relative;
+		max-width: 130px;
+		margin: auto;
+		transform: scale(0, 1);
+		transition: transform ease-in-out 250ms;
+	}
+
+	&:hover::before {
+		transform: scale(1, 1);
+	}
 }
 
 .ButtonDiv {

@@ -88,7 +88,7 @@ export default function Home() {
 						</NavLink>
 					</div>
 				</div>
-				<div className="news">
+				<div className="grey">
 					<News />
 				</div>
 			</div>

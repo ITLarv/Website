@@ -12,9 +12,6 @@ export default function Catalog() {
 		if (showCatalog) {
 			return (
 				<>
-					<p>{t("CATALOG.INFO")}</p>
-					{!currentYear && <p>{t("CATALOG.NOT_CURRENT_YEAR")}</p>}
-					<p>{t("CATALOG.SEARCH")}</p>
 					<div className="jexpoCatalog">
 						<iframe srcDoc={JexpoCatalog} title="Jexpo catalog" />
 					</div>
@@ -32,7 +29,12 @@ export default function Catalog() {
 	return (
 		<>
 			<div className="Catalog">
-				<h1>{t("GENERAL.CATALOG")}</h1>
+				<div className="grey">
+					<h1>{t("GENERAL.CATALOG")}</h1>
+					<p>{t("CATALOG.INFO")}</p>
+					{!currentYear && <p>{t("CATALOG.NOT_CURRENT_YEAR")}</p>}
+					<p>{t("CATALOG.SEARCH")}</p>
+				</div>
 				{renderCatalog()}
 			</div>
 		</>

@@ -310,6 +310,15 @@ nav .dropdown-content a {
 	font-weight: 500;
 	line-height: 1.1;
 }
+.Contact h4:after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid #a6192e;
+	position: relative;
+	top: 4px;
+	width: 120px;
+	margin: 0 auto;
+}
 .Contact a {
 	text-decoration: none;
 	color: #a6192e;
@@ -578,14 +587,10 @@ nav .dropdown-content a {
 .home p {
 	size: 100px;
 }
-.home .news {
+.home .grey {
 	position: relative;
 	top: 20px;
-	background-color: grey;
 	padding: 10px;
-}
-.home .news h1 {
-	color: white;
 }
 ul {
 	display: inline-block;
@@ -646,6 +651,24 @@ ul .indentList {
 	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
+}
+.button::before {
+	content: "";
+	display: block;
+	border-bottom: 2px solid white;
+	position: relative;
+	max-width: 130px;
+	margin: auto;
+	-webkit-transform: scale(0, 1);
+	transform: scale(0, 1);
+	-webkit-transition: -webkit-transform ease-in-out 250ms;
+	transition: -webkit-transform ease-in-out 250ms;
+	transition: transform ease-in-out 250ms;
+	transition: transform ease-in-out 250ms, -webkit-transform ease-in-out 250ms;
+}
+.button:hover::before {
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
 }
 .ButtonDiv {
 	display: -webkit-box;
@@ -720,10 +743,8 @@ h1:after {
 .banner h1 {
 	padding: 30px 0;
 }
-.dropdown-container {
-	margin: auto;
-}
 .dropdown-container .dropdown summary {
+	cursor: pointer;
 	font-size: 1.5em;
 	font-weight: bolder;
 	border: outset;
@@ -733,7 +754,7 @@ h1:after {
 	padding: 8px;
 	background-color: #222;
 	color: white;
-	margin: 5px;
+	margin: 5px auto;
 	max-width: 600px;
 }
 .dropdown-container .dropdown summary::-webkit-details-marker {
@@ -742,17 +763,37 @@ h1:after {
 .dropdown-container .dropdown p {
 	max-width: 600px;
 }
-.dropdown-container details summary::after {
-	content: "   <";
-	color: #a6192e;
+.dropdown-container details summary::before {
+	content: "";
+	display: block;
+	border-bottom: 3px solid #a6192e;
+	position: relative;
+	width: 150px;
+	margin: auto;
+	-webkit-transform: scale(0, 1);
+	transform: scale(0, 1);
+	-webkit-transition: -webkit-transform ease-in-out 250ms;
+	transition: -webkit-transform ease-in-out 250ms;
+	transition: transform ease-in-out 250ms;
+	transition: transform ease-in-out 250ms, -webkit-transform ease-in-out 250ms;
+}
+.dropdown-container details summary:hover::before {
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
 }
 .dropdown-container details[open] summary::after {
-	content: "   ^";
-	color: #a6192e;
+	content: "";
+	display: block;
+	border-bottom: 3px solid #a6192e;
+	position: relative;
+	top: 4px;
+	width: 150px;
+	margin: 0 auto;
 }
 .grey {
 	background-color: grey;
 	color: white;
+	padding: 10px;
 }
 .App {
 	text-align: center;
