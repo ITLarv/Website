@@ -1,7 +1,6 @@
 {
 	"parser": "@typescript-eslint/parser",
 	"extends": ["react-app", "eslint:recommended", "plugin:prettier/recommended"],
-	"plugins": ["prettier"],
 	"env": {
 		"node": true,
 		"es6": true,
@@ -12,6 +11,7 @@
 		"sourceType": "module"
 	},
 	"rules": {
-		"no-console": [2, { "allow": ["info", "warn", "error"] }]
+		"no-console": [2, { "allow": ["info", "warn", "error"] }],
+		"endOfLine": "lf"
 	}
 }
