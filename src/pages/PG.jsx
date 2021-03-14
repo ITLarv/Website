@@ -27,6 +27,7 @@ export default function FinalApplication() {
 				<p>{t("PG.INFO_1")}</p>
 				<p>{t("PG.INFO_2")}</p>
 				<p>{t("PG.INFO_3")}</p>
+				<p>{t("PG.INFO_4")}</p>
 			</div>
 
 			{ApplicationOpen && (

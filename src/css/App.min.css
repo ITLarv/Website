@@ -752,6 +752,7 @@ h1:after {
 	border-width: 0.3rem;
 	border-radius: 5px;
 	padding: 8px;
+	padding-bottom: 12px;
 	background-color: #222;
 	color: white;
 	margin: 5px auto;
@@ -777,6 +778,9 @@ h1:after {
 	transition: transform ease-in-out 250ms;
 	transition: transform ease-in-out 250ms, -webkit-transform ease-in-out 250ms;
 }
+.dropdown-container details summary::marker {
+	content: none;
+}
 .dropdown-container details summary:hover::before {
 	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
@@ -786,7 +790,7 @@ h1:after {
 	display: block;
 	border-bottom: 3px solid #a6192e;
 	position: relative;
-	top: 4px;
+	top: 3px;
 	width: 150px;
 	margin: 0 auto;
 }

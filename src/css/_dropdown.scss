@@ -9,6 +9,7 @@
 			border-width: 0.3rem;
 			border-radius: 5px;
 			padding: 8px;
+			padding-bottom: 12px;
 			background-color: $secondary-color;
 			color: white;
 			margin: 5px auto;
@@ -35,6 +36,10 @@
 		transition: transform ease-in-out 250ms;
 	}
 
+	details summary::marker {
+		content: none;
+	}
+
 	details summary:hover::before {
 		transform: scale(1, 1);
 	}
@@ -44,7 +49,7 @@
 		display: block;
 		border-bottom: 3px solid $main-color;
 		position: relative;
-		top: 4px;
+		top: 3px;
 		width: 150px;
 		margin: 0 auto;
 	}
