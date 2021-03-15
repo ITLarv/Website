@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { PGApplication } from "../config";
 import { useTranslation } from "react-i18next";
