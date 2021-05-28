@@ -13,7 +13,7 @@ import bgImage from "../img/header.jpg";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
-const larvDate = Date.parse("18 Jan 2021 09:00:00");
+const larvDate = Date.parse("19 Jan 2022 09:00:00");
 
 // Renderer callback with condition
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
