@@ -77,6 +77,7 @@ function Page() {
 						<Route exact path="/prep-week" component={PrepWeek} />
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
+						<Route exact path="/gallery" component={Gallery} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>

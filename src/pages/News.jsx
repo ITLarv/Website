@@ -16,10 +16,8 @@ export default function News() {
 			image: covid,
 			imageAlt: "",
 			content: {
-				en:
-					"Read more about how Covid-19 affects LARV 2021 and how we work to create a career fair that creates value for both exhibitors and students",
-				sv:
-					"Läs mer om hur Covid-19 påverkar LARV 2021 och hur vi arbetar för att ändå genomföra en mässa som skapar värde åt både utställare och studenter",
+				en: "Read more about how Covid-19 affects LARV 2021 and how we work to create a career fair that creates value for both exhibitors and students",
+				sv: "Läs mer om hur Covid-19 påverkar LARV 2021 och hur vi arbetar för att ändå genomföra en mässa som skapar värde åt både utställare och studenter",
 			},
 			linkTo: "/covid",
 		},
@@ -31,10 +29,8 @@ export default function News() {
 			image: img1,
 			imageAlt: "",
 			content: {
-				en:
-					"Week 3, 2021, is LARV. A week full of lectures, competitions, the fair and much more! Read more under Fair in the menu above.",
-				sv:
-					"Vecka 3, 2021, är det LARV. En vecka fylld av föreläsningar, tävlingar, mässan och mycket mer! Läs mer under Mässan i menyn ovan.",
+				en: "Week 3, 2021, is LARV. A week full of lectures, competitions, the fair and much more! Read more under Fair in the menu above.",
+				sv: "Vecka 3, 2021, är det LARV. En vecka fylld av föreläsningar, tävlingar, mässan och mycket mer! Läs mer under Mässan i menyn ovan.",
 			},
 			linkTo: "/fair",
 		},
@@ -46,10 +42,8 @@ export default function News() {
 			image: img2,
 			imageAlt: "",
 			content: {
-				en:
-					"We are developing the website as fast as we can, but we apologize that not everything is completely done. If you discover any bugs or want to leave feedback, we are more than happy to receive this via email to it@larv.org",
-				sv:
-					"Vi håller på att utveckla hemsidan så fort vi bara kan, men ber om ursäkt att allting inte är helt finslipat. Upptäcker du några buggar eller vill lämna feedback tar vi mer än gärna emot detta via mail till it@larv.org",
+				en: "We are developing the website as fast as we can, but we apologize that not everything is completely done. If you discover any bugs or want to leave feedback, we are more than happy to receive this via email to it@larv.org",
+				sv: "Vi håller på att utveckla hemsidan så fort vi bara kan, men ber om ursäkt att allting inte är helt finslipat. Upptäcker du några buggar eller vill lämna feedback tar vi mer än gärna emot detta via mail till it@larv.org",
 			},
 		},
 		{
@@ -60,10 +54,8 @@ export default function News() {
 			image: img3,
 			imageAlt: "",
 			content: {
-				en:
-					"This year's fair is quite different than previous years. We have therefore made a full guide of how this fair works and what you can do to get the most out of LARV 2021.",
-				sv:
-					"Årets mässa är helt annorlunda än tidigare år. Vi har därför gjort en fullständig guide för hur denna mässa fungerar och vad du kan göra för att få ut det mesta av LARV 2021.",
+				en: "This year's fair is quite different than previous years. We have therefore made a full guide of how this fair works and what you can do to get the most out of LARV 2021.",
+				sv: "Årets mässa är helt annorlunda än tidigare år. Vi har därför gjort en fullständig guide för hur denna mässa fungerar och vad du kan göra för att få ut det mesta av LARV 2021.",
 			},
 			linkTo: "/students/guide",
 		},

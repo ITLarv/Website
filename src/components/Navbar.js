@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../img/logo-white-transparent.png";
-import { initialApplication, map, gallery, calendar } from "../config";
+import { initialApplication, map, gallery, schedule, calendar } from "../config";
 import { useTranslation } from "react-i18next";
 import sv from "../img/flags/se.png";
 import gb from "../img/flags/gb.png";
@@ -10,6 +10,7 @@ export default function Navbar() {
 	const showIA = initialApplication().navLink;
 	const showMap = map().showMap;
 	const showGallery = gallery().show;
+	const showSchedule = schedule().show;
 	const showCalendar = calendar().show;
 
 	const { t, i18n } = useTranslation();
@@ -135,14 +136,18 @@ export default function Navbar() {
 											</NavLink>
 										</li>
 									)}
-									<NavLink
-										exact
-										activeClassName="active"
-										to="/fair/schedule"
-										onClick={closeNav}
-									>
-										{t("NAVBAR.SCHEDULE")}
-									</NavLink>
+									{showSchedule && (
+										<li>
+											<NavLink
+												exact
+												activeClassName="active"
+												to="/fair/schedule"
+												onClick={closeNav}
+											>
+												{t("NAVBAR.SCHEDULE")}
+											</NavLink>
+										</li>
+									)}
 								</ul>
 							</div>
 						</div>
