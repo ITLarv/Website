@@ -26,6 +26,12 @@ const map = () => {
 
 const gallery = () => {
 	return {
+		show: true,
+	};
+};
+
+const schedule = () => {
+	return {
 		show: false,
 	};
 };
@@ -73,4 +79,5 @@ export {
 	VolunteerApplication,
 	PGApplication,
 	gallery,
+	schedule,
 };

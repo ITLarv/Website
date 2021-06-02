@@ -799,6 +799,20 @@ h1:after {
 	color: white;
 	padding: 10px;
 }
+.gallerySlider {
+	margin: auto;
+	width: 75%;
+	height: 75%;
+	left: 13%;
+	top: 15%;
+}
+.galleryOverView img {
+	width: 20%;
+	height: 20%;
+	left: 5px;
+	border: 2px;
+	border-style: solid;
+}
 .App {
 	text-align: center;
 	display: -webkit-box;
