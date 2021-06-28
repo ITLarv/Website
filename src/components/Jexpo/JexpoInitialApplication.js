@@ -12,7 +12,7 @@ const JexpoInitialApplication = `
 			, endpoint:'p18.jexpo.se/larv'
 		}, function(){
 		  Jexpo.dialog('app-dialog');
-		  Jexpo.InitialRegistration('app', {workspace:'2021'});
+		  Jexpo.InitialRegistration('app', {workspace:'2022'});
 		});
 	</script>
 `;
