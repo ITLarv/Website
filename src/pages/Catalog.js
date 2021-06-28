@@ -1,5 +1,5 @@
+/* eslint-disable no-undef */
 import React from "react";
-import JexpoCatalog from "../components/Jexpo/JexpoCatalog.js";
 import { catalog } from "../config";
 import { useTranslation } from "react-i18next";
 
@@ -8,14 +8,36 @@ export default function Catalog() {
 	const showCatalog = catalog().show;
 	const currentYear = catalog().currentYear;
 
+	React.useEffect(() => {
+		Jexpo.init(
+			{
+				lang: "sv",
+				endpoint: "p18.jexpo.se/larv",
+			},
+			function () {
+				Jexpo.dialog("app-dialog");
+				Jexpo.ExhibitorsCatalogue("catalogue", {
+					workspace: "2022",
+					search: [
+						"name",
+						"profile.weOffer",
+						"profile.industry",
+						"profile.desiredProgramme",
+					],
+					filter: ["published:true"],
+				});
+			},
+		);
+		console.info({ window });
+	}, []);
+
 	const renderCatalog = () => {
 		if (showCatalog) {
 			return (
-				<>
-					<div className="jexpoCatalog">
-						<iframe srcDoc={JexpoCatalog} title="Jexpo catalog" />
-					</div>
-				</>
+				<div>
+					<div id="app" className="jexpo jexpo-forms" style={{ padding: "20px" }}></div>
+					<div id="app-dialog" className="jexpo jexpo-forms"></div>
+				</div>
 			);
 		}
 		/*return (
