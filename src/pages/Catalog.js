@@ -16,7 +16,7 @@ export default function Catalog() {
 			},
 			function () {
 				Jexpo.dialog("app-dialog");
-				Jexpo.ExhibitorsCatalogue("catalogue", {
+				Jexpo.ExhibitorsCatalogue("app", {
 					workspace: "2022",
 					search: [
 						"name",
