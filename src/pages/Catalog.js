@@ -50,7 +50,7 @@ export default function Catalog() {
 
 	return (
 		<>
-			<div className="Catalog">
+			<div>
 				<div className="grey">
 					<h1>{t("GENERAL.CATALOG")}</h1>
 					<p>{t("CATALOG.INFO")}</p>
