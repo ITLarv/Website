@@ -1,24 +1,28 @@
+/* eslint-disable no-undef */
 import React from "react";
-import JexpoInitialApplication from "../components/Jexpo/JexpoInitialApplication.js";
-import { useTranslation } from "react-i18next";
+export default () => {
+	React.useEffect(() => {
+		Jexpo.init(
+			{
+				lang: "sv",
+				endpoint: "p18.jexpo.se/larv",
+			},
+			function () {
+				Jexpo.dialog("app-dialog");
+				Jexpo.InitialRegistation("app", { workspace: "2022" });
+			},
+		);
+		console.info({ window });
+	}, []);
 
-export default function InitialApplication() {
-	const { t } = useTranslation();
 	return (
-		<div className="jexpo-container">
-			<h1>{t("IA.HEADER")}</h1>
-			<iframe
-				title="jexpo-initial-application"
-				className="iframe-jexpo"
-				srcDoc={JexpoInitialApplication}
-				width="500"
-				height="300"
-				frameborder="0"
-				marginheight="0"
-				marginwidth="0"
-			>
-				Läser in...
-			</iframe>
+		<div>
+			<div
+				id="app"
+				className="jexpo jexpo-forms"
+				style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
+			></div>
+			<div id="app-dialog" className="jexpo jexpo-forms"></div>
 		</div>
 	);
-}
+};
