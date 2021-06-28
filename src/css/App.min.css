@@ -683,6 +683,13 @@ ul .indentList {
 	-ms-flex-positive: 2;
 	flex-grow: 2;
 }
+.jexpo div {
+	text-align: left;
+}
+.jexpo p {
+	text-align: left;
+	max-width: 100%;
+}
 .jexpo table {
 	width: 100%;
 }
