@@ -9,7 +9,7 @@ export default () => {
 			},
 			function () {
 				Jexpo.dialog("app-dialog");
-				Jexpo.InitialRegistation("app", { workspace: "2022" });
+				Jexpo.InitialRegistration("app", { workspace: "2022" });
 			},
 		);
 		console.info({ window });
