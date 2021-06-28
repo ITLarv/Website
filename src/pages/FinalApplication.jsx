@@ -20,7 +20,7 @@ export default () => {
 			<div
 				id="app"
 				className="jexpo jexpo-forms"
-				style="max-width: 800px;margin: 0 auto;padding: 20px;"
+				style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
 			></div>
 			<div id="app-dialog" className="jexpo jexpo-forms"></div>
 		</div>
