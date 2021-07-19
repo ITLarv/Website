@@ -9,7 +9,7 @@ export default () => {
 			},
 			function () {
 				Jexpo.dialog("app-dialog");
-				Jexpo.ExhibitorsFinalRegistration("app", { workspace: "2021" });
+				Jexpo.ExhibitorsFinalRegistration("app", { workspace: "2022" });
 			},
 		);
 		console.info({ window });
@@ -17,7 +17,11 @@ export default () => {
 
 	return (
 		<div>
-			<div id="app" className="jexpo jexpo-forms"></div>
+			<div
+				id="app"
+				className="jexpo jexpo-forms"
+				style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
+			></div>
 			<div id="app-dialog" className="jexpo jexpo-forms"></div>
 		</div>
 	);
