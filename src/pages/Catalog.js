@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 export default function Catalog() {
 	const { t } = useTranslation();
-	const showCatalog = catalog().show;
+	//const showCatalog = catalog().show;
 	const currentYear = catalog().currentYear;
 
 	React.useEffect(() => {
@@ -14,7 +14,7 @@ export default function Catalog() {
 				lang: "sv",
 				endpoint: "p18.jexpo.se/larv",
 			},
-			function () {
+			/*function () { //	uncomment to show catalog
 				Jexpo.dialog("app-dialog");
 				Jexpo.ExhibitorsCatalogue("app", {
 					workspace: "2022",
@@ -26,26 +26,21 @@ export default function Catalog() {
 					],
 					filter: ["published:true"],
 				});
-			},
+			},*/
 		);
 		console.info({ window });
 	}, []);
 
 	const renderCatalog = () => {
-		if (showCatalog) {
+		/*if (showCatalog) { // uncomment to show catalog
 			return (
 				<div>
 					<div id="app" className="jexpo jexpo-forms" style={{ padding: "20px" }}></div>
 					<div id="app-dialog" className="jexpo jexpo-forms"></div>
 				</div>
 			);
-		}
-		/*return (
-			<p>
-				Soon you will find this years attending companies here. We'll make sure
-				to add a timer for that
-			</p>
-		);*/
+		}*/
+		return <p>Soon you will find this years attending companies here.</p>;
 	};
 
 	return (

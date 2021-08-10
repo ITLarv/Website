@@ -22,26 +22,26 @@ export default function Students() {
 			<p>{t("STUDENTS.INFO_1")}</p>
 
 			<div className="ButtonDiv">
-				<a
+				{/*<a
 					className="button"
 					href="https://fair.larv.org/sv/event/4547"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					{t("PLATFORM.BUTTON")}
-				</a>
+				</a>*/}
 				<NavLink className="button" to="/students/guide">
 					{t("GUIDE_GL.BUTTON")}
 				</NavLink>
 			</div>
 
 			<p>{t("STUDENTS.INFO_2")}</p>
-
+			{/*
 			<div className="ButtonDiv">
 				<NavLink className="button" to="/students/individual-meetings">
 					{t("IM.HEADER")}
 				</NavLink>
-			</div>
+			</div>*/}
 
 			<div classname="involved" className="grey">
 				<h1>{t("GENERAL.GET_INVOLVED")}</h1>

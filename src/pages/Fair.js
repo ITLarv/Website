@@ -23,14 +23,14 @@ export default function Fair() {
 			<p>{t("FAIR.INFO_2")}</p>
 
 			<div className="ButtonDiv">
-				<a
+				{/*<a  // Till platformen - knapp
 					className="button"
 					href="https://fair.larv.org/sv/event/4547"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
 					{t("PLATFORM.BUTTON")}
-				</a>
+				</a>*/}
 				<NavLink className="button" to="/students/guide">
 					{t("GUIDE_GL.BUTTON")}
 				</NavLink>
@@ -48,9 +48,10 @@ export default function Fair() {
 					<NavLink className="button" to="/organizations">
 						{t("GENERAL.ORGANIZATIONS")}
 					</NavLink>
-					<NavLink className="button" to="/organizations/initial-application">
+					{/* 
+					<NavLink className="button" to="/organizations/initial-application">  // Inledande anmälan
 						{t("GENERAL.IA")}
-					</NavLink>
+					</NavLink>*/}
 				</div>
 			</div>
 
