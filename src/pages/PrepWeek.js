@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
@@ -21,6 +21,9 @@ export default function Prelarv() {
 					<h1>{t("PREP_WEEK.HEADER")}</h1>
 				</Parallax>
 			</div>
+			<p>We will soom update this page with this years events</p>
+
+			{/*
 			<p>{t("PREP_WEEK.INFO")}</p>
 
 			<h1>{t("PREP_WEEK.ACTIVITIES.HEADER")}</h1>
@@ -138,7 +141,7 @@ export default function Prelarv() {
 				<li>{t("PREP_WEEK.CONTESTS.CONTEST_3.LI_1")}</li>
 				<li>{t("PREP_WEEK.CONTESTS.CONTEST_3.LI_2")}</li>
 				<li>{t("PREP_WEEK.CONTESTS.CONTEST_3.LI_3")}</li>
-			</ul>
+			</ul> */}
 		</div>
 	);
 }

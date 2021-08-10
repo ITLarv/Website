@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
-import { faSnapchatSquare } from "@fortawesome/free-brands-svg-icons";
+// import { faSnapchatSquare } from "@fortawesome/free-brands-svg-icons";
 import News from "./News";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/header.jpg";
@@ -54,9 +54,10 @@ export default function Home() {
 						>
 							<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
 						</a>
-						<NavLink to="/snapchat">
+						{/*
+						<NavLink to="/snapchat"> // Snapchat ikon
 							<FontAwesomeIcon icon={faSnapchatSquare} className="icon" />
-						</NavLink>
+						</NavLink>*/}
 					</div>
 
 					<h1>{t("HOME.HEADER")}</h1>
@@ -72,14 +73,15 @@ export default function Home() {
 					<h1>{t("HOME.HEADER_2")}</h1>
 					<p>{t("HOME.INFO")}</p>
 					<div className="ButtonDiv">
-						<a
+						{/*<a
 							className="button"
 							href="https://fair.larv.org/sv/event/4547"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							{t("PLATFORM.BUTTON")}
-						</a>
+							
+							{t("PLATFORM.BUTTON")}    
+						</a>*/}
 						<NavLink className="button" to="/students">
 							{t("GENERAL.STUDENTS")}
 						</NavLink>
