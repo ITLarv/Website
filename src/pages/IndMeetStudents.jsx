@@ -22,7 +22,7 @@ export default function InvidualMeetings() {
 			<p>{t("IM.STUDENTS.INFO_2")}</p>
 			<p>{t("IM.STUDENTS.INFO_3")}</p>
 			<p>{t("IM.STUDENTS.INFO_4")}</p>
-
+			{/* 
 			<div className="ButtonDiv">
 				<a
 					className="button"
@@ -32,7 +32,9 @@ export default function InvidualMeetings() {
 				>
 					{t("IM.STUDENTS.APPLY")}
 				</a>
-			</div>
+			</div> */}
+
+			<h2>{t("IM.STUDENTS.CLOSED")}</h2>
 		</>
 	);
 }

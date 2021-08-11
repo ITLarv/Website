@@ -279,13 +279,14 @@
 		"INVOLVED": "Want to get all the benefits mentioned above as well as develop skills such as leadership, teamwork, responsibility, planning and much more? Then an involvement in the LARV project is right for you! LARV is made possible by the 140 students which are involved in the project. LARV offers different levels of involvement when it comes to the time required or the tasks which you will perform. There is something for everyone and no matter which type of involvement you choose you will have an noticeable impact on the project as well as gain valuable personal experience. Does this sounds interesting to you? Read more about the different types of involvement LARV offers here..."
 	},
 	"IM": {
-		"HEADER": "Individual meetings",
+		"HEADER": "Individual Meetings",
 		"STUDENTS": {
 			"INFO_1": "Individual Meetings is your chance to have in depth conversations with representatives from certain exhibitors and get your foot through the door at your future employer. This service is for students who are interested in knowing more about specific employers and what opportunities they can offer them. The meetings are structured much like a casual job interview. You and the representative are free to talk about anything you feel is relevant.",
 			"INFO_2": "When you sign up for a meeting you will have the option to choose which exhibitors you would be interested in meeting. You will also choose which type of job you are looking for, be it thesis project or an internship. You will have to provide us with a CV as well as a cover letter. This way we can make sure that your and the exhibitor's interests are inline with each other. The meetings are about 30 minutes long and you can book as many meetings as you can manage. However, you can only book one meeting per exhibitor.",
 			"INFO_3": "Interested in booking a meeting? Tell us you are interested by filling out the form below. We will get back to you as soon as the participating exhibitors have been determined.",
 			"INFO_4": "OBS! Unfortunately the FutureTalks have been canceled. We thank you for the interest shown and hope that those of you who had registered have the possibility to attend the Individual Meetings instead.",
-			"APPLY": "Apply here"
+			"APPLY": "Apply here",
+			"CLOSED": "The registation has not opened yet"
 		},
 		"ORGANIZATIONS": {
 			"INFO_1": "Individual Meetings is a service that is offered to all companies that have chosen the digital fair package during LARV, free of charge. This is a service that collects CV, cover letter or other material that might be of interest from students. Thereafter you as a company choose the students you want to continue with and meet virtually. This is a fantastic opportunity to meet the students and give yourself a more thorough introduction. One meeting lasts about 20-30 minutes, where 12 meetings per company are included in the package. If you wish to add more meetings you are welcome to add another Individual Meetings package.",

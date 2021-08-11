@@ -114,6 +114,7 @@ export default function Navbar() {
 											{t("NAVBAR.CATALOG")}
 										</NavLink>
 									</li>
+									{/* Uncomment to show competition on the navbar
 									<li>
 										<NavLink
 											exact
@@ -123,7 +124,7 @@ export default function Navbar() {
 										>
 											LARV-Competition
 										</NavLink>
-									</li>
+									</li> */}
 									{showGallery && (
 										<li>
 											<NavLink
@@ -172,6 +173,7 @@ export default function Navbar() {
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
+									{/* Uncomment to show faq to the navbar
 									<li>
 										<NavLink
 											exact
@@ -181,7 +183,7 @@ export default function Navbar() {
 										>
 											FAQ
 										</NavLink>
-									</li>
+									</li>*/}
 									<li>
 										<NavLink
 											exact
@@ -192,6 +194,7 @@ export default function Navbar() {
 											{t("NAVBAR.IM")}
 										</NavLink>
 									</li>
+									{/* Uncomment to show the students guide on the navbar
 									<li>
 										<NavLink
 											exact
@@ -201,7 +204,7 @@ export default function Navbar() {
 										>
 											{t("NAVBAR.GUIDE")}
 										</NavLink>
-									</li>
+									</li> */}
 								</ul>
 							</div>
 						</div>

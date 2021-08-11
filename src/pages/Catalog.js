@@ -2,6 +2,8 @@
 import React from "react";
 import { catalog } from "../config";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 export default function Catalog() {
 	const { t } = useTranslation();
@@ -45,9 +47,20 @@ export default function Catalog() {
 
 	return (
 		<>
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>{t("GENERAL.CATALOG")}</h1>
+				</Parallax>
+			</div>
+
 			<div>
 				<div className="grey">
-					<h1>{t("GENERAL.CATALOG")}</h1>
 					<p>{t("CATALOG.INFO")}</p>
 					{!currentYear && <p>{t("CATALOG.NOT_CURRENT_YEAR")}</p>}
 					<p>{t("CATALOG.SEARCH")}</p>
