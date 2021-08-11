@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Parallax } from "react-parallax";
+import bgImage from "../img/banner.jpg";
 
 export default function FAQ(props) {
 	const [filteredQuestions, setFilteredQuestions] = useState(props.questions);
@@ -50,6 +52,18 @@ export default function FAQ(props) {
 
 	return (
 		<div className="faq">
+			<div className="banner">
+				<Parallax
+					className="parallax"
+					blur={0}
+					bgImage={bgImage}
+					bgImageAlt=""
+					strength={300}
+				>
+					<h1>Frequently Asked Questions</h1>
+				</Parallax>
+			</div>
+
 			<div>
 				<input type="textfield" onChange={textFieldChanged} />
 			</div>

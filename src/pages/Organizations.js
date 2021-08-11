@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
@@ -22,7 +22,7 @@ export default function Companies() {
 			<div className="grey">
 				<p>{t("ORGANIZATIONS.INFO")}</p>
 				{/* <p>{t("ORGANIZATIONS.INFO_2")}</p> */}
-
+				{/* 
 				<div className="ButtonDiv">
 					<a
 						className="button"
@@ -32,10 +32,10 @@ export default function Companies() {
 					>
 						{t("PLATFORM.BUTTON")}
 					</a>
-					{/* <NavLink className="button" to="/organizations/initial-application">
+					<NavLink className="button" to="/organizations/initial-application">
 					{t("GENERAL.IA")}
-				</NavLink> */}
-				</div>
+				</NavLink>
+				</div>*/}
 			</div>
 
 			<h1>{t("ORGANIZATIONS.THE_FAIR.HEADER")}</h1>
@@ -54,7 +54,7 @@ export default function Companies() {
 					<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_6")}</li>
 				</ul>
 				<p>{t("ORGANIZATIONS.THE_FAIR.PRICING.EXTRAS")}</p>
-
+				{/* 
 				<div className="ButtonDiv">
 					<NavLink className="button" to="/organizations/prislista_digital.pdf">
 						{t("ORGANIZATIONS.THE_FAIR.PORTFOLIO.HEADER")}
@@ -62,7 +62,7 @@ export default function Companies() {
 					<NavLink className="button" to="/organizations/company_VCF_guide.pdf">
 						{t("ORGANIZATIONS.THE_FAIR.PRICING.BUTTON")}
 					</NavLink>
-				</div>
+				</div>*/}
 			</div>
 		</div>
 	);
