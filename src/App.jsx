@@ -99,7 +99,7 @@ function Page() {
 						<Route exact path="/involved/coordinator" component={Coordinator} />
 						<Route exact path="/involved/coordinator/application">
 							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfuRoLOfZuLdtqAhg7Q9mhOqZaHePj4X9vVcGcSjTBUJgn2pQ/viewform?embedded=true"
+								formUrl="https://docs.google.com/forms/d/1YeNBJyOzbC8jXa1LmVBS-MnBvjSGjpEkGvgN4feYxt8/viewform?embedded=true"
 								height={1920}
 							/>
 						</Route>
