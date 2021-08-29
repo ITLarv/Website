@@ -34,6 +34,10 @@ export default function Coordinator() {
 					</NavLink>
 				</div>
 			)}
+			
+			<NavLink className="button" to="/involved/coordinator/application">
+				{t("COORDINATORS.APPLY")}
+			</NavLink>
 
 			<div className="dropdown-container">
 				<h1>{t("COORDINATORS.POSITIONS")}</h1>
