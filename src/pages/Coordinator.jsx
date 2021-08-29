@@ -7,7 +7,7 @@ import { CoordinatorApplication } from "../config";
 import Dropdown from "./Dropdown";
 
 export default function Coordinator() {
-	const ApplicationOpen = CoordinatorApplication().open;
+	const ApplicationOpen = true; //CoordinatorApplication().open;
 	const { t } = useTranslation();
 	return (
 		<>
