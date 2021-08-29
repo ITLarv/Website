@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
-import { CoordinatorApplication } from "../config";
+//import { CoordinatorApplication } from "../config";
 import Dropdown from "./Dropdown";
 
 export default function Coordinator() {
-	const ApplicationOpen = CoordinatorApplication().open;
+	const ApplicationOpen = true; //CoordinatorApplication().open;
 	const { t } = useTranslation();
 	return (
 		<>
