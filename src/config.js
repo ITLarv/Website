@@ -51,7 +51,7 @@ const calendar = () => {
 
 const CoordinatorApplication = () => {
 	return {
-		open: false,
+		open: true,
 	};
 };
 
