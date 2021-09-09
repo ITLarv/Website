@@ -29,7 +29,7 @@ export default function Contact() {
 	const pgList = [
 		{id:"2", name:"Simon Johansson", role:t("ROLES.PG.VPL"), email:"viceprojektledare@larv.org", imgSrc:vakant},
 		{id:"3", name:"Fabian Kroner", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:ftg1},
-		{id:"4", name:"Vakant", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:vakant},
+		{id:"4", name:"Rasmus Olsson", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:vakant},
 		{id:"5", name:"Karlo Ravlic", role:t("ROLES.PG.EVENT"), email:"event@larv.org", imgSrc:event},
 		{id:"6", name:"Vakant", role:t("ROLES.PG.SAMARBETE"), email:"samarbete@larv.org", imgSrc:vakant},
 		{id:"7", name:"Hanna Wall", role:t("ROLES.PG.GRAFIK"), email:"grafiker@larv.org", imgSrc:grafik},
