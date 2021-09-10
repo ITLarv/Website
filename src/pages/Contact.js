@@ -27,7 +27,7 @@ export default function Contact() {
 
 	// prettier-ignore
 	const pgList = [
-		{id:"2", name:"Simon Johansson", role:t("ROLES.PG.VPL"), email:"viceprojektledare@larv.org", imgSrc:vakant},
+		{id:"2", name:"Simon Johnsson", role:t("ROLES.PG.VPL"), email:"viceprojektledare@larv.org", imgSrc:vakant},
 		{id:"3", name:"Fabian Kroner", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:ftg1},
 		{id:"4", name:"Rasmus Olsson", role:t("ROLES.PG.FTG"), email:"anmalan@larv.org", imgSrc:vakant},
 		{id:"5", name:"Karlo Ravlic", role:t("ROLES.PG.EVENT"), email:"event@larv.org", imgSrc:event},
@@ -39,7 +39,7 @@ export default function Contact() {
 		{id:"11", name:"Vakant", role:t("ROLES.PG.BANKETT"), email:"bankett@larv.org", imgSrc:vakant},
 		{id:"12", name:"Marcus Garplid", role:t("ROLES.PG.REKRYTERING"), email:"rekrytering@larv.org", imgSrc:rekrytering},
 		{id:"13", name:"Vakant", role:t("ROLES.PG.SERVICE"), email:"service@larv.org", imgSrc:vakant},
-		{id:"14", name:"Vakant", role:t("ROLES.PG.PR"), email:"pr@larv.org", imgSrc:vakant}
+		{id:"14", name:"Linda Maria Badea", role:t("ROLES.PG.PR"), email:"pr@larv.org", imgSrc:vakant}
 	];
 
 	return (
