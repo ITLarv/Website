@@ -325,7 +325,25 @@
 		"HEADER": "Engagera dig i LARV",
 		"INFO_1": "Personlig utveckling, värdefull erfarenhet, stimulerande uppgifter och härliga människor. Detta är vad ett engagemang i LARV erbjuder dig som student, oavsett om du letar efter något litet att göra på sidan av studierna eller något att helt kasta dig in i. Det är de 140 engagerade studenterna som gör LARV möjligt varje år så ta chansen att sätta din prägel på projektet!",
 		"INFO_2": "LARV erbjuder olika nivåer av engagemang när det kommer till den tid som krävs eller de uppgifter du kommer att utföra.",
-		"APPLICATION_CLOSED": "Ansökan är tyvärr inte öppen just nu. Om det finns några frågor om ansökan, vänligen kontakta rekrytering@larv.org"
+		"APPLICATION_CLOSED": "Ansökan är tyvärr inte öppen just nu. Om det finns några frågor om ansökan, vänligen kontakta rekrytering@larv.org",
+		"HEADER_BENEFITS": "Förmåner",
+		"INFO_3": "LARV erbjuder olika nivåer av engagemang när det kommer till den tid som krävs eller de uppgifter du kommer att utföra. Med ditt engagemang inom LARV tillkommer en rad förmåner, oavsett post eller engagemangsnivå. Förmånerna hittar du nedan."
+	},
+	"BENEFITS_TABLE": {
+		"COL_1": "En plats på LARV banketten",
+		"COL_2": "Lunch och fika under mässdagen",
+		"COL_3": "Tillgång till studentlounge under mässdagen",
+		"COL_4": "En plats under mingelkvällen",
+		"COL_5": "Utveckling som person samt inom din post",
+		"COL_6": "Förtur på LARVs event och aktiviteter",
+		"COL_7": "Materiella förmåner (väska,tröja, märken, nyckelband, vattenflaskor etc.)",
+		"COL_8": "Diplom för din insats",
+		"COL_9": "Delta under interna teambuildingar",
+		"COL_10": "Extra avtackning",
+		"COL_11": "Påverka projektet via idéworkshops",
+		"COL_12": "Betald resa för att besöka KTHs mässa i Stockholm samt ta del av deras bankett och after-party",
+		"COL_13": "Betald resa för att teambuilda med Umeås projektgrupp",
+		"COL_14": "Betald uppstartsresa med projektgruppen"
 	},
 	"VOLUNTEERS": {
 		"HEADER": "Värdar",

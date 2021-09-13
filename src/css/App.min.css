@@ -601,37 +601,35 @@ ul .indentList {
 	list-style-type: circle;
 	margin-left: 15px;
 }
-.involved .info {
-	background-color: grey;
-	color: white;
-	padding: 15px 0;
+table {
+	border: 1px solid lightgray;
+	width: 50%;
+	border-collapse: collapse;
 }
-.involved .threeColumns {
+.table_header {
+	text-align: left;
+}
+th {
+	border: 1px solid lightgray;
+}
+.top {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.benefits {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: stretch;
-	-ms-flex-align: stretch;
-	align-items: stretch;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+	-ms-flex-direction: column;
+	flex-direction: column;
 }
-.involved .threeColumns .column {
-	-ms-flex-preferred-size: auto;
-	flex-basis: auto;
-}
-.involved .threeColumns .column ul {
-	font-size: medium;
-	font-weight: bold;
-	text-align: center;
-	list-style: none;
+.header {
+	margin-bottom: 20px;
 }
 .button {
 	cursor: pointer;
