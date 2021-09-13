@@ -326,7 +326,25 @@
 		"HEADER": "Get involved in LARV",
 		"INFO_1": "Personal development, valuable experience, stimulating tasks and loads of fun. This is what an involvement in LARV offers you as a student, no matter if you are looking for something small to do on the side of the studies or something to completely throw yourself into. It's the 140 involved students that makes LARV possible every year so take the chance to make your mark on the project!",
 		"INFO_2": "LARV offers different levels of involvement when it comes to the time required or the tasks which you will perform.",
-		"APPLICATION_CLOSED": "The application is sadly not open at the moment. If there are any questions about the application, please contact rekrytering@larv.org."
+		"APPLICATION_CLOSED": "The application is sadly not open at the moment. If there are any questions about the application, please contact rekrytering@larv.org.",
+		"HEADER_BENEFITS": "Benefits",
+		"INFO_3": "LARV offers different levels of commitment when it comes to the time required or the tasks you will perform. With your commitment within LARV, a number of benefits are added, regardless of position or level of commitment. The benefits can be found below."
+	},
+	"BENEFITS_TABLE": {
+		"COL_1": "A seat at the LARV banquet",
+		"COL_2": "Lunch and snacks during the fair day",
+		"COL_3": "Access to student lounge during the fair day",
+		"COL_4": "Acess to the pre-LARV mingle",
+		"COL_5": "Personal evelopment and within your post",
+		"COL_6": "Priority to LARV's events and activities",
+		"COL_7": "Material benefits (bag, sweater, badges, lanyards, water bottles, etc.)",
+		"COL_8": "Diploma for your efforts",
+		"COL_9": "Participate in internal teambuilding",
+		"COL_10": "Bonus evening for LARV-CREW",
+		"COL_11": "Influence the project via idea workshops",
+		"COL_12": "Paid trip to visit KTH's fair in Stockholm and take part in their banquet and after-party",
+		"COL_13": "Paid trip to teambuild with Umeå's project group",
+		"COL_14": "Paid start-up trip with the project group"
 	},
 	"VOLUNTEERS": {
 		"HEADER": "Volunteer",
