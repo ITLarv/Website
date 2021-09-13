@@ -25,3 +25,9 @@ th {
 .header {
 	margin-bottom: 20px;
 }
+
+@media screen and (max-width: 780px) {
+	table {
+		font-size: 12px;
+	}
+}
