@@ -82,6 +82,20 @@ function Page() {
 							<Faq questions={StudentsFAQ} />
 						</Route>
 
+						<Route exact path="/quiz">
+							{/* Detlävling 1 */}
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfxvxdmWvRkc2RQZmY3TcwuWqiqrciphE0PzP7nrcuYxOgySw/viewform?embedded=true"
+								height={3000}
+							/>
+							{/* Detlävling 2 */}
+
+							{/* <GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSeOh1UZ3REynjmDr2APi6EpXCLCZKbZVmOYtcsSAl566sVBVQ/viewform?embedded=true"
+								height={3000}
+							/> */}
+						</Route>
+
 						<Route
 							exact
 							path="/students/individual-meetings"
