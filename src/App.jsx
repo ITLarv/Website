@@ -133,7 +133,7 @@ function Page() {
 						/>
 						<Route
 							exact
-							path="/organizations/LARV_IA_avtal_2021.pdf"
+							path="/organizations/LARV_IA_avtal_2022.pdf"
 							component={IAContract}
 						/>
 						<Route

@@ -30,18 +30,19 @@ export default function Students() {
 				>
 					{t("PLATFORM.BUTTON")}
 				</a>*/}
+				{/*
 				<NavLink className="button" to="/students/guide">
 					{t("GUIDE_GL.BUTTON")}
-				</NavLink>
+				</NavLink>*/}
 			</div>
 
 			<p>{t("STUDENTS.INFO_2")}</p>
-			{/*
+
 			<div className="ButtonDiv">
 				<NavLink className="button" to="/students/individual-meetings">
 					{t("IM.HEADER")}
 				</NavLink>
-			</div>*/}
+			</div>
 
 			<div classname="involved" className="grey">
 				<h1>{t("GENERAL.GET_INVOLVED")}</h1>
