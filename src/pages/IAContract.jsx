@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import contract from "../content/LARV_IA_avtal_2021.pdf";
+import contract from "../content/LARV_IA_avtal_2022.pdf";
 
 export default function MyApp() {
 	const [numPages, setNumPages] = useState(null);
@@ -25,6 +25,11 @@ export default function MyApp() {
 			<p>
 				Page {pageNumber} of {numPages}
 			</p>
+
+			<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+				<Page pageNumber={2} />
+			</Document>
+			<p>Page 2 of {numPages}</p>
 		</div>
 	);
 }
