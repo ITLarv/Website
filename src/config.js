@@ -7,8 +7,8 @@ const devBranch = () => {
 
 const initialApplication = () => {
 	return {
-		navLink: false,
-		open: false,
+		navLink: true,
+		open: true,
 	};
 };
 
