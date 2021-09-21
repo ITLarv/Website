@@ -1,5 +1,5 @@
 import React from "react";
-//import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
@@ -22,20 +22,22 @@ export default function Companies() {
 			<div className="grey">
 				<p>{t("ORGANIZATIONS.INFO")}</p>
 				{/* <p>{t("ORGANIZATIONS.INFO_2")}</p> */}
-				{/* 
+
 				<div className="ButtonDiv">
-					<a
+					{/*
+					<NavLink
 						className="button"
 						href="https://fair.larv.org/sv/event/4547"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						{t("PLATFORM.BUTTON")}
-					</a>
+					</NavLink> */}
+
 					<NavLink className="button" to="/organizations/initial-application">
-					{t("GENERAL.IA")}
-				</NavLink>
-				</div>*/}
+						{t("GENERAL.IA")}
+					</NavLink>
+				</div>
 			</div>
 
 			<h1>{t("ORGANIZATIONS.THE_FAIR.HEADER")}</h1>
@@ -56,15 +58,17 @@ export default function Companies() {
 					<li>{t("ORGANIZATIONS.THE_FAIR.PRICING.LIST_8")}</li>
 				</ul>
 				<p>{t("ORGANIZATIONS.THE_FAIR.PRICING.EXTRAS")}</p>
-				{/* 
+
 				<div className="ButtonDiv">
-					<NavLink className="button" to="/organizations/prislista_digital.pdf">
-						{t("ORGANIZATIONS.THE_FAIR.PORTFOLIO.HEADER")}
-					</NavLink>
+					{/*
 					<NavLink className="button" to="/organizations/company_VCF_guide.pdf">
 						{t("ORGANIZATIONS.THE_FAIR.PRICING.BUTTON")}
 					</NavLink>
-				</div>*/}
+					*/}
+					<NavLink className="button" to="/organizations/prislista_digital.pdf">
+						{t("ORGANIZATIONS.THE_FAIR.PORTFOLIO.HEADER")}
+					</NavLink>
+				</div>
 			</div>
 		</div>
 	);
