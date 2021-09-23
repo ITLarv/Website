@@ -31,8 +31,8 @@ export default function News() {
 			image: img1,
 			imageAlt: "",
 			content: {
-				en: "Week 3, 2021, is LARV. A week full of lectures, competitions, the fair and much more! Read more under Fair in the menu above.",
-				sv: "Vecka 3, 2021, är det LARV. En vecka fylld av föreläsningar, tävlingar, mässan och mycket mer! Läs mer under Mässan i menyn ovan.",
+				en: "Week 3, 2022, is LARV. A week full of lectures, competitions, the fair and much more! Read more under Fair in the menu above.",
+				sv: "Vecka 3, 2022, är det LARV. En vecka fylld av föreläsningar, tävlingar, mässan och mycket mer! Läs mer under Mässan i menyn ovan.",
 			},
 			linkTo: "/fair",
 		},
