@@ -94,6 +94,7 @@ export default function Navbar() {
 											</NavLink>
 										</li>
 									)}
+									{/* COVID-page gone for now
 									<li>
 										<NavLink
 											exact
@@ -103,7 +104,7 @@ export default function Navbar() {
 										>
 											{t("NAVBAR.COVID")}
 										</NavLink>
-									</li>
+									</li>*/}
 									<li>
 										<NavLink
 											exact
