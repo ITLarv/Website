@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import ImageContent from "../components/ImageContent";
 import img1 from "../img/misc/rsz_massan-006.jpg";
 import img2 from "../img/misc/rsz_massan-122.jpg";
-//import img3 from "../img/misc/rsz_massan-090.jpg";
+import img3 from "../img/misc/rsz_massan-001.jpg";
 //import covid from "../img/misc/stop-covid.png";
 
 export default function News() {
@@ -35,6 +35,19 @@ export default function News() {
 				sv: "Vecka 3, 2022, är det LARV. En vecka fylld av föreläsningar, tävlingar, mässan och mycket mer! Läs mer under Mässan i menyn ovan.",
 			},
 			linkTo: "/fair",
+		},
+		{
+			title: {
+				en: "Interest registration is now open!",
+				sv: "Intresseanmälan öppen!",
+			},
+			image: img3,
+			imageAlt: "",
+			content: {
+				en: "From now companies who wish to be a part of the fair can register here",
+				sv: "Nu kan företag som vill delta på mässan anmäla sig här",
+			},
+			linkTo: "/organizations/initial-application",
 		},
 		{
 			title: {
