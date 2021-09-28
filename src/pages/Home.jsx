@@ -34,6 +34,8 @@ export default function Home() {
 	const { t } = useTranslation();
 	return (
 		<div className="home">
+			<div className="holder"></div>
+
 			<Parallax className="parallax" blur={0} bgImage={bgImage} bgImageAlt="" strength={300}>
 				<div className="firstView">
 					<img src={logo} className="logoLarge" alt="logotype" />
@@ -67,6 +69,26 @@ export default function Home() {
 					<Countdown date={larvDate} renderer={renderer}></Countdown>
 				</div>
 			</Parallax>
+
+			<NavLink
+				exact
+				to="/organizations/initial-application"
+				style={{ textDecoration: "none" }}
+			>
+				<div
+					calassName="IAOpen"
+					style={{
+						backgroundColor: "#f0ea68",
+						fontSize: "200%",
+						color: "black",
+						padding: "1%",
+					}}
+				>
+					<b>Intresseanmälan för årets LARV-mässa är nu öppen!</b>
+					<p></p>
+					<b>&gt;&gt;Klicka här&lt;&lt;</b>
+				</div>
+			</NavLink>
 
 			<div className="content">
 				<div className="info">

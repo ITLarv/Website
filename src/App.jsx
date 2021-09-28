@@ -106,8 +106,8 @@ function Page() {
 						<Route exact path="/involved/pg" component={PG} />
 						<Route exact path="/involved/pg/application">
 							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScpM1dFsxRZtb3Dpga_dZBSmRPm4yUwLTLMsIDl6OyAnFrCFg/viewform?embedded=true"
-								height={1600}
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScGeAb_9tf5TOMwqRzi5OTUcLFH-Lf6-awwwIRzUAlmTt9VPg/viewform?embedded=true"
+								height={2200}
 							/>
 						</Route>
 						<Redirect from="/sök" to="/involved/pg/application" />
