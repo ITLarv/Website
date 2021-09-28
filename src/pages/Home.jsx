@@ -34,8 +34,6 @@ export default function Home() {
 	const { t } = useTranslation();
 	return (
 		<div className="home">
-			<div className="holder"></div>
-
 			<Parallax className="parallax" blur={0} bgImage={bgImage} bgImageAlt="" strength={300}>
 				<div className="firstView">
 					<img src={logo} className="logoLarge" alt="logotype" />
@@ -86,7 +84,7 @@ export default function Home() {
 				>
 					<b>Intresseanmälan för årets LARV-mässa är nu öppen!</b>
 					<p></p>
-					<b>&gt;&gt;Klicka här&lt;&lt;</b>
+					<b>&gt;&gt;Till anmälan&lt;&lt;</b>
 				</div>
 			</NavLink>
 

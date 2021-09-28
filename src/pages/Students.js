@@ -19,7 +19,13 @@ export default function Students() {
 					<h1>{t("STUDENTS.HEADER")}</h1>
 				</Parallax>
 			</div>
-			<p>{t("STUDENTS.INFO_1")}</p>
+			<p>
+				{t("STUDENTS.INFO_1")}
+				<a href="/home/about" style={{ textDecoration: "none", color: "blue" }}>
+					{t("STUDENTS.INFO_1_LINK")}{" "}
+				</a>
+				{t("STUDENTS.INFO_1_2")}
+			</p>
 
 			<div className="ButtonDiv">
 				{/*<a
