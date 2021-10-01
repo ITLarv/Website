@@ -262,6 +262,7 @@ export default function Navbar() {
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
+									{/*
 									<li>
 										<NavLink
 											exact
@@ -271,7 +272,7 @@ export default function Navbar() {
 										>
 											FAQ
 										</NavLink>
-									</li>
+									</li>*/}
 									<li>
 										<NavLink
 											exact
