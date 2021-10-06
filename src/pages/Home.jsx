@@ -15,6 +15,9 @@ import bgImage from "../img/header.jpg";
 const Completionist = () => <span>You are good to go!</span>;
 const larvDate = Date.parse("19 Jan 2022 09:00:00");
 
+// Global variable to keep track of what language we want to render in
+var swedish;
+
 // Renderer callback with condition
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
 	if (completed) {
@@ -22,9 +25,15 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 		return <Completionist />;
 	} else {
 		// Render a countdown
-		return (
+		// prettier-ignore
+		return(
 			<span className="countdown">
-				{days}:{hours}:{minutes}:{seconds}
+			// Renders a different line depending on what language is chosen
+			// This is really the best of several bad ways of doing this par 
+			// rewwriting since we cant otherwise conditionally render text
+			  {swedish
+               ? "Endast " + days + " dagar, " + hours + " timmar och " + minutes + " minuter tills larv!"
+               : "Only " + days + " days," + hours + " hours and " + minutes + " minutes to go!" }
 			</span>
 		);
 	}
@@ -32,6 +41,11 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 
 export default function Home() {
 	const { t } = useTranslation();
+
+	// Checks the contents of the NEWS tag
+	// if not "News" that means we are rendering swedish
+	swedish = t("HOME.NEWS") !== "News";
+
 	return (
 		<div className="home">
 			<Parallax className="parallax" blur={0} bgImage={bgImage} bgImageAlt="" strength={300}>
