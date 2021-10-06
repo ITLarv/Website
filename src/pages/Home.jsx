@@ -26,7 +26,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 	} else {
 		// Render a countdown
 		// Renders a different line depending on what language is chosen
-		// This is really the best of several bad ways of doing this par 
+		// This is really the best of several bad ways of doing this par
 		// rewwriting since we cant otherwise conditionally render text
 		// prettier-ignore
 		return(
