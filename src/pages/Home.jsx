@@ -25,12 +25,12 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 		return <Completionist />;
 	} else {
 		// Render a countdown
+		// Renders a different line depending on what language is chosen
+		// This is really the best of several bad ways of doing this par 
+		// rewwriting since we cant otherwise conditionally render text
 		// prettier-ignore
 		return(
 			<span className="countdown">
-			// Renders a different line depending on what language is chosen
-			// This is really the best of several bad ways of doing this par 
-			// rewwriting since we cant otherwise conditionally render text
 			  {swedish
                ? "Endast " + days + " dagar, " + hours + " timmar och " + minutes + " minuter tills larv!"
                : "Only " + days + " days," + hours + " hours and " + minutes + " minutes to go!" }
