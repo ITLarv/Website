@@ -37,12 +37,14 @@ export default function Volunteer() {
 
 			<div className="dropdown-container">
 				<h1>{t("VOLUNTEERS.POSITIONS")}</h1>
-				<Dropdown h={t("ROLES.VOLUNTEERS.FTG")} p={t("VOLUNTEERS.FTG")} />
-				<Dropdown h={t("ROLES.VOLUNTEERS.IT")} p={t("VOLUNTEERS.IT")} />
-				<Dropdown h={t("ROLES.VOLUNTEERS.MÄSSA")} p={t("VOLUNTEERS.MÄSSA")} />
-				<Dropdown h={t("ROLES.VOLUNTEERS.SERVICE")} p={t("VOLUNTEERS.SERVICE")} />
-				<Dropdown h={t("ROLES.VOLUNTEERS.NATT")} p={t("VOLUNTEERS.NATT")} />
+				<Dropdown h={t("ROLES.VOLUNTEERS.BANQUET")} p={t("VOLUNTEERS.BANQUET")} />
 				<Dropdown h={t("ROLES.VOLUNTEERS.CHAUFFÖR")} p={t("VOLUNTEERS.CHAUFFÖR")} />
+				<Dropdown h={t("ROLES.VOLUNTEERS.FTG")} p={t("VOLUNTEERS.FTG")} />
+				<Dropdown h={t("ROLES.VOLUNTEERS.LOGISTICS")} p={t("VOLUNTEERS.LOGISTICS")} />
+				<Dropdown h={t("ROLES.VOLUNTEERS.LOUNGE")} p={t("VOLUNTEERS.LOUNGE")} />
+				<Dropdown h={t("ROLES.VOLUNTEERS.MÄSSA")} p={t("VOLUNTEERS.MÄSSA")} />
+				<Dropdown h={t("ROLES.VOLUNTEERS.NATT")} p={t("VOLUNTEERS.NATT")} />
+				<Dropdown h={t("ROLES.VOLUNTEERS.RECEPTION")} p={t("VOLUNTEERS.RECEPTION")} />
 				<Dropdown h={t("ROLES.VOLUNTEERS.TI")} p={t("VOLUNTEERS.TI")} />
 			</div>
 		</>
