@@ -51,13 +51,14 @@
 			"PR": "PR Coordinator"
 		},
 		"VOLUNTEERS": {
-			"FTG": "Exhibitor Volunteer",
-			"EVENT": "Event Volunteer",
-			"IT": "IT- and Tech Volunteer",
-			"MÄSSA": "Career Fair Volunteer",
-			"SERVICE": "Service Volunteer",
+			"BANQUET": "Banquet Host",
 			"CHAUFFÖR": "Driver",
+			"FTG": "Exhibitor Volunteer",
+			"LOGISTICS": "Logistics Volunteer",
+			"LOUNGE": "Lounge Volunteer",
+			"MÄSSA": "Career Fair Volunteer",
 			"NATT": "Night Guard",
+			"RECEPTION": "Receptionist",
 			"TI": "The Incredibles"
 		}
 	},
@@ -354,13 +355,15 @@
 		"INFO_2": "Since most volunteers are appointed a few months before LARV they are not primarily involved in planning the project. Instead, as a volunteer you have an impact on the project through evaluations, workshops and direct contact with the person in charge of your department. The period of involvement and work load is for a volunteer generally the shortest and mildest out of the commitments that LARV offers. Again, this depends greatly on the type of volunteer you are looking to become. Expected working hours amount to 5 hours a week but usually less. The position as volunteer is therefore suitable for you who, for example, want to test an simpler, less time-consuming commitment or gain a superficial insight into LARV as a project.",
 		"APPLY": "Apply for volunteer here",
 		"POSITIONS": "Volunteer positions",
-		"FTG": "As a exhibitor volunteer, you are assigned some specific companies to be the contact person for. You will make sure that their registration is complete and help them with any questions before LARV. Are you social, open and want to develop your service ability? Then you will thrive and succeed as a business volunteer. If you have questions about being a company volunteer, contact rekrytering@larv.org.",
-		"IT": "As a technology volunteer, you will help the other students with the system that will be used at this year's LARV. You will also work to ensure that the technology works in the lounges and classrooms under LARV. If you have questions about being a company volunteer, contact it@larv.org",
-		"MÄSSA": "As a career fair volunteer, you will carry furniture, transport gods, assemble the lounges, and prepare for the activities that require assembly on campus under LARV. Power wiring is also included, where two people will pull and tape extension cables based on the wiring diagram. If you have any questions about being a career fair volunteer, contact massbyggnad@larv.org",
-		"SERVICE": "As a service volunteer, you will be at the reception or welcome guests to the lounge. You will also help guests with general questions and make sure the lounge looks presentable during the day. Do you have good service ability and a happy mood? Then this post is perfect for you! If you have questions about being a service volunteer, contact service@larv.org",
-		"NATT": "As a night guard, you watch the lounges and the area around during the night before they are to be used. If you have any questions about being a night guard, contact massbyggnad@larv.org",
-		"CHAUFFÖR": "As a driver, you will be responsible for transporting company representatives to and from activities related to LARV during the LARV week both before and after. Good service ability, good local knowledge, safe behind the wheel and a positive attitude are good qualities for this position. To be accepted, a B driving license is a requirement! If you have any questions about being a driver, contact service@larv.org",
-		"TI": "Working with the group \"The Incredibles\" means that you will not be assigned a permanent position, your work will mean being available and helping during LARV where needed when needed. There are no basic requirements that need to be met to apply, B driving license is a merit. If you have any questions about being part of The incredibles, contact rekrytering@larv.org"
+		"BANQUET": "As a banquet host, you work with producing and removing decor before and after the banquet, setting the table for serving areas, staffing the wardrobe, logging visitors during the mingling evening and answering questions during the fair day regarding lunch and the banquet. If you have questions about being a banquet host, contact bankett@larv.org.",
+		"CHAUFFÖR": "As a driver, you will be responsible for transporting company representatives to and from activities related to LARV during LARV week. Good service ability, good local knowledge, safe behind the wheel and a positive attitude are good qualities for this position. To be accepted, a B driving license is a requirement! If you have any questions about being a driver, contact service@larv.org",
+		"FTG": "As a Exhibitor volunteer, you are assigned a couple of specific exhibitors to be the contact person for. You will ensure that their registration is complete, help them with any questions before and during LARV and be available during the fair day to make sure that they have everything they need in their stand. Do you want to make contacts, develop your service ability and are an outgoing person? Then you will thrive and succeed as a business host. If you have questions about being a company host, contact anmalan@larv.org.",
+		"LOGISTICS": "As a logistics volunteer, you work to help move goods and keep track of incoming and outgoing goods and rented equipment during the fair day. If you have questions about being a logistics host, contact logistik@larv.org.",
+		"LOUNGE": "As a lounge volunteer, you are responsible for keeping a lounge in a presentable condition during the day. it includes changing rubbish, clearing tables, refilling water, tea, coffee and coffee m.m. There are two different types of lounges, corporate lounges and host lounges. Do you have good service ability and are concerned that visitors should have as good an experience as possible? Then this post is for you! If you have questions about being a lounge host, contact Cooper@larv.org",
+		"MÄSSA": "As a Career fair volunteer, you will carry furniture, transport goods, furnish the lounges and help in the preparations for the activities that require equipment under LARV. Power wiring is also included, where two people will pull and tape extension cables based on the wiring diagram. If you have any questions about being a fair building host, contact massbyggnad@larv.org",
+		"NATT": "As a night watchman, you guard the lounges, the fair area and the area around the fair during the night before they are to be used. If you have any questions about being a night watchman, contact massbyggnad@larv.org",
+		"RECEPTION": "As a receptionist, you will be at the reception and have a good overview of the fair. The tasks include answering simple questions, directing guests to exhibitors that they do not find or referring to others within LARV-CREW for specific questions that may arise. Do you have good service ability and a happy mood? Then this post is perfect for you! If you have questions about being a receptionist, contact service@larv.org",
+		"TI": "Working within the group \"The Incredibles\" means that you will not be assigned a permanent position, your work will mean being available and helping under LARV where needed when needed. There are no basic requirements that need to be met to apply, B driving license is a qualification. If you have any questions about being part of The incredibles, contact rekrytering@larv.org"
 	},
 	"COORDINATORS": {
 		"HEADER": "Coordinator",
