@@ -96,9 +96,9 @@ export default function Home() {
 						padding: "1%",
 					}}
 				>
-					<b>Intresseanmälan för årets LARV-mässa är nu öppen!</b>
+					<b>{t("HOME.ANNOUNCEMENT")}</b>
 					<p></p>
-					<b>&gt;&gt;Till anmälan&lt;&lt;</b>
+					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
 				</div>
 			</NavLink>
 
