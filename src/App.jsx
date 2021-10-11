@@ -110,6 +110,12 @@ function Page() {
 								height={2200}
 							/>
 						</Route>
+						<Route exact path="/onskaforetag">
+							<GoogleForm
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfX0xdxAL6UvFgkkxZmTc2xDgW0Wrx5Nodr4DfcwXLCaQDrZA/viewform?embedded=true"
+								height={600}
+							/>
+						</Route>
 						<Redirect from="/sök" to="/involved/pg/application" />
 
 						<Route exact path="/organizations" component={Organizations} />
