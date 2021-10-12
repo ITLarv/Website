@@ -4,6 +4,7 @@ import ImageContent from "../components/ImageContent";
 import img1 from "../img/misc/rsz_massan-006.jpg";
 import img2 from "../img/misc/rsz_massan-122.jpg";
 import img3 from "../img/misc/rsz_massan-001.jpg";
+import img4 from "../img/misc/rsz_massan-123.jpg";
 //import covid from "../img/misc/stop-covid.png";
 
 export default function News() {
@@ -23,6 +24,19 @@ export default function News() {
 			},
 			linkTo: "/covid",
 		}, */
+		{
+			title: {
+				en: "Wish a company",
+				sv: "Önska ett företag",
+			},
+			image: img4,
+			imageAlt: "",
+			content: {
+				en: "If there is a company you want to see at larv? Click here to wish the company and we will try to get the company to the fair",
+				sv: "Har du ett företag du vill se på larv? Klicka hör för att önska ett företag som vi kommer försöka få med till mässan",
+			},
+			linkTo: "/onskaForetag",
+		},
 		{
 			title: {
 				en: "Join LARV",
