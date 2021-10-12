@@ -51,13 +51,14 @@
 			"PR": "Marknadsföringskoordinator"
 		},
 		"VOLUNTEERS": {
-			"FTG": "Företagsvärd",
-			"EVENT": "Eventvärd",
-			"IT": "IT- och teknikvärd",
-			"MÄSSA": "Mässbyggnadsvärd",
-			"SERVICE": "Servicevärd",
+			"BANQUET": "Bankettvärd",
 			"CHAUFFÖR": "Chaufför",
+			"FTG": "Företagsvärd",
+			"LOGISTICS": "Logistikvärd",
+			"LOUNGE": "Loungevärd",
+			"MÄSSA": "Mässbyggnadsvärd",
 			"NATT": "Nattvakt",
+			"RECEPTION": "Receptionist",
 			"TI": "The Incredibles"
 		}
 	},
@@ -89,7 +90,9 @@
 		"HEADER_2": "Vad är LARV?",
 		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. Detta LARV äger rum den 17-21 januari, 2022, med själva mässan den 19:e. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa organisationer att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 utställare och 2000 studenter.",
 		"NEWS": "Nyheter",
-		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org."
+		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org.",
+		"ANNOUNCEMENT": "Intresseanmälan för årets LARV-mässa är nu öppen!",
+		"ANNOUNCEMENT_2": ">>Till anmälan<<"
 	},
 	"ABOUT": {
 		"HEADER": "Om LARV",
@@ -353,13 +356,16 @@
 		"INFO_2": "Eftersom de flesta värdar utses några månader före LARV deltar de inte i första hand i planeringen av projektet. Istället har du som värd en inverkan på projektet genom utvärderingar, workshops och direktkontakt med den person som ansvarar för ditt område. Perioden för engagemang och arbetsbelastning är för en värd i allmänhet den kortaste och mildaste av de åtaganden som LARV erbjuder. Återigen beror detta mycket på vilken typ av värd du vill bli. Förväntad arbetstid uppgår till 5 timmar i veckan men vanligtvis mindre. Tjänsten som värd är därför lämplig för dig som till exempel vill testa ett enklare, mindre tidskrävande engagemang eller få en ytlig inblick i LARV som ett projekt.",
 		"APPLY": "Sök till värd här",
 		"POSITIONS": "Värdpositioner",
-		"FTG": "Som företagsvärd tilldelas du några specifika utställare att vara kontaktperson för. Du kommer se till att deras anmälan är fullständig och hjälpa dem med eventuella frågor inför LARV. Är du social, öppen och vill utveckla din serviceförmåga? Då kommer du trivas och lyckas som företagsvärd. Har du frågor kring att vara företagsvärd, kontakta rekrytering@larv.org.",
-		"IT": "Som teknikvärd kommer du hjälpa de andra studenterna med det system som kommer att användas på årets LARV. Du kommer också arbeta med att se till att tekniken fungerar i loungerna samt klassrumen under LARV. Har du frågor kring att vara företagsvärd, kontakta it@larv.org.",
-		"MÄSSA": "Som mässbyggare kommer man bära möbler, transportera gods, montera loungerna, och förbereda för de aktiviteter som kräver montering på campus under LARV. Även strömdragning ingår, där två personer kommer dra och tejpa fast förlängningskablar utifrån elschema. Har du några frågor kring att vara mässbyggnadsvärd, kontakta massbyggnad@larv.org",
+		"BANQUET": "Som bankettvärd arbetar du med att ta fram och plocka undan dekor inför och efter banketten, dukning av serveringsytor, bemanna garderoben, logga besökare under mingelkvällen och svara på frågor under mässdagen gällande lunchen och banketten. Har du frågor kring att vara bankettvärd, kontakta bankett@larv.org.",
+		"CHAUFFÖR": "Som chaufför kommer du att ansvara för att skjutsa företagsrepresentanter till och från aktiviteter som rör LARV under LARV-veckan. God serviceförmåga, bra lokalkännedom, trygg bakom ratten samt positiv attityd är bra egenskaper för denna post. För att bli antagen är B-körkort ett krav! Har du några frågor kring att vara chaufför, kontakta service@larv.org",
+		"FTG": "Som företagsvärd tilldelas du ett par specifika utställare att vara kontaktperson för. Du kommer se till att deras anmälan är fullständig, hjälpa dem med eventuella frågor inför och under LARV samt finnas tillgänglig under mässdagen för att se över att dom har allt dom behöver i sin monter. Vill du knyta kontakter, utveckla din serviceförmåga och är en utåtgående person? Då kommer du trivas och lyckas som företagsvärd. Har du frågor kring att vara företagsvärd, kontakta anmalan@larv.org.",
+		"LOGISTICS": "Som logistikvärd arbetar du med att hjälpa till att flytta gods samt hålla koll på in- och utgående gods och hyrda inventarier under mässdagen. Har du frågor kring att vara logistikvärd, kontakta logistik@larv.org. ",
+		"LOUNGE": "Som loungevärd ansvarar du för att hålla en lounge i ett presentabelt skick under dagen. det innefattar att byta sopor, rensa bord, fylla på vatten, te, kaffe och fika m.m. Det finns två olika loungetyper, företagslounger och värdlounger. Har du god serviceförmåga och är mån om  att besökare ska få en sån bra upplevelse som möjligt? Då är denna post för dig! Har du frågor kring att vara loungevärd, kontakta samarbete@larv.org",
+		"MÄSSA": "Som mässbyggare kommer man bära möbler, transportera gods, möblera loungerna och hjälpa till i förberedelserna för de aktiviteter som kräver inventarier under LARV. Även strömdragning ingår, där två personer kommer dra och tejpa fast förlängningskablar utifrån elschema. Har du några frågor kring att vara mässbyggnadsvärd, kontakta massbyggnad@larv.org",
 		"SERVICE": "Som servicevärd kommer du att stå i receptionen eller hälsa gäster välkomna till loungen. Du kommer även att hjälpa gästerna med allmänna frågor och se till att loungen ser presentabel ut under dagen. Har du god serviceförmåga och ett glatt humör? Då är denna post perfekt för dig! Har du frågor kring att vara loungevärd, kontakta service@larv.org",
-		"NATT": "Som nattvakt vaktar loungerna och området runt omkring under natten innan de skall användas. Har du några frågor kring att vara nattvakt, kontakta massbyggnad@larv.org",
-		"CHAUFFÖR": "Som chaufför kommer du att ansvara för att skjutsa företagsrepresentanter till och från aktiviteter som rör LARV under LARV-veckan både före och efter. God serviceförmåga, bra lokalkännedom, trygg bakom ratten samt positiv attityd är bra egenskaper för denna post. För att bli antagen är B-körkort ett krav! Har du några frågor kring att vara chaufför, kontakta service@larv.org",
-		"TI": "Att arbeta med gruppen ”The Incredibles” innebär att man inte kommer bli tilldelad en fast position, ens arbete kommer innebära att vara tillgänglig och hjälpa till under LARV där det behövs då det behövs. Det finns inga grundläggande krav som behöver uppfyllas för att söka, B-körkort är meriterande. Har du några frågor kring att vara en del av The incredibles, kontakta rekrytering@larv.org"
+		"NATT": "Som nattvakt vaktar du loungerna, mässområdet och området runt omkring mässan under natten innan de skall användas. Har du några frågor kring att vara nattvakt, kontakta massbyggnad@larv.org",
+		"RECEPTION": "Som receptionist kommer du att stå i receptionen och ha en bra överblick över mässan. Arbetsuppgifterna innefattar bland annat att svara på lättare frågor, dirigera gäster till utställare som de inte hittar eller hänvisa till andra inom LARV-CREW vid specifika frågor som kan uppkomma. Har du god serviceförmåga och ett glatt humör? Då är denna post perfekt för dig! Har du frågor kring att vara receptionist, kontakta service@larv.org",
+		"TI": "Att arbeta inom gruppen ”The Incredibles” innebär att man inte kommer bli tilldelad en fast position, ens arbete kommer innebära att vara tillgänglig och hjälpa till under LARV där det behövs då det behövs. Det finns inga grundläggande krav som behöver uppfyllas för att söka, B-körkort är meriterande. Har du några frågor kring att vara en del av The incredibles, kontakta rekrytering@larv.org"
 	},
 	"COORDINATORS": {
 		"HEADER": "Koordinator",
