@@ -40,7 +40,6 @@ import Covid19 from "./pages/Covid19";
 import GuideGL from "./pages/GuideGL";
 import ScheduleFair from "./pages/ScheduleFair";
 import Competition from "./pages/Competition";
-import Test from "./pages/test";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -79,7 +78,6 @@ function Page() {
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/gallery" component={Gallery} />
-						<Route exact path="/test" component={Test} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
@@ -92,12 +90,7 @@ function Page() {
 						<Route exact path="/students/guide" component={GuideGL} />
 						<Route exact path="/involved" component={Involved} />
 						<Route exact path="/involved/volunteer" component={Volunteer} />
-						<Route exact path="/involved/volunteer/application">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfrGY3Ei_BuNzIfaKZKyO9vI0ywkWVPd1ZPoSoIWQRRLSIR7g/viewform?embedded=true"
-								height={2700}
-							/>
-						</Route>
+
 						<Route exact path="/involved/coordinator" component={Coordinator} />
 						<Route exact path="/involved/coordinator/application">
 							<GoogleForm
