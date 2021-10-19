@@ -40,6 +40,7 @@ import Covid19 from "./pages/Covid19";
 import GuideGL from "./pages/GuideGL";
 import ScheduleFair from "./pages/ScheduleFair";
 import Competition from "./pages/Competition";
+import Test from "./pages/test";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -78,6 +79,7 @@ function Page() {
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/gallery" component={Gallery} />
+						<Route exact path="/test" component={Test} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
