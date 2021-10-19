@@ -90,12 +90,7 @@ function Page() {
 						<Route exact path="/students/guide" component={GuideGL} />
 						<Route exact path="/involved" component={Involved} />
 						<Route exact path="/involved/volunteer" component={Volunteer} />
-						<Route exact path="/involved/volunteer/application">
-							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfrGY3Ei_BuNzIfaKZKyO9vI0ywkWVPd1ZPoSoIWQRRLSIR7g/viewform?embedded=true"
-								height={2700}
-							/>
-						</Route>
+
 						<Route exact path="/involved/coordinator" component={Coordinator} />
 						<Route exact path="/involved/coordinator/application">
 							<GoogleForm
