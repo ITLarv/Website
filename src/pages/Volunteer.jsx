@@ -1,14 +1,28 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
 import { VolunteerApplication } from "../config";
 import Dropdown from "./Dropdown";
 
+/* eslint-disable no-undef */
 export default function Volunteer() {
 	const ApplicationOpen = VolunteerApplication().open;
 	const { t } = useTranslation();
+
+	Jexpo.init(
+		{
+			lang: "sv",
+			endpoint: "p18.jexpo.se/larv",
+		},
+		function () {
+			Jexpo.dialog("app-dialog");
+			Jexpo.RecruitmentsApplication("app", { workspace: "rekrytering-2022" });
+		},
+		[],
+	);
+
 	return (
 		<>
 			<div className="banner">
@@ -22,18 +36,34 @@ export default function Volunteer() {
 					<h1>{t("VOLUNTEERS.HEADER")}</h1>
 				</Parallax>
 			</div>
+
+			{ApplicationOpen && (
+				<div style={{ display: "flex", justifyContent: "center" }}>
+					<div
+						style={{
+							padding: "4%",
+							scale: "3",
+						}}
+					>
+						<div id="app" class="jexpo jexpo-forms"></div>
+						<div id="app-dialog" class="jexpo jexpo-forms"></div>
+						<script
+							type="text/javascript"
+							src="https://storage.googleapis.com/jexpo-cdn/vendor-v18.min.js"
+						></script>
+						<script
+							type="text/javascript"
+							src="https://storage.googleapis.com/jexpo-cdn/plugins-v18.min.js"
+						></script>
+						<script></script>
+					</div>
+				</div>
+			)}
+
 			<div className="grey">
 				<p>{t("VOLUNTEERS.INFO_1")}</p>
 				<p>{t("VOLUNTEERS.INFO_2")}.</p>
 			</div>
-
-			{ApplicationOpen && (
-				<div className="ButtonDiv">
-					<NavLink className="button" to="/involved/volunteer/application">
-						{t("VOLUNTEERS.APPLY")}
-					</NavLink>
-				</div>
-			)}
 
 			<div className="dropdown-container">
 				<h1>{t("VOLUNTEERS.POSITIONS")}</h1>
