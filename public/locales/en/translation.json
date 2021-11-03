@@ -281,12 +281,12 @@
 	"IM": {
 		"HEADER": "Individual Meetings",
 		"STUDENTS": {
-			"INFO_1": "Individual Meetings is your chance to have in depth conversations with representatives from certain exhibitors and get your foot through the door at your future employer. This service is for students who are interested in knowing more about specific employers and what opportunities they can offer them. The meetings are structured much like a casual job interview. You and the representative are free to talk about anything you feel is relevant.",
-			"INFO_2": "When you sign up for a meeting you will have the option to choose which exhibitors you would be interested in meeting. You will also choose which type of job you are looking for, be it thesis project or an internship. You will have to provide us with a CV as well as a cover letter. This way we can make sure that your and the exhibitor's interests are inline with each other. The meetings are about 30 minutes long and you can book as many meetings as you can manage. However, you can only book one meeting per exhibitor.",
-			"INFO_3": "Interested in booking a meeting? Tell us you are interested by filling out the form below. We will get back to you as soon as the participating exhibitors have been determined.",
-			"INFO_4": "OBS! Unfortunately the FutureTalks have been canceled. We thank you for the interest shown and hope that those of you who had registered have the possibility to attend the Individual Meetings instead.",
+			"INFO_1": "Individual Meetings offer you the chance of having an in-depth conversation with representatives from attractive companies and getting a foot in the door at your favourite employer. This service is for students who are interested in knowing more about specific employers and what opportunities they offer. The meetings have a structure similar to a casual job interview. You and the representative are free to talk about anything you feel is relevant.",
+			"INFO_2": "When you sign up for a meeting you will have the option to choose which company you would be interested in meeting. You will also choose the type of job you are searching for, be it thesis project or an internship. You will have to provide us with your CV as well as a cover letter. This way we can make sure that you and the company's interests are in line with each other. The meetings are about 30 minutes long and you can book multiple meetings. However, only one meeting per exhibitor is allowed.",
+			"INFO_3": "Interested in booking an Individual Meeting? Fill out the form down below! We will get back to you with more information.",
 			"APPLY": "Apply here",
-			"CLOSED": "The registation has not opened yet"
+			"CLOSED": "The registation has not opened yet",
+			"LINK": "http://larv.iaeste.se/english/"
 		},
 		"ORGANIZATIONS": {
 			"INFO_1": "Individual Meetings is a service that is offered to all companies that have chosen the digital fair package during LARV, free of charge. This is a service that collects CV, cover letter or other material that might be of interest from students. Thereafter you as a company choose the students you want to continue with and meet virtually. This is a fantastic opportunity to meet the students and give yourself a more thorough introduction. One meeting lasts about 20-30 minutes, where 12 meetings per company are included in the package. If you wish to add more meetings you are welcome to add another Individual Meetings package.",
