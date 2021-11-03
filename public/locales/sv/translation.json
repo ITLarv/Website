@@ -280,12 +280,12 @@
 	"IM": {
 		"HEADER": "Individual Meetings",
 		"STUDENTS": {
-			"INFO_1": "Individual Meetings är din chans att ha djupgående samtal med representanter från utvalda utställare och få din fot genom dörren hos din framtida arbetsgivare. Denna tjänst är till för studenter som är intresserade av att veta mer om specifika arbetsgivare och vilka möjligheter de kan erbjuda dem. Mötena är strukturerade ungefär som en avslappnad anställningsintervju. Du och representanten är fria att prata om allt ni tycker är relevant.",
-			"INFO_2": "När du anmäler dig till ett möte har du möjlighet att välja vilka utställare du är intresserade av att träffa. Du väljer även vilken typ av jobb du söker, vare sig det är exjobb eller praktik. Du måste förse oss med ett CV samt ett personligt brev för att vi på bästa sätt ska kunna se till att dina och företagets intressen är i linje med varandra. Mötena är cirka 30 minuter långa och du kan boka så många möten som du hinner med. Du kan dock bara boka ett möte per företag.",
-			"INFO_3": "Intresserad av att boka ett möte? Gör en intresseanmälan genom att fylla i formuläret nedan. Vi kontaktar dig med mer information så snart de deltagande utställarna har fastställts.",
-			"INFO_4": "OBS! Tyvärr har Framtidssamtalen ställts in, vi tackar för visat intresse och hoppas att ni som anmält er kan delta på Individual Meetings istället.",
+			"INFO_1": "Individual Meetings är din chans att ha ett djupt samtal med representanter från utvalda företag och få din fot genom dörren hos din framtida arbetsgivare. Denna tjänst är för studenter som är intresserade av att veta mer om specifika arbetsgivare och vilka möjligheter de kan erbjuda dem. Mötena är strukturerade ungefär som en avslappnad anställningsintervju. Du och representanten är fria att prata om allt ni tycker är relevant.",
+			"INFO_2": "När du anmäler dig till ett möte har du möjlighet att välja vilka utav de tillgängliga företagen du är intresserade av att träffa. Du väljer även vilken typ av jobb du söker, vare sig det är exjobb eller praktik. Du måste förse oss med ett CV samt ett personligt brev för att vi på bästa sätt ska kunna se till att dina och företagets intressen är i linje med varandra. Mötena är cirka 30 minuter långa och du kan boka så många möten som du hinner med. Du kan dock bara boka ett möte per företag.",
+			"INFO_3": "Intresserad av att boka ett Individual Meeting? Gör en intresseanmälan genom att fylla i formuläret nedan! Vi kontaktar dig med mer information.",
 			"APPLY": "Anmäl dig här",
-			"CLOSED": "Anmälan är inte öppen än"
+			"CLOSED": "Anmälan är inte öppen än",
+			"LINK": "http://larv.iaeste.se/"
 		},
 		"ORGANIZATIONS": {
 			"INFO_1": "Individual Meetings är en tjänst som erbjuds för alla organisationer som har valt baspaketet under LARV, utan någon extra kostnad. Detta är en tjänst som samlar in CV, personligt brev eller annat material ni kan vara intresserade av från studenter. Därefter väljer ni vilka studenter ni vill gå vidare med och träffa digitalt. Detta är ett fantastiskt tillfälle att träffa toppstudenter som har visat intresse för er samtidigt som ni ges chansen till en djupare presentation. Ett möte tar cirka 20-30 minuter, där det ingår 12 intervjubokningar per organization. Önskar ni fler intervjuer går det bra att lägga till ett ytterligare paket.",
