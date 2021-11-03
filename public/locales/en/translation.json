@@ -289,10 +289,22 @@
 			"LINK": "http://larv.iaeste.se/english/"
 		},
 		"ORGANIZATIONS": {
-			"INFO_1": "Individual Meetings is a service that is offered to all companies that have chosen the digital fair package during LARV, free of charge. This is a service that collects CV, cover letter or other material that might be of interest from students. Thereafter you as a company choose the students you want to continue with and meet virtually. This is a fantastic opportunity to meet the students and give yourself a more thorough introduction. One meeting lasts about 20-30 minutes, where 12 meetings per company are included in the package. If you wish to add more meetings you are welcome to add another Individual Meetings package.",
-			"INFO_2": "The cost for the service Individual Meetings is 6000 SEK per package if added outside of the digital fair package.",
-			"INFO_3": "If you have any questions or wish to add any of the services you are welcome to contact individualmeetings@larv.org.",
-			"INFO_4": "OBS! Unfortunately the FutureTalks have been canceled. We thank you for the interest shown and hope that those of you who had registered have the possibility to attend the Individual Meetings instead."
+			"HEADER_1": "Form lasting student connections through Individual Meetings!",
+			"INFO_1": "Individual Meetings is a service offered to all organizations that have chosen the base package during the LARV-fair. This is a service where during one day you as an exhibitor get the chance to have a conversation with students in person in a calm and secluded environment, away from the liveliness of the fair. An Individual Meeting is generally very similar to a regular job interview. However, as an exhibitor you set the structure and topic of conversation for each meeting. This is a fantastic opportunity to meet students from Luleå University of Technology who have shown interest in your organization while giving you the opportunity to form a lasting relationship with the competence of tomorrow!",
+			"HEADER_2": "How does it work?",
+			"INFO_2": "The process begins with us collecting information from exhibitors regarding what skills, education and types of people they are looking for. We then collect similar information from students along with a CV and personal letter. Then we make a selection from all candidates and match exhibitors with the most relevant students according to the exhibitor's and the student's specified information. Based on this matched selection, exhibitors can then choose which students they want to move forwards with and meet in person during the fair day. A meeting takes about 20-30 minutes and includes 10 interview bookings per exhibitor. In addition to matching students, the price includes a separate room in which the interviews are held as well as associated service. If you want more interview bookings there is the possibility to add another booked room. Booking of multiple rooms are done in conjunction with registering for the service.",
+			"HEADER_3": "Individual Meetings at a distance!",
+			"INFO_3": "Upon request, we offer technology to host Individual Meetings at a distance. This is perfect if a recruiter does not have the opportunity to be present on site during the fair. Upon request, we provide technology such as camera, screen, sound and microphone as well as calls via most online services such as Zoom, Microsoft Teams, Skype, etc. Booking of additional technology is free of charge and is done in conjunction with registering for the service.",
+			"HEADER_4": "What is included?",
+			"INFO_4": "The cost of the Individual Meetings service is SEK 8 000 per package. This cost is added on top of the cost for the base fair package. Booking of the service is done by sending us an email of interest to individualmeetings@larv.org. A booking of the service includes:",
+			"INFO_4_1": "Matching of relevant students based on your requirements",
+			"INFO_4_2": "A single room where meetings can be held privately and undisturbed. The room is booked throughout the fair day. Technology for online calls is provided upon request.",
+			"INFO_4_3": "10 interview bookings.",
+			"INFO_4_4": "Help with booking of the service from start to finish.",
+			"INFO_4_5": "Personal service on site before, during and after the meetings.",
+			"HEADER_5": "Sounds good! How do we sign up?",
+			"INFO_5": "To book the service Individual Meetings, you must send an interest application in the link below in which you briefly state who you are and that you want to book one or more Individual Meetings packages. We will then return as soon as possible to help you with your booking. You can also email at individualmeetings@larv.org us simply to get more information or if you have any thoughts you would like to get answered!",
+			"LINK": "http://larv.iaeste.se/foretag/english/"
 		}
 	},
 	"GUIDE_GL": {

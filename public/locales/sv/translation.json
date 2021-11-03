@@ -288,10 +288,22 @@
 			"LINK": "http://larv.iaeste.se/"
 		},
 		"ORGANIZATIONS": {
-			"INFO_1": "Individual Meetings är en tjänst som erbjuds för alla organisationer som har valt baspaketet under LARV, utan någon extra kostnad. Detta är en tjänst som samlar in CV, personligt brev eller annat material ni kan vara intresserade av från studenter. Därefter väljer ni vilka studenter ni vill gå vidare med och träffa digitalt. Detta är ett fantastiskt tillfälle att träffa toppstudenter som har visat intresse för er samtidigt som ni ges chansen till en djupare presentation. Ett möte tar cirka 20-30 minuter, där det ingår 12 intervjubokningar per organization. Önskar ni fler intervjuer går det bra att lägga till ett ytterligare paket.",
-			"INFO_2": "Kostnaden för tjänsten Individual Meetings är 6000 kr per paket om den läggs till utöver baspaketet.",
-			"INFO_3": "Ifall ni har några frågor eller önskar att lägga till någon av tjänsterna är ni välkomna att kontakta individualmeetings@larv.org.",
-			"INFO_4": "OBS! Tyvärr har Framtidssamtalen ställts in, vi tackar för visat intresse och hoppas att ni som anmält er kan delta på Individual Meetings istället."
+			"HEADER_1": "Individual Meetings är vägen till djupare studentkontakt!",
+			"INFO_1": "Individual Meetings är en tjänst som erbjuds för alla organisationer som har valt baspaketet under LARV. Detta är en tjänst där ni under en dag får chansen att i en lugn och avskild miljö få samtala med studenter personligen. Ett Individual Meeting är generellt mycket snarlikt en vanlig arbetsintervju men ni sätter själva strukturen och samtalsämnet för varje möte. Detta är ett fantastiskt tillfälle att träffa studenter från Luleå tekniska universitet som har visat intresse för er samtidigt som ni ges möjligheten till en djupare koppling till framtidens kompetens!",
+			"HEADER_2": "Hur fungerar det?",
+			"INFO_2": "Processen börjar med att vi samlar in information från utställare gällande vilka kompetenser, utbildningar och typer av personer just dem letar efter. Vi tar sedan in liknande information från studenter samt CV:n och personliga brev. Därefter gör vi ett urval och matchar utställare med de mest relevanta studenterna utefter utställares och studentens angivna information. Utifrån detta urval får utställare sedan välja vilka studenter de vill gå vidare med och träffa personligen under mässdagen. Ett möte tar cirka 20-30 minuter och det ingår 10 intervjubokningar per utställare. Förutom matchning av studenter så ingår i priset ett eget rum att hålla intervjuerna i samt tillhörande service. Önskas fler intervjubokningar går det bra att lägga till ytterligare ett bokat rum. Detta anges i samband med intresseanmälan för tjänsten.",
+			"HEADER_3": "Individual Meetings på distans!",
+			"INFO_3": "Vid förfrågan så erbjuder vi teknik för att hålla Individual Meetings på distans. Detta är perfekt om en rekryterare inte har möjlighet att närvara på plats. Vid förfrågan så tillhandahåller vi teknik som kamera, skärm, ljud och mikrofon samt samtal via de flesta tjänster som Zoom, Microsoft Teams, Skype etc. Bokning av teknik kostar inget extra och sker i samband med intresseanmälan för tjänsten.",
+			"HEADER_4": "Vad ingår?",
+			"INFO_4": "Kostnaden för tjänsten Individual Meetings är 8000 kr per rum. Denna kostnad läggs som ett tillval utöver baspaket. Bokning av tjänsten sker genom att skicka en intresseanmälan till individualmeetings@larv.org. I en bokning av tjänsten ingår:",
+			"INFO_4_1": "Matchning av relevanta studenter utifrån era krav.",
+			"INFO_4_2": "Ett enskilt rum där möten kan hållas privat och ostört. Rummet är bokat under hela mässdagen. Teknik för distanssamtal tillhandahålls vid förfrågan.",
+			"INFO_4_3": "10 intervjubokningar.",
+			"INFO_4_4": "Hjälp med bokning av tjänsten från början till slut.",
+			"INFO_4_5": "Personlig service på plats inför, under och efter mötena.",
+			"HEADER_5": "Låter bra! Hur bokar vi tjänsten?",
+			"INFO_5": "För att boka tjänsten så ska ni skicka en intresseanmälan i länken nedan. Där anger ni kort vilka ni är samt att ni vill boka en eller flera Individual Meetings paket. Vi återkommer då så snabbt som möjligt för att hjälpa er vidare. Det går också bra att maila oss på individualmeetings@larv.org för att få mer information eller om ni har en fundering!",
+			"LINK": "http://larv.iaeste.se/foretag/"
 		}
 	},
 	"GUIDE_GL": {
