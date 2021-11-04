@@ -1,45 +1,47 @@
 import React, { Suspense } from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { devBranch } from "./config";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./pages/Home.jsx";
-import Snapchat from "./pages/Snapchat.jsx";
-import About from "./pages/AboutLarv.jsx";
-import Calendar from "./pages/CalendarPage.jsx";
-import Event from "./pages/Event.jsx";
-import Fair from "./pages/Fair";
-import Gallery from "./pages/Gallery";
-import LARVMap from "./pages/Map";
-import PrepWeek from "./pages/PrepWeek";
-import Contact from "./pages/Contact";
-import Students from "./pages/Students";
-import IndMeetStudents from "./pages/IndMeetStudents";
-import Involved from "./pages/Involved";
-import Volunteer from "./pages/Volunteer";
-import Coordinator from "./pages/Coordinator";
-import PG from "./pages/PG";
-import Organizations from "./pages/Organizations";
-import IndMeetOrganizations from "./pages/IndMeetOrganizations";
-import InitialApplication from "./pages/InitialApplication";
-import FinalApplication from "./pages/FinalApplication";
-import Catalog from "./pages/Catalog";
-import Faq from "./pages/FAQ";
-import NotFound from "./pages/404";
 import "./css/App.min.css";
-import StudentsFAQ from "./content/studentsfaq.json";
-import OrganizationsFAQ from "./content/organizationsfaq.json";
-import ScrollToTop from "./components/ScrollToTop";
-import IAContract from "./pages/IAContract";
-import Pricelist from "./pages/Pricelist";
-import InvitationDigital from "./pages/InvitationDigital";
-import InvitationInnovation from "./pages/InvitationInnovation";
-import CompanyGuide from "./pages/CompanyVCFGuide";
-import GoogleForm from "./pages/GoogleForm"; /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
-import Covid19 from "./pages/Covid19";
-import GuideGL from "./pages/GuideGL";
-import ScheduleFair from "./pages/ScheduleFair";
-import Competition from "./pages/Competition";
+const Event = React.lazy(() => import("./pages/Event.jsx"));
+const Navbar = React.lazy(() => import("./components/Navbar"));
+const Faq = React.lazy(() => import("./pages/FAQ"));
+const NotFound = React.lazy(() => import("./pages/404"));
+const Footer = React.lazy(() => import("./components/Footer"));
+const About = React.lazy(() => import("./pages/AboutLarv.jsx"));
+const Pricelist = React.lazy(() => import("./pages/Pricelist"));
+const OrganizationsFAQ = React.lazy(() => import("./content/organizationsfaq.json"));
+const Fair = React.lazy(() => import("./pages/Fair"));
+const Home = React.lazy(() => import("./pages/Home.jsx"));
+const Snapchat = React.lazy(() => import("./pages/Snapchat.jsx"));
+const ScheduleFair = React.lazy(() => import("./pages/ScheduleFair"));
+const Students = React.lazy(() => import("./pages/Students"));
+const Calendar = React.lazy(() => import("./pages/CalendarPage.jsx"));
+const Coordinator = React.lazy(() => import("./pages/Coordinator"));
+const PrepWeek = React.lazy(() =>
+	import("./pages/PrepWeek"),
+); /* USE THIS WHEN ADDING PAGES WITH GOOGLE FORM */
+const Covid19 = React.lazy(() => import("./pages/Covid19"));
+const GuideGL = React.lazy(() => import("./pages/GuideGL"));
+const Organizations = React.lazy(() => import("./pages/Organizations"));
+const StudentsFAQ = React.lazy(() => import("./content/studentsfaq.json"));
+const Contact = React.lazy(() => import("./pages/Contact"));
+const Involved = React.lazy(() => import("./pages/Involved"));
+const InvitationDigital = React.lazy(() => import("./pages/InvitationDigital"));
+const InvitationInnovation = React.lazy(() => import("./pages/InvitationInnovation"));
+const IndMeetStudents = React.lazy(() => import("./pages/IndMeetStudents"));
+const ScrollToTop = React.lazy(() => import("./components/ScrollToTop"));
+const IAContract = React.lazy(() => import("./pages/IAContract"));
+const Volunteer = React.lazy(() => import("./pages/Volunteer"));
+const Competition = React.lazy(() => import("./pages/Competition"));
+const Catalog = React.lazy(() => import("./pages/Catalog"));
+const CompanyGuide = React.lazy(() => import("./pages/CompanyVCFGuide"));
+const LARVMap = React.lazy(() => import("./pages/Map"));
+const PG = React.lazy(() => import("./pages/PG"));
+const GoogleForm = React.lazy(() => import("./pages/GoogleForm"));
+const Gallery = React.lazy(() => import("./pages/Gallery"));
+const IndMeetOrganizations = React.lazy(() => import("./pages/IndMeetOrganizations"));
+const FinalApplication = React.lazy(() => import("./pages/FinalApplication"));
+const InitialApplication = React.lazy(() => import("./pages/InitialApplication"));
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {

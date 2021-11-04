@@ -197,53 +197,49 @@
 	},
 	"PREP_WEEK": {
 		"HEADER": "Prep-Week",
+		"HEADER_2": "Week 46 kicks off this year's PREP-WEEK!",
 		"INFO": "Prep-week is a week filled with activities for you as a student at LTU to give you the tools to get ready for working life and find your dream job! We will also hold competitions throughout the prep week where you can win great prizes.",
 		"ACTIVITIES": {
-			"HEADER": "What happens during Prep-week?",
 			"LINK_TEXT": "Link to the event",
 			"EVENT_1": {
-				"HEADER": "Sveriges ingenjörer “Vägen till ingenjörsjobbet”",
-				"LOC_TIME": "B192, Måndag 2/11, 12:00-12:45, Swedish",
-				"INFO_1": "Hur gör du ett bra första intryck på en arbetsgivare? Hur skriver du ett professionellt CV och personligt brev? Hur kan du använda LinkedIn i ditt jobbsökande, och vad ska du tänka på under anställningsintervjun?",
-				"INFO_2": "Under denna lunchföreläsning kommer en CV-expert från Sveriges Ingenjörer ge dig konkreta tips och råd om vad du behöver tänka på för att hitta just ditt extrajobb, sommarjobb, exjobb eller första ingenjörsjobb.",
-				"INFO_3": "De första 100 får lunch som såklart Sveriges Ingenjörer bjuder på!"
+				"HEADER": "MONDAY 15/11",
+				"INFO": "Welcome to PREP-WEEK's first event - a lunch lecture with LARV about what commitment during student life is and how you can benefit from getting involved. LARV will also go through how you as a student successfully succeed in participating in the LARV fair. Towards the end of the lecture, we will also have a brief overview of what PREP-WEEK has to offer. If there is time left, you will of course be able to ask questions to all participants from LARV.",
+				"FREE": "During the lecture, a qualitative lunch box, bread, butter and bubble water are offered upon pre-registration.",
+				"LINK": "https://forms.gle/2WVVGboDT32P6Rgn7"
 			},
 			"EVENT_2": {
-				"HEADER": "Career center “Promote your personal brand with LinkedIn”",
-				"LOC_TIME": "Ljusgården, Tuesday 3/11, 12:00-12:45, English",
-				"INFO_1": "This lecture touches on improving your profile and how to market your skills effectively on LinkedIn.  Bring your laptop and update your profile as we go along.",
-				"INFO_2": "The first 50 get lunch, first come first served."
+				"HEADER": "TUESDAY 16/11",
+				"INFO": "Vattenfall is a European energy company with approximately 20,000 employees. For more than 100 years, we have electrified industries, delivered energy to people's homes and modernized our way of life through innovation and collaboration. We now want to make it possible to live fossil-free within a generation. Come to a lunch lecture with us and learn more about Vattenfall as a company and what we can offer to students and recent graduates. Our employees Stina Petterson and Victor Andersson will tell you more about their professions in hydropower and electricity distribution and what it is like to work for Vattenfall in Norrland. Stina will also share some practical tips for those who are eager to apply for a job at Vattenkraft.",
+				"FREE": "When registering in the form below, the first 100 participants are offered a lunch box with bread, butter and bubble water.",
+				"LINK": "https://forms.gle/bJdmS8mjXVjK9KdD8"
 			},
 			"EVENT_3": {
-				"HEADER": "Career center “Perfecting your elevator pitch”",
-				"LOC_TIME": "B192, Wednesday 4/11, 12:00-12:45, English",
+				"HEADER": "WEDNESDAY 17/11",
 				"INFO_1": "Learn how to create an effective pitch where you can quickly convey who you are, what you are good at and how you can contribute.",
-				"INFO_2": "The first 50 get lunch, first come first served."
+				"LINK": "https://forms.gle/MCUJsq3HEpGd72Nv7",
+				"INFO_2": "After the lecture, the Career Center will also offer CV reviews in C464 and C466. See to get feedback on your resume, personal letter or your LinkedIn profile."
 			},
 			"EVENT_4": {
-				"HEADER": "Breakfast panel",
-				"LOC_TIME": "Ljusgården, Thursday 5/11, kl 8:00-10:00, Swedish",
-				"INFO_1": "On Thursday morning, we will organize a panel debate where Luleå Näringsliv and Luleå Business Region will be present to mainly discuss three different topics; “The importance of commitment“, “How corona has affected the world of work“ and “What you as a young student can think about before working life“. You will have the chance to ask these companies questions about the topics involved and hear how they handle these topics.",
-				"INFO_2": "Luleå Business Region will also offer breakfast to the first 100 under the panel."
+				"HEADER": "WEDNESDAY 17/11",
+				"INFO_1": "Are you studying a degree in Master of Science / Engineering with a specialization in machine, materials, technical physics, space, computer or industrial economics and are interested in high-pressure machining? Come and listen to an exciting lecture on, among other things, product standardization, connectivity and data analytics as well as Computational Fluid Dynamics, within high pressures and temperatures.",
+				"INFO_2": "Quintus is a world-leading company in high-pressure processing for compaction of advanced metallic materials, for sheet metal forming and for high-pressure processing (HPP) of packaged foods. Quintus has delivered over 1,900 systems to customers worldwide in industries such as energy and medical implants, space, aerospace, automotive and food production.",
+				"FREE": "After the lecture, Quintus offers food and drink in Centrumrestaurangen. Homemade burgers and two drink tickets are offered.",
+				"WHERE": "So head to B192 and listen to an inspiring lecture with Quintus and then eat burgers and drink any beverage.",
+				"LINK": "https://forms.gle/HHkrJicRDzXWFRUA7"
 			},
 			"EVENT_5": {
-				"HEADER": "Informational meeting LARV",
-				"LOC_TIME": "B192, Thursday 5/11, 12:00-12:45, Swedish",
-				"INFO_1": "Do you have thoughts about what LARV is? Then come to our information meeting and get answers to questions such as what is LARV, how do you get involved in LARV or what is happening in LARV this year?",
-				"INFO_2": "The first 50 get lunch, first come first served."
+				"HEADER": "THURSDAY 18/11",
+				"INFO": "After Wednesday's CV review and LinkedIn lecture, the Career Center now offers the opportunity to also take a professional photo to the CV, personal letter or to the LinkedIn profile. Put on your fine shirt and visit us at A-huset's new Meeting Point (behind UNIKA Boxen)."
 			},
 			"EVENT_6": {
-				"HEADER": "CV-photographing",
-				"LOC_TIME": "A3024, Friday 6/11, 12:30-13:30",
-				"INFO_1": "In collaboration with Career Center, LARV offers CV photography, do not miss this chance!"
-			},
-			"EVENT_7": {
-				"HEADER": "LARV-pub 2",
-				"LOC_TIME": "STUK, Friday 6/11, 18:00, 80kr",
-				"INFO_1": "During prep week it's time again! Friday 6 November is our long awaited LARV pub is here again. Do not miss the chance to pre-book your seat at a corona-friendly event. The ticket includes entrance, STUK's high-quality hamburger plate and a drink ticket. STUK will, just like at the previous LARV pub, open its doors at 18:00 and we will start at 18:30. And of course there is entertainment in the form of a quiz during the evening and the end of the week's competition. To quench your thirst, order our good LARV drink from the bar. Do not miss the LARV pub, a ticket costs only SEK 80!",
-				"INFO_2": "Just like the previous LARV-pub this year, there are only a limited number of places. Make sure you and your friends secure your seats now! Tickets cannot be purchased on site.",
-				"INFO_3": "So do not forget to bring your friends for a fun LARV pub with dinner at STUK, take the opportunity to mingle with us from LARV also during the evening!",
-				"INFO_4": "The event is for students at LTU. Do not forget to bring your LTU card to enter STUK. Tickets are available at the event and special meals are registered on site."
+				"HEADER": "SATURDAY 20/11",
+				"INFO_1": "Here we go again! On Saturday 20/11 it's time for our popular pub. After the success of our previous LARV pubs, the entertainment is again inspired by the program ''Who knows the most''.",
+				"INFO_2": "It will be a quiz where you and your friends in teams get to put together your wise minds to answer questions about everything from atoms to Zlatan. Participants must first answer a number of decision questions and the three finalists can then fight on stage for the title ''Biggest brain at LTU''.",
+				"INFO_3": "But before this LARVE PUB, we have introduced a little twist! The pub's theme will consist of ''Who knows the most'', music and winter feeling! Show up at the pub and you will find out more about how we will combine these three!",
+				"INFO_4": "The ticket includes entrance, STUK's good chicken fillet with french fries, béarnaise sauce and salad as well as a drink ticket. To then quench your thirst, you can order our good LARV drink from the bar, which is also included in the drink ticket.",
+				"INFO_5": "The entrance opens at 17:30 and then starts the pub at 18:00. The first 150 people buy their ticket for as little as SEK 90! For the remaining participants, the pub costs SEK 120.",
+				"INFO_6": "So take the opportunity to buy your ticket. Bring your friends and have a really nice end to PREP-WEEK !!",
+				"LINK": "https://billetto.se/e/larv-pub-3-it-s-big-brain-time-music-edition-tredje-gangen-gillt-biljetter-582173"
 			}
 		},
 		"CONTESTS": {
