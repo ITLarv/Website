@@ -731,7 +731,7 @@ th {
 }
 p {
 	max-width: 700px;
-	text-align: left;
+	text-align: center;
 	margin: 0 auto;
 	padding: 10px;
 }
@@ -822,6 +822,18 @@ h1:after {
 	left: 5px;
 	border: 2px;
 	border-style: solid;
+}
+@media screen and (max-width: 1080px) {
+	#evpic {
+		width: 540px;
+		height: 675px;
+	}
+}
+@media screen and (max-width: 540px) {
+	#evpic {
+		width: 360px;
+		height: 450px;
+	}
 }
 .App {
 	text-align: center;
