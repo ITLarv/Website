@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
 //import { calendar } from "../config";
+import timeline from "../img/prepweek/timeline.png";
 
 export default function Prelarv() {
 	const { t } = useTranslation();
@@ -22,8 +23,17 @@ export default function Prelarv() {
 				</Parallax>
 			</div>
 
-			<h1>{t("PREP_WEEK.HEADER_2")}</h1>
-			<p>{t("PREP_WEEK.INFO")}</p>
+			<div className="grey">
+				<h2>Förbered dig för LARV genom LARV PREP-WEEK!</h2>
+			</div>
+
+			<div>
+				<h1>{t("PREP_WEEK.HEADER_2")}</h1>
+				<p>{t("PREP_WEEK.INFO")}</p>
+			</div>
+
+			<h1>Eventschema</h1>
+			<img src={timeline} alt="" />
 
 			<h2>{t("PREP_WEEK.ACTIVITIES.EVENT_1.HEADER")}</h2>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_1.INFO")}</p>
