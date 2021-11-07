@@ -1,3 +1,27 @@
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	width: 75%;
+	margin: auto;
+}
+
+.flex-item-left {
+	flex: 50%;
+}
+
+.flex-item-right {
+	flex: 50%;
+}
+
+.in_text {
+	width: 600px;
+	height: 300px;
+}
+.Prelarv {
+	h1 {
+		margin-top: 100px;
+	}
+}
 @media screen and (max-width: 1080px) {
 	#evpic {
 		width: 540px;
