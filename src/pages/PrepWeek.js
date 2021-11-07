@@ -33,7 +33,7 @@ export default function Prelarv() {
 			</div>
 
 			<h1>Eventschema</h1>
-			<img src={timeline} alt="" />
+			<img id="evpic" src={timeline} alt="" />
 
 			<h2>{t("PREP_WEEK.ACTIVITIES.EVENT_1.HEADER")}</h2>
 			<p>{t("PREP_WEEK.ACTIVITIES.EVENT_1.INFO")}</p>
