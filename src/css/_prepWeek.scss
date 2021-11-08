@@ -22,10 +22,22 @@
 		margin-top: 100px;
 	}
 }
+@media screen and (max-width: 1400px) {
+	.flex-container {
+		flex-direction: column;
+	}
+}
 @media screen and (max-width: 1080px) {
 	#evpic {
 		width: 540px;
 		height: 675px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.in_text {
+		width: 300px;
+		height: 150px;
 	}
 }
 
