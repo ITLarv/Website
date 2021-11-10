@@ -5,25 +5,25 @@ import img1 from "../img/misc/rsz_massan-006.jpg";
 import img2 from "../img/misc/rsz_massan-122.jpg";
 import img3 from "../img/misc/rsz_massan-001.jpg";
 import img4 from "../img/misc/rsz_massan-123.jpg";
+import img5 from "../img/misc/rsz_massan-090.jpg";
 //import covid from "../img/misc/stop-covid.png";
 
 export default function News() {
 	const news = [
-		/*
 		{
 			title: {
-				en: "LARV and Covid-19",
-				sv: "LARV och Covid-19",
+				en: "Prep-week has opened!",
+				sv: "Prep-week har öppnat!",
 			},
-			
-			image: covid,
+
+			image: img5,
 			imageAlt: "",
 			content: {
-				en: "Read more about how Covid-19 affects LARV 2021 and how we work to create a career fair that creates value for both exhibitors and students",
-				sv: "Läs mer om hur Covid-19 påverkar LARV 2021 och hur vi arbetar för att ändå genomföra en mässa som skapar värde åt både utställare och studenter",
+				en: "Read more about what prep week is and what events there is this year!",
+				sv: "Läs mer om vad prep week är, vilka event det är i år och vart man skriver upp sig!",
 			},
 			linkTo: "/covid",
-		}, */
+		},
 		{
 			title: {
 				en: "Wish a company",
