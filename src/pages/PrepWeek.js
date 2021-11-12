@@ -118,16 +118,7 @@ export default function Prelarv() {
 					<img class="in_text" src={quintus} alt="" />
 				</div>
 			</div>
-			<div className="ButtonDiv">
-				<a
-					className="button"
-					href={t("PREP_WEEK.ACTIVITIES.EVENT_4.LINK")}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
-				</a>
-			</div>
+			<h2>Tyvärr fullsatt</h2>
 
 			<h1>{t("PREP_WEEK.ACTIVITIES.EVENT_5.HEADER")}</h1>
 			<div class="flex-container">
