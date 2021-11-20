@@ -40,6 +40,7 @@ import Gallery from "./pages/Gallery";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import FinalApplication from "./pages/FinalApplication";
 import InitialApplication from "./pages/InitialApplication";
+//import { getPositionOfLineAndCharacter } from "typescript";
 
 function DevBranchBanner() {
 	if (devBranch().enabled) {
@@ -103,6 +104,18 @@ function Page() {
 							<GoogleForm
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScGeAb_9tf5TOMwqRzi5OTUcLFH-Lf6-awwwIRzUAlmTt9VPg/viewform?embedded=true"
 								height={2200}
+							/>
+						</Route>
+						<Route exact path="/quiz">
+							<GoogleForm
+								// Quiz 1
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSeLM6HMSSNAj88CQ2yGJ3fZD4XHnheB0bk44e5NhFiWxVumIA/viewform?embedded=true"
+								height={4300}
+
+								/* // Quiz 2
+								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfGHxM6TmhG_Y5sZecDHz40hnB8p9oiCl4opIk2jQ7RRz1jww/viewform?embedded=true"
+								height={6200}
+								*/
 							/>
 						</Route>
 						<Route exact path="/onskaforetag">
