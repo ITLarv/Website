@@ -108,14 +108,13 @@ function Page() {
 						</Route>
 						<Route exact path="/quiz">
 							<GoogleForm
-								// Quiz 1
+								/*// Quiz 1
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSeLM6HMSSNAj88CQ2yGJ3fZD4XHnheB0bk44e5NhFiWxVumIA/viewform?embedded=true"
 								height={4300}
+								*/
 
-								/* // Quiz 2
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfGHxM6TmhG_Y5sZecDHz40hnB8p9oiCl4opIk2jQ7RRz1jww/viewform?embedded=true"
 								height={6200}
-								*/
 							/>
 						</Route>
 						<Route exact path="/onskaforetag">
