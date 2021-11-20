@@ -150,6 +150,16 @@ export default function Navbar() {
 											</NavLink>
 										</li>
 									)}
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/onskaForetag"
+											onClick={closeNav}
+										>
+											{t("NAVBAR.REQUEST_COMPANY")}
+										</NavLink>
+									</li>
 								</ul>
 							</div>
 						</div>

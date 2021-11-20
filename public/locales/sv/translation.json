@@ -79,9 +79,10 @@
 		"VOLUNTEER": "Värd",
 		"COORDINATOR": "Koordinator",
 		"PG": "Projektgruppen",
-		"ORGANIZATIONS": "UTSTÄLLARE",
+		"ORGANIZATIONS": "För företag",
 		"IA": "Inledande anmälan",
-		"COVID": "Covid-19"
+		"COVID": "Covid-19",
+		"REQUEST_COMPANY": "Önska företag"
 	},
 	"HOME": {
 		"HEADER": "LARV vid Luleå tekniska universitet",
@@ -105,7 +106,7 @@
 		"HEADER": "Mässan",
 		"HEADER_2": "LARV-Mässan 2022",
 		"INFO_1": "LARV-mässan är LARVs huvudevenemang. Detta är ett dagsevenemang där representanter från över 110 utställare normalt sett reser till Luleå tekniska universitet för att möta morgondagens kompetens, campusstudenterna.",
-		"INFO_2": "Under LARV 2022, som kommer äga rum mellan den 17–22 januari, så kommer LARV-mässan ha ett fysisk format! Vi är mycket glada att återigen kunna bjuda in till en mässa med ett klassiskt format där studenter och utställare får möjligheten att bilda givande relationer för framtiden. LARV-mässan äger rum den 19:e januari mellan Kl. 9-15. På grund av mässans betydelse har alla studenter som studerar under teknisk fakultet LARV-mässan som prioriterad aktivitet under just den dagen. Detta innebär att det finns så få schemalagda undervisningsmoment som möjligt med syftet att maximera interaktionen som utställare kan få med studenterna.",
+		"INFO_2": "Under LARV 2022, som kommer äga rum mellan den 17–21 januari, så kommer LARV-mässan ha ett fysisk format! Vi är mycket glada att återigen kunna bjuda in till en mässa med ett klassiskt format där studenter och utställare får möjligheten att bilda givande relationer för framtiden. LARV-mässan äger rum den 19:e januari mellan Kl. 9-15. På grund av mässans betydelse har alla studenter som studerar under teknisk fakultet LARV-mässan som prioriterad aktivitet under just den dagen. Detta innebär att det finns så få schemalagda undervisningsmoment som möjligt med syftet att maximera interaktionen som utställare kan få med studenterna.",
 		"INFO_3": "Efter mässans slut så äger LARV-banketten rum till vilken alla deltagande utställare och engagerade studenter är bjudna för en kväll av god mat och underhållning.",
 		"INFO_4": "Representerar du en utställare och vill ta del av möjligheten att komma i kontakt med studenter vid Luleå tekniska universitet? Klicka dig in på vår utställarflik nedan för att läsa mer och anmäla er till årets upplaga av LARV-mässan!"
 	},
