@@ -26,7 +26,7 @@ export default function News() {
 		},
 		{
 			title: {
-				en: "Wish a company",
+				en: "Request a company",
 				sv: "Önska ett företag",
 			},
 			image: img4,
