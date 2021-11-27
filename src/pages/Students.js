@@ -1,8 +1,13 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
+import career_small from "../img/pages/students/career_small.jpg";
+import career from "../img/pages/students/career.jpg";
+import part_small from "../img/pages/students/part_of_larv_small.jpg";
+import part from "../img/pages/students/part_of_larv.jpg";
+import arrow from "../img/shit_arrow.png";
 
 export default function Students() {
 	const { t } = useTranslation();
@@ -19,45 +24,56 @@ export default function Students() {
 					<h1>{t("STUDENTS.HEADER")}</h1>
 				</Parallax>
 			</div>
-			<p>
-				{t("STUDENTS.INFO_1")}
-				<a href="/home/about" style={{ textDecoration: "none", color: "blue" }}>
-					{t("STUDENTS.INFO_1_LINK")}{" "}
-				</a>
-				{t("STUDENTS.INFO_1_2")}
-			</p>
+			<div className="part">
+				<div className="become_picture">
+					<img src={career_small} alt="" />
+				</div>
+				<div style={{ backgroundImage: "url(" + career + ")" }} className="flex-container">
+					<div className="container_picture1">
+						{/* Just space so the text dont take the whole row*/}
+					</div>
+					<div className="container_text">
+						<h1 style={{ padding: "4%" }}>{t("STUDENTS.INFO_1_HEADER")}</h1>
+						<p>
+							{t("STUDENTS.INFO_1")} {t("STUDENTS.INFO_1_2")}
+						</p>
 
-			<div className="ButtonDiv">
-				{/*<a
-					className="button"
-					href="https://fair.larv.org/sv/event/4547"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{t("PLATFORM.BUTTON")}
-				</a>*/}
-				{/*
-				<NavLink className="button" to="/students/guide">
-					{t("GUIDE_GL.BUTTON")}
-				</NavLink>*/}
+						<a className="link_with_arrow" href="/home/about">
+							<p>
+								{" "}
+								{t("STUDENTS.ARROW")}{" "}
+								<img className="arrow_picture" src={arrow} alt="" />{" "}
+							</p>
+						</a>
+					</div>
+					<div className="container_picture2">
+						{/* Just space so the text dont take the whole row*/}
+					</div>
+				</div>
 			</div>
 
-			<p>{t("STUDENTS.INFO_2")}</p>
-
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/students/individual-meetings">
-					{t("IM.HEADER")}
-				</NavLink>
-			</div>
-
-			<div classname="involved" className="grey">
-				<h1>{t("GENERAL.GET_INVOLVED")}</h1>
-				<p>{t("STUDENTS.INVOLVED")}</p>
-
-				<div className="ButtonDiv">
-					<NavLink className="button" to="/involved">
-						{t("GENERAL.GET_INVOLVED")}
-					</NavLink>
+			<div className="part">
+				<div className="become_picture">
+					<img src={part_small} alt="" />
+				</div>
+				<div style={{ backgroundImage: "url(" + part + ")" }} className="flex-container">
+					<div className="container_picture1" style={{ width: "10%" }}>
+						{/* Just space so the text dont take the whole row*/}
+					</div>
+					<div className="container_text">
+						<h1>{t("GENERAL.GET_INVOLVED")}</h1>
+						<p>{t("STUDENTS.INVOLVED")}</p>
+						<a className="link_with_arrow" href="/involved">
+							<p>
+								{" "}
+								{t("STUDENTS.ARROW")}{" "}
+								<img className="arrow_picture" src={arrow} alt="" />{" "}
+							</p>
+						</a>
+					</div>
+					<div className="container_picture2" style={{ width: "50%" }}>
+						{/* Just space so the text dont take the whole row*/}
+					</div>
 				</div>
 			</div>
 		</div>
