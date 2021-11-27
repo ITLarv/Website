@@ -81,7 +81,8 @@
 		"PG": "Project Group",
 		"ORGANIZATIONS": "EXHIBITORS",
 		"IA": "Initial Application",
-		"COVID": "Covid-19"
+		"COVID": "Covid-19",
+		"REQUEST_COMPANY": "Wish for a Company"
 	},
 	"HOME": {
 		"HEADER": "LARV at Luleå University of Technology",
@@ -91,8 +92,8 @@
 		"INFO": "LARV, short for Luleå arbetsmarknadsvecka, is the largest event held annually at Luleå university of technology. This LARV takes place on January 17-21, 2022, with the fair itself on the 19th. LARV is a project dedicated to help students advance their professional careers and to help employers find the competence of tomorrow. This is done through a week filled with career related events, inspiring seminars and most importantly a fair involving over 110 exhibitors and 2000 students.",
 		"NEWS": "News",
 		"NEWS_CONTENT": "This website is under development; please excuse any inconveniences. If you have any input on the website, please contact it@larv.org.",
-		"ANNOUNCEMENT": "Registration to the LARV-fair",
-		"ANNOUNCEMENT_2": ">>To the Registration<<"
+		"ANNOUNCEMENT": "Request a company for the LARV-fair",
+		"ANNOUNCEMENT_2": ">>To the form<<"
 	},
 	"ABOUT": {
 		"HEADER": "About LARV",
@@ -105,7 +106,7 @@
 		"HEADER": "The Fair",
 		"HEADER_2": "LARV-fair 2022",
 		"INFO_1": "The LARV fair is LARV's main event. This is a day event where representatives from over 110 exhibitors normally travel to Luleå University of Technology to meet the competence of tomorrow, the campus students.",
-		"INFO_2": "During LARV 2022, which will take place between 17–22 January, the LARV fair will have a physical format! We are very happy to once again be able to invite you to a fair with a classic format where students and exhibitors get the opportunity to form rewarding relationships for the future in person! The LARV fair takes place on the 19th of January between Kl. 9-15. Due to the importance of the fair, all students studying under the faculty of engineering have the LARV fair as a priority activity during that particular day. This means that there are as few scheduled teaching elements as possible with the aim of maximizing the interaction that exhibitors can have with the students.",
+		"INFO_2": "During LARV 2022, which will take place between 17–21 January, the LARV fair will have a physical format! We are very happy to once again be able to invite you to a fair with a classic format where students and exhibitors get the opportunity to form rewarding relationships for the future in person! The LARV fair takes place on the 19th of January between Kl. 9-15. Due to the importance of the fair, all students studying under the faculty of engineering have the LARV fair as a priority activity during that particular day. This means that there are as few scheduled teaching elements as possible with the aim of maximizing the interaction that exhibitors can have with the students.",
 		"INFO_3": "After the fair, the LARV banquet takes place, to which all participating exhibitors and committed students are invited for an evening of good food and entertainment.",
 		"INFO_4": "Do you represent an exhibitor and want to take part in the opportunity to get in touch with students at Luleå University of Technology? Click on our exhibitor tab below to read more and sign up for this year's edition of the LARV fair!"
 	},
@@ -427,7 +428,7 @@
 				"LIST_6": "Other services such as receptions, cloakroom and access to exhibitor lounges",
 				"LIST_7": "Free parking",
 				"LIST_8": "Access to a contact person before, during and after the far who can anwer any questions you may have",
-				"EXTRAS": "There are a handful of additional extras available to those who want to stand out among the crowd as the fair. See the full product catalog for more information. For more information about the digital fair, check out the guide. Please contact anmalan@larv.org to access a video walkthrough of the platform.",
+				"EXTRAS": "There are a handful of additional extras available to those who want to stand out among the crowd as the fair. See the full product catalog for more information. For more information about the fair, check out the guide. Please contact anmalan@larv.org for any other questions",
 				"BUTTON": "Virtual Fair Guide"
 			},
 			"PORTFOLIO": {

@@ -79,9 +79,10 @@
 		"VOLUNTEER": "Värd",
 		"COORDINATOR": "Koordinator",
 		"PG": "Projektgruppen",
-		"ORGANIZATIONS": "UTSTÄLLARE",
+		"ORGANIZATIONS": "För företag",
 		"IA": "Inledande anmälan",
-		"COVID": "Covid-19"
+		"COVID": "Covid-19",
+		"REQUEST_COMPANY": "Önska företag"
 	},
 	"HOME": {
 		"HEADER": "LARV vid Luleå tekniska universitet",
@@ -91,8 +92,8 @@
 		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. Detta LARV äger rum den 17-21 januari, 2022, med själva mässan den 19:e. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa organisationer att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 utställare och 2000 studenter.",
 		"NEWS": "Nyheter",
 		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org.",
-		"ANNOUNCEMENT": "Anmälan för LARV-mässan",
-		"ANNOUNCEMENT_2": ">>Till anmälan<<"
+		"ANNOUNCEMENT": "Önska ett företag till LARV-Mässan!",
+		"ANNOUNCEMENT_2": ">>Till formuläret<<"
 	},
 	"ABOUT": {
 		"HEADER": "Om LARV",
@@ -105,7 +106,7 @@
 		"HEADER": "Mässan",
 		"HEADER_2": "LARV-Mässan 2022",
 		"INFO_1": "LARV-mässan är LARVs huvudevenemang. Detta är ett dagsevenemang där representanter från över 110 utställare normalt sett reser till Luleå tekniska universitet för att möta morgondagens kompetens, campusstudenterna.",
-		"INFO_2": "Under LARV 2022, som kommer äga rum mellan den 17–22 januari, så kommer LARV-mässan ha ett fysisk format! Vi är mycket glada att återigen kunna bjuda in till en mässa med ett klassiskt format där studenter och utställare får möjligheten att bilda givande relationer för framtiden. LARV-mässan äger rum den 19:e januari mellan Kl. 9-15. På grund av mässans betydelse har alla studenter som studerar under teknisk fakultet LARV-mässan som prioriterad aktivitet under just den dagen. Detta innebär att det finns så få schemalagda undervisningsmoment som möjligt med syftet att maximera interaktionen som utställare kan få med studenterna.",
+		"INFO_2": "Under LARV 2022, som kommer äga rum mellan den 17–21 januari, så kommer LARV-mässan ha ett fysisk format! Vi är mycket glada att återigen kunna bjuda in till en mässa med ett klassiskt format där studenter och utställare får möjligheten att bilda givande relationer för framtiden. LARV-mässan äger rum den 19:e januari mellan Kl. 9-15. På grund av mässans betydelse har alla studenter som studerar under teknisk fakultet LARV-mässan som prioriterad aktivitet under just den dagen. Detta innebär att det finns så få schemalagda undervisningsmoment som möjligt med syftet att maximera interaktionen som utställare kan få med studenterna.",
 		"INFO_3": "Efter mässans slut så äger LARV-banketten rum till vilken alla deltagande utställare och engagerade studenter är bjudna för en kväll av god mat och underhållning.",
 		"INFO_4": "Representerar du en utställare och vill ta del av möjligheten att komma i kontakt med studenter vid Luleå tekniska universitet? Klicka dig in på vår utställarflik nedan för att läsa mer och anmäla er till årets upplaga av LARV-mässan!"
 	},
@@ -427,7 +428,7 @@
 				"LIST_6": "Övrig service som receptioner, garderob och tillgång till utställarlounger",
 				"LIST_7": "Gratis parkering",
 				"LIST_8": "Kontaktperson innan, under och efter som kan svara på alla frågor ni kan tänka er ha",
-				"EXTRAS": "Det finns en handfull extra tillägg ni kan erbjuda för att stå ut under LARV. Se vår fulla produktkatalog för mer information. Mer information om den digitala mässan finns i guiden. Vänligen kontakta anmalan@larv.org för att få tillgång till en videogenomgång av plattformen.",
+				"EXTRAS": "Det finns en handfull extra tillägg ni kan erbjuda för att stå ut under LARV. Se vår fulla produktkatalog för mer information. Mer information om mässan finns i guiden. Vänligen kontakta anmalan@larv.org för ytterligare frågor.",
 				"BUTTON": "Digital mässguide"
 			},
 			"PORTFOLIO": {
