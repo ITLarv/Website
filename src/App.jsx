@@ -40,6 +40,7 @@ import Gallery from "./pages/Gallery";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import FinalApplication from "./pages/FinalApplication";
 import InitialApplication from "./pages/InitialApplication";
+import Bankett from "./pages/Bankett";
 //import { getPositionOfLineAndCharacter } from "typescript";
 
 function DevBranchBanner() {
@@ -79,6 +80,7 @@ function Page() {
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/gallery" component={Gallery} />
+						<Route exact path="/bankett" component={Bankett} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
