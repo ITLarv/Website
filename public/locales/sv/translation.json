@@ -165,7 +165,7 @@
 		"HEADER_5_1": "Fysiska aktiviteter",
 		"INFO_5_1_1": "Tävlingen kommer ha ett formulär kopplat till sig där varje fysiskt uppdrag har ett informationsfält. Detta formulär ska skickas in när man känner sig klar med sitt deltagande. Formuläret kommer behöva vara kopplat till ett googlekonto för att resultatet av tävlingen ska kunna sparas. Se därför till att vara inloggad med ett godtyckligt konto.",
 		"INFO_5_1_2": "I formuläret kommer du kunna fylla i följande uppgifter",
-		"FIll_1": "Förnamn",
+		"FILL_1": "Förnamn",
 		"FILL_2": "Efternamn",
 		"FILL_3": "epost",
 		"FILL_4": "Telefonnummer",
