@@ -987,6 +987,24 @@ a:hover {
 		width: auto;
 	}
 }
+.flex-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	width: 40%;
+	margin: auto;
+}
+.prize_pic {
+	width: 250px;
+	height: 250px;
+}
+.prize_pack {
+	width: 35%;
+}
 .App {
 	text-align: center;
 	display: -webkit-box;
