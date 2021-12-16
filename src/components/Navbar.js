@@ -115,17 +115,16 @@ export default function Navbar() {
 											{t("NAVBAR.CATALOG")}
 										</NavLink>
 									</li>
-									{/* Uncomment to show competition on the navbar
 									<li>
 										<NavLink
 											exact
 											activeClassName="active"
-											to="/fair/competition"
+											to="/lc"
 											onClick={closeNav}
 										>
 											LARV-Competition
 										</NavLink>
-									</li> */}
+									</li>
 									{showGallery && (
 										<li>
 											<NavLink
@@ -184,6 +183,16 @@ export default function Navbar() {
 							</NavLink>
 							<div className="dropdown-content">
 								<ul>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/lc"
+											onClick={closeNav}
+										>
+											LARV-Competition
+										</NavLink>
+									</li>
 									{/* Uncomment to show faq to the navbar
 									<li>
 										<NavLink

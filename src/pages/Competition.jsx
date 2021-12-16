@@ -82,11 +82,22 @@ export default function Competition() {
 			<p>{t("COMPETITION.INFO_5_1_1")}</p>
 
 			<p>{t("COMPETITION.INFO_5_1_2")}</p>
-			<p>{t("COMPETITION.FILL_1")}</p>
-			<p>{t("COMPETITION.FILL_2")}</p>
-			<p>{t("COMPETITION.FILL_3")}</p>
-			<p>{t("COMPETITION.FILL_4")}</p>
-			<p>{t("COMPETITION.FILL_5")}</p>
+			<ul>
+				<p>{t("COMPETITION.FILL_1")}</p>
+				<p>{t("COMPETITION.FILL_2")}</p>
+				<p>{t("COMPETITION.FILL_3")}</p>
+				<p>{t("COMPETITION.FILL_4")}</p>
+				<p>{t("COMPETITION.FILL_5")}</p>
+			</ul>
+
+			<p>
+				{t("COMPETITION.FILL_1")}
+				{/*<br>*/}
+				{t("COMPETITION.FILL_2")}
+				{t("COMPETITION.FILL_3")}
+				{t("COMPETITION.FILL_4")}
+				{t("COMPETITION.FILL_5")}
+			</p>
 
 			<p>{t("COMPETITION.INFO_5_1_3")}</p>
 			<p>{t("COMPETITION.INFO_5_1_4")}</p>
