@@ -13,7 +13,7 @@ import bgImage from "../img/header.jpg";
 
 // Random component
 const Completionist = () => <span>You are good to go!</span>;
-const larvDate = Date.parse("19 Jan 2022 09:00:00");
+const larvDate = Date.parse("17 Jan 2022 08:00:00");
 
 // Global variable to keep track of what language we want to render in
 var swedish;
@@ -82,7 +82,7 @@ export default function Home() {
 				</div>
 			</Parallax>
 
-			<NavLink exact to="/onskaForetag" style={{ textDecoration: "none" }}>
+			<NavLink exact to="/news" style={{ textDecoration: "none" }}>
 				<div
 					calassName="IAOpen"
 					style={{
