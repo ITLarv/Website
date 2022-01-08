@@ -87,13 +87,13 @@
 	"HOME": {
 		"HEADER": "LARV at Luleå University of Technology",
 		"DATE": "17th - 21nd january, 2022",
-		"FAIR": "The Fair 19:th January",
+		"FAIR": "The Fair moved to 27:th April",
 		"HEADER_2": "What is LARV?",
 		"INFO": "LARV, short for Luleå arbetsmarknadsvecka, is the largest event held annually at Luleå university of technology. This LARV takes place on January 17-21, 2022, with the fair itself on the 19th. LARV is a project dedicated to help students advance their professional careers and to help employers find the competence of tomorrow. This is done through a week filled with career related events, inspiring seminars and most importantly a fair involving over 110 exhibitors and 2000 students.",
 		"NEWS": "News",
 		"NEWS_CONTENT": "This website is under development; please excuse any inconveniences. If you have any input on the website, please contact it@larv.org.",
-		"ANNOUNCEMENT": "Request a company for the LARV-fair",
-		"ANNOUNCEMENT_2": ">>To the form<<"
+		"ANNOUNCEMENT": "The LARV fair has been moved",
+		"ANNOUNCEMENT_2": ">>More info here<<"
 	},
 	"ABOUT": {
 		"HEADER": "About LARV",
@@ -108,7 +108,12 @@
 		"INFO_1": "The LARV fair is LARV's main event. This is a day event where representatives from over 110 exhibitors normally travel to Luleå University of Technology to meet the competence of tomorrow, the campus students.",
 		"INFO_2": "During LARV 2022, which will take place between 17–21 January, the LARV fair will have a physical format! We are very happy to once again be able to invite you to a fair with a classic format where students and exhibitors get the opportunity to form rewarding relationships for the future in person! The LARV fair takes place on the 19th of January between Kl. 9-15. Due to the importance of the fair, all students studying under the faculty of engineering have the LARV fair as a priority activity during that particular day. This means that there are as few scheduled teaching elements as possible with the aim of maximizing the interaction that exhibitors can have with the students.",
 		"INFO_3": "After the fair, the LARV banquet takes place, to which all participating exhibitors and committed students are invited for an evening of good food and entertainment.",
-		"INFO_4": "Do you represent an exhibitor and want to take part in the opportunity to get in touch with students at Luleå University of Technology? Click on our exhibitor tab below to read more and sign up for this year's edition of the LARV fair!"
+		"INFO_4": "Do you represent an exhibitor and want to take part in the opportunity to get in touch with students at Luleå University of Technology? Click on our exhibitor tab below to read more and sign up for this year's edition of the LARV fair!",
+		"NEWINFO_HEADER": "Mässinfo",
+		"NEWINFO_1": "Den 23/12 trädde nya restriktioner i kraft i och med att smittspridningen av covid-19 skenat iväg enligt folkhälsomyndigheten. Många av dessa införda restriktioner och riktlinjer är väldigt restriktiva för mässor och har tvingat LARV att se över planeringen för LARV-mässan. Efter diskussioner med länsstyrelsen, polisen i Norrbotten, Luleå tekniska universitet, Teknologkårens kårstyrelse samt LARVs utställare så togs den 4/1 - 2022 beslutet att skjuta upp LARV-mässan till den 27/4 - 2022.",
+		"NEWINFO_2": "Vi hoppas att smittspridningen vid denna punkt i tiden inte ska vara lika alvarlig samt att en större del av den svenska befolkningen ska hunnit få en första, andra och tredje vaccinationsdos.",
+		"NEWINFO_3": "Aktiviter som mingelkvällen och banketten kommer också flyttas till detta senare datum. Redan kringliggande event samt tjänsten Individual Meetings kommer fortfarande äga rum under vecka 3 då dessa inte påverkas i lika stor utsträckning av rådande restriktioner.",
+		"NEWINFO_4": "LARV bevakar kontinuerligt utvecklingen av covid-19 för att snabbt ta hänsyn till de allra senaste råden och restriktionerna. Har du frågor kring hur LARV arbetar med covid-19 så kan du skicka ett mail till pl@larv.org så återkommer projektledaren till dig så fort som möjligt!"
 	},
 	"CATALOG": {
 		"NOT_CURRENT_YEAR": "The catalog for LARV2021 is not yet published, but please have a look at last years attending companies",

@@ -750,6 +750,9 @@ h1:after {
 .banner {
 	color: white;
 }
+.banner img {
+	width: 100%;
+}
 .banner h1 {
 	padding: 30px 0;
 }
@@ -995,7 +998,6 @@ a:hover {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: row;
 	flex-direction: row;
-	width: 40%;
 	margin: auto;
 }
 .prize_pic {

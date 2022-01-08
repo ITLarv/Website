@@ -110,7 +110,7 @@ export default function Competition() {
 
 			<h2>{t("COMPETITION.PRIZES_HEADER")}</h2>
 			<h2>{t("COMPETITION.PRIZES_HEADER_1")}</h2>
-			<div class="flex-container">
+			<div class="flex-container" style={{ width: "40%" }}>
 				<div class="prize_pack">
 					<img class="prize_pic" src={card} alt="" />
 					<p>{t("COMPETITION.PRIZES_1_1")}</p>
@@ -122,7 +122,7 @@ export default function Competition() {
 			</div>
 
 			<h2>{t("COMPETITION.PRIZES_HEADER_2")}</h2>
-			<div class="flex-container">
+			<div class="flex-container" style={{ width: "40%" }}>
 				<div class="prize_pack">
 					<img class="prize_pic" src={bag} alt="" />
 					<p>{t("COMPETITION.PRIZES_2_1")}</p>
@@ -134,7 +134,7 @@ export default function Competition() {
 			</div>
 
 			<h2>{t("COMPETITION.PRIZES_HEADER_3")}</h2>
-			<div class="flex-container">
+			<div class="flex-container" style={{ width: "40%" }}>
 				<div class="prize_pack">
 					<img class="prize_pic" src={nespresso} alt="" />
 					<p>{t("COMPETITION.PRIZES_3")}</p>
@@ -142,7 +142,7 @@ export default function Competition() {
 			</div>
 
 			<h2>{t("COMPETITION.PRIZES_HEADER_4")}</h2>
-			<div class="flex-container">
+			<div class="flex-container" style={{ width: "40%" }}>
 				<div class="prize_pack">
 					<img class="prize_pic" src={remarkable} alt="" />
 					<p>{t("COMPETITION.PRIZES_4")}</p>
