@@ -87,13 +87,13 @@
 	"HOME": {
 		"HEADER": "LARV vid Luleå tekniska universitet",
 		"DATE": "17:e - 21:a januari, 2022",
-		"FAIR": "Mässan 19:e januari",
+		"FAIR": "Mässan flyttad till 27:e april",
 		"HEADER_2": "Vad är LARV?",
 		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. Detta LARV äger rum den 17-21 januari, 2022, med själva mässan den 19:e. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa organisationer att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 utställare och 2000 studenter.",
 		"NEWS": "Nyheter",
 		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org.",
-		"ANNOUNCEMENT": "Önska ett företag till LARV-Mässan!",
-		"ANNOUNCEMENT_2": ">>Till formuläret<<"
+		"ANNOUNCEMENT": "LARV-mässan har flyttats!",
+		"ANNOUNCEMENT_2": ">>Läs mer här!<<"
 	},
 	"ABOUT": {
 		"HEADER": "Om LARV",
@@ -106,9 +106,14 @@
 		"HEADER": "Mässan",
 		"HEADER_2": "LARV-Mässan 2022",
 		"INFO_1": "LARV-mässan är LARVs huvudevenemang. Detta är ett dagsevenemang där representanter från över 110 utställare normalt sett reser till Luleå tekniska universitet för att möta morgondagens kompetens, campusstudenterna.",
-		"INFO_2": "Under LARV 2022, som kommer äga rum mellan den 17–21 januari, så kommer LARV-mässan ha ett fysisk format! Vi är mycket glada att återigen kunna bjuda in till en mässa med ett klassiskt format där studenter och utställare får möjligheten att bilda givande relationer för framtiden. LARV-mässan äger rum den 19:e januari mellan Kl. 9-15. På grund av mässans betydelse har alla studenter som studerar under teknisk fakultet LARV-mässan som prioriterad aktivitet under just den dagen. Detta innebär att det finns så få schemalagda undervisningsmoment som möjligt med syftet att maximera interaktionen som utställare kan få med studenterna.",
+		"INFO_2": "Under LARV 2022, som kommer äga rum mellan den 17–21 januari, så kommer LARV-mässan ha ett fysisk format! Vi är mycket glada att återigen kunna bjuda in till en mässa med ett klassiskt format där studenter och utställare får möjligheten att bilda givande relationer för framtiden. LARV-mässan äger rum den 27:e april mellan Kl. 9-15. På grund av mässans betydelse har alla studenter som studerar under teknisk fakultet LARV-mässan som prioriterad aktivitet under just den dagen. Detta innebär att det finns så få schemalagda undervisningsmoment som möjligt med syftet att maximera interaktionen som utställare kan få med studenterna.",
 		"INFO_3": "Efter mässans slut så äger LARV-banketten rum till vilken alla deltagande utställare och engagerade studenter är bjudna för en kväll av god mat och underhållning.",
-		"INFO_4": "Representerar du en utställare och vill ta del av möjligheten att komma i kontakt med studenter vid Luleå tekniska universitet? Klicka dig in på vår utställarflik nedan för att läsa mer och anmäla er till årets upplaga av LARV-mässan!"
+		"INFO_4": "Representerar du en utställare och vill ta del av möjligheten att komma i kontakt med studenter vid Luleå tekniska universitet? Klicka dig in på vår utställarflik nedan för att läsa mer och anmäla er till årets upplaga av LARV-mässan!",
+		"NEWINFO_HEADER": "Mässinfo",
+		"NEWINFO_1": "Den 23/12 trädde nya restriktioner i kraft i och med att smittspridningen av covid-19 skenat iväg enligt folkhälsomyndigheten. Många av dessa införda restriktioner och riktlinjer är väldigt restriktiva för mässor och har tvingat LARV att se över planeringen för LARV-mässan. Efter diskussioner med länsstyrelsen, polisen i Norrbotten, Luleå tekniska universitet, Teknologkårens kårstyrelse samt LARVs utställare så togs den 4/1 - 2022 beslutet att skjuta upp LARV-mässan till den 27/4 - 2022.",
+		"NEWINFO_2": "Vi hoppas att smittspridningen vid denna punkt i tiden inte ska vara lika alvarlig samt att en större del av den svenska befolkningen ska hunnit få en första, andra och tredje vaccinationsdos.",
+		"NEWINFO_3": "Aktiviter som mingelkvällen och banketten kommer också flyttas till detta senare datum. Redan kringliggande event samt tjänsten Individual Meetings kommer fortfarande äga rum under vecka 3 då dessa inte påverkas i lika stor utsträckning av rådande restriktioner.",
+		"NEWINFO_4": "LARV bevakar kontinuerligt utvecklingen av covid-19 för att snabbt ta hänsyn till de allra senaste råden och restriktionerna. Har du frågor kring hur LARV arbetar med covid-19 så kan du skicka ett mail till pl@larv.org så återkommer projektledaren till dig så fort som möjligt!"
 	},
 	"CATALOG": {
 		"NOT_CURRENT_YEAR": "Katalogen för LARV 2021 har ännu inte publicerats. Nedan kan du ta en titt på de senaste årets deltagande utställare.",
@@ -416,7 +421,9 @@
 		"THE_FAIR": {
 			"HEADER": "Mässan",
 			"INFO": "LARV-mässan är nog det mest värdefulla evenemanget under LARV och är ett måste för utställare som är seriösa med att rekrytera och presentera sig för studenter. Många studenter som går på LARV informeras inte om alla olika möjligheter som finns efter examen. Genom att träffa dem tidigt i deras karriär kan du göra ett bestående intryck och förse din organisation nytänkande och ambitiösa medarbetare.",
-			"INFO_2": "Mässan lockar ofta över 2000 studenter. Detta LARV kommer äger rum den 17-21 januari, 2022, med själva mässan den 19:e. Representanter förväntas vara tillgängliga i sina montrar under majoriteten av dagen redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar program av teknisk fakultet inga schemalagda lektioner under mässdagen. Mässan hålls på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta ryms. Se till att din organisation meddelar oss så snart som möjligt för att öka chanserna att ni säkrar en plats under årets mässa!",
+			"INFO_2_1": "Mässan lockar ofta över 2000 studenter. Detta LARV kommer äger rum den 17-21 januari, 2022, med själva mässan flyttad till 27:e april.",
+			"INFO_2_2": "Läs mer om det nya mässdatumet här!",
+			"INFO_2_3": " Representanter förväntas vara tillgängliga i sina montrar under majoriteten av dagen redo att interagera med studenter. På grund av mässans betydelse har alla studenter som studerar program av teknisk fakultet inga schemalagda lektioner under mässdagen. Mässan hålls på campus och använder därför ett par av dess byggnader. På grund av detta är det tillgängliga utrymmet begränsat och inte alla utställare som vill delta ryms. Se till att din organisation meddelar oss så snart som möjligt för att öka chanserna att ni säkrar en plats under årets mässa!",
 			"PRICING": {
 				"HEADER": "Baspaket och prislista",
 				"BASE": "Nedan följer en lista på allting som är inkluderat i baspaketet. Vid framtagning av events förs en dialog med projektgruppen för att tillsammans komma fram till vad som fungerar bäst för just era behov.",

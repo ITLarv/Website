@@ -42,7 +42,9 @@ export default function Companies() {
 
 			<h1>{t("ORGANIZATIONS.THE_FAIR.HEADER")}</h1>
 			<p>{t("ORGANIZATIONS.THE_FAIR.INFO")}</p>
-			<p>{t("ORGANIZATIONS.THE_FAIR.INFO_2")}</p>
+			<p>{t("ORGANIZATIONS.THE_FAIR.INFO_2_1")}</p>
+			<a href="/news">{t("ORGANIZATIONS.THE_FAIR.INFO_2_2")}</a>
+			<p>{t("ORGANIZATIONS.THE_FAIR.INFO_2_3")}</p>
 
 			<div className="grey">
 				<h2>{t("ORGANIZATIONS.THE_FAIR.PRICING.HEADER")}</h2>
