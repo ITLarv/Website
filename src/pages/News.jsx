@@ -6,7 +6,7 @@ import img2 from "../img/misc/rsz_massan-122.jpg";
 import img3 from "../img/misc/rsz_massan-001.jpg";
 import img4 from "../img/misc/rsz_massan-123.jpg";
 import img5 from "../img/misc/rsz_massan-090.jpg";
-//import covid from "../img/misc/stop-covid.png";
+import covid from "../img/misc/stop-covid.png";
 
 export default function News() {
 	const news = [
@@ -36,6 +36,19 @@ export default function News() {
 				sv: "Har du ett företag du vill se på larv? Klicka hör för att önska ett företag som vi kommer försöka få med till mässan",
 			},
 			linkTo: "/onskaForetag",
+		},
+		{
+			title: {
+				en: "LARV fair moved",
+				sv: "LARV mässan är flyttad!",
+			},
+			image: covid,
+			imageAlt: "",
+			content: {
+				en: "The LARV fair has been moved to the 27th of april due to covid, for more information click here",
+				sv: "Larv mässan har flyttats till den 27:e april på grund av covid, för mer info klicka här",
+			},
+			linkTo: "/news",
 		},
 		{
 			title: {
