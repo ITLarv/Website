@@ -59,6 +59,16 @@ export default function Navbar() {
 											{t("NAVBAR.ABOUT")}
 										</NavLink>
 									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/EventSchedule"
+											onClick={closeNav}
+										>
+											EventSchedule
+										</NavLink>
+									</li>
 									{showCalendar && (
 										<li>
 											<NavLink
@@ -212,6 +222,16 @@ export default function Navbar() {
 											onClick={closeNav}
 										>
 											{t("NAVBAR.IM")}
+										</NavLink>
+									</li>
+									<li>
+										<NavLink
+											exact
+											activeClassName="active"
+											to="/EventSchedule"
+											onClick={closeNav}
+										>
+											EventSchedule
 										</NavLink>
 									</li>
 									{/* Uncomment to show the students guide on the navbar
