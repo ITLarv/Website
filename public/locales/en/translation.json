@@ -474,9 +474,12 @@
 		"BUTTON": "To The Platform"
 	},
 	"EVENTSCHEDULE": {
-		"HEADER": "Eventschema",
-		"HEADER_1": "Om eventschema",
-		"INFO_1": "Om eventschema?",
+		"HEADER": "LARV 2022 eventschema",
+		"HEADER_1": "Hoppas du är redo för årets event och aktiviteter!",
+		"INFO_1_1": "Under vecka 3 så kommer LARV agera värd åt ett antal spännande företag och organisationer som besöker LTU för att få komma i kontakt med studenter. Vi har planerat  en case kväll, föreläsningar samt möjligheten för studenter att prata om framtida tjänster via våra Individual Meetings.",
+		"INFO_1_2": "Läs mer om våra event nedan. Samtliga event bjuder på antingen lunch eller en lunchkupong via foodora för dem som skriver upp sig. Anmälningsformulär hittas via knapparna nedan eller via diskussionen i vårt facebookevent:",
+		"INFO_1_3": "https://fb.me/e/2YQyxrQug",
+		"INFO_1_4": "Vi hoppas att se så många av er som möjligt nu under vecka 3!",
 		"HEADER_2": "Tisdag (18/1) kl. 12:00 - 13:00",
 		"HEADER_2_1": "Vill du göra skillnad? Framtidens Transporter! - En lunchföreläsning med Scania",
 		"INFO_2_1": "Transportbranschen befinner sig just nu i ett stort skifte, med stort fokus på områden inom Elektrifiering, Autonomi och Connectivitet. Scanias vision är att driva skiftet till ett hållbart transportsystem, där en viktig del för att lyckas med denna resa är våra medarbetare.",
