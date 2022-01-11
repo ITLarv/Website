@@ -23,17 +23,18 @@ export default function Prelarv() {
 					bgImageAlt=""
 					strength={300}
 				>
-					<h1>{t("PREP_WEEK.HEADER")}</h1>
+					<h1>{t("EVENTSCHEDULE.HEADER")}</h1>
 				</Parallax>
 			</div>
 
-			<div className="grey">
-				<h2>Förbered dig för LARV genom LARV PREP-WEEK!</h2>
-			</div>
-
 			<div>
-				<h1 style={{ marginTop: "10px" }}>{t("PREP_WEEK.HEADER_2")}</h1>
-				<p>{t("PREP_WEEK.INFO")}</p>
+				<h1 style={{ marginTop: "10px" }}>{t("EVENTSCHEDULE.HEADER_1")}</h1>
+				<p>{t("EVENTSCHEDULE.INFO_1_1")}</p>
+				<p>
+					{t("EVENTSCHEDULE.INFO_1_2")}{" "}
+					<a href={t("EVENTSCHEDULE.INFO_1_2")}>{t("EVENTSCHEDULE.INFO_1_3")}</a>
+				</p>
+				<p>{t("EVENTSCHEDULE.INFO_1_4")}</p>
 			</div>
 
 			<h1>Eventschema</h1>
