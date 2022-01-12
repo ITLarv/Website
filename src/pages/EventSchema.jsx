@@ -8,7 +8,6 @@ import timeline from "../img/event/utkast_affisch.png";
 import scania from "../img/event/Scania.jpg";
 import pensions from "../img/event/Pensions.jpg";
 import northvolt from "../img/event/Northvolt.png";
-import sca from "../img/event/Sca.jpg";
 
 export default function Prelarv() {
 	const { t } = useTranslation();
@@ -121,30 +120,6 @@ export default function Prelarv() {
 				<a
 					className="button"
 					href={t("EVENTSCHEDULE.INFO_4_2")}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
-				</a>
-			</div>
-
-			<h1>{t("EVENTSCHEDULE.HEADER_5")}</h1>
-			<div class="flex-container">
-				<div class="flex-item-left">
-					<h2>{t("EVENTSCHEDULE.HEADER_5_1")}</h2>
-					<p>{t("EVENTSCHEDULE.INFO_5_1")}</p>
-					<p>{t("EVENTSCHEDULE.INFO_5_2")}</p>
-					<p>{t("EVENTSCHEDULE.INFO_5_3")}</p>
-				</div>
-				<div class="flex-item-right">
-					<img class="in_text" src={sca} alt="" />
-				</div>
-			</div>
-
-			<div className="ButtonDiv">
-				<a
-					className="button"
-					href={t("EVENTSCHEDULE.INFO_5_5")}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
