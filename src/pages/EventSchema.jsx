@@ -42,9 +42,6 @@ export default function Prelarv() {
 			<h1>{t("EVENTSCHEDULE.HEADER_2")}</h1>
 			<div class="flex-container">
 				<div class="flex-item-left">
-					<img class="in_text" src={scania} alt="" />
-				</div>
-				<div class="flex-item-right">
 					<h2>{t("EVENTSCHEDULE.HEADER_2_1")}</h2>
 					<p>{t("EVENTSCHEDULE.INFO_2_1")}</p>
 					<p>{t("EVENTSCHEDULE.INFO_2_2")}</p>
@@ -64,12 +61,38 @@ export default function Prelarv() {
 					<p>{t("EVENTSCHEDULE.INFO_2_5_3")}</p>
 					<p>{t("EVENTSCHEDULE.INFO_2_5_4")}</p>
 				</div>
+				<div class="flex-item-right">
+					<img class="in_text" src={scania} alt="" />
+				</div>
 			</div>
 
 			<div className="ButtonDiv">
 				<a
 					className="button"
 					href={t("EVENTSCHEDULE.INFO_2_7")}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{t("PREP_WEEK.ACTIVITIES.LINK_TEXT")}
+				</a>
+			</div>
+
+			<h1>{t("EVENTSCHEDULE.HEADER_6")}</h1>
+
+			<div class="flex-container">
+				{/*<div class="flex-item-left">
+					<img class="in_text" src={northvolt} alt="" />
+	</div>*/}
+				<div class="flex-item-right">
+					<h2>{t("EVENTSCHEDULE.HEADER_6_1")}</h2>
+					<p>{t("EVENTSCHEDULE.INFO_6_1")}</p>
+					<p>{t("EVENTSCHEDULE.INFO_6_2")}</p>
+				</div>
+			</div>
+			<div className="ButtonDiv">
+				<a
+					className="button"
+					href={t("EVENTSCHEDULE.INFO_6_4")}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
