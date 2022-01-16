@@ -8,6 +8,7 @@ import timeline from "../img/event/utkast_affisch.png";
 import scania from "../img/event/Scania.jpg";
 import pensions from "../img/event/Pensions.jpg";
 import northvolt from "../img/event/Northvolt.png";
+import lulea from "../img/event/luleakommun.png";
 
 export default function Prelarv() {
 	const { t } = useTranslation();
@@ -80,9 +81,9 @@ export default function Prelarv() {
 			<h1>{t("EVENTSCHEDULE.HEADER_6")}</h1>
 
 			<div class="flex-container">
-				{/*<div class="flex-item-left">
-					<img class="in_text" src={northvolt} alt="" />
-	</div>*/}
+				<div class="flex-item-left">
+					<img class="in_text" src={lulea} alt="" />
+				</div>
 				<div class="flex-item-right">
 					<h2>{t("EVENTSCHEDULE.HEADER_6_1")}</h2>
 					<p>{t("EVENTSCHEDULE.INFO_6_1")}</p>
