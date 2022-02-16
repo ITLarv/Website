@@ -106,7 +106,7 @@ function Page() {
 						<Route exact path="/involved/pg" component={PG} />
 						<Route exact path="/involved/pg/application">
 							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScGeAb_9tf5TOMwqRzi5OTUcLFH-Lf6-awwwIRzUAlmTt9VPg/viewform?embedded=true"
+								formUrl="https://docs.google.com/forms/d/1Gy17qVed075PFXBHNbsGgsoiNaLIsSVx90botrxFa1c/viewform?embedded=true"
 								height={2200}
 							/>
 						</Route>
