@@ -41,6 +41,8 @@ import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import FinalApplication from "./pages/FinalApplication";
 import InitialApplication from "./pages/InitialApplication";
 import Bankett from "./pages/Bankett";
+import Songs from "./pages/Songs";
+import Food from "./pages/Food";
 import NewDate from "./pages/NewDate";
 //import { getPositionOfLineAndCharacter } from "typescript";
 
@@ -82,6 +84,8 @@ function Page() {
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/gallery" component={Gallery} />
 						<Route exact path="/bankett" component={Bankett} />
+						<Route exact path="/songs" component={Songs} />
+						<Route exact path="/food" component={Food} />
 						<Route exact path="/news" component={NewDate} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />

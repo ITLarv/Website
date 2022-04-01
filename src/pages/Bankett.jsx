@@ -11,6 +11,12 @@ export default function Bankett() {
 
 		const dataArray = new FormData();
 
+		// Error check for not selecting a file!
+		if (typeof uploadFile === "undefined") {
+			alert("Please select a file!");
+			return;
+		}
+
 		// Grab the first file from the filelist.
 		const file = uploadFile[0];
 		// uploadFile is the header name the python server is looking for
@@ -24,8 +30,9 @@ export default function Bankett() {
 		}
 
 		// Make the actual post request to the hardcoded server ip here
+		// FIXME: Doesnt recieve 400 errors
 		// prettier-ignore
-		axios.post("IP HERE", dataArray)
+		axios.post("//64.225.68.43:5000", dataArray)
 			.then((r) => alert("Succesfully posted your content!"))
 			.catch((e) => {
 				alert("Failed to upload your file! We are very sorry.");
@@ -42,14 +49,22 @@ export default function Bankett() {
 					bgImageAlt=""
 					strength={300}
 				>
-					<h1>Gallery</h1>
+					<h1>Bankett</h1>
 				</Parallax>
 			</div>
-			<form onSubmit={submitForm}>
+
+			<form className="element" onSubmit={submitForm}>
+				<h4>Upload images here!</h4>
 				<input type="file" onChange={(e) => setUploadFile(e.target.files)} />
-				<br />
-				<input onClick={submitForm} type="submit" />
+				<input onClick={submitForm} type="submit" value="Submit" />
 			</form>
+
+			<a href="" className="element">
+				songs
+			</a>
+			<a href="" className="element">
+				food
+			</a>
 		</div>
 	);
 }
