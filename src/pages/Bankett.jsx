@@ -59,10 +59,10 @@ export default function Bankett() {
 				<input onClick={submitForm} type="submit" value="Submit" />
 			</form>
 
-			<a href="" className="_anchor">
+			<a href="/songs/" className="_anchor">
 				songs
 			</a>
-			<a href="" className="_anchor">
+			<a href="/food/" className="_anchor">
 				food
 			</a>
 		</div>
