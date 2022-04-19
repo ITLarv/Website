@@ -42,7 +42,6 @@ import FinalApplication from "./pages/FinalApplication";
 import InitialApplication from "./pages/InitialApplication";
 import NewDate from "./pages/NewDate";
 import EventSchedule from "./pages/EventSchema";
-import welcome from "./pages/welcome";
 import Schedule from "./pages/schema";
 //import { getPositionOfLineAndCharacter } from "typescript";
 
@@ -171,7 +170,6 @@ function Page() {
 							path="/organizations/inbjudan_innovation.pdf"
 							component={InvitationInnovation}
 						/>
-						<Route exact path="/foretag/welcome_larv_2022.pdf" component={welcome} />
 
 						<Route
 							exact
