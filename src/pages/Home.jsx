@@ -82,7 +82,7 @@ export default function Home() {
 				</div>
 			</Parallax>
 
-			<NavLink exact to="/news" style={{ textDecoration: "none" }}>
+			<NavLink exact to="/schedule" style={{ textDecoration: "none" }}>
 				<div
 					calassName="IAOpen"
 					style={{

@@ -42,6 +42,7 @@ import FinalApplication from "./pages/FinalApplication";
 import InitialApplication from "./pages/InitialApplication";
 import NewDate from "./pages/NewDate";
 import EventSchedule from "./pages/EventSchema";
+import Schedule from "./pages/schema";
 //import { getPositionOfLineAndCharacter } from "typescript";
 
 function DevBranchBanner() {
@@ -83,6 +84,7 @@ function Page() {
 						<Route exact path="/gallery" component={Gallery} />
 						<Route exact path="/news" component={NewDate} />
 						<Route exact path="/eventschedule" component={EventSchedule} />
+						<Route exact path="/schedule" component={Schedule} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
@@ -99,7 +101,7 @@ function Page() {
 						<Route exact path="/involved/coordinator" component={Coordinator} />
 						<Route exact path="/involved/coordinator/application">
 							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/1YeNBJyOzbC8jXa1LmVBS-MnBvjSGjpEkGvgN4feYxt8/viewform?embedded=true"
+								formUrl="https://docs.google.com/forms/d/1oD_sCEa30mrTR0SHUmtT6rMkpOwL8F2qrF24ymC2gpQ/viewform?embedded=true"
 								height={1920}
 							/>
 						</Route>
