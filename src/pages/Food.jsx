@@ -22,15 +22,17 @@ export default function Food() {
 				<h4 className="food_text">
 					<b>Förrätt:</b> Hummersoppa
 					<br></br>
-					<i>Svampsoppa</i>
+					<i>Rotsellerisoppa med svamp - vegansk</i>
 				</h4>
 				<h4 className="food_text">
 					<b>Varmrätt:</b> Laxfilé med västerbottenssås och potatisbakelse.
 					<br></br>
-					<i>KYCKLING ELLER VEGBIFF med västerbottensås och potatisbakelse.</i>
+					<i>Friterad tofu med potatisbakelse & örtcrème</i>
 				</h4>
 				<h4 className="food_text">
 					<b>Efterrätt:</b> Citroncheescake inkl kaffe.
+					<br></br>
+					<i>Vegansk Citroncheescake inkl kaffe</i>
 				</h4>
 
 				<br></br>

@@ -64,7 +64,6 @@ export default function Bankett() {
 				<input type="file" onChange={(e) => setUploadFile(e.target.files)} />
 				<input onClick={submitForm} type="submit" value="Submit" />
 			</form>
-
 		</div>
 	);
 }
