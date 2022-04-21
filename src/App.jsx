@@ -44,6 +44,8 @@ import Bankett from "./pages/Bankett";
 import Songs from "./pages/Songs";
 import Food from "./pages/Food";
 import NewDate from "./pages/NewDate";
+import EventSchedule from "./pages/EventSchema";
+import Schedule from "./pages/schema";
 //import { getPositionOfLineAndCharacter } from "typescript";
 
 function DevBranchBanner() {
@@ -87,6 +89,8 @@ function Page() {
 						<Route exact path="/songs" component={Songs} />
 						<Route exact path="/food" component={Food} />
 						<Route exact path="/news" component={NewDate} />
+						<Route exact path="/eventschedule" component={EventSchedule} />
+						<Route exact path="/schedule" component={Schedule} />
 						<Route exact path="/students/faq">
 							<Faq questions={StudentsFAQ} />
 						</Route>
@@ -103,14 +107,14 @@ function Page() {
 						<Route exact path="/involved/coordinator" component={Coordinator} />
 						<Route exact path="/involved/coordinator/application">
 							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/1YeNBJyOzbC8jXa1LmVBS-MnBvjSGjpEkGvgN4feYxt8/viewform?embedded=true"
+								formUrl="https://docs.google.com/forms/d/1oD_sCEa30mrTR0SHUmtT6rMkpOwL8F2qrF24ymC2gpQ/viewform?embedded=true"
 								height={1920}
 							/>
 						</Route>
 						<Route exact path="/involved/pg" component={PG} />
 						<Route exact path="/involved/pg/application">
 							<GoogleForm
-								formUrl="https://docs.google.com/forms/d/e/1FAIpQLScGeAb_9tf5TOMwqRzi5OTUcLFH-Lf6-awwwIRzUAlmTt9VPg/viewform?embedded=true"
+								formUrl="https://docs.google.com/forms/d/1Gy17qVed075PFXBHNbsGgsoiNaLIsSVx90botrxFa1c/viewform?embedded=true"
 								height={2200}
 							/>
 						</Route>
