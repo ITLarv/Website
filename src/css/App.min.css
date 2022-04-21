@@ -1007,7 +1007,7 @@ a:hover {
 .prize_pack {
 	width: 35%;
 }
-.element {
+._anchor {
 	border: none;
 	-webkit-box-shadow: 2px 4px 4px gray;
 	box-shadow: 2px 4px 4px gray;
@@ -1020,8 +1020,6 @@ a:hover {
 	width: 20%;
 	height: 100px;
 	background-color: #ebdbb2;
-}
-a {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1032,17 +1030,26 @@ a {
 	-ms-flex-align: center;
 	align-items: center;
 }
-form {
+._form {
+	border: none;
+	-webkit-box-shadow: 2px 4px 4px gray;
+	box-shadow: 2px 4px 4px gray;
+	color: black;
+	text-decoration: none;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	cursor: pointer;
+	width: 20%;
+	height: 100px;
+	background-color: #ebdbb2;
 	border: none;
 	text-decoration: none;
 }
 .food_div {
 	text-align: center;
 }
-h4 {
-	font-weight: normal !important;
-}
-h5 {
+.food_text {
 	font-weight: normal !important;
 }
 .App {

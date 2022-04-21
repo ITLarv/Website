@@ -53,18 +53,18 @@ export default function Bankett() {
 				</Parallax>
 			</div>
 
-			<form className="_element" onSubmit={submitForm}>
+			<a href="/food/" className="_anchor">
+				FOOD
+			</a>
+			<a href="/songs/" className="_anchor">
+				SONGS
+			</a>
+			<form className="_form" onSubmit={submitForm}>
 				<h4>Upload images here!</h4>
 				<input type="file" onChange={(e) => setUploadFile(e.target.files)} />
 				<input onClick={submitForm} type="submit" value="Submit" />
 			</form>
 
-			<a href="/songs/" className="_anchor">
-				songs
-			</a>
-			<a href="/food/" className="_anchor">
-				food
-			</a>
 		</div>
 	);
 }
