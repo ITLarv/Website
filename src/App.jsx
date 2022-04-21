@@ -40,6 +40,9 @@ import Gallery from "./pages/Gallery";
 import IndMeetOrganizations from "./pages/IndMeetOrganizations";
 import FinalApplication from "./pages/FinalApplication";
 import InitialApplication from "./pages/InitialApplication";
+import Bankett from "./pages/Bankett";
+import Songs from "./pages/Songs";
+import Food from "./pages/Food";
 import NewDate from "./pages/NewDate";
 import EventSchedule from "./pages/EventSchema";
 import Schedule from "./pages/schema";
@@ -82,6 +85,9 @@ function Page() {
 						<Route exact path="/contact" component={Contact} />
 						<Route exact path="/students" component={Students} />
 						<Route exact path="/gallery" component={Gallery} />
+						<Route exact path="/bankett" component={Bankett} />
+						<Route exact path="/songs" component={Songs} />
+						<Route exact path="/food" component={Food} />
 						<Route exact path="/news" component={NewDate} />
 						<Route exact path="/eventschedule" component={EventSchedule} />
 						<Route exact path="/schedule" component={Schedule} />
