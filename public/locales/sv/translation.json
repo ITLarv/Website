@@ -173,7 +173,18 @@
 		"INFO_6_2": "Viktigt! Skriv in de valfria uppgifter som motsvarar de konton du använder för att följa oss på sociala medier.",
 		"INFO_7_1": "I vissa deltävlingar kommer man att kunna ta fler pärlor men det finns ett maxantal av varje pärltyp. Att ta fler pärlor än tillåtet kommer inte att dela ut fler poäng därmed behöver man inte ta mer än vad som behövs. Om det skulle förekomma avseendevärt fler pärlor än vad som är tillåtet i kuvertet så kommer det att registreras som fusk och man blir automatiskt diskvalificerad. Boxarna där man tar pärlor kommer även vara bevakade av LARVs personal.",
 		"INFO_7_2": "Vi kommer erbjuda tävlande att lämna in sina kuvert i LARVs receptioner under mässdagen med deadline kl. 14:30 samt i en box vid kansliet i studenternas hus, precis till höger när man kommer in från entrén mittemot fontänen. Boxen i studenternas hus kommer vara tillgänglig till och med fredag kl. 17:00. Efter det så kommer du inte kunna lämna in ditt kuvert och få poäng för tävlingen.",
-		"INFO_7_3": "arje poäng tar er ett steg närmre till att vinna de fina priserna. Vi hoppas du maxar ditt deltagande under LARV med ett deltagande i LARV-competition!"
+		"INFO_7_3": "Varje poäng tar er ett steg närmre till att vinna de fina priserna. Vi hoppas du maxar ditt deltagande under LARV med ett deltagande i LARV-competition!",
+		"PRIZES_HEADER": "Priser",
+		"PRIZES_HEADER_1": "Nivå 1",
+		"PRIZES_1_1": "Luleå citykort",
+		"PRIZES_1_2": "Ryggsäck",
+		"PRIZES_HEADER_2": "Nivå 2",
+		"PRIZES_2_1": "Weekend bag",
+		"PRIZES_2_2": "Hörlurar",
+		"PRIZES_HEADER_3": "Nivå 3",
+		"PRIZES_3": "Kaffemaskin",
+		"PRIZES_HEADER_4": "Nivå 4",
+		"PRIZES_4": "Remarkable 2"
 	},
 	"SCHEDULE": {
 		"HEADER": "SCHEMA FÖR PRESENTATIONER",

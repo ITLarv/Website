@@ -2,6 +2,12 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Parallax } from "react-parallax";
 import bgImage from "../img/banner.jpg";
+import backpack from "../img/competition/LC-backpack.png";
+import headphones from "../img/competition/LC-hörlurar.png";
+import card from "../img/competition/LC-lck.png";
+import remarkable from "../img/competition/LC-remarkable.png";
+import bag from "../img/competition/LC-weekendbag.png";
+import nespresso from "../img/competition/Nespresso.png";
 
 export default function Competition() {
 	const { t } = useTranslation();
@@ -86,6 +92,47 @@ export default function Competition() {
 			<p>{t("COMPETITION.INFO_7_1")}</p>
 			<p>{t("COMPETITION.INFO_7_2")}</p>
 			<p>{t("COMPETITION.INFO_7_3")}</p>
+
+			<h2>{t("COMPETITION.PRIZES_HEADER")}</h2>
+			<h2>{t("COMPETITION.PRIZES_HEADER_1")}</h2>
+			<div class="flex-container" style={{ width: "40%" }}>
+				<div class="prize_pack">
+					<img class="prize_pic" src={card} alt="" />
+					<p>{t("COMPETITION.PRIZES_1_1")}</p>
+				</div>
+				<div class="prize_pack">
+					<img class="prize_pic" src={backpack} alt="" />
+					<p>{t("COMPETITION.PRIZES_1_2")}</p>
+				</div>
+			</div>
+
+			<h2>{t("COMPETITION.PRIZES_HEADER_2")}</h2>
+			<div class="flex-container" style={{ width: "40%" }}>
+				<div class="prize_pack">
+					<img class="prize_pic" src={bag} alt="" />
+					<p>{t("COMPETITION.PRIZES_2_1")}</p>
+				</div>
+				<div class="prize_pack">
+					<img class="prize_pic" src={headphones} alt="" />
+					<p>{t("COMPETITION.PRIZES_2_2")}</p>
+				</div>
+			</div>
+
+			<h2>{t("COMPETITION.PRIZES_HEADER_3")}</h2>
+			<div class="flex-container" style={{ width: "40%" }}>
+				<div class="prize_pack">
+					<img class="prize_pic" src={nespresso} alt="" />
+					<p>{t("COMPETITION.PRIZES_3")}</p>
+				</div>
+			</div>
+
+			<h2>{t("COMPETITION.PRIZES_HEADER_4")}</h2>
+			<div class="flex-container" style={{ width: "40%" }}>
+				<div class="prize_pack">
+					<img class="prize_pic" src={remarkable} alt="" />
+					<p>{t("COMPETITION.PRIZES_4")}</p>
+				</div>
+			</div>
 		</div>
 	);
 }
