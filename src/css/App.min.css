@@ -1007,6 +1007,51 @@ a:hover {
 .prize_pack {
 	width: 35%;
 }
+._anchor {
+	border: none;
+	-webkit-box-shadow: 2px 4px 4px gray;
+	box-shadow: 2px 4px 4px gray;
+	color: black;
+	text-decoration: none;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	cursor: pointer;
+	width: 20%;
+	height: 100px;
+	background-color: #ebdbb2;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+._form {
+	border: none;
+	-webkit-box-shadow: 2px 4px 4px gray;
+	box-shadow: 2px 4px 4px gray;
+	color: black;
+	text-decoration: none;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	cursor: pointer;
+	width: 20%;
+	height: 100px;
+	background-color: #ebdbb2;
+	border: none;
+	text-decoration: none;
+}
+.food_div {
+	text-align: center;
+}
+.food_text {
+	font-weight: normal !important;
+}
 .App {
 	text-align: center;
 	display: -webkit-box;
