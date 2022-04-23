@@ -32,7 +32,7 @@ export default function Bankett() {
 		// Make the actual post request to the hardcoded server ip here
 		// FIXME: Doesnt recieve 400 errors
 		// prettier-ignore
-		axios.post("//64.225.68.43:5000", dataArray)
+		axios.post("//92.32.116.2:59595", dataArray)
 			.then((r) => alert("Succesfully posted your content!"))
 			.catch((e) => {
 				alert("Failed to upload your file! We are very sorry.");

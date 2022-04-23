@@ -11,6 +11,8 @@
 }
 
 ._anchor {
+	font-family: 'Spectral', serif;
+	font-weight: bold;
 	border: none;
 	box-shadow: 2px 4px 4px gray;
 	color: black;
@@ -28,6 +30,16 @@
 }
 
 ._form {
+	h4 {
+		font-family: 'Spectral', serif;
+		font-weight: bold;
+	}
+	input {
+		font-family: 'Spectral', serif;
+		font-weight: bold;
+	}
+	font-family: 'Spectral', serif;
+	font-weight: bold;
 	border: none;
 	box-shadow: 2px 4px 4px gray;
 	color: black;
