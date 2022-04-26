@@ -9,42 +9,14 @@ import page7 from "../img/larv-guide/page7.png";
 
 export default function GuideGL() {
 	return (
-		<div>
-			<img
-				src={page1}
-				alt=""
-				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
-			/>
-			<img
-				src={page2}
-				alt=""
-				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
-			/>
-			<img
-				src={page3}
-				alt=""
-				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
-			/>
-			<img
-				src={page4}
-				alt=""
-				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
-			/>
-			<img
-				src={page5}
-				alt=""
-				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
-			/>
-			<img
-				src={page6}
-				alt=""
-				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
-			/>
-			<img
-				src={page7}
-				alt=""
-				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
-			/>
+		<div className="larvGuide">
+			<img src={page1} alt="" />
+			<img src={page2} alt="" />
+			<img src={page3} alt="" />
+			<img src={page4} alt="" />
+			<img src={page5} alt="" />
+			<img src={page6} alt="" />
+			<img src={page7} alt="" />
 		</div>
 	);
 }
