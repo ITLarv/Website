@@ -92,7 +92,7 @@
 		"INFO": "LARV, förkortningen för Luleå arbetsmarknadsvecka är det största årliga eventet på Luleå tekniska universitet. Detta LARV äger rum den 17-21 januari, 2022. Själva mässan har på grund av covid-19 flyttats till den 27/4 2022. LARV's mål är att hjälpa studenter att kickstarta studenternas karriärer och att hjälpa organisationer att hitta morgondagens kompetens. Detta genom en vecka fylld av karriärrelaterade event, inspirerande föreläsningar och framförallt en mässa som engagerar över 110 utställare och 2000 studenter.",
 		"NEWS": "Nyheter",
 		"NEWS_CONTENT": "Hemsidan håller just nu på att utvecklas så ursäkta eventuella besvär. Ifall du har några synpunkter på hemsida, vänligen kontakta it@larv.org.",
-		"ANNOUNCEMENT": "LARV-mässans schema",
+		"ANNOUNCEMENT": "LARV-GUIDEN",
 		"ANNOUNCEMENT_2": ">>Finns här!<<"
 	},
 	"ABOUT": {
@@ -159,7 +159,7 @@
 		"HEADER_5": "Hur man tävlar",
 		"INFO_5_1_1": "I årets tävling så kommer alla deltagare få samla olika färgade pärlor för varje aktivitet. Det kommer att finnas olika boxar utställda med deltävlingens pärlor som kommer att finnas vid lämpliga platser som är i närhet till aktivitetsplatsen. Varje uppdrag har sin tilldelade färg och färgen är informerad i aktivitetens detaljer. När man har utfört en aktivitet ska man ta en marker och lägga in det i kuvertet. Dessa kuvert kommer att finnas på utvalda platser på mässområdet. Dessa är…",
 		"INFO_5_1_2": "Studentloungen i Vattenfall, STUK",
-		"INFO_5_1_3": "92, vid entrén, B-huset",
+		"INFO_5_1_3": "B192, vid entrén, B-huset",
 		"INFO_5_1_4": "Ingången mot allén närmast B-huset, C-huset",
 		"INFO_6": "Till varje kuvert kommer du få ta en lapp på vilken du har möjlighet att fylla i nedanstående information. Denna lapp ska läggas i ditt kuvert tillsammans med dina samlade pärlor.",
 		"FILL_1": "Förnamn*",
@@ -302,7 +302,7 @@
 	},
 	"GUIDE_GL": {
 		"BUTTON": "Mässguide för studenter",
-		"HEADER_1": "En students guide till LARV 2021",
+		"HEADER_1": "LARV-GUIDEN 2022",
 		"INFO_1": "Luleå Arbetsmarknadsvecka, även kallat LARV, äger varje år rum vid LTU i januari månad. Veckans fokus brukar ligga på den mässa som anordnas, i år på onsdag 20 januari, dit tusentals studenter drar sig för att träffa intressanta företag och skapa kontakter inför arbetslivet. Men, som vi alla vet är situationen väldigt annorlunda detta år, och som följd av detta arrangeras LARV digitalt för första gången! En digital mässa är något som bringat många hinder och krävt nya sätt att lösa problem, men även öppnat upp för mängder av möjligheter och styrkor.",
 		"HEADER_2": "Den digitala mässan - Graduateland",
 		"INFO_2": "För att anordna mässan använder LARV sig av den digitala plattformen Graduateland. Plattformen är inte helt olik en fysisk mässa - utställarna kommer fortfarande ha sina montrar där de visar upp sig själva och erbjuder representanter att prata med. I Graduateland kommer utställare kunna hålla i live-presentationer, workshops, personliga samtal med mera. Endast fantasin sätter gränserna!",

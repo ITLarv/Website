@@ -1,11 +1,78 @@
 import React from "react";
+import page1 from "../img/larv-guide/page1.png";
+import page2 from "../img/larv-guide/page2.png";
+import page3 from "../img/larv-guide/page3.png";
+import page4 from "../img/larv-guide/page4.png";
+import page5 from "../img/larv-guide/page5.png";
+import page6 from "../img/larv-guide/page6.png";
+import page7 from "../img/larv-guide/page7.png";
+
+export default function GuideGL() {
+	return (
+		<div>
+			<img
+				src={page1}
+				alt=""
+				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
+			/>
+			<img
+				src={page2}
+				alt=""
+				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
+			/>
+			<img
+				src={page3}
+				alt=""
+				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
+			/>
+			<img
+				src={page4}
+				alt=""
+				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
+			/>
+			<img
+				src={page5}
+				alt=""
+				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
+			/>
+			<img
+				src={page6}
+				alt=""
+				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
+			/>
+			<img
+				src={page7}
+				alt=""
+				style={{ width: "90%", height: undefined, aspectRatio: 135 / 76 }}
+			/>
+		</div>
+	);
+}
+
+/*
+import React, { useState, useEffect } from "react";
 import { Parallax } from "react-parallax";
-import { NavLink } from "react-router-dom";
 import bgImage from "../img/banner.jpg";
 import { useTranslation } from "react-i18next";
 
+import { Document, Page, pdfjs } from "react-pdf";
+import contract from "../content/LARV-GUIDE.pdf";
+
 export default function GuideGL() {
 	const { t } = useTranslation();
+	const [numPages, setNumPages] = useState(null);
+	//const [pageNumber] = useState(1);
+
+	function onDocumentLoadSuccess({ numPages }) {
+		setNumPages(numPages);
+	}
+
+	useEffect(() => {
+		function setPDFWorker() {
+			pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+		}
+		setPDFWorker();
+	}, []);
 	return (
 		<div className="GuideGL">
 			<div className="banner">
@@ -18,76 +85,44 @@ export default function GuideGL() {
 				>
 					<h1>{t("GUIDE_GL.HEADER_1")}</h1>
 				</Parallax>
+				<div className="pdf">
+					<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+						<Page pageNumber={2} />
+					</Document>
+					<p>Page 2 of {numPages}</p>
+
+					<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+						<Page pageNumber={3} />
+					</Document>
+					<p>Page 2 of {numPages}</p>
+
+					<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+						<Page pageNumber={4} />
+					</Document>
+					<p>Page 2 of {numPages}</p>
+
+					<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+						<Page pageNumber={5} />
+					</Document>
+					<p>Page 2 of {numPages}</p>
+
+					<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+						<Page pageNumber={6} />
+					</Document>
+					<p>Page 2 of {numPages}</p>
+
+					<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+						<Page pageNumber={7} />
+					</Document>
+					<p>Page 2 of {numPages}</p>
+
+					<Document file={contract} onLoadSuccess={onDocumentLoadSuccess}>
+						<Page pageNumber={8} />
+					</Document>
+					<p>Page 2 of {numPages}</p>
+				</div>
 			</div>
-			<p>{t("GUIDE_GL.INFO_1")}</p>
-
-			<h1>{t("GUIDE_GL.HEADER_2")}</h1>
-			<p>{t("GUIDE_GL.INFO_2")}</p>
-			<h2>{t("GUIDE_GL.SUBHEADER_1")}</h2>
-			<p>{t("GUIDE_GL.INFO_3")}</p>
-
-			<div className="ButtonDiv">
-				<a
-					className="button"
-					href="https://fair.larv.org/sv/event/4547"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{t("PLATFORM.BUTTON")}
-				</a>
-			</div>
-
-			<p>{t("GUIDE_GL.INFO_4")}</p>
-			<h2>{t("GUIDE_GL.SUBHEADER_2")}</h2>
-			<p>{t("GUIDE_GL.INFO_5")}</p>
-			<h3>{t("GUIDE_GL.SUBSUBHEADER_1")}</h3>
-			<p>{t("GUIDE_GL.INFO_6")}</p>
-			<h3>{t("GUIDE_GL.SUBSUBHEADER_2")}</h3>
-			<p>{t("GUIDE_GL.INFO_7")}</p>
-			<h3>{t("GUIDE_GL.SUBSUBHEADER_3")}</h3>
-			<p>{t("GUIDE_GL.INFO_8")}</p>
-			<h2>{t("GUIDE_GL.SUBHEADER_3")}</h2>
-			<p>{t("GUIDE_GL.INFO_9")}</p>
-
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/fair/schedule">
-					{t("GUIDE_GL.BUTTON_1")}
-				</NavLink>
-			</div>
-
-			<div className="banner">
-				<Parallax
-					className="parallax"
-					blur={0}
-					bgImage={bgImage}
-					bgImageAlt=""
-					strength={300}
-				>
-					<h1>{t("GUIDE_GL.HEADER_3")}</h1>
-				</Parallax>
-			</div>
-			<p>{t("GUIDE_GL.INFO_10")}</p>
-			<p>{t("GUIDE_GL.INFO_11")}</p>
-
-			<div className="ButtonDiv">
-				<NavLink className="button" to="/fair/competition">
-					{t("GUIDE_GL.BUTTON_2")}
-				</NavLink>
-			</div>
-
-			<div className="banner">
-				<Parallax
-					className="parallax"
-					blur={0}
-					bgImage={bgImage}
-					bgImageAlt=""
-					strength={300}
-				>
-					<h1>{t("GUIDE_GL.HEADER_4")}</h1>
-				</Parallax>
-			</div>
-
-			<p>{t("GUIDE_GL.INFO_12")}</p>
 		</div>
 	);
 }
+*/
