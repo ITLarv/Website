@@ -82,17 +82,33 @@ export default function Home() {
 				</div>
 			</Parallax>
 
-			<NavLink exact to="/schedule" style={{ textDecoration: "none" }}>
+			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
 				<div
 					calassName="IAOpen"
 					style={{
-						backgroundColor: "#f0ea68",
+						backgroundColor: "#8FE381",
 						fontSize: "200%",
 						color: "black",
 						padding: "1%",
 					}}
 				>
 					<b>{t("HOME.ANNOUNCEMENT")}</b>
+					<p></p>
+					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
+				</div>
+			</NavLink>
+
+			<NavLink exact to="/fair/map" style={{ textDecoration: "none" }}>
+				<div
+					calassName="IAOpen"
+					style={{
+						backgroundColor: "#009dff",
+						fontSize: "200%",
+						color: "black",
+						padding: "1%",
+					}}
+				>
+					<b>LARV-map</b>
 					<p></p>
 					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
 				</div>

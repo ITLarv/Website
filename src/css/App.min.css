@@ -1016,6 +1016,8 @@ a:hover {
 	}
 }
 ._anchor {
+	font-family: "Spectral", serif;
+	font-weight: bold;
 	border: none;
 	-webkit-box-shadow: 2px 4px 4px gray;
 	box-shadow: 2px 4px 4px gray;
@@ -1039,6 +1041,8 @@ a:hover {
 	align-items: center;
 }
 ._form {
+	font-family: "Spectral", serif;
+	font-weight: bold;
 	border: none;
 	-webkit-box-shadow: 2px 4px 4px gray;
 	box-shadow: 2px 4px 4px gray;
@@ -1054,11 +1058,27 @@ a:hover {
 	border: none;
 	text-decoration: none;
 }
+._form h4 {
+	font-family: "Spectral", serif;
+	font-weight: bold;
+}
+._form input {
+	font-family: "Spectral", serif;
+	font-weight: bold;
+}
 .food_div {
 	text-align: center;
+	font-family: "Spectral", serif;
+	font-weight: bold;
 }
 .food_text {
+	font-family: "Spectral", serif;
+	font-weight: bold;
 	font-weight: normal !important;
+}
+.larvGuide img {
+	width: 90%;
+	height: auto;
 }
 .App {
 	text-align: center;
