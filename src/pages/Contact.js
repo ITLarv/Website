@@ -3,7 +3,7 @@ import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
 //import vakant from "../img/vakant-svart.png";
-import pli from "../img/contact/pl.jpg";
+//import pli from "../img/contact/pl.jpg";
 import vice from "../img/contact/vice.jpg";
 import ftg1 from "../img/contact/ftg1.jpg";
 import ftg2 from "../img/contact/ftg2.jpg";
