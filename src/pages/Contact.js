@@ -23,7 +23,7 @@ export default function Contact() {
 	const { t } = useTranslation();
 
 	// prettier-ignore
-	const pl = {id:"1", name:"Viktor Centing", role:t("ROLES.PG.PL"), email:"pl@larv.org", phone:"070-686 25 84", imgSrc:pli};
+	const pl = {id:"1", name:"Hanna Westerberg", role:t("ROLES.PG.PL"), email:"pl@larv.org", phone:"070-686 25 84", imgSrc:vakant};
 
 	// prettier-ignore
 	const pgList = [
