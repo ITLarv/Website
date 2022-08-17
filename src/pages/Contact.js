@@ -17,7 +17,7 @@ import { useTranslation } from "react-i18next";
 //import rekrytering from "../img/contact/rekrytering.jpg";
 //import service from "../img/contact/service.jpg";
 //import marknad from "../img/contact/marknad.jpg";
-//import vakant from "../img/contact/vakant.png";
+import vakant from "../img/contact/vakant.png";
 
 export default function Contact() {
 	const { t } = useTranslation();
