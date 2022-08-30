@@ -68,14 +68,52 @@ export default function Home() {
 						>
 							<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
 						</a>
+						{/*
+						<NavLink to="/snapchat"> // Snapchat ikon
+							<FontAwesomeIcon icon={faSnapchatSquare} className="icon" />
+						</NavLink>*/}
 					</div>
+
 					<h1>{t("HOME.HEADER")}</h1>
 					<h1>{t("HOME.DATE")}</h1>
 					<h1>{t("HOME.FAIR")}</h1>
 
 					<Countdown date={larvDate} renderer={renderer}></Countdown>
 				</div>
-			</Parallax> 
+			</Parallax>
+
+			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
+				<div
+					calassName="IAOpen"
+					style={{
+						backgroundColor: "#8FE381",
+						fontSize: "200%",
+						color: "black",
+						padding: "1%",
+					}}
+				>
+					<b>{t("HOME.ANNOUNCEMENT")}</b>
+					<p></p>
+					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
+				</div>
+			</NavLink>
+
+			<NavLink exact to="/fair/map" style={{ textDecoration: "none" }}>
+				<div
+					calassName="IAOpen"
+					style={{
+						backgroundColor: "#009dff",
+						fontSize: "200%",
+						color: "black",
+						padding: "1%",
+					}}
+				>
+					<b>LARV-map</b>
+					<p></p>
+					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
+				</div>
+			</NavLink>
+
 			<div className="content">
 				<div className="info">
 					<h1>{t("HOME.HEADER_2")}</h1>
