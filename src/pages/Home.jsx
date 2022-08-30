@@ -93,8 +93,8 @@ export default function Home() {
 					}}
 				>
 					<b>{t()}</b>
-					
-					<b>{t()}</b>
+					<p></p>
+					<b>{t("")}</b>
 				</div>
 			</NavLink>
 
