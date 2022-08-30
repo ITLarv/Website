@@ -76,13 +76,6 @@ export default function Home() {
 					<Countdown date={larvDate} renderer={renderer}></Countdown>
 				</div>
 			</Parallax> 
-
-			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
-			</NavLink>
-
-			<NavLink exact to="/fair/map" style={{ textDecoration: "none" }}>
-				</NavLink>
-
 			<div className="content">
 				<div className="info">
 					<h1>{t("HOME.HEADER_2")}</h1>
