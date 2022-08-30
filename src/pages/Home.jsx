@@ -82,21 +82,6 @@ export default function Home() {
 				</div>
 			</Parallax>
 
-			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
-				<div
-					calassName="IAOpen"
-					style={{
-						backgroundColor: "#8FE381",
-						fontSize: "200%",
-						color: "black",
-						padding: "1%",
-					}}
-				>
-					<b>{t()}</b>
-					<b>{t("")}</b>
-				</div>
-			</NavLink>
-
 			<div className="content">
 				<div className="info">
 					<h1>{t("HOME.HEADER_2")}</h1>
