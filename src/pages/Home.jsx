@@ -97,20 +97,6 @@ export default function Home() {
 				</div>
 			</NavLink>
 
-			<NavLink exact to="/fair/map" style={{ textDecoration: "none" }}>
-				<div
-					calassName="IAOpen"
-					style={{
-						backgroundColor: "#009dff",
-						fontSize: "200%",
-						color: "black",
-						padding: "1%",
-					}}
-				>
-					<b>{t("")}</b>
-				</div>
-			</NavLink>
-
 			<div className="content">
 				<div className="info">
 					<h1>{t("HOME.HEADER_2")}</h1>
