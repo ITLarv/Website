@@ -82,7 +82,7 @@ export default function Home() {
 				</div>
 			</Parallax>
 
-			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
+{/*			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
 				<div
 					calassName="IAOpen"
 					style={{
@@ -112,7 +112,7 @@ export default function Home() {
 					<p></p>
 					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
 				</div>
-			</NavLink>
+				</NavLink>*/}
 
 			<div className="content">
 				<div className="info">
