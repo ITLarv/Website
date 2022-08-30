@@ -71,7 +71,7 @@ export default function Home() {
 						{/*
 						<NavLink to="/snapchat"> // Snapchat ikon
 							<FontAwesomeIcon icon={faSnapchatSquare} className="icon" />
-						</NavLink>*/}
+						</NavLink>*/} 
 					</div>
 
 					<h1>{t("HOME.HEADER")}</h1>
