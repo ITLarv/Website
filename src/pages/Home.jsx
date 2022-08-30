@@ -68,12 +68,7 @@ export default function Home() {
 						>
 							<FontAwesomeIcon icon={faInstagramSquare} className="icon" />
 						</a>
-						{/*
-						<NavLink to="/snapchat"> // Snapchat ikon
-							<FontAwesomeIcon icon={faSnapchatSquare} className="icon" />
-						</NavLink>*/} 
 					</div>
-
 					<h1>{t("HOME.HEADER")}</h1>
 					<h1>{t("HOME.DATE")}</h1>
 					<h1>{t("HOME.FAIR")}</h1>
@@ -83,31 +78,9 @@ export default function Home() {
 			</Parallax> 
 
 			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
-				<div
-					calassName="IAOpen"
-					style={{
-						backgroundColor: "#8FE381",
-						fontSize: "200%",
-						color: "black",
-						padding: "1%",
-					}}
-				>
-					 
-				</div>
 			</NavLink>
 
 			<NavLink exact to="/fair/map" style={{ textDecoration: "none" }}>
-				<div
-					calassName="IAOpen"
-					style={{
-						backgroundColor: "#009dff",
-						fontSize: "200%",
-						color: "black",
-						padding: "1%",
-					}}
-				>
-					
-				</div>
 				</NavLink>
 
 			<div className="content">
