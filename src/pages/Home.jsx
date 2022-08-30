@@ -107,9 +107,7 @@ export default function Home() {
 						padding: "1%",
 					}}
 				>
-					<b>LARV-map</b>
-					<p></p>
-					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
+					<b>{t("")}</b>
 				</div>
 			</NavLink>
 
