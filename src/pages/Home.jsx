@@ -92,7 +92,7 @@ export default function Home() {
 						padding: "1%",
 					}}
 				>
-					
+					 
 				</div>
 			</NavLink>
 
