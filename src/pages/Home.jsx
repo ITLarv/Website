@@ -93,8 +93,8 @@ export default function Home() {
 					}}
 				>
 					<b>{t()}</b>
-					<p></p>
-					<b>{t("HOME.ANNOUNCEMENT_2")}</b>
+					
+					<b>{t()}</b>
 				</div>
 			</NavLink>
 
