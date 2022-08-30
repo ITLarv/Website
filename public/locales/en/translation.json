@@ -86,14 +86,13 @@
 	},
 	"HOME": {
 		"HEADER": "LARV at Luleå University of Technology",
-		"DATE": "The Fair date is 27:th April",
+		"DATE": "The Fair date is 18:th january",
 		"FAIR": "During this week there is a competition and also event. Read more under the fair tab",
 		"HEADER_2": "What is LARV?",
 		"INFO": "LARV, short for Luleå arbetsmarknadsvecka, is the largest event held annually at Luleå university of technology. This LARV takes place on January 17-21, 2022. The fair itself has been moved due to covid-19, and will be held 24/4 2022. LARV is a project dedicated to help students advance their professional careers and to help employers find the competence of tomorrow. This is done through a week filled with career related events, inspiring seminars and most importantly a fair involving over 110 exhibitors and 2000 students.",
 		"NEWS": "News",
-		"NEWS_CONTENT": "This website is under development; please excuse any inconveniences. If you have any input on the website, please contact it@larv.org.",
-		"ANNOUNCEMENT": "For the LARV-GUIDE",
-		"ANNOUNCEMENT_2": ">>Click here!<<"
+		"NEWS_CONTENT": "This website is under development; please excuse any inconveniences. If you have any input on the website, please contact it@larv.org."
+		
 	},
 	"ABOUT": {
 		"HEADER": "About LARV",
