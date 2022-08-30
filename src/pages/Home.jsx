@@ -80,7 +80,7 @@ export default function Home() {
 
 					<Countdown date={larvDate} renderer={renderer}></Countdown>
 				</div>
-			</Parallax>
+			</Parallax> 
 
 			<NavLink exact to="/students/guide" style={{ textDecoration: "none" }}>
 				<div
