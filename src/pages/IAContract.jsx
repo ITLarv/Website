@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import contract from "../content/LARV_IA_avtal_2022.pdf";
+import contract from "../content/LARV_IA_avtal_2023.pdf";
 
 export default function MyApp() {
 	const [numPages, setNumPages] = useState(null);
