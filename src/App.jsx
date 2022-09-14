@@ -127,9 +127,10 @@ function Page() {
 								height={3000}
 								*/
 								//Quiz 2
+								/*
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSc71R6B9NzBJ2QRpk6DcuNkILehsckf0Y7NmUAHaRB2yVOhZQ/viewform?embedded=true"
 								height={3200}
-								//hej
+								*/
 							/>
 						</Route>
 						<Route exact path="/onskaforetag">
