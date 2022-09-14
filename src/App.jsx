@@ -123,7 +123,7 @@ function Page() {
 							<GoogleForm
 								// Quiz 1
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfcxy-DGvJIqTQylCvb5mV9sssujc0ZxenBk4VvPa0p_4SWAw/viewform?embedded=true"
-								height={3300}
+								height={3000}
 								/*
 								//Quiz 2
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSc71R6B9NzBJ2QRpk6DcuNkILehsckf0Y7NmUAHaRB2yVOhZQ/viewform?embedded=true"
