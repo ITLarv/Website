@@ -128,7 +128,7 @@ function Page() {
 								*/
 								//Quiz 2
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSc71R6B9NzBJ2QRpk6DcuNkILehsckf0Y7NmUAHaRB2yVOhZQ/viewform?embedded=true"
-								height={6200}
+								height={3200}
 								//hej
 							/>
 						</Route>
