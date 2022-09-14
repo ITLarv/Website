@@ -121,12 +121,12 @@ function Page() {
 						</Route>
 						<Route exact path="/quiz">
 							<GoogleForm
+								/*
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSfcxy-DGvJIqTQylCvb5mV9sssujc0ZxenBk4VvPa0p_4SWAw/viewform?embedded=true"
 								height={3000}
-								/*
+								*/
 								formUrl="https://docs.google.com/forms/d/e/1FAIpQLSc71R6B9NzBJ2QRpk6DcuNkILehsckf0Y7NmUAHaRB2yVOhZQ/viewform?embedded=true"
 								height={3200}
-								*/
 							/>
 						</Route>
 						<Route exact path="/onskaforetag">
