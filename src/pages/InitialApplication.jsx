@@ -17,13 +17,9 @@ export default () => {
 
 	return (
 		<div>
-			<div
-				id="app"
-				className="jexpo jexpo-forms"
-				style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
-			></div>
-			<div id="app-dialog" className="jexpo jexpo-forms"></div>
-
+			<div id="app"></div>
+			<script type="text/javascript" src="https://sdk.v1.jexpo.se/jexpo.js"></script>
+			<script>Jexpo("larv").mount("#app", "/bundle/widget-registration.js")</script>
 			<p>
 				Händer det inget efter att du klickat "skicka in"? Kolla din inkorg för
 				bekräftelsemail. Detta är ett tecken på att vi mottagit er anmälan. Hör av er annars
