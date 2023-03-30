@@ -9,7 +9,7 @@ export default () => {
 			},
 			function () {
 				Jexpo.dialog("app-dialog");
-				Jexpo.InitialRegistration("app", { workspace: "2022" });
+				Jexpo.InitialRegistration("app", { workspace: "2023" });
 			},
 		);
 		console.info({ window });
@@ -23,7 +23,6 @@ export default () => {
 				style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}
 			></div>
 			<div id="app-dialog" className="jexpo jexpo-forms"></div>
-
 			<p>
 				Händer det inget efter att du klickat "skicka in"? Kolla din inkorg för
 				bekräftelsemail. Detta är ett tecken på att vi mottagit er anmälan. Hör av er annars
